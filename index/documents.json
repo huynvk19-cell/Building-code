@@ -1,0 +1,20 @@
+[
+  {
+    "doc_id": "212-2026-nd-cp",
+    "so_hieu": "212/2026/NĐ-CP",
+    "loai_van_ban": "Nghị định",
+    "tieu_de": "Quy định về điều kiện năng lực hoạt động xây dựng, Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng",
+    "co_quan_ban_hanh": "Chính phủ",
+    "ngay_ban_hanh": "2026-06-17",
+    "linh_vuc": [
+      "xây dựng",
+      "chứng chỉ hành nghề",
+      "cơ sở dữ liệu quốc gia",
+      "nhà thầu nước ngoài"
+    ],
+    "nguon": "Cổng thông tin điện tử Chính phủ (bản ký số 18/06/2026)",
+    "toan_van": "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md",
+    "so_dieu": 58,
+    "so_chunk": 76
+  }
+]
