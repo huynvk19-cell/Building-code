@@ -1,5 +1,5 @@
 ---
-chunk_id: "212-2026-nd-cp:phu-luc-iii-mau-13"
+chunk_id: "212-2026-nd-cp:phu-luc-iii-mau-so-13-thong-bao-van-phong-dieu-hanh"
 doc_id: "212-2026-nd-cp"
 so_hieu: "212/2026/NĐ-CP"
 loai_van_ban: "Nghị định"

@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Trách nhiệm của chủ đầu tư hoặc chủ dự án hoặc nhà thầu chính đối với nhà thầu nước ngoài"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "49"
+so_hieu_muc: "49"
 chuong: "Chương IV. NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG"
 muc: "Mục 3. GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG CHO NHÀ THẦU NƯỚC NGOÀI"
 ---

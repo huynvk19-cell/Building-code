@@ -27,7 +27,12 @@ ROOT = Path(__file__).resolve().parent.parent
 INDEX_PATH = ROOT / "index" / "chunks.jsonl"
 
 K1 = 1.5   # tham số bão hòa tần suất từ của BM25
-B = 0.75   # tham số chuẩn hóa theo độ dài văn bản
+# Tham số chuẩn hóa theo độ dài. Thấp hơn mặc định 0,75 vì kho có các chunk dài
+# rất khác nhau: một Điều luật vài trăm ký tự nằm cạnh Bảng A.1 dài 14 000 ký
+# tự. Bảng tra cứu dài là bản chất của nó, không phải "loãng", nên phạt độ dài
+# nhẹ tay hơn. Đo thử trên các truy vấn thật: 0,5 đưa được bảng tra cứu đúng
+# lên top-2, còn 0,75 thì đẩy nó ra ngoài.
+B = 0.5
 
 # Từ dừng: quá phổ biến trong văn bản pháp luật nên không giúp phân biệt.
 STOPWORDS = {
@@ -189,4 +194,14 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    # Cho phép `search.py ... | head` mà không vỡ: khi đầu đọc đóng ống sớm,
+    # Python ném BrokenPipeError lúc dọn dẹp. Trả về mã thoát 141 như shell.
+    try:
+        main()
+    except BrokenPipeError:
+        import os
+
+        os.dup2(os.open(os.devnull, os.O_WRONLY), sys.stdout.fileno())
+        sys.exit(141)
+    except KeyboardInterrupt:
+        sys.exit(130)

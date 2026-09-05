@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Chứng chỉ hành nghề hoạt động xây dựng"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "27"
+so_hieu_muc: "27"
 chuong: "Chương IV. NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG"
 muc: "Mục 1. ĐIỀU KIỆN NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG CỦA CÁ NHÂN"
 ---

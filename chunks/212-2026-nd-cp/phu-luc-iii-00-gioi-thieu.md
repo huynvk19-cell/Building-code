@@ -1,16 +1,16 @@
 ---
-chunk_id: "212-2026-nd-cp:phu-luc-iii-danh-muc"
+chunk_id: "212-2026-nd-cp:phu-luc-iii-gioi-thieu"
 doc_id: "212-2026-nd-cp"
 so_hieu: "212/2026/NĐ-CP"
 loai_van_ban: "Nghị định"
 ngay_ban_hanh: "2026-06-17"
 loai_chunk: "phu-luc"
-tieu_de: "Phụ lục III — Danh mục biểu mẫu"
+tieu_de: "Phụ lục III — Mẫu các văn bản trong quy trình cấp chứng chỉ hành nghề hoạt động xây dựng và giấy phép hoạt động xây dựng"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/phu-luc/phu-luc-03-bieu-mau.md"
 chuong: "Phụ lục III"
 ---
 
-> **Trích dẫn:** Phụ lục III — Danh mục biểu mẫu, Phụ lục III Nghị định số 212/2026/NĐ-CP
+> **Trích dẫn:** Phụ lục III — Mẫu các văn bản trong quy trình cấp chứng chỉ hành nghề hoạt động xây dựng và giấy phép hoạt động xây dựng, Phụ lục III Nghị định số 212/2026/NĐ-CP
 
 # Phụ lục III — MẪU CÁC VĂN BẢN TRONG QUY TRÌNH CẤP CHỨNG CHỈ HÀNH NGHỀ HOẠT ĐỘNG XÂY DỰNG VÀ GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG
 

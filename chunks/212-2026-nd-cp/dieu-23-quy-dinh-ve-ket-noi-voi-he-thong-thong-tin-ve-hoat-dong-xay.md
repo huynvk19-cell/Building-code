@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Quy định về kết nối với Hệ thống thông tin về hoạt động xây dựng"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "23"
+so_hieu_muc: "23"
 chuong: "Chương III. KHAI THÁC, SỬ DỤNG, KẾT NỐI, CHIA SẺ DỮ LIỆU, CẬP NHẬT, ĐIỀU CHỈNH DỮ LIỆU, THÔNG TIN TRONG HỆ THỐNG THÔNG TIN VỀ HOẠT ĐỘNG XÂY DỰNG"
 ---
 

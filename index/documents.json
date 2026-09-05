@@ -13,8 +13,28 @@
       "nhà thầu nước ngoài"
     ],
     "nguon": "Cổng thông tin điện tử Chính phủ (bản ký số 18/06/2026)",
+    "cau_truc": "dieu",
     "toan_van": "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md",
-    "so_dieu": 58,
+    "so_don_vi": 58,
     "so_chunk": 76
+  },
+  {
+    "doc_id": "qcvn-10-2025-bca",
+    "so_hieu": "QCVN 10:2025/BCA",
+    "loai_van_ban": "Quy chuẩn kỹ thuật quốc gia",
+    "tieu_de": "Quy chuẩn kỹ thuật quốc gia về trang bị, bố trí phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ cho nhà và công trình",
+    "co_quan_ban_hanh": "Bộ Công an",
+    "ngay_ban_hanh": "2025-11-04",
+    "linh_vuc": [
+      "phòng cháy chữa cháy",
+      "cứu nạn cứu hộ",
+      "trang bị phương tiện",
+      "an toàn cháy"
+    ],
+    "nguon": "Bản scan Thông tư 103/2025/TT-BCA",
+    "cau_truc": "muc",
+    "toan_van": "corpus/quy-chuan/qcvn-10-2025-bca/toan-van.md",
+    "so_don_vi": 20,
+    "so_chunk": 39
   }
 ]

@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Việc kết nối, chia sẻ dữ liệu với Cơ sở dữ liệu quốc gia về đất đai"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "24"
+so_hieu_muc: "24"
 chuong: "Chương III. KHAI THÁC, SỬ DỤNG, KẾT NỐI, CHIA SẺ DỮ LIỆU, CẬP NHẬT, ĐIỀU CHỈNH DỮ LIỆU, THÔNG TIN TRONG HỆ THỐNG THÔNG TIN VỀ HOẠT ĐỘNG XÂY DỰNG"
 ---
 

@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Mã định danh dự án đầu tư xây dựng, công trình xây dựng"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "14"
+so_hieu_muc: "14"
 chuong: "Chương II. CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG"
 muc: "Mục 2. CƠ SỞ DỮ LIỆU, MÃ ĐỊNH DANH, QUY TRÌNH TẠO LẬP DỮ LIỆU DỰ ÁN ĐẦU TƯ XÂY DỰNG, CÔNG TRÌNH XÂY DỰNG"
 ---

@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Thời hạn và lệ phí cấp, điều chỉnh Giấy phép hoạt động xây dựng cho nhà thầu nước ngoài"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "46"
+so_hieu_muc: "46"
 chuong: "Chương IV. NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG"
 muc: "Mục 3. GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG CHO NHÀ THẦU NƯỚC NGOÀI"
 ---

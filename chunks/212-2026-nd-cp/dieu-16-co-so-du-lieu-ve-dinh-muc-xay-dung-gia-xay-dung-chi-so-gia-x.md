@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Cơ sở dữ liệu về định mức xây dựng, giá xây dựng, chỉ số giá xây dựng"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "16"
+so_hieu_muc: "16"
 chuong: "Chương II. CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG"
 muc: "Mục 3. CƠ SỞ DỮ LIỆU, QUY TRÌNH, TRÁCH NHIỆM CẬP NHẬT CƠ SỞ DỮ LIỆU ĐỊNH MỨC XÂY DỰNG, GIÁ XÂY DỰNG, CHỈ SỐ GIÁ XÂY DỰNG"
 ---

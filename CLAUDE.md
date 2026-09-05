@@ -7,16 +7,29 @@ Người dùng là kiến trúc sư, cần trích dẫn chính xác chứ không
 
 1. **Luôn tra cứu trước khi trả lời.** Đừng trả lời từ trí nhớ. Nội dung ở đây
    là bản chính thức của người dùng; kiến thức nền của bạn có thể đã cũ.
-2. **Luôn trích dẫn** theo dạng: `Điều 33 Nghị định số 212/2026/NĐ-CP`.
-   Mỗi file chunk có sẵn dòng `> **Trích dẫn:**` — dùng đúng chuỗi đó.
+2. **Luôn trích dẫn.** Mỗi loại văn bản có dạng trích dẫn riêng:
+   - Nghị định, Luật, Thông tư → `Điều 33 Nghị định số 212/2026/NĐ-CP`
+   - Quy chuẩn, Tiêu chuẩn → `mục 2.4.1 QCVN 10:2025/BCA`
+   - Bảng tra cứu → `Bảng A.1 - Đối với nhà, Phụ lục A QCVN 10:2025/BCA`
+
+   Mỗi file chunk có sẵn dòng `> **Trích dẫn:**` — dùng đúng chuỗi đó, đừng tự chế.
 3. **Không suy diễn ngoài văn bản.** Nếu kho không có câu trả lời, hãy nói
    "kho hiện chưa có văn bản quy định việc này" thay vì đoán.
 4. **Trích nguyên văn khi nội dung mang tính định lượng** (số năm kinh nghiệm,
    cấp công trình, thời hạn ngày làm việc). Đừng diễn đạt lại các con số.
-5. **Kiểm tra hiệu lực.** Xem `ngay_ban_hanh` và Điều "Hiệu lực thi hành".
-   Nghị định 212/2026/NĐ-CP có hiệu lực **01/7/2026** và thay thế
-   Nghị định 111/2024/NĐ-CP. Điều 55 có các điều khoản chuyển tiếp — hãy đọc
-   Điều 55 trước khi tư vấn cho hồ sơ nộp trước thời điểm đó.
+5. **Kiểm tra hiệu lực.** Xem `ngay_ban_hanh` và điều/mục về hiệu lực thi hành.
+   - **NĐ 212/2026/NĐ-CP**: hiệu lực **01/7/2026**, thay thế NĐ 111/2024/NĐ-CP.
+     Điều 55 có các điều khoản chuyển tiếp — đọc Điều 55 trước khi tư vấn cho
+     hồ sơ nộp trước thời điểm đó.
+   - **QCVN 10:2025/BCA**: bản Quy chuẩn **không có** điều khoản hiệu lực hay
+     chuyển tiếp; nội dung đó nằm trong Thông tư 103/2025/TT-BCA — văn bản này
+     **chưa có trong kho**. Khi được hỏi về ngày hiệu lực hoặc quy định chuyển
+     tiếp của QCVN 10, phải nói rõ là kho chưa có, tuyệt đối không suy đoán.
+
+6. **Tra đúng bảng khi hỏi về PCCC.** Theo mục 1.5.9 QCVN 10:2025/BCA, xác định
+   yêu cầu trang bị theo thứ tự: **Bảng A.1** (toàn nhà) → **Bảng A.2**
+   (hạng mục/khu vực) → **Bảng A.3** (gian phòng) → **Bảng A.4** (thiết bị).
+   Luôn kiểm tra thêm mục 1.5.11 về các khu vực KHÔNG phải trang bị.
 
 ## Cách tra cứu
 
@@ -27,8 +40,10 @@ Người dùng là kiến trúc sư, cần trích dẫn chính xác chứ không
 python3 tools/search.py "điều kiện cấp chứng chỉ hành nghề hạng II"
 python3 tools/search.py --k 3 --full --json "thu hồi giấy phép nhà thầu nước ngoài"
 
-# 2. Đọc thẳng một Điều đã biết số
+# 2. Đọc thẳng một Điều / mục / bảng đã biết
 cat chunks/212-2026-nd-cp/dieu-33-*.md
+cat chunks/qcvn-10-2025-bca/muc-2-4-*.md
+cat chunks/qcvn-10-2025-bca/phu-luc-a-01-*.md      # Bảng A.1
 
 # 3. Duyệt mục lục
 cat corpus/nghi-dinh/212-2026-nd-cp/muc-luc.md
@@ -62,8 +77,14 @@ python3 tools/build_index.py
    OCR chỉ dùng để đối chiếu.
 3. Lưu vào `corpus/<loại>/<mã>/toan-van.md` với front matter đầy đủ
    (xem `corpus/nghi-dinh/212-2026-nd-cp/toan-van.md` làm mẫu).
-4. Giữ đúng quy ước tiêu đề để bộ chia chunk nhận diện được:
-   `## Chương I. TÊN` · `### Mục 1. TÊN` · `### Điều 1. Tên điều`
+4. Giữ đúng quy ước tiêu đề để bộ chia chunk nhận diện được. Khai báo
+   `cau_truc` trong front matter để chọn kiểu cắt:
+   - `cau_truc: "dieu"` (mặc định — Nghị định, Luật, Thông tư):
+     `## Chương I. TÊN` · `### Mục 1. TÊN` · `### Điều 1. Tên điều`
+   - `cau_truc: "muc"` (Quy chuẩn, Tiêu chuẩn):
+     `## 1 TÊN PHẦN` · `### 1.1 Tên mục`
+   - Phụ lục: khai báo `chia_theo` (`"Mẫu số"`, `"Bảng"`, `"H."`) để cắt theo
+     tiêu đề cấp 2; không khai báo thì giữ nguyên cả phụ lục làm một chunk.
 5. `python3 tools/build_index.py`
 
 ## Ngôn ngữ

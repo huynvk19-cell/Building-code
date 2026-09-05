@@ -1,5 +1,5 @@
 ---
-chunk_id: "212-2026-nd-cp:phu-luc-iii-mau-06"
+chunk_id: "212-2026-nd-cp:phu-luc-iii-mau-so-06-giay-uy-quyen"
 doc_id: "212-2026-nd-cp"
 so_hieu: "212/2026/NĐ-CP"
 loai_van_ban: "Nghị định"

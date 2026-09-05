@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Công khai thông tin về năng lực hoạt động xây dựng của tổ chức tham gia hoạt động xây dựng"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "41"
+so_hieu_muc: "41"
 chuong: "Chương IV. NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG"
 muc: "Mục 2. CÔNG KHAI THÔNG TIN NĂNG LỰC VỀ HOẠT ĐỘNG XÂY DỰNG CỦA TỔ CHỨC"
 ---

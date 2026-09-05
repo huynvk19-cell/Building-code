@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Xử lý vi phạm, khen thưởng, kỷ luật, trách nhiệm liên quan khi xây dựng, cập nhật dữ liệu vào Cơ sở dữ liệu quốc gia về hoạt động xây dựng"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "56"
+so_hieu_muc: "56"
 chuong: "Chương VI. ĐIỀU KHOẢN THI HÀNH"
 ---
 

@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Mã định danh trong Hệ thống thông tin về hoạt động xây dựng"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "8"
+so_hieu_muc: "8"
 chuong: "Chương I. NHỮNG QUY ĐỊNH CHUNG"
 ---
 

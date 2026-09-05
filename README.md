@@ -9,13 +9,17 @@ khi một nghị định được sửa đổi, bạn commit bản mới và b�
 | Văn bản | Nội dung | Trạng thái |
 |---|---|---|
 | **Nghị định 212/2026/NĐ-CP** (17/6/2026) | Điều kiện năng lực hoạt động xây dựng; Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng | 58 Điều + 4 Phụ lục — đã số hóa đầy đủ |
+| **QCVN 10:2025/BCA** (04/11/2025) | Trang bị, bố trí phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ cho nhà và công trình | 20 mục + 8 Phụ lục (A–H) — đã số hóa đầy đủ |
 
-Hiệu lực từ **01/7/2026**, thay thế Nghị định 111/2024/NĐ-CP.
+- **NĐ 212/2026** hiệu lực từ **01/7/2026**, thay thế Nghị định 111/2024/NĐ-CP.
+- **QCVN 10:2025/BCA** ban hành kèm Thông tư 103/2025/TT-BCA. Bản Quy chuẩn không
+  chứa điều khoản hiệu lực — nội dung đó nằm trong Thông tư 103, **chưa có trong kho**.
 
 ## Tra cứu nhanh
 
 ```bash
 python3 tools/search.py "điều kiện cấp chứng chỉ hành nghề thiết kế hạng I"
+python3 tools/search.py --full "nhà trẻ mẫu giáo trang bị chữa cháy tự động"
 python3 tools/search.py --k 3 --full "hồ sơ đề nghị cấp giấy phép nhà thầu nước ngoài"
 python3 tools/search.py --khong-dau "chung chi hanh nghe"      # gõ không dấu
 python3 tools/search.py --json "mã định danh công trình"       # cho script/agent
@@ -31,7 +35,10 @@ corpus/                       Bản gốc (nguồn sự thật duy nhất)
     toan-van.md               Toàn văn 58 Điều
     muc-luc.md                Mục lục (sinh tự động)
     phu-luc/                  Phụ lục I–IV
-chunks/                       Mỗi Điều một file (sinh tự động)
+  quy-chuan/qcvn-10-2025-bca/
+    toan-van.md               Phần 1–4 (mục 1.1, 2.3.1…)
+    phu-luc/                  Phụ lục A–H (các bảng tra cứu)
+chunks/                       Mỗi Điều / mục / bảng một file (sinh tự động)
 index/
   chunks.jsonl                Chỉ mục truy hồi kèm metadata
   documents.json              Sổ đăng ký văn bản
@@ -58,7 +65,7 @@ Chi tiết ở [`docs/huong-dan-su-dung.md`](docs/huong-dan-su-dung.md).
 
 ## Về độ chính xác
 
-Hai file PDF gốc là **bản scan** (ảnh, không có lớp text). Quy trình số hóa:
+Cả ba file PDF gốc đều là **bản scan** (ảnh, không có lớp text). Quy trình số hóa:
 
 1. OCR bằng Tesseract tiếng Việt → **bản nháp**
 2. Đọc lại từng trang bằng **thị giác máy (Claude vision)** và hiệu đính

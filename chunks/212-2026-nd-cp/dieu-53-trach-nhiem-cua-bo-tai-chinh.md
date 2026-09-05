@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Trách nhiệm của Bộ Tài chính"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "53"
+so_hieu_muc: "53"
 chuong: "Chương V. TRÁCH NHIỆM CỦA CÁC CƠ QUAN, TỔ CHỨC"
 ---
 

@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Điều khoản chuyển tiếp"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "55"
+so_hieu_muc: "55"
 chuong: "Chương VI. ĐIỀU KHOẢN THI HÀNH"
 ---
 

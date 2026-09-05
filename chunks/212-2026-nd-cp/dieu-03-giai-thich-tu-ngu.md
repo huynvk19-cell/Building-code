@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Giải thích từ ngữ"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "3"
+so_hieu_muc: "3"
 chuong: "Chương I. NHỮNG QUY ĐỊNH CHUNG"
 ---
 

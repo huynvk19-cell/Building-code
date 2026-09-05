@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Lĩnh vực cấp chứng chỉ hành nghề và phạm vi hoạt động"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "28"
+so_hieu_muc: "28"
 chuong: "Chương IV. NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG"
 muc: "Mục 1. ĐIỀU KIỆN NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG CỦA CÁ NHÂN"
 ---

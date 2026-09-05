@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Mã định danh quy hoạch đô thị và nông thôn"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "10"
+so_hieu_muc: "10"
 chuong: "Chương II. CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG"
 muc: "Mục 1. CƠ SỞ DỮ LIỆU, MÃ ĐỊNH DANH, QUY TRÌNH TẠO LẬP DỮ LIỆU QUY HOẠCH ĐÔ THỊ VÀ NÔNG THÔN"
 ---

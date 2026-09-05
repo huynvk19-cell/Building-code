@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Phạm vi điều chỉnh"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "1"
+so_hieu_muc: "1"
 chuong: "Chương I. NHỮNG QUY ĐỊNH CHUNG"
 ---
 

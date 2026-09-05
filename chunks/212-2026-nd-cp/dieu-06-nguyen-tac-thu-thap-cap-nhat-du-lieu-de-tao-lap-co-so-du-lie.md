@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Nguyên tắc thu thập, cập nhật dữ liệu để tạo lập Cơ sở dữ liệu quốc gia về hoạt động xây dựng"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "6"
+so_hieu_muc: "6"
 chuong: "Chương I. NHỮNG QUY ĐỊNH CHUNG"
 ---
 

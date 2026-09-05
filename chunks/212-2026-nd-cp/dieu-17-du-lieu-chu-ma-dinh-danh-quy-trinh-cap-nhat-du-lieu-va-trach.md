@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Dữ liệu chủ, mã định danh, quy trình cập nhật dữ liệu và trách nhiệm quản lý việc cập nhật dữ liệu"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "17"
+so_hieu_muc: "17"
 chuong: "Chương II. CƠ SỞ DỮ LIỆU QUỐC GIA VỀ HOẠT ĐỘNG XÂY DỰNG"
 muc: "Mục 3. CƠ SỞ DỮ LIỆU, QUY TRÌNH, TRÁCH NHIỆM CẬP NHẬT CƠ SỞ DỮ LIỆU ĐỊNH MỨC XÂY DỰNG, GIÁ XÂY DỰNG, CHỈ SỐ GIÁ XÂY DỰNG"
 ---

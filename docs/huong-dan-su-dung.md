@@ -13,8 +13,10 @@ Các tùy chọn hữu ích:
 | `--k 10` | Lấy 10 kết quả thay vì 5 |
 | `--full` | In toàn văn Điều thay vì trích đoạn |
 | `--khong-dau` | Gõ không dấu vẫn tìm được (`chung chi hanh nghe`) |
-| `--loai dieu` | Chỉ tìm trong các Điều, bỏ qua phụ lục và biểu mẫu |
-| `--loai bieu-mau` | Chỉ tìm biểu mẫu |
+| `--loai dieu` | Chỉ tìm trong các Điều (nghị định, luật) |
+| `--loai muc` | Chỉ tìm trong các mục của quy chuẩn (1.1, 2.3, H.2…) |
+| `--loai bang` | Chỉ tìm trong các bảng tra cứu (Bảng A.1, B.1…) |
+| `--loai bieu-mau` | Chỉ tìm biểu mẫu (Mẫu số 01…) |
 | `--doc 212-2026-nd-cp` | Giới hạn trong một văn bản |
 | `--json` | Xuất JSON cho script hoặc agent đọc |
 
@@ -33,6 +35,24 @@ python3 tools/search.py --loai phu-luc "chuyên ngành đào tạo kiến trúc"
 # Cần mẫu đơn nào?
 python3 tools/search.py --loai bieu-mau "đơn đề nghị cấp chứng chỉ"
 ```
+
+Về phòng cháy chữa cháy (QCVN 10:2025/BCA):
+
+```bash
+# Nhà tôi có phải lắp báo cháy / chữa cháy tự động không?
+python3 tools/search.py --full --loai bang "chung cư báo cháy tự động số tầng"
+
+# Bao nhiêu tầng thì phải có họng nước chữa cháy trong nhà?
+python3 tools/search.py --full "họng nước chữa cháy trong nhà chung cư số tầng"
+
+# Lưu lượng nước chữa cháy ngoài nhà cho khu dân cư?
+python3 tools/search.py --full --doc qcvn-10-2025-bca "lưu lượng nước chữa cháy ngoài nhà dân số"
+```
+
+> **Thứ tự tra bảng PCCC** (mục 1.5.9 QCVN 10:2025/BCA):
+> **Bảng A.1** (toàn nhà) → **Bảng A.2** (hạng mục/khu vực) → **Bảng A.3**
+> (gian phòng) → **Bảng A.4** (thiết bị). Nhớ xem thêm **mục 1.5.11** liệt kê các
+> khu vực KHÔNG phải trang bị (phòng tắm, vệ sinh, cầu thang bộ, hành lang bên…).
 
 ## 2. Đọc thẳng khi đã biết số Điều
 
@@ -106,11 +126,32 @@ bi_thay_the_boi: "215/2026/NĐ-CP"
 
 ## 5. Quy ước tiêu đề (bộ chia chunk dựa vào đây)
 
+Khai báo `cau_truc` trong front matter để chọn kiểu cắt.
+
+**`cau_truc: "dieu"`** (mặc định — Nghị định, Luật, Thông tư):
+
 | Cấp | Cú pháp |
 |---|---|
 | Chương | `## Chương I. NHỮNG QUY ĐỊNH CHUNG` |
 | Mục | `### Mục 1. TÊN MỤC` |
 | Điều | `### Điều 1. Phạm vi điều chỉnh` |
-| Mẫu (phụ lục) | `## Mẫu số 01 — Tên mẫu` |
 
-Sai cú pháp thì `build_index.py` sẽ không tách được Điều đó thành chunk riêng.
+**`cau_truc: "muc"`** (Quy chuẩn QCVN, Tiêu chuẩn TCVN):
+
+| Cấp | Cú pháp |
+|---|---|
+| Phần | `## 1 QUY ĐỊNH CHUNG` |
+| Mục | `### 1.1 Phạm vi điều chỉnh` |
+
+Phần không có mục con (ví dụ `## 3 QUY ĐỊNH VỀ QUẢN LÝ`) thì tự nó là một chunk.
+
+**Phụ lục** — khai báo `chia_theo` trong front matter của từng file:
+
+| `chia_theo` | Cắt tại |
+|---|---|
+| `"Mẫu số"` | `## Mẫu số 01 — Tên mẫu` |
+| `"Bảng"` | `## Bảng A.1 - Đối với nhà` |
+| `"H."` | `## H.1 Yêu cầu thiết kế…` |
+| *(không khai báo)* | giữ nguyên cả phụ lục làm một chunk |
+
+Sai cú pháp thì `build_index.py` sẽ không tách được mục đó thành chunk riêng.

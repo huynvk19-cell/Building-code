@@ -7,7 +7,7 @@ ngay_ban_hanh: "2026-06-17"
 loai_chunk: "dieu"
 tieu_de: "Điều kiện kinh nghiệm nghề nghiệp để được cấp chứng chỉ hành nghề lập quy hoạch đô thị và nông thôn"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "35"
+so_hieu_muc: "35"
 chuong: "Chương IV. NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG"
 muc: "Mục 1. ĐIỀU KIỆN NĂNG LỰC HOẠT ĐỘNG XÂY DỰNG CỦA CÁ NHÂN"
 ---

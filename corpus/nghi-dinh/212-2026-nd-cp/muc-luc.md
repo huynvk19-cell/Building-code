@@ -91,20 +91,20 @@
 
 ## Phụ lục III
 
-- [Phụ lục III — Danh mục biểu mẫu](../../../chunks/212-2026-nd-cp/phu-luc-iii-00-danh-muc.md)
-- [Mẫu số 01 — ĐƠN ĐỀ NGHỊ CẤP CHỨNG CHỈ HÀNH NGHỀ HOẠT ĐỘNG XÂY DỰNG](../../../chunks/212-2026-nd-cp/phu-luc-iii-mau-01-don-de-nghi-cap-chung-chi-hanh-nghe-hoat-dong-xay-dung.md)
-- [Mẫu số 02 — ĐƠN ĐỀ NGHỊ CẤP CHUYỂN ĐỔI CHỨNG CHỈ HÀNH NGHỀ HOẠT ĐỘNG XÂY DỰNG](../../../chunks/212-2026-nd-cp/phu-luc-iii-mau-02-don-de-nghi-cap-chuyen-doi-chung-chi-hanh-nghe-hoat-dong-xay.md)
-- [Mẫu số 03 — MẪU CHỨNG CHỈ HÀNH NGHỀ HOẠT ĐỘNG XÂY DỰNG](../../../chunks/212-2026-nd-cp/phu-luc-iii-mau-03-mau-chung-chi-hanh-nghe-hoat-dong-xay-dung.md)
-- [Mẫu số 04 — ĐƠN ĐỀ NGHỊ CẤP GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG (Đối với nhà thầu là tổ chức)](../../../chunks/212-2026-nd-cp/phu-luc-iii-mau-04-don-de-nghi-cap-giay-phep-hoat-dong-xay-dung-doi-voi-nha-tha.md)
-- [Mẫu số 05 — BÁO CÁO CÁC CÔNG VIỆC/DỰ ÁN ĐÃ THỰC HIỆN TRONG 3 NĂM GẦN NHẤT](../../../chunks/212-2026-nd-cp/phu-luc-iii-mau-05-bao-cao-cac-cong-viec-du-an-da-thuc-hien-trong-3-nam-gan-nha.md)
-- [Mẫu số 06 — GIẤY ỦY QUYỀN](../../../chunks/212-2026-nd-cp/phu-luc-iii-mau-06-giay-uy-quyen.md)
-- [Mẫu số 07 — ĐƠN ĐỀ NGHỊ CẤP GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG (Đối với nhà thầu là cá nhân)](../../../chunks/212-2026-nd-cp/phu-luc-iii-mau-07-don-de-nghi-cap-giay-phep-hoat-dong-xay-dung-doi-voi-nha-tha.md)
-- [Mẫu số 08 — QUYẾT ĐỊNH CẤP GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG CHO NHÀ THẦU NƯỚC NGOÀI](../../../chunks/212-2026-nd-cp/phu-luc-iii-mau-08-quyet-dinh-cap-giay-phep-hoat-dong-xay-dung-cho-nha-thau-nuo.md)
-- [Mẫu số 09 — QUYẾT ĐỊNH CẤP GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG CHO CÁ NHÂN](../../../chunks/212-2026-nd-cp/phu-luc-iii-mau-09-quyet-dinh-cap-giay-phep-hoat-dong-xay-dung-cho-ca-nhan.md)
-- [Mẫu số 10 — QUYẾT ĐỊNH ĐIỀU CHỈNH GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG CHO NHÀ THẦU NƯỚC NGOÀI](../../../chunks/212-2026-nd-cp/phu-luc-iii-mau-10-quyet-dinh-dieu-chinh-giay-phep-hoat-dong-xay-dung-cho-nha-t.md)
-- [Mẫu số 11 — ĐƠN ĐỀ NGHỊ ĐIỀU CHỈNH GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG](../../../chunks/212-2026-nd-cp/phu-luc-iii-mau-11-don-de-nghi-dieu-chinh-giay-phep-hoat-dong-xay-dung.md)
-- [Mẫu số 12 — THÔNG BÁO TÌNH HÌNH HOẠT ĐỘNG CỦA NHÀ THẦU NƯỚC NGOÀI](../../../chunks/212-2026-nd-cp/phu-luc-iii-mau-12-thong-bao-tinh-hinh-hoat-dong-cua-nha-thau-nuoc-ngoai.md)
-- [Mẫu số 13 — THÔNG BÁO VĂN PHÒNG ĐIỀU HÀNH CỦA NHÀ THẦU NƯỚC NGOÀI](../../../chunks/212-2026-nd-cp/phu-luc-iii-mau-13-thong-bao-van-phong-dieu-hanh-cua-nha-thau-nuoc-ngoai.md)
+- [Phụ lục III — Mẫu các văn bản trong quy trình cấp chứng chỉ hành nghề hoạt động xây dựng và giấy phép hoạt động xây dựng](../../../chunks/212-2026-nd-cp/phu-luc-iii-00-gioi-thieu.md)
+- [Mẫu số 01 — ĐƠN ĐỀ NGHỊ CẤP CHỨNG CHỈ HÀNH NGHỀ HOẠT ĐỘNG XÂY DỰNG](../../../chunks/212-2026-nd-cp/phu-luc-iii-01-mau-so-01-don-de-nghi-cap-chung-chi-hanh-nghe-hoat-dong-xay.md)
+- [Mẫu số 02 — ĐƠN ĐỀ NGHỊ CẤP CHUYỂN ĐỔI CHỨNG CHỈ HÀNH NGHỀ HOẠT ĐỘNG XÂY DỰNG](../../../chunks/212-2026-nd-cp/phu-luc-iii-02-mau-so-02-don-de-nghi-cap-chuyen-doi-chung-chi-hanh-nghe-hoa.md)
+- [Mẫu số 03 — MẪU CHỨNG CHỈ HÀNH NGHỀ HOẠT ĐỘNG XÂY DỰNG](../../../chunks/212-2026-nd-cp/phu-luc-iii-03-mau-so-03-mau-chung-chi-hanh-nghe-hoat-dong-xay-dung.md)
+- [Mẫu số 04 — ĐƠN ĐỀ NGHỊ CẤP GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG (Đối với nhà thầu là tổ chức)](../../../chunks/212-2026-nd-cp/phu-luc-iii-04-mau-so-04-don-de-nghi-cap-giay-phep-hoat-dong-xay-dung-doi-v.md)
+- [Mẫu số 05 — BÁO CÁO CÁC CÔNG VIỆC/DỰ ÁN ĐÃ THỰC HIỆN TRONG 3 NĂM GẦN NHẤT](../../../chunks/212-2026-nd-cp/phu-luc-iii-05-mau-so-05-bao-cao-cac-cong-viec-du-an-da-thuc-hien-trong-3-n.md)
+- [Mẫu số 06 — GIẤY ỦY QUYỀN](../../../chunks/212-2026-nd-cp/phu-luc-iii-06-mau-so-06-giay-uy-quyen.md)
+- [Mẫu số 07 — ĐƠN ĐỀ NGHỊ CẤP GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG (Đối với nhà thầu là cá nhân)](../../../chunks/212-2026-nd-cp/phu-luc-iii-07-mau-so-07-don-de-nghi-cap-giay-phep-hoat-dong-xay-dung-doi-v.md)
+- [Mẫu số 08 — QUYẾT ĐỊNH CẤP GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG CHO NHÀ THẦU NƯỚC NGOÀI](../../../chunks/212-2026-nd-cp/phu-luc-iii-08-mau-so-08-quyet-dinh-cap-giay-phep-hoat-dong-xay-dung-cho-nh.md)
+- [Mẫu số 09 — QUYẾT ĐỊNH CẤP GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG CHO CÁ NHÂN](../../../chunks/212-2026-nd-cp/phu-luc-iii-09-mau-so-09-quyet-dinh-cap-giay-phep-hoat-dong-xay-dung-cho-ca.md)
+- [Mẫu số 10 — QUYẾT ĐỊNH ĐIỀU CHỈNH GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG CHO NHÀ THẦU NƯỚC NGOÀI](../../../chunks/212-2026-nd-cp/phu-luc-iii-10-mau-so-10-quyet-dinh-dieu-chinh-giay-phep-hoat-dong-xay-dung.md)
+- [Mẫu số 11 — ĐƠN ĐỀ NGHỊ ĐIỀU CHỈNH GIẤY PHÉP HOẠT ĐỘNG XÂY DỰNG](../../../chunks/212-2026-nd-cp/phu-luc-iii-11-mau-so-11-don-de-nghi-dieu-chinh-giay-phep-hoat-dong-xay-dun.md)
+- [Mẫu số 12 — THÔNG BÁO TÌNH HÌNH HOẠT ĐỘNG CỦA NHÀ THẦU NƯỚC NGOÀI](../../../chunks/212-2026-nd-cp/phu-luc-iii-12-mau-so-12-thong-bao-tinh-hinh-hoat-dong-cua-nha-thau-nuoc-ng.md)
+- [Mẫu số 13 — THÔNG BÁO VĂN PHÒNG ĐIỀU HÀNH CỦA NHÀ THẦU NƯỚC NGOÀI](../../../chunks/212-2026-nd-cp/phu-luc-iii-13-mau-so-13-thong-bao-van-phong-dieu-hanh-cua-nha-thau-nuoc-ng.md)
 
 ## Phụ lục IV
 

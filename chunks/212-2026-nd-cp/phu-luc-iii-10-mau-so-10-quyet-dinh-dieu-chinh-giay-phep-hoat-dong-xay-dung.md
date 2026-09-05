@@ -1,5 +1,5 @@
 ---
-chunk_id: "212-2026-nd-cp:phu-luc-iii-mau-10"
+chunk_id: "212-2026-nd-cp:phu-luc-iii-mau-so-10-quyet-dinh-dieu-chinh-giay-phe"
 doc_id: "212-2026-nd-cp"
 so_hieu: "212/2026/NĐ-CP"
 loai_van_ban: "Nghị định"
