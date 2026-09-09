@@ -25,9 +25,9 @@ với kho. Điểm số in ra là **điểm BM25 — chỉ đo mức trùng từ
 liên quan**. Một câu hỏi hoàn toàn ngoài phạm vi kho vẫn nhận được 5 kết quả với
 điểm nhìn có vẻ "cao".
 
-Điều này **đã được đo, không phải phỏng đoán**: trên 101 câu hỏi chuẩn
-(`eval/`), điểm top-1 của các câu **ngoài phạm vi kho** rơi vào 5.9–20.8, còn
-của các câu **có đáp án thật** rơi vào 4.2–44.9. Hai dải **chồng lấn hoàn toàn**.
+Điều này **đã được đo, không phải phỏng đoán**: trên bộ câu hỏi chuẩn
+(`eval/`), điểm top-1 của các câu **ngoài phạm vi kho** rơi vào 7.1–32.3, còn
+của các câu **có đáp án thật** rơi vào 4.6–66.2. Hai dải **chồng lấn hoàn toàn**.
 Thử nghiệm thứ hai — đo tỉ lệ phủ từ hiếm — còn tệ hơn. Vì vậy **không có ngưỡng
 tin cậy nào trong công cụ này**, và đừng thêm vào: một nhãn tin cậy sai nguy hiểm
 hơn không có nhãn, vì nó tạo cảm giác an toàn giả.
@@ -64,29 +64,38 @@ Tình trạng hiện tại:
 | Văn bản | `ngay_hieu_luc` | Chuyển tiếp | Ghi chú |
 |---|---|---|---|
 | **212/2026/NĐ-CP** | `2026-07-01` (Điều 57 khoản 1) | **Điều 55** | Thay thế NĐ 111/2024/NĐ-CP. Đọc Điều 55 trước khi tư vấn cho hồ sơ nộp trước 01/7/2026. |
-| **QCVN 06:2022/BXD** | `2023-01-16` (Điều 2 Thông tư 06/2022/TT-BXD) | **mục 7.1** | Thay thế QCVN 06:2021/BXD. Hồ sơ đã thẩm duyệt trước 16/01/2023 vẫn theo hồ sơ cũ. **Mới có mục 1–7; Phụ lục A–I CHƯA CÓ trong kho.** |
+| **QCVN 06:2022/BXD** | `2023-01-16` (Điều 2 Thông tư 06/2022/TT-BXD) | **mục 7.1** | Thay thế QCVN 06:2021/BXD. Hồ sơ đã thẩm duyệt trước 16/01/2023 vẫn theo hồ sơ cũ. Đã có **đủ mục 1–7 và Phụ lục A–I**. |
 | **QCVN 10:2024/BXD** | `CHƯA XÁC ĐỊNH` | mục 3.1 | Hiệu lực nằm ở Thông tư 06/2024/TT-BXD — **chưa có trong kho**. |
 | **QCVN 10:2025/BCA** | `CHƯA XÁC ĐỊNH` | không có trong bản Quy chuẩn | Hiệu lực nằm ở Thông tư 103/2025/TT-BCA — **chưa có trong kho**. |
 
-## QCVN 06:2022/BXD — mới có phần chính, CHƯA có phụ lục
+## QCVN 06:2022/BXD — đã đủ phần chính và toàn bộ Phụ lục A–I
 
-Kho hiện chỉ số hóa **mục 1 đến mục 7** (phần chính). **Toàn bộ Phụ lục A đến I
-chưa có trong kho**, trong đó có những bảng tra quan trọng nhất:
+Kho đã số hóa **mục 1 đến mục 7** (phần chính) và **toàn bộ Phụ lục A đến I**,
+kể cả các bảng tra hay dùng nhất:
 
-- **Phụ lục A** — quy định bổ sung cho một số nhóm nhà;
-- **Phụ lục B** — bảng phân nhóm vật liệu xây dựng theo tính nguy hiểm cháy
-  (B.1 đến B.9, được viện dẫn ở 2.1, 3.3.4, 3.5.2, 3.5.3);
+- **Phụ lục A** — quy định bổ sung cho một số nhóm nhà (A.4 là karaoke, vũ trường);
+- **Phụ lục B** — phân nhóm vật liệu xây dựng theo tính nguy hiểm cháy
+  (Bảng B.1 đến B.9, được viện dẫn ở 2.1, 3.3.4, 3.5.2, 3.5.3);
 - **Phụ lục C** — phân hạng nguy hiểm cháy nổ A, B, C, D, E của gian phòng;
-- **Phụ lục D** — yêu cầu bảo vệ chống khói;
+- **Phụ lục D** — yêu cầu bảo vệ chống khói (D.1 đến D.14);
 - **Phụ lục E** — khoảng cách phòng cháy chống cháy giữa các nhà;
-- **Phụ lục F** — giới hạn chịu lửa danh định của cấu kiện;
-- **Phụ lục G** — khoảng cách thoát nạn, hệ số không gian sàn (Bảng G.9);
-- **Phụ lục H** — số tầng và diện tích khoang cháy cho phép theo nhóm nhà;
-- **Phụ lục I** — hình minh họa cầu thang và buồng thang.
+- **Phụ lục F** — giới hạn chịu lửa danh định của cấu kiện (Bảng F.1 đến F.10);
+- **Phụ lục G** — khoảng cách thoát nạn, chiều rộng lối ra, hệ số không gian
+  sàn (Bảng G.9);
+- **Phụ lục H** — số tầng và diện tích khoang cháy cho phép theo nhóm nhà
+  (Bảng H.1 đến H.5, cách tính diện tích khoang cháy ở H.6);
+- **Phụ lục I** — hình minh họa cầu thang, buồng thang và khoảng đệm không
+  nhiễm khói (Hình I.1 đến I.9).
 
-Khi câu hỏi cần tra các phụ lục này (rất thường gặp: bậc chịu lửa cho phép,
-diện tích khoang cháy, khoảng cách thoát nạn, số người theo hệ số không gian
-sàn), **phải nói rõ là kho chưa có phần đó**, không được suy đoán từ phần chính.
+Hai điều cần nhớ khi trả lời:
+
+1. **Phụ lục I chỉ là tham khảo**, không bắt buộc áp dụng. Nó minh họa cho
+   2.4.2, 3.2.2, 3.2.8 và 3.4.10. Khi cần căn cứ ràng buộc thì trích điều
+   khoản gốc ở phần chính, đừng trích Phụ lục I. Ví dụ định nghĩa buồng thang
+   L1/L2 nằm ở **mục 2.4.3.2**, còn Phụ lục I chỉ vẽ lại cho dễ hình dung.
+   Các phụ lục A, B, C, D, E, F, G, H đều là **quy định (bắt buộc)**.
+2. **Bản số hóa vẫn thiếu Sửa đổi 1:2023** (nếu có) và mọi văn bản sửa đổi sau
+   ngày 30/11/2022 — kho chỉ có bản gốc QCVN 06:2022/BXD.
 
 ## Hai văn bản trùng số hiệu "QCVN 10"
 
@@ -139,7 +148,7 @@ bạn đọc nội dung thật.
 
 ## Đo chất lượng truy hồi
 
-`eval/` có bộ 123 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
+`eval/` có bộ 141 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
 vi kho). Sau khi sửa `tools/search.py` hoặc thay đổi cách cắt chunk, **phải chạy
 lại**:
 
@@ -149,7 +158,7 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với tokenizer cũ
 python3 eval/chay_danh_gia.py --chi-tiet # liệt kê câu trượt
 ```
 
-Mức hiện tại (123 câu, 4 văn bản): Recall@1 = 0.541 · Recall@5 = 0.805 · Recall@10 = 0.872 · MRR = 0.704.
+Mức hiện tại (141 câu, 4 văn bản, 536 chunk): Recall@1 = 0.550 · Recall@5 = 0.822 · Recall@10 = 0.882 · MRR = 0.708.
 **Đừng merge một thay đổi làm các số này tụt** mà không có lý do đo được.
 Điểm yếu đã biết: loại G (câu hỏi bắc cầu nhiều văn bản) = 0.17, loại I (câu hỏi
 mơ hồ) = 0.25. Giới hạn của bộ đo được ghi ở `eval/README.md` — đọc trước khi
@@ -211,6 +220,22 @@ Hình vẽ trong quy chuẩn **không bao giờ được vẽ lại** bằng SVG
 bản gốc — vẽ lại là diễn giải lại, và một nét sai trong hình kỹ thuật là một quy
 định sai. Cách làm: cắt hình gốc từ PDF vào `corpus/.../phu-luc/hinh/`, rồi chèn
 vào Markdown bằng link kèm alt text mô tả để tìm kiếm được.
+
+Kho hiện có 13 hình gốc của **Phụ lục I** ở
+`corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/hinh/`. `tools/build_index.py` tự
+viết lại link ảnh tương đối khi sinh chunk, nên trong `chunks/` đường dẫn vẫn
+mở được — đừng sửa tay.
+
+Hai lỗi đã mắc khi cắt Phụ lục I, tránh lặp lại:
+
+- **Số hiệu mục không trùng số hiệu hình.** Trang 171 mở mục I.2 nhưng lại chứa
+  Hình I.3. Phải đọc từng trang để lập bản đồ hình, đừng suy ra từ số trang.
+- **Một hình có thể trải nhiều trang.** Hình I.8 chạy từ trang 176 đến 180 với
+  các nhãn a) đến k) và dòng *(tiếp theo)* / *(kết thúc)*. Cắt thành nhiều file
+  `-08a` đến `-08e` nhưng vẫn giữ chung một chú thích Hình I.8.
+- **Khung cắt phải rộng hơn phần nhìn thấy.** Lần cắt đầu mất nhãn kích thước ở
+  đỉnh và dòng chú thích ở đáy. Cách chắc ăn: cắt xong thì **mở lại ảnh bằng thị
+  giác máy để xem có cụt không**, đừng tin vào toạ độ.
 
 Chú thích hình trong QCVN có thể nằm **bên dưới hoặc bên phải** hình. Khi cắt
 bằng `tools/cat_hinh.py` phải lấy **trọn bề ngang trang** (x từ 35 đến 588 pt với

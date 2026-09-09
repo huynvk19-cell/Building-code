@@ -376,3 +376,83 @@
 - [7.3 Các cơ quan quản lý Nhà nước về phòng cháy chữa cháy và về xây dựng ở…](../../../chunks/qcvn-06-2022-bxd/muc-7-3-.md)
 - [7.4 Các cơ quan quản lý Nhà nước có thẩm quyền về phòng cháy chữa cháy và…](../../../chunks/qcvn-06-2022-bxd/muc-7-4-.md)
 - [7.5 Trong quá trình triển khai thực hiện quy chuẩn này, nếu có vướng mắc,…](../../../chunks/qcvn-06-2022-bxd/muc-7-5-.md)
+
+## Phụ lục A
+
+- [Phụ lục A — Quy định bổ sung đối với một số nhóm nhà cụ thể](../../../chunks/qcvn-06-2022-bxd/phu-luc-a-00-gioi-thieu.md)
+- [A.1 Nhà sản xuất và nhà kho](../../../chunks/qcvn-06-2022-bxd/phu-luc-a-01-a-1-nha-san-xuat-va-nha-kho.md)
+- [A.2 Nhà (có chiều cao PCCC từ trên 50 m đến 150 m) thuộc nhóm F1.2, F4.2, F4.3 và nhà hỗn hợp](../../../chunks/qcvn-06-2022-bxd/phu-luc-a-02-a-2-nha-co-chieu-cao-pccc-tu-tren-50-m-den-150-m-thuoc-nhom.md)
+- [A.3 Nhà chung cư thuộc nhóm nguy hiểm cháy theo công năng F1.3 có chiều cao PCCC từ trên 75 m đến 150 m](../../../chunks/qcvn-06-2022-bxd/phu-luc-a-03-a-3-nha-chung-cu-thuoc-nhom-nguy-hiem-chay-theo-cong-nang-f1.md)
+- [A.4 Nhà kinh doanh dịch vụ karaoke, vũ trường (thuộc nhóm F2.1)](../../../chunks/qcvn-06-2022-bxd/phu-luc-a-04-a-4-nha-kinh-doanh-dich-vu-karaoke-vu-truong-thuoc-nhom-f2-1.md)
+
+## Phụ lục B
+
+- [Phụ lục B — Phân loại vật liệu xây dựng theo đặc tính kỹ thuật về cháy và yêu cầu về an toàn cháy đối với vật liệu](../../../chunks/qcvn-06-2022-bxd/phu-luc-b-00-gioi-thieu.md)
+- [B.1 Phân loại vật liệu xây dựng theo đặc tính kỹ thuật về cháy](../../../chunks/qcvn-06-2022-bxd/phu-luc-b-01-b-1-phan-loai-vat-lieu-xay-dung-theo-dac-tinh-ky-thuat-ve-ch.md)
+- [B.2 Yêu cầu về an toàn cháy đối với vật liệu](../../../chunks/qcvn-06-2022-bxd/phu-luc-b-02-b-2-yeu-cau-ve-an-toan-chay-doi-voi-vat-lieu.md)
+
+## Phụ lục C
+
+- [Phụ lục C — Hạng nguy hiểm cháy và cháy nổ của nhà, công trình và các gian phòng có công năng sản xuất và kho](../../../chunks/qcvn-06-2022-bxd/phu-luc-c-00-gioi-thieu.md)
+- [C.1 Hạng nguy hiểm cháy và cháy nổ của gian phòng](../../../chunks/qcvn-06-2022-bxd/phu-luc-c-01-c-1-hang-nguy-hiem-chay-va-chay-no-cua-gian-phong.md)
+- [C.2 Hạng nguy hiểm cháy và cháy nổ của nhà, công trình](../../../chunks/qcvn-06-2022-bxd/phu-luc-c-02-c-2-hang-nguy-hiem-chay-va-chay-no-cua-nha-cong-trinh.md)
+- [C.3 Phương pháp xác định các dấu hiệu để xếp hạng](../../../chunks/qcvn-06-2022-bxd/phu-luc-c-03-c-3-phuong-phap-xac-dinh-cac-dau-hieu-de-xep-hang.md)
+
+## Phụ lục D
+
+- [Phụ lục D — Bảo vệ chống khói](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-00-gioi-thieu.md)
+- [D.1 Yêu cầu chung](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-01-d-1-yeu-cau-chung.md)
+- [D.2 Việc hút xả khói khi có cháy phải được thực hiện từ các khu vực sau](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-02-d-2-viec-hut-xa-khoi-khi-co-chay-phai-duoc-thuc-hien-tu-cac.md)
+- [D.3 Các yêu cầu tại D.2 không cần áp dụng đối với](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-03-d-3-cac-yeu-cau-tai-d-2-khong-can-ap-dung-doi-voi.md)
+- [D.4 Lưu lượng hút khói phải được xác định bằng tính toán trong những trường hợp sau](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-04-d-4-luu-luong-hut-khoi-phai-duoc-xac-dinh-bang-tinh-toan-tro.md)
+- [D.5](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-05-d-5.md)
+- [D.6](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-06-d-6.md)
+- [D.7](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-07-d-7.md)
+- [D.8](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-08-d-8.md)
+- [D.9 Hệ thống hút xả khói phải đáp ứng các yêu cầu sau](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-09-d-9-he-thong-hut-xa-khoi-phai-dap-ung-cac-yeu-cau-sau.md)
+- [D.10 Khi có cháy, hệ thống cấp không khí chống khói phải cấp không khí từ ngoài vào các khu vực sau](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-10-d-10-khi-co-chay-he-thong-cap-khong-khi-chong-khoi-phai-cap.md)
+- [D.11](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-11-d-11.md)
+- [D.12 Khi tính toán các tham số của hệ thống cấp không khí chống khói cần tuân thủ những yêu cầu sau](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-12-d-12-khi-tinh-toan-cac-tham-so-cua-he-thong-cap-khong-khi-ch.md)
+- [D.13 Hệ thống cấp không khí chống khói phải thỏa mãn các điều kiện sau](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-13-d-13-he-thong-cap-khong-khi-chong-khoi-phai-thoa-man-cac-die.md)
+- [D.14 Một số yêu cầu đối với các giải pháp mặt bằng - không gian và các giải pháp cấu tạo](../../../chunks/qcvn-06-2022-bxd/phu-luc-d-14-d-14-mot-so-yeu-cau-doi-voi-cac-giai-phap-mat-bang-khong-gia.md)
+
+## Phụ lục E
+
+- [Phụ lục E — Khoảng cách phòng cháy chống cháy](../../../chunks/qcvn-06-2022-bxd/phu-luc-e-00-gioi-thieu.md)
+- [E.1 Khoảng cách phòng cháy chống cháy giữa các nhà ở, nhà và công trình công cộng, và từ các nhà ở, nhà và công trình công cộng đến nhà và công trình sản xuất, nhà kho](../../../chunks/qcvn-06-2022-bxd/phu-luc-e-01-e-1-khoang-cach-phong-chay-chong-chay-giua-cac-nha-o-nha-va.md)
+- [E.2 Khoảng cách phòng cháy chống cháy giữa các nhà sản xuất, nhà kho](../../../chunks/qcvn-06-2022-bxd/phu-luc-e-02-e-2-khoang-cach-phong-chay-chong-chay-giua-cac-nha-san-xuat.md)
+- [E.3 Xác định diện tích lỗ mở không được bảo vệ chống cháy của tường ngoài và giới hạn chịu lửa tương ứng của phần tường ngoài phải bảo vệ chống cháy](../../../chunks/qcvn-06-2022-bxd/phu-luc-e-03-e-3-xac-dinh-dien-tich-lo-mo-khong-duoc-bao-ve-chong-chay-cu.md)
+
+## Phụ lục F
+
+- [Phụ lục F — Giới hạn chịu lửa danh định của một số cấu kiện](../../../chunks/qcvn-06-2022-bxd/phu-luc-f-00-gioi-thieu.md)
+- [F.1 Cấu kiện tường](../../../chunks/qcvn-06-2022-bxd/phu-luc-f-01-f-1-cau-kien-tuong.md)
+- [F.2 Dầm bê tông cốt thép](../../../chunks/qcvn-06-2022-bxd/phu-luc-f-02-f-2-dam-be-tong-cot-thep.md)
+- [F.3 Dầm bê tông cốt thép ứng suất trước](../../../chunks/qcvn-06-2022-bxd/phu-luc-f-03-f-3-dam-be-tong-cot-thep-ung-suat-truoc.md)
+- [F.4 Cột bê tông cốt thép](../../../chunks/qcvn-06-2022-bxd/phu-luc-f-04-f-4-cot-be-tong-cot-thep.md)
+- [F.5 Kết cấu thép](../../../chunks/qcvn-06-2022-bxd/phu-luc-f-05-f-5-ket-cau-thep.md)
+- [F.6 Kết cấu sàn](../../../chunks/qcvn-06-2022-bxd/phu-luc-f-06-f-6-ket-cau-san.md)
+
+## Phụ lục G
+
+- [Phụ lục G — Khoảng cách đến các lối ra thoát nạn và chiều rộng lối ra thoát nạn](../../../chunks/qcvn-06-2022-bxd/phu-luc-g-00-gioi-thieu.md)
+- [G.1 Khoảng cách giới hạn cho phép từ chỗ xa nhất (có người sinh hoạt, làm việc) đến lối ra thoát nạn gần nhất](../../../chunks/qcvn-06-2022-bxd/phu-luc-g-01-g-1-khoang-cach-gioi-han-cho-phep-tu-cho-xa-nhat-co-nguoi-si.md)
+- [G.2 Chiều rộng của lối ra thoát nạn](../../../chunks/qcvn-06-2022-bxd/phu-luc-g-02-g-2-chieu-rong-cua-loi-ra-thoat-nan.md)
+- [G.3 Xác định số lượng người lớn nhất trong nhà hoặc trong một phần của nhà](../../../chunks/qcvn-06-2022-bxd/phu-luc-g-03-g-3-xac-dinh-so-luong-nguoi-lon-nhat-trong-nha-hoac-trong-mo.md)
+
+## Phụ lục H
+
+- [Phụ lục H — Bậc chịu lửa và các yêu cầu bảo đảm an toàn cháy cho nhà, công trình, khoang cháy](../../../chunks/qcvn-06-2022-bxd/phu-luc-h-00-gioi-thieu.md)
+- [H.1 Nhà ở và ký túc xá kiểu căn hộ](../../../chunks/qcvn-06-2022-bxd/phu-luc-h-01-h-1-nha-o-va-ky-tuc-xa-kieu-can-ho.md)
+- [H.2 Nhà công cộng](../../../chunks/qcvn-06-2022-bxd/phu-luc-h-02-h-2-nha-cong-cong.md)
+- [H.3 Nhà hành chính - phụ trợ của cơ sở sản xuất và kho](../../../chunks/qcvn-06-2022-bxd/phu-luc-h-03-h-3-nha-hanh-chinh-phu-tro-cua-co-so-san-xuat-va-kho.md)
+- [H.4 Nhà sản xuất và nhà chăn nuôi gia súc, gia cầm và động vật](../../../chunks/qcvn-06-2022-bxd/phu-luc-h-04-h-4-nha-san-xuat-va-nha-chan-nuoi-gia-suc-gia-cam-va-dong-va.md)
+- [H.5 Nhà kho](../../../chunks/qcvn-06-2022-bxd/phu-luc-h-05-h-5-nha-kho.md)
+- [H.6 Tính diện tích khoang cháy](../../../chunks/qcvn-06-2022-bxd/phu-luc-h-06-h-6-tinh-dien-tich-khoang-chay.md)
+
+## Phụ lục I
+
+- [Phụ lục I — Các hình minh họa](../../../chunks/qcvn-06-2022-bxd/phu-luc-i-00-gioi-thieu.md)
+- [I.1 Ngăn cách lối ra thoát nạn của tầng hầm với lối ra thoát nạn của các tầng xuống khi bố trí chung trong một buồng thang bộ (xem 3.2.2)](../../../chunks/qcvn-06-2022-bxd/phu-luc-i-01-i-1-ngan-cach-loi-ra-thoat-nan-cua-tang-ham-voi-loi-ra-thoat.md)
+- [I.2 Bố trí phân tán các lối ra thoát nạn (xem 3.2.8)](../../../chunks/qcvn-06-2022-bxd/phu-luc-i-02-i-2-bo-tri-phan-tan-cac-loi-ra-thoat-nan-xem-3-2-8.md)
+- [I.3 Cầu thang và buồng thang bộ trên đường thoát nạn](../../../chunks/qcvn-06-2022-bxd/phu-luc-i-03-i-3-cau-thang-va-buong-thang-bo-tren-duong-thoat-nan.md)

@@ -9,7 +9,7 @@ khi một nghị định được sửa đổi, bạn commit bản mới và b�
 | Văn bản | Nội dung | Trạng thái |
 |---|---|---|
 | **Nghị định 212/2026/NĐ-CP** (17/6/2026) | Điều kiện năng lực hoạt động xây dựng; Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng | 58 Điều + 4 Phụ lục — đã số hóa đầy đủ |
-| **QCVN 06:2022/BXD** (30/11/2022) | An toàn cháy cho nhà và công trình — bậc chịu lửa, khoang cháy, thoát nạn, ngăn cháy lan, cấp nước chữa cháy | Mục 1–7 đã số hóa (16 bảng tra). **Phụ lục A–I chưa có** |
+| **QCVN 06:2022/BXD** (30/11/2022) | An toàn cháy cho nhà và công trình — bậc chịu lửa, khoang cháy, thoát nạn, ngăn cháy lan, cấp nước chữa cháy | Mục 1–7 + **Phụ lục A–I**, 64 bảng tra, **13 hình vẽ** — đã số hóa đầy đủ |
 | **QCVN 10:2024/BXD** (01/8/2024) | Xây dựng công trình đảm bảo tiếp cận sử dụng cho người khuyết tật | 19 mục + 2 Phụ lục, **26 hình vẽ** — đã số hóa đầy đủ |
 | **QCVN 10:2025/BCA** (04/11/2025) | Trang bị, bố trí phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ cho nhà và công trình | 20 mục + 8 Phụ lục (A–H) — đã số hóa đầy đủ |
 
@@ -33,11 +33,16 @@ văn bản tự nói, không suy đoán:
   không chứa điều khoản hiệu lực lẫn chuyển tiếp; cả hai nằm trong Thông tư 103,
   **chưa có trong kho**.
 
-> ⚠️ **QCVN 06:2022/BXD mới có phần chính.** Toàn bộ **Phụ lục A đến I** — gồm bảng
-> phân nhóm vật liệu (B), phân hạng nguy hiểm cháy nổ (C), khoảng cách phòng cháy
-> chống cháy (E), giới hạn chịu lửa cấu kiện (F), khoảng cách thoát nạn và hệ số
-> không gian sàn (G), diện tích khoang cháy cho phép (H) — **chưa được số hóa**.
-> Khi tra những nội dung đó, kho sẽ không có câu trả lời.
+> ℹ️ **QCVN 06:2022/BXD đã có đủ Phụ lục A đến I**, gồm bảng phân nhóm vật liệu
+> (B), phân hạng nguy hiểm cháy nổ (C), bảo vệ chống khói (D), khoảng cách phòng
+> cháy chống cháy (E), giới hạn chịu lửa cấu kiện (F), khoảng cách thoát nạn và
+> hệ số không gian sàn (G), diện tích khoang cháy cho phép (H) và 13 hình minh
+> họa cầu thang, buồng thang (I).
+>
+> Lưu ý **Phụ lục I chỉ mang tính tham khảo**, không bắt buộc áp dụng — nó minh
+> họa cho các mục 2.4.2, 3.2.2, 3.2.8 và 3.4.10. Cần căn cứ ràng buộc thì trích
+> điều khoản gốc ở phần chính. Kho cũng **chưa có văn bản sửa đổi nào sau
+> 30/11/2022**.
 
 ## Tra cứu nhanh
 
@@ -59,7 +64,7 @@ Con số in cạnh mỗi kết quả là **điểm BM25 — nó đo mức trùng
 mức liên quan**. Công cụ luôn trả về kết quả kể cả khi kho không hề có quy định
 về chủ đề bạn hỏi.
 
-Chuyện này đã được đo chứ không phải phỏng đoán: trên bộ 123 câu hỏi chuẩn,
+Chuyện này đã được đo chứ không phải phỏng đoán: trên bộ 141 câu hỏi chuẩn,
 điểm cao nhất của những câu **ngoài phạm vi kho** nằm trong dải 5.9–20.8, còn của
 những câu **có đáp án thật** nằm trong dải 4.2–44.9 — hai dải chồng lên nhau, nên
 không có ngưỡng nào tách được chúng. Vì vậy kho cố tình **không** gắn nhãn "độ tin
@@ -78,7 +83,9 @@ corpus/                       Bản gốc (nguồn sự thật duy nhất)
     muc-luc.md                Mục lục (sinh tự động)
     phu-luc/                  Phụ lục I–IV
   quy-chuan/qcvn-06-2022-bxd/
-    toan-van.md               Mục 1–7 (phụ lục chưa có)
+    toan-van.md               Mục 1–7
+    phu-luc/                  Phụ lục A–I (các bảng tra cứu)
+    phu-luc/hinh/             13 hình vẽ cắt từ PDF gốc
   quy-chuan/qcvn-10-2024-bxd/
     toan-van.md               Phần 1–3
     phu-luc/hinh/             26 hình vẽ cắt từ PDF gốc
@@ -117,7 +124,7 @@ Chi tiết ở [`docs/huong-dan-su-dung.md`](docs/huong-dan-su-dung.md).
 
 ## Đo chất lượng tra cứu
 
-Kho có bộ **123 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu
+Kho có bộ **141 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu
 cố tình hỏi những thứ **không** có trong kho, để kiểm tra xem công cụ có bịa ra
 câu trả lời không.
 
@@ -127,21 +134,26 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với cấu hình cũ
 python3 eval/chay_danh_gia.py --chi-tiet # xem những câu bị trượt
 ```
 
-Mức hiện tại — đúng chunk nằm trong 5 kết quả đầu ở **80%** số câu, trong 10 kết
-quả đầu ở **87%**:
+Mức hiện tại — đúng chunk nằm trong 5 kết quả đầu ở **82%** số câu, trong 10 kết
+quả đầu ở **88%**:
 
-| | 3 văn bản, 101 câu | 4 văn bản, 123 câu |
-|---|---|---|
-| Recall@1 | 0.549 | **0.541** |
-| Recall@3 | 0.733 | **0.752** |
-| Recall@5 | 0.844 | **0.805** |
-| Recall@10 | 0.916 | **0.872** |
-| MRR | 0.713 | **0.704** |
+| | 3 văn bản, 101 câu | 4 văn bản, 123 câu | 4 văn bản + phụ lục QCVN 06, 141 câu |
+|---|---|---|---|
+| Recall@1 | 0.549 | 0.541 | **0.550** |
+| Recall@3 | 0.733 | 0.752 | **0.779** |
+| Recall@5 | 0.844 | 0.805 | **0.822** |
+| Recall@10 | 0.916 | 0.872 | **0.882** |
+| MRR | 0.713 | 0.704 | **0.708** |
 
-Hai cột này **không so sánh trực tiếp được** — cột phải có thêm một văn bản lớn
-(346 chunk, gấp đôi phần còn lại của kho) và 22 câu hỏi mới. Thêm văn bản thì
-cạnh tranh tăng nên vài câu cũ bị đẩy xuống; đó là cái giá của việc kho rộng hơn,
-đã đo chứ không giấu.
+Ba cột này **không so sánh trực tiếp được** — mỗi cột đo trên một bộ câu hỏi khác
+nhau và một kho khác nhau (176 → 346 → 536 chunk). Thêm văn bản thì cạnh tranh
+tăng nên vài câu cũ bị đẩy xuống; đó là cái giá của việc kho rộng hơn, đã đo chứ
+không giấu.
+
+Riêng bước cuối cho thấy một điều đáng nói: khi thêm 190 chunk phụ lục QCVN 06
+**mà chưa thêm câu hỏi nào cho chúng**, Recall@1 tụt từ 0.541 xuống 0.504. Sau
+khi bổ sung 18 câu hỏi cho chính các phụ lục đó, chỉ số về 0.550. Nghĩa là phần
+tụt ban đầu là do bộ đo chưa phủ nội dung mới, không phải do truy hồi kém đi.
 
 Câu hỏi tra cứu trực tiếp (loại A) đạt 0.89 trên 28 câu — đây là dạng câu hỏi
 thường gặp nhất khi làm hồ sơ.
