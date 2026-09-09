@@ -11,6 +11,12 @@ noi_ban_hanh: "Hà Nội"
 tieu_de: "Quy chuẩn kỹ thuật quốc gia về trang bị, bố trí phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ cho nhà và công trình"
 tieu_de_en: "National technical regulation on providing and arranging fire prevention, firefighting, and rescue facilities for buildings and constructions"
 linh_vuc: ["phòng cháy chữa cháy", "cứu nạn cứu hộ", "trang bị phương tiện", "an toàn cháy"]
+ngay_hieu_luc: "CHƯA XÁC ĐỊNH"
+can_cu_hieu_luc: "Bản Quy chuẩn không nêu ngày hiệu lực. Phải tra Thông tư 103/2025/TT-BCA — CHƯA CÓ TRONG KHO."
+thay_the: []
+het_hieu_luc: ""
+sua_doi_boi: []
+dieu_khoan_chuyen_tiep: "KHÔNG CÓ trong bản Quy chuẩn"
 nguon: "Bản scan Thông tư 103/2025/TT-BCA"
 phuong_phap_so_hoa: "OCR (tesseract-vie) + hiệu đính bằng thị giác máy (Claude vision)"
 cau_truc: "muc"

@@ -11,6 +11,12 @@ tieu_de: "Quy chuẩn kỹ thuật quốc gia về Xây dựng công trình đ�
 tieu_de_en: "National technical regulation on constructions accessibility"
 thay_the: "QCVN 10:2014/BXD (Thông tư số 21/2014/TT-BXD ngày 29/12/2014)"
 linh_vuc: ["tiếp cận sử dụng", "người khuyết tật", "thiết kế công trình", "đường và hè phố"]
+ngay_hieu_luc: "CHƯA XÁC ĐỊNH"
+can_cu_hieu_luc: "Bản Quy chuẩn không nêu ngày hiệu lực. Phải tra Thông tư 06/2024/TT-BXD — CHƯA CÓ TRONG KHO."
+thay_the: ["QCVN 10:2014/BXD"]
+het_hieu_luc: ""
+sua_doi_boi: []
+dieu_khoan_chuyen_tiep: "mục 3.1"
 nguon: "Bản PDF ký số của Bộ Xây dựng ngày 01/8/2024"
 phuong_phap_so_hoa: "Trích lớp text gốc của PDF + đối chiếu bằng thị giác máy; hình vẽ cắt từ PDF gốc"
 cau_truc: "muc"

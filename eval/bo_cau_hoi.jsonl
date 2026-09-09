@@ -38,3 +38,64 @@
 {"id":"I01","loai":"I","hoi":"toà nhà của tôi có cần sprinkler không","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-1-doi-voi-nha","qcvn-10-2025-bca:muc-1.5"],"kiem_chung":"chữa cháy tự động"}
 {"id":"J01","loai":"J","hoi":"chung cư 4 tầng 900 m2 sàn có phải lắp hệ thống báo cháy tự động không","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-1-doi-voi-nha"],"kiem_chung":"700 m²"}
 {"id":"J02","loai":"J","hoi":"cá nhân trình độ cao đẳng 3 năm kinh nghiệm được cấp hạng nào","vang":["212-2026-nd-cp:dieu-33"],"kiem_chung":"cao đẳng"}
+{"id":"P01","loai":"B","hoi":"lối lên cho xe lăn dốc bao nhiêu thì được","vang":["qcvn-10-2024-bxd:muc-2.2"],"kiem_chung":"1/12"}
+{"id":"P02","loai":"B","hoi":"cầu thang máy bao rộng mới đủ cho người ngồi xe đẩy","vang":["qcvn-10-2024-bxd:muc-2.4"],"kiem_chung":"1 100 mm x 1 400 mm"}
+{"id":"P03","loai":"B","hoi":"chỗ đậu ô tô ưu tiên người tàn tật rộng thêm bao nhiêu","vang":["qcvn-10-2024-bxd:muc-2.1"],"kiem_chung":"1 200 mm"}
+{"id":"P04","loai":"B","hoi":"nhà vệ sinh cho người ngồi xe đẩy cần khoảng trống bao nhiêu","vang":["qcvn-10-2024-bxd:muc-2.5"],"kiem_chung":"1 400 mm x 1 400 mm"}
+{"id":"P05","loai":"B","hoi":"quán ăn to bao nhiêu thì buộc lắp chuông báo cháy","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-1-doi-voi-nha"],"kiem_chung":"Nhà hàng, cửa hàng ăn uống"}
+{"id":"P06","loai":"B","hoi":"quán karaoke dưới hầm có bắt buộc phun nước tự động không","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-1-doi-voi-nha"],"kiem_chung":"karaoke"}
+{"id":"P07","loai":"B","hoi":"bệnh viện phải dành bao nhiêu phần trăm phòng cho người đi lại khó","vang":["qcvn-10-2024-bxd:muc-2.5"],"kiem_chung":"10 %"}
+{"id":"P08","loai":"B","hoi":"muốn làm chủ trì thiết kế kết cấu thì học ngành gì","vang":["212-2026-nd-cp:phu-luc-i"],"kiem_chung":"kết cấu công trình dân dụng"}
+{"id":"P09","loai":"B","hoi":"bằng cao đẳng có xin được chứng chỉ hành nghề không","vang":["212-2026-nd-cp:dieu-33"],"kiem_chung":"cao đẳng"}
+{"id":"P10","loai":"B","hoi":"công ty nước ngoài muốn thi công ở Việt Nam cần giấy tờ gì","vang":["212-2026-nd-cp:dieu-44"],"kiem_chung":"Đơn đề nghị cấp giấy phép hoạt động xây dựng"}
+{"id":"P11","loai":"B","hoi":"bao lâu thì phải kiểm tra lại bình cứu hoả","vang":["qcvn-10-2025-bca:muc-1.5"],"kiem_chung":"sáu tháng một lần"}
+{"id":"P12","loai":"B","hoi":"đèn thoát hiểm lắp theo tiêu chuẩn nào","vang":["qcvn-10-2025-bca:muc-2.2"],"kiem_chung":"TCVN 13456"}
+{"id":"P13","loai":"F","hoi":"bậc thang cho người khuyết tật cao tối đa mấy phân","vang":["qcvn-10-2024-bxd:muc-2.2"],"kiem_chung":"150 mm"}
+{"id":"P14","loai":"F","hoi":"quầy lễ tân cao bao nhiêu thì người ngồi xe lăn dùng được","vang":["qcvn-10-2024-bxd:muc-2.5"],"kiem_chung":"800 mm"}
+{"id":"P15","loai":"F","hoi":"nút bấm gọi cứu trong toilet đặt cao nhất bao nhiêu","vang":["qcvn-10-2024-bxd:muc-2.5"],"kiem_chung":"400 mm"}
+{"id":"P16","loai":"F","hoi":"tay vịn cách tường ít nhất mấy mm","vang":["qcvn-10-2024-bxd:muc-2.2"],"kiem_chung":"40 mm"}
+{"id":"P17","loai":"F","hoi":"chiếu nghỉ đường dốc dài tối thiểu bao nhiêu","vang":["qcvn-10-2024-bxd:muc-2.2"],"kiem_chung":"1 400 mm"}
+{"id":"P18","loai":"F","hoi":"cầu vượt bộ hành tối đa mấy bậc thì phải có chiếu nghỉ","vang":["qcvn-10-2024-bxd:muc-2.7"],"kiem_chung":"18 bậc"}
+{"id":"P19","loai":"F","hoi":"vật che chắn trên vỉa hè nhô ra tối đa mấy mm","vang":["qcvn-10-2024-bxd:muc-2.7"],"kiem_chung":"100 mm"}
+{"id":"P20","loai":"F","hoi":"gờ chắn quanh hồ trong công viên cao tối thiểu bao nhiêu","vang":["qcvn-10-2024-bxd:muc-2.7"],"kiem_chung":"150 mm"}
+{"id":"P21","loai":"F","hoi":"máy bơm chữa cháy phải chạy sau mấy phút kể từ khi báo cháy","vang":["qcvn-10-2025-bca:phu-luc-h-h-3-tram-bom-cap-nuoc-chua-chay","qcvn-10-2025-bca:phu-luc-h-h-1-yeu-cau-thiet-ke-lap-dat-he-thong-ca"],"kiem_chung":"3 min"}
+{"id":"P22","loai":"F","hoi":"thời gian chữa cháy tính toán là mấy giờ","vang":["qcvn-10-2025-bca:phu-luc-h-h-1-yeu-cau-thiet-ke-lap-dat-he-thong-ca"],"kiem_chung":"3 h"}
+{"id":"P23","loai":"F","hoi":"hố thu nước cho xe cứu hoả tối thiểu bao nhiêu mét khối","vang":["qcvn-10-2025-bca:phu-luc-h-h-1-yeu-cau-thiet-ke-lap-dat-he-thong-ca"],"kiem_chung":"3 m³"}
+{"id":"P24","loai":"F","hoi":"lệ phí và thời hạn cấp giấy phép cho nhà thầu ngoại","vang":["212-2026-nd-cp:dieu-46"],"kiem_chung":"06 ngày làm việc"}
+{"id":"C05","loai":"C","hoi":"thiết kế toilet công cộng cho người khuyết tật cần những kích thước nào","vang":["qcvn-10-2024-bxd:muc-2.5","qcvn-10-2024-bxd:muc-2.3"],"kiem_chung":"800 mm"}
+{"id":"C06","loai":"C","hoi":"làm đường dốc ngoài trời cần lưu ý gì về vỉa hè và cảnh báo cho người mù","vang":["qcvn-10-2024-bxd:muc-2.7","qcvn-10-2024-bxd:muc-2.8"],"kiem_chung":"tấm lát"}
+{"id":"C07","loai":"C","hoi":"chung cư cao 30 tầng cần trang bị những hệ thống chữa cháy nào","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-1-doi-voi-nha","qcvn-10-2025-bca:phu-luc-b-bang-b-1-quy-dinh-ve-trang-bi-he-thong-h","qcvn-10-2025-bca:phu-luc-g-bang-g-1-quy-dinh-ve-trang-bi-he-thong-l"],"kiem_chung":"Chung cư"}
+{"id":"C08","loai":"C","hoi":"tôi muốn xin chứng chỉ giám sát thi công cần điều kiện và hồ sơ gì","vang":["212-2026-nd-cp:dieu-33","212-2026-nd-cp:dieu-37","212-2026-nd-cp:dieu-39"],"kiem_chung":"giám sát"}
+{"id":"C09","loai":"C","hoi":"kho hàng dễ cháy dưới tầng hầm cần báo cháy và chữa cháy thế nào","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-3-doi-voi-gian-phong"],"kiem_chung":"tầng hầm"}
+{"id":"C10","loai":"C","hoi":"tấm lát nổi có mấy loại và dùng ở đâu","vang":["qcvn-10-2024-bxd:muc-2.8","qcvn-10-2024-bxd:phu-luc-b-b-1-tam-lat-canh-bao","qcvn-10-2024-bxd:phu-luc-b-b-3-tam-lat-dan-huong"],"kiem_chung":"dẫn hướng"}
+{"id":"G03","loai":"G","hoi":"chung cư phải đáp ứng gì về chữa cháy và về người khuyết tật","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-1-doi-voi-nha","qcvn-10-2024-bxd:muc-1.1"],"kiem_chung":"Nhà chung cư"}
+{"id":"G04","loai":"G","hoi":"quy chuẩn số 10 của Bộ Công an nói về cái gì","vang":["qcvn-10-2025-bca:muc-1.1"],"kiem_chung":"phòng cháy, chữa cháy"}
+{"id":"G05","loai":"G","hoi":"quy chuẩn số 10 của Bộ Xây dựng nói về cái gì","vang":["qcvn-10-2024-bxd:muc-1.1"],"kiem_chung":"tiếp cận sử dụng"}
+{"id":"G06","loai":"G","hoi":"bãi đỗ xe phải theo quy định nào về phòng cháy và về chỗ cho người khuyết tật","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-1-doi-voi-nha","qcvn-10-2024-bxd:muc-2.1"],"kiem_chung":"đỗ xe"}
+{"id":"I02","loai":"I","hoi":"công trình của tôi có phải làm gì thêm không","vang":[],"kiem_chung":""}
+{"id":"I03","loai":"I","hoi":"cần bao nhiêu là đủ","vang":[],"kiem_chung":""}
+{"id":"I04","loai":"I","hoi":"quy chuẩn 10 áp dụng cho nhà tôi thế nào","vang":["qcvn-10-2024-bxd:muc-1.1","qcvn-10-2025-bca:muc-1.1"],"kiem_chung":"Quy chuẩn này quy định"}
+{"id":"N01","loai":"N","hoi":"tải trọng gió tính toán cho nhà cao tầng là bao nhiêu","vang":[],"kiem_chung":""}
+{"id":"N02","loai":"N","hoi":"hệ số truyền nhiệt tường bao che tối đa cho phép","vang":[],"kiem_chung":""}
+{"id":"N03","loai":"N","hoi":"quy định về hệ thống chống sét cho nhà xưởng","vang":[],"kiem_chung":""}
+{"id":"N04","loai":"N","hoi":"cấp nước sinh hoạt cho căn hộ tính bao nhiêu lít một ngày","vang":[],"kiem_chung":""}
+{"id":"N05","loai":"N","hoi":"QCVN 10:2025/BCA có hiệu lực từ ngày nào","vang":[],"kiem_chung":""}
+{"id":"N06","loai":"N","hoi":"điều kiện cấp chứng chỉ hành nghề kiến trúc sư là gì","vang":[],"kiem_chung":""}
+{"id":"N07","loai":"N","hoi":"khoảng cách phòng cháy chống cháy giữa hai nhà là bao nhiêu mét","vang":[],"kiem_chung":""}
+{"id":"N08","loai":"N","hoi":"bậc chịu lửa của nhà được phân loại thế nào","vang":[],"kiem_chung":""}
+{"id":"A07","loai":"A","hoi":"Điều 55 nghị định 212 nói gì","vang":["212-2026-nd-cp:dieu-55"],"kiem_chung":"sát hạch"}
+{"id":"A08","loai":"A","hoi":"mục 2.7 QCVN 10:2024/BXD quy định gì","vang":["qcvn-10-2024-bxd:muc-2.7"],"kiem_chung":"hè phố"}
+{"id":"A09","loai":"A","hoi":"Bảng A.2 QCVN 10:2025/BCA áp dụng cho đối tượng nào","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-2-doi-voi-hang-muc-khu-vuc"],"kiem_chung":"hạng mục"}
+{"id":"A10","loai":"A","hoi":"Phụ lục IV nghị định 212 là gì","vang":["212-2026-nd-cp:phu-luc-iv"],"kiem_chung":"Ký hiệu nơi cấp"}
+{"id":"A11","loai":"A","hoi":"Mẫu số 03 nghị định 212 dùng để làm gì","vang":["212-2026-nd-cp:phu-luc-iii-mau-so-03-mau-chung-chi-hanh-nghe-hoat-d"],"kiem_chung":"CHỨNG CHỈ HÀNH NGHỀ"}
+{"id":"A12","loai":"A","hoi":"mục H.3 QCVN 10:2025/BCA quy định gì","vang":["qcvn-10-2025-bca:phu-luc-h-h-3-tram-bom-cap-nuoc-chua-chay"],"kiem_chung":"máy bơm dự phòng"}
+{"id":"D05","loai":"D","hoi":"nhà nào được dùng thiết bị báo cháy độc lập thay cho hệ thống","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-1-doi-voi-nha"],"kiem_chung":"thiết bị báo cháy độc lập"}
+{"id":"D06","loai":"D","hoi":"công trình di tích không cải tạo được thì xử lý thế nào","vang":["qcvn-10-2024-bxd:muc-1.1"],"kiem_chung":"di tích"}
+{"id":"D07","loai":"D","hoi":"trường hợp nào lối vào không cần làm đường dốc","vang":["qcvn-10-2024-bxd:muc-2.2"],"kiem_chung":"thang nâng"}
+{"id":"D08","loai":"D","hoi":"khi nào cá nhân bị dừng xem xét hồ sơ cấp chứng chỉ","vang":["212-2026-nd-cp:dieu-30"],"kiem_chung":"giả mạo giấy tờ"}
+{"id":"E05","loai":"E","hoi":"nghị định 111/2024 còn hiệu lực không","vang":["212-2026-nd-cp:dieu-57"],"kiem_chung":"111/2024/NĐ-CP"}
+{"id":"E06","loai":"E","hoi":"chứng chỉ cấp theo Luật Xây dựng 2014 còn dùng được không","vang":["212-2026-nd-cp:dieu-55"],"kiem_chung":"Luật Xây dựng năm 2014"}
+{"id":"J03","loai":"J","hoi":"nhà ga hàng hoá sân bay 600 m2 có phải lắp loa thông báo thoát nạn không","vang":["qcvn-10-2025-bca:phu-luc-g-bang-g-1-quy-dinh-ve-trang-bi-he-thong-l"],"kiem_chung":"Nhà ga hành khách thuộc cảng hàng không"}
+{"id":"J04","loai":"J","hoi":"văn phòng 4 tầng 2000 m2 có cần chữa cháy tự động không","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-1-doi-voi-nha"],"kiem_chung":"trụ sở, văn phòng làm việc"}
+{"id":"J05","loai":"J","hoi":"trường mầm non 120 cháu có phải lắp báo cháy tự động không","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-1-doi-voi-nha"],"kiem_chung":"100 cháu"}
+{"id":"H04","loai":"H","hoi":"có quy định nào bắt buộc thang máy cho nhà 3 tầng không","vang":["qcvn-10-2024-bxd:muc-2.5"],"kiem_chung":"không có thang máy"}

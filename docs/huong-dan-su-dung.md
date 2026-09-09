@@ -11,7 +11,7 @@ Các tùy chọn hữu ích:
 | Tùy chọn | Tác dụng |
 |---|---|
 | `--k 10` | Lấy 10 kết quả thay vì 5 |
-| `--full` | In toàn văn Điều thay vì trích đoạn |
+| `--gon` | Chỉ in tiêu đề, không in nội dung (để duyệt nhanh) |
 | `--khong-dau` | Gõ không dấu vẫn tìm được (`chung chi hanh nghe`) |
 | `--loai dieu` | Chỉ tìm trong các Điều (nghị định, luật) |
 | `--loai muc` | Chỉ tìm trong các mục của quy chuẩn (1.1, 2.3, H.2…) |
@@ -20,14 +20,32 @@ Các tùy chọn hữu ích:
 | `--doc 212-2026-nd-cp` | Giới hạn trong một văn bản |
 | `--json` | Xuất JSON cho script hoặc agent đọc |
 
+### Một điều quan trọng về con số điểm
+
+Cạnh mỗi kết quả có một con số. Nó là **điểm BM25** — đo xem câu hỏi trùng bao
+nhiêu từ với đoạn văn, chứ **không** đo đoạn văn có trả lời đúng câu hỏi hay không.
+
+Nghĩa là: công cụ **luôn luôn** trả về đủ 5 kết quả, kể cả khi bạn hỏi một thứ kho
+hoàn toàn không có (tải trọng gió, chống sét, kết cấu…). Nó sẽ vẫn tìm ra vài đoạn
+tình cờ trùng chữ, và điểm trông vẫn "bình thường".
+
+Chuyện này đã được đo trên bộ 101 câu hỏi chuẩn: điểm của câu ngoài phạm vi kho
+(5.9–20.8) chồng lấn hẳn với điểm của câu có đáp án thật (4.2–44.9). Không có
+ngưỡng nào tách được hai nhóm, nên kho cố tình không gắn nhãn "độ tin cậy" —
+một nhãn sai còn tai hại hơn không có nhãn.
+
+**Cách dùng đúng**: đọc nội dung đoạn văn trả về, rồi tự hỏi *đoạn này có thật sự
+nói về điều mình hỏi không*. Nếu không, kết luận đúng là "kho chưa có quy định về
+việc này" chứ không phải cố ghép các mảnh lại. Kho mới có ba văn bản thôi.
+
 Ví dụ thực tế:
 
 ```bash
 # Tôi có 5 năm kinh nghiệm, xin được chứng chỉ hạng mấy?
-python3 tools/search.py --full "thời gian kinh nghiệm hạng I hạng II hạng III"
+python3 tools/search.py "thời gian kinh nghiệm hạng I hạng II hạng III"
 
 # Hồ sơ xin cấp chứng chỉ gồm những gì?
-python3 tools/search.py --full "hồ sơ đề nghị cấp chứng chỉ hành nghề"
+python3 tools/search.py "hồ sơ đề nghị cấp chứng chỉ hành nghề"
 
 # Chuyên ngành kiến trúc được cấp chứng chỉ lĩnh vực nào?
 python3 tools/search.py --loai phu-luc "chuyên ngành đào tạo kiến trúc"
@@ -40,13 +58,13 @@ Về phòng cháy chữa cháy (QCVN 10:2025/BCA):
 
 ```bash
 # Nhà tôi có phải lắp báo cháy / chữa cháy tự động không?
-python3 tools/search.py --full --loai bang "chung cư báo cháy tự động số tầng"
+python3 tools/search.py --loai bang "chung cư báo cháy tự động số tầng"
 
 # Bao nhiêu tầng thì phải có họng nước chữa cháy trong nhà?
-python3 tools/search.py --full "họng nước chữa cháy trong nhà chung cư số tầng"
+python3 tools/search.py "họng nước chữa cháy trong nhà chung cư số tầng"
 
 # Lưu lượng nước chữa cháy ngoài nhà cho khu dân cư?
-python3 tools/search.py --full --doc qcvn-10-2025-bca "lưu lượng nước chữa cháy ngoài nhà dân số"
+python3 tools/search.py --doc qcvn-10-2025-bca "lưu lượng nước chữa cháy ngoài nhà dân số"
 ```
 
 > **Thứ tự tra bảng PCCC** (mục 1.5.9 QCVN 10:2025/BCA):
