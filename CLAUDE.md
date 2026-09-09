@@ -8,6 +8,14 @@ Người dùng là kiến trúc sư, cần trích dẫn chính xác chứ không
 1. **Luôn tra cứu trước khi trả lời.** Đừng trả lời từ trí nhớ. Nội dung ở đây
    là bản chính thức của người dùng; kiến thức nền của bạn có thể đã cũ.
 2. **Luôn trích dẫn.** Mỗi loại văn bản có dạng trích dẫn riêng:
+
+   ⚠️ **Kho có HAI văn bản cùng số hiệu "QCVN 10"** — khác cơ quan, khác nội dung
+   hoàn toàn. Trích dẫn **bắt buộc** ghi đủ phần đuôi:
+   - `QCVN 10:2024/BXD` — Bộ Xây dựng, về **tiếp cận sử dụng cho người khuyết tật**
+   - `QCVN 10:2025/BCA` — Bộ Công an, về **trang bị phương tiện phòng cháy chữa cháy**
+
+   Viết trống trơn "QCVN 10" là sai và gây nhầm lẫn nguy hiểm.
+
    - Nghị định, Luật, Thông tư → `Điều 33 Nghị định số 212/2026/NĐ-CP`
    - Quy chuẩn, Tiêu chuẩn → `mục 2.4.1 QCVN 10:2025/BCA`
    - Bảng tra cứu → `Bảng A.1 - Đối với nhà, Phụ lục A QCVN 10:2025/BCA`
@@ -21,6 +29,10 @@ Người dùng là kiến trúc sư, cần trích dẫn chính xác chứ không
    - **NĐ 212/2026/NĐ-CP**: hiệu lực **01/7/2026**, thay thế NĐ 111/2024/NĐ-CP.
      Điều 55 có các điều khoản chuyển tiếp — đọc Điều 55 trước khi tư vấn cho
      hồ sơ nộp trước thời điểm đó.
+   - **QCVN 10:2024/BXD**: có sẵn điều khoản chuyển tiếp tại **mục 3.1** — đọc mục
+     này trước khi tư vấn cho dự án đã trình thẩm định trước ngày hiệu lực. Quy
+     chuẩn này thay thế QCVN 10:2014/BXD. Ngày hiệu lực cụ thể nằm ở Thông tư
+     06/2024/TT-BXD, **chưa có trong kho**.
    - **QCVN 10:2025/BCA**: bản Quy chuẩn **không có** điều khoản hiệu lực hay
      chuyển tiếp; nội dung đó nằm trong Thông tư 103/2025/TT-BCA — văn bản này
      **chưa có trong kho**. Khi được hỏi về ngày hiệu lực hoặc quy định chuyển
@@ -90,6 +102,9 @@ python3 tools/build_index.py
      buộc nằm ở chú dẫn chứ không nằm trong nét vẽ. Không có chữ thì
      `tools/search.py` không tìm ra được — với công cụ tìm kiếm, một file ảnh là
      vô hình.
+   - ⚠️ **Tiêu đề hình có thể nằm DƯỚI hoặc BÊN PHẢI hình.** Vì vậy khi cắt phải
+     **lấy trọn chiều ngang trang** (x từ ~35 đến ~588 pt với khổ A4), chỉ xác
+     định biên trên–dưới. Cắt hẹp theo bề ngang hình vẽ sẽ mất tiêu đề bên phải.
    - **Giữ lại chính hình vẽ**: cắt bằng `tools/cat_hinh.py` vào
      `corpus/<loại>/<mã>/phu-luc/hinh/`, rồi chèn link tương đối kèm mô tả thay
      thế (alt text) nói rõ hình thể hiện gì:

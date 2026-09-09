@@ -18,6 +18,14 @@ văn không diễn đạt hết.
 Cắt thẳng từ PDF chứ không cắt từ ảnh trang đã render, nên nét vẽ giữ nguyên độ
 sắc ở bất kỳ dpi nào.
 
+QUAN TRỌNG — tiêu đề hình có thể nằm DƯỚI hình, nhưng cũng có thể nằm BÊN PHẢI
+(gặp ở QCVN 10:2024/BXD, các Hình 3, 8, 16). Vì vậy nên cắt trọn chiều ngang
+trang và chỉ xác định biên trên - dưới:
+
+    --vung 35,<y_trên>,588,<y_dưới>      # khổ A4 dọc (595 x 842 pt)
+
+Cắt bó sát theo bề ngang nét vẽ sẽ mất tiêu đề nằm bên phải.
+
 Sau khi cắt, chèn link vào file Markdown trong corpus/ theo đường dẫn tương đối
 so với chính file đó, kèm mô tả thay thế (alt text) nói rõ hình thể hiện gì:
 

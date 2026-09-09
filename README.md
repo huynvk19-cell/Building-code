@@ -9,9 +9,15 @@ khi một nghị định được sửa đổi, bạn commit bản mới và b�
 | Văn bản | Nội dung | Trạng thái |
 |---|---|---|
 | **Nghị định 212/2026/NĐ-CP** (17/6/2026) | Điều kiện năng lực hoạt động xây dựng; Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng | 58 Điều + 4 Phụ lục — đã số hóa đầy đủ |
+| **QCVN 10:2024/BXD** (01/8/2024) | Xây dựng công trình đảm bảo tiếp cận sử dụng cho người khuyết tật | 19 mục + 2 Phụ lục, **26 hình vẽ** — đã số hóa đầy đủ |
 | **QCVN 10:2025/BCA** (04/11/2025) | Trang bị, bố trí phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ cho nhà và công trình | 20 mục + 8 Phụ lục (A–H) — đã số hóa đầy đủ |
 
 - **NĐ 212/2026** hiệu lực từ **01/7/2026**, thay thế Nghị định 111/2024/NĐ-CP.
+> ⚠️ **Hai văn bản cùng mang số hiệu "QCVN 10"** nhưng khác cơ quan và khác nội
+> dung hoàn toàn. Khi trích dẫn phải ghi đủ đuôi `/BXD` (Bộ Xây dựng — tiếp cận
+> người khuyết tật) hay `/BCA` (Bộ Công an — phòng cháy chữa cháy).
+
+- **QCVN 10:2024/BXD** thay thế QCVN 10:2014/BXD; điều khoản chuyển tiếp ở mục 3.1.
 - **QCVN 10:2025/BCA** ban hành kèm Thông tư 103/2025/TT-BCA. Bản Quy chuẩn không
   chứa điều khoản hiệu lực — nội dung đó nằm trong Thông tư 103, **chưa có trong kho**.
 
@@ -35,6 +41,9 @@ corpus/                       Bản gốc (nguồn sự thật duy nhất)
     toan-van.md               Toàn văn 58 Điều
     muc-luc.md                Mục lục (sinh tự động)
     phu-luc/                  Phụ lục I–IV
+  quy-chuan/qcvn-10-2024-bxd/
+    toan-van.md               Phần 1–3
+    phu-luc/hinh/             26 hình vẽ cắt từ PDF gốc
   quy-chuan/qcvn-10-2025-bca/
     toan-van.md               Phần 1–4 (mục 1.1, 2.3.1…)
     phu-luc/                  Phụ lục A–H (các bảng tra cứu)

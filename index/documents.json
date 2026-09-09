@@ -19,6 +19,25 @@
     "so_chunk": 76
   },
   {
+    "doc_id": "qcvn-10-2024-bxd",
+    "so_hieu": "QCVN 10:2024/BXD",
+    "loai_van_ban": "Quy chuẩn kỹ thuật quốc gia",
+    "tieu_de": "Quy chuẩn kỹ thuật quốc gia về Xây dựng công trình đảm bảo tiếp cận sử dụng",
+    "co_quan_ban_hanh": "Bộ Xây dựng",
+    "ngay_ban_hanh": "2024-08-01",
+    "linh_vuc": [
+      "tiếp cận sử dụng",
+      "người khuyết tật",
+      "thiết kế công trình",
+      "đường và hè phố"
+    ],
+    "nguon": "Bản PDF ký số của Bộ Xây dựng ngày 01/8/2024",
+    "cau_truc": "muc",
+    "toan_van": "corpus/quy-chuan/qcvn-10-2024-bxd/toan-van.md",
+    "so_don_vi": 19,
+    "so_chunk": 22
+  },
+  {
     "doc_id": "qcvn-10-2025-bca",
     "so_hieu": "QCVN 10:2025/BCA",
     "loai_van_ban": "Quy chuẩn kỹ thuật quốc gia",
