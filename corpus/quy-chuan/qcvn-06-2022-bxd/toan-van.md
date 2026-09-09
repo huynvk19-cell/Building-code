@@ -533,3 +533,600 @@ Các yếu tố của đám cháy mà tác động của chúng có thể dẫn 
 Khi nhà được cấp phép ở điều kiện phải hạn chế về tải trọng cháy, về số người trong nhà hoặc trong bất kỳ phần nào của nhà, thì bên trong nhà phải đặt thông báo về những hạn chế này ở những nơi dễ thấy, còn bộ phận quản lý nhà phải thiết lập các biện pháp tổ chức riêng về phòng cháy chữa cháy và sơ tán người khi xảy ra cháy.
 
 **1.5.4** Khi phân tích tính nguy hiểm cháy của nhà, có thể sử dụng các tình huống tính toán dựa trên tương quan giữa các thông số: sự phát triển và lan truyền các yếu tố nguy hiểm của đám cháy, việc sơ tán người và tổ chức chữa cháy.
+
+---
+
+## 2 PHÂN LOẠI KỸ THUẬT VỀ CHÁY
+
+### 2.1 Phân nhóm vật liệu xây dựng theo tính nguy hiểm cháy
+
+#### 2.1.1 Mục đích phân nhóm
+
+**2.1.1.1** Việc phân nhóm chất và vật liệu xây dựng theo tính nguy hiểm cháy được thực hiện nhằm mục đích thiết lập các yêu cầu về an toàn cháy khi có chất và vật liệu, sử dụng, bảo quản và vận chuyển, chế biến và tiêu hủy.
+
+**2.1.1.2** Để thiết lập các yêu cầu về an toàn cháy đối với kết cấu nhà, công trình và các hệ thống bảo vệ chống cháy vật liệu xây dựng được phân nhóm theo tính nguy hiểm cháy.
+
+#### 2.1.2 Tiêu chí phân nhóm
+
+Tính nguy hiểm cháy của vật liệu xây dựng được xác định theo các đặc tính kỹ thuật về cháy:
+
+- Tính cháy;
+- Tính bắt cháy;
+- Tính lan truyền lửa trên bề mặt;
+- Khả năng sinh khói;
+- Độc tính.
+
+#### 2.1.3 Phân nhóm theo tính cháy
+
+**2.1.3.1** Theo tính cháy, vật liệu xây dựng được phân thành vật liệu không cháy và vật liệu cháy.
+
+**2.1.3.2** Vật liệu xây dựng không cháy là vật liệu có các chỉ tiêu về tính cháy (mức gia tăng nhiệt độ, mất khối lượng mẫu thử, thời gian kéo dài của ngọn lửa ổn định) khi thử nghiệm như trong B.1.1, Phụ lục B.
+
+Vật liệu xây dựng không cháy thì không quy định về tính nguy hiểm cháy và không xác định các chỉ tiêu khác (xem B.1.1, Phụ lục B).
+
+**2.1.3.3** Vật liệu xây dựng cháy được phân thành 4 nhóm:
+
+- Ch1 (cháy yếu);
+- Ch2 (cháy vừa phải);
+- Ch3 (cháy mạnh vừa);
+- Ch4 (cháy mạnh).
+
+Tính cháy và các nhóm của vật liệu xây dựng theo tính cháy được xác định theo B.1.2, Phụ lục B.
+
+#### 2.1.4 Phân nhóm theo tính bắt cháy
+
+Theo tính bắt cháy, vật liệu xây dựng cháy được phân thành 3 nhóm:
+
+- BC1 (khó bắt cháy);
+- BC2 (bắt cháy vừa phải);
+- BC3 (dễ bắt cháy).
+
+Nhóm vật liệu xây dựng theo tính bắt cháy được xác định theo B.1.3, Phụ lục B.
+
+#### 2.1.5 Phân nhóm theo tính lan truyền lửa
+
+Theo tính lan truyền lửa trên bề mặt, vật liệu xây dựng cháy được phân thành 4 nhóm:
+
+- LT1 (không lan truyền);
+- LT2 (lan truyền yếu);
+- LT3 (lan truyền vừa phải);
+- LT4 (lan truyền mạnh).
+
+Nhóm vật liệu xây dựng theo tính lan truyền lửa trên bề mặt được quy định cho lớp vật liệu bề mặt của mái và sàn, kể cả lớp thảm trải sàn, theo B.1.4, Phụ lục B.
+
+Đối với các vật liệu xây dựng khác, không xác định và không quy định việc phân nhóm về lan truyền lửa trên bề mặt.
+
+#### 2.1.6 Phân nhóm theo khả năng sinh khói
+
+Theo khả năng sinh khói, vật liệu xây dựng cháy được phân thành 3 nhóm:
+
+- SK1 (khả năng sinh khói thấp);
+- SK2 (khả năng sinh khói vừa phải);
+- SK3 (khả năng sinh khói cao).
+
+Nhóm vật liệu xây dựng theo khả năng sinh khói được xác định theo B.1.5, Phụ lục B.
+
+#### 2.1.7 Phân nhóm theo độc tính
+
+Theo độc tính của các sản phẩm cháy, vật liệu xây dựng cháy được phân thành 4 nhóm:
+
+- ĐT1 (độc tính thấp);
+- ĐT2 (độc tính vừa phải);
+- ĐT3 (độc tính cao);
+- ĐT4 (độc tính đặc biệt cao).
+
+Nhóm vật liệu xây dựng theo độc tính của các sản phẩm cháy được xác định theo B.1.6, Phụ lục B.
+
+#### 2.1.8 Phân cấp theo tính nguy hiểm cháy
+
+**2.1.8.1** Theo tính nguy hiểm cháy, vật liệu xây dựng được phân thành các cấp nguy hiểm cháy tăng dần từ CV0, CV1, CV2, CV3, CV4 đến CV5.
+
+> CHÚ THÍCH: Cấp nguy hiểm cháy của vật liệu xây dựng là chỉ tiêu tổng hợp của các nhóm nguy hiểm cháy của vật liệu nêu tại 2.1.2.
+
+**2.1.8.2** Cấp nguy hiểm cháy của vật liệu xây dựng được xác định theo B.1.7, Phụ lục B.
+
+### 2.2 Cấu kiện xây dựng
+
+#### 2.2.1 Mục đích phân loại
+
+**2.2.1.1** Cấu kiện xây dựng được phân loại theo tính chịu lửa và tính nguy hiểm cháy.
+
+**2.2.1.2** Cấu kiện xây dựng được phân loại theo tính chịu lửa để xác định khả năng sử dụng chúng trong nhà, công trình và khoang cháy có bậc chịu lửa nhất định hoặc để xác định bậc chịu lửa của nhà, công trình và khoang cháy.
+
+**2.2.1.3** Cấu kiện xây dựng được phân loại theo tính nguy hiểm cháy để xác định mức độ tham gia của chúng vào sự phát triển đám cháy và khả năng hình thành các yếu tố nguy hiểm của đám cháy.
+
+#### 2.2.2 Phân loại cấu kiện xây dựng theo tính chịu lửa
+
+**2.2.2.1** Các cấu kiện xây dựng của nhà và công trình, phụ thuộc vào khả năng của chúng chống lại tác động của đám cháy và sự lan truyền các yếu tố nguy hiểm cháy của đám cháy trong điều kiện thử nghiệm tiêu chuẩn, được phân thành các cấu kiện xây dựng với các giới hạn chịu lửa như sau:
+
+- Không quy định;
+- Không nhỏ hơn 15 min;
+- Không nhỏ hơn 30 min;
+- Không nhỏ hơn 45 min;
+- Không nhỏ hơn 60 min;
+- Không nhỏ hơn 90 min;
+- Không nhỏ hơn 120 min;
+- Không nhỏ hơn 150 min;
+- Không nhỏ hơn 180 min;
+- Không nhỏ hơn 240 min.
+
+**2.2.2.2** Giới hạn chịu lửa của cấu kiện xây dựng được xác định trong điều kiện thử nghiệm tiêu chuẩn. Thời điểm đạt tới giới hạn chịu lửa của các cấu kiện chịu lực và bao che trong điều kiện thử nghiệm tiêu chuẩn hoặc theo kết quả tính toán được xác định theo thời gian đạt tới một hoặc một số dấu hiệu nối tiếp nhau của các trạng thái giới hạn:
+
+- Mất khả năng chịu lực (ký hiệu bằng chữ **R**);
+- Mất tính toàn vẹn (ký hiệu bằng chữ **E**);
+- Mất khả năng cách nhiệt (ký hiệu bằng chữ **I**) do nhiệt độ ở bề mặt không đốt nóng tăng đến giá trị giới hạn;
+- Mất khả năng hạn chế bức xạ nhiệt (ký hiệu bằng chữ **W**) do thông lượng nhiệt ở khoảng cách quy định từ bề mặt không bị đốt nóng của cấu kiện/kết cấu đạt tới giá trị giới hạn.
+
+> CHÚ THÍCH 1: Giới hạn chịu lửa của cấu kiện xây dựng được xác định bằng thử nghiệm chịu lửa theo TCVN 9311-1 đến TCVN 9311-8 hoặc các tiêu chuẩn tương đương hoặc bằng tính toán theo tiêu chuẩn thiết kế chịu lửa được áp dụng.
+>
+> Giới hạn chịu lửa của các ống dẫn khói, không khí được xác định theo tiêu chuẩn ISO 6944 hoặc các tiêu chuẩn tương đương.
+
+> CHÚ THÍCH 2: Giới hạn chịu lửa yêu cầu của các cấu kiện xây dựng cụ thể được quy định trong quy chuẩn này và trong các quy chuẩn kỹ thuật cho từng loại công trình. Giới hạn chịu lửa yêu cầu của cấu kiện xây dựng được ký hiệu bằng REI, REW, EI, EW, EIW, RE hoặc R kèm theo các chỉ số tương ứng về thời gian chịu tác động của lửa tính bằng phút. Ví dụ: cấu kiện có giới hạn chịu lửa yêu cầu là REI 120 nghĩa là cấu kiện phải duy trì được đồng thời cả ba khả năng: chịu lực, toàn vẹn và cách nhiệt trong khoảng thời gian chịu tác động của lửa là 120 phút; Cấu kiện có giới hạn chịu lửa yêu cầu là R 60, thì cấu kiện chỉ phải duy trì khả năng chịu lực trong thời gian 60 phút, không yêu cầu về khả năng cách nhiệt và tính toàn vẹn.
+>
+> CHÚ THÍCH 3: Một cấu kiện xây dựng được cho là bảo đảm yêu cầu về giới hạn chịu lửa nếu thỏa mãn một trong các điều kiện sau:
+>
+> a) Cấu kiện có cấu tạo với đặc điểm kỹ thuật giống như mẫu thử nghiệm chịu lửa và mẫu này khi thử nghiệm có giới hạn chịu lửa không nhỏ hơn giới hạn chịu lửa yêu cầu của cấu kiện đó.
+>
+> b) Giới hạn chịu lửa của cấu kiện được xác định bằng tính toán theo tiêu chuẩn thiết kế chịu lửa áp dụng không nhỏ hơn giới hạn chịu lửa yêu cầu của cấu kiện đó.
+>
+> c) Cấu kiện có cấu tạo với đặc điểm kỹ thuật phù hợp với cấu kiện nêu trong Phụ lục F mà giới hạn chịu lửa danh định tương ứng cho trong phụ lục này không nhỏ hơn giới hạn chịu lửa yêu cầu của cấu kiện đó.
+
+#### 2.2.3 Phân cấp cấu kiện xây dựng theo tính nguy hiểm cháy
+
+**2.2.3.1** Theo tính nguy hiểm cháy, cấu kiện xây dựng được phân thành 4 cấp:
+
+- K0 (không nguy hiểm cháy);
+- K1 (ít nguy hiểm cháy);
+- K2 (nguy hiểm cháy vừa phải);
+- K3 (nguy hiểm cháy).
+
+**2.2.3.2** Giá trị các tiêu chí để xếp cấu kiện xây dựng vào một cấp nguy hiểm cháy nhất định được xác định phù hợp với các phương pháp nêu trong các tiêu chuẩn quốc gia (hoặc tương đương) về thử nghiệm an toàn cháy.
+
+> CHÚ THÍCH 1: Cho phép xếp cấu kiện xây dựng vào cấp nguy hiểm cháy mà không cần thử nghiệm như sau:
+>
+> a) Cấp K0 – nếu cấu kiện được chế tạo chỉ từ vật liệu không cháy;
+>
+> b) Cấp K1 – nếu bề mặt ngoài của cấu kiện được cấu tạo từ vật liệu có đồng thời các chỉ tiêu kỹ thuật về cháy không nguy hiểm hơn Ch1, BC1, SK1;
+>
+> c) Cấp K2 – nếu bề mặt ngoài của cấu kiện được cấu tạo từ vật liệu có đồng thời các chỉ tiêu kỹ thuật về cháy không nguy hiểm hơn Ch2, BC2, SK2;
+>
+> d) Cấp K3 – nếu bề mặt ngoài của cấu kiện được cấu tạo chỉ từ các vật liệu có một trong các chỉ tiêu kỹ thuật về cháy là Ch3, BC3, SK3;
+>
+> CHÚ THÍCH 2: Cấu kiện tường kính bao che (facad) được coi là cấu kiện có cấp nguy hiểm cháy K0, nếu các bộ phận của nó (bao gồm cả bộ phận liên kết với nhà) được làm từ vật liệu không cháy. Cho phép không xét đến các mạch chèn bịt và lớp phủ mặt ngoài có chiều dày nhỏ hơn 0,3 mm (nếu có).
+
+### 2.3 Bộ phận ngăn cháy
+
+#### 2.3.1 Mục đích phân loại
+
+Bộ phận ngăn cháy được phân loại theo biện pháp ngăn chặn lan truyền các yếu tố nguy hiểm cháy, cũng như theo tính chịu lửa để lựa chọn kết cấu xây dựng và bộ phận chèn bịt lỗ mở của bộ phận ngăn cháy với giới hạn chịu lửa cần thiết và cấp nguy hiểm cháy.
+
+#### 2.3.2 Phân loại bộ phận ngăn cháy
+
+**2.3.2.1** Các bộ phận ngăn cháy gồm tường ngăn cháy, vách ngăn cháy và sàn ngăn cháy, được phân thành các loại như Bảng 1.
+
+> CHÚ THÍCH: Ngoài các bộ phận ngăn cháy đó, để ngăn chặn sự lan truyền đám cháy còn có các biện pháp dùng: màn ngăn cháy; màn nước ngăn cháy; khoảng cách phòng cháy chống cháy; khoảng không gian không có tải trọng cháy.
+
+**2.3.2.2** Các bộ phận chèn bịt lỗ mở của bộ phận ngăn cháy (cửa đi ngăn cháy, cửa nắp, van ngăn cháy, cửa sổ, màn ngăn cháy) phụ thuộc vào giới hạn chịu lửa của phần ngăn cách của chúng được phân thành các loại như Bảng 2.
+
+> CHÚ THÍCH: Giới hạn chịu lửa của các van ngăn cháy của các hệ thống phân phối không khí xác định theo ISO 10294 hoặc các tiêu chuẩn tương đương. Giới hạn chịu lửa của cửa đi, cửa sổ và cửa chắn xác định theo TCVN 9383 hoặc các tiêu chuẩn tương đương.
+
+**2.3.2.3** Các khoang đệm ngăn cháy bố trí trong lỗ mở của bộ phận ngăn cháy phụ thuộc vào loại bộ phận cấu thành khoang đệm ngăn cháy được phân thành khoang đệm ngăn cháy loại 1 và loại 2.
+
+#### 2.3.3 Yêu cầu đối với bộ phận ngăn cháy
+
+**2.3.3.1** Bộ phận ngăn cháy được dùng để ngăn cản đám cháy và các sản phẩm cháy lan truyền từ một khoang cháy hoặc từ một gian phòng có đám cháy tới các gian phòng khác.
+
+**2.3.3.2** Bộ phận ngăn cháy được đặc trưng bằng tính chịu lửa và tính nguy hiểm cháy.
+
+Tính chịu lửa của một bộ phận ngăn cháy được xác định bằng tính chịu lửa của các bộ phận cấu thành ra nó, bao gồm:
+
+- Phần ngăn cách (tấm vách, tấm tường, tấm sàn và các bộ phận tương tự);
+- Cấu kiện giữ ổn định cho phần ngăn cách (khung, giằng và các cấu kiện tương tự);
+- Cấu kiện đỡ phần ngăn cách (dầm đỡ, sườn đỡ, tường đỡ và các bộ phận tương tự);
+- Các nút liên kết giữa chúng.
+
+Giới hạn chịu lửa theo trạng thái mất khả năng chịu lực (R) của cấu kiện giữ ổn định cho phần ngăn cách, của cấu kiện đỡ phần ngăn cách và của các nút liên kết giữa chúng không được thấp hơn giới hạn chịu lửa yêu cầu đối với phần ngăn cách.
+
+Tính nguy hiểm cháy của bộ phận ngăn cháy được xác định bằng tính nguy hiểm cháy của phần ngăn cách cùng với các chi tiết liên kết và của các cấu kiện giữ ổn định cho phần ngăn cách.
+
+**2.3.3.3** Giới hạn chịu lửa và loại cấu kiện xây dựng thực hiện chức năng bộ phận ngăn cháy, các loại bộ phận chèn bịt tương ứng với chúng và các khoang đệm ngăn cháy được quy định tại Bảng 1.
+
+**2.3.3.4** Bộ phận ngăn cháy loại 1 phải có cấp nguy hiểm cháy K0. Trong các trường hợp riêng, cho phép sử dụng cấp nguy hiểm cháy K1 trong các bộ phận ngăn cháy loại 2 đến loại 4.
+
+**2.3.3.5** Giới hạn chịu lửa đối với các loại bộ phận chèn bịt lỗ mở tương ứng của bộ phận ngăn cháy được quy định tại Bảng 2.
+
+**Bảng 1 – Giới hạn chịu lửa và loại cấu kiện xây dựng thực hiện chức năng bộ phận ngăn cháy, các loại bộ phận chèn bịt tương ứng với chúng và các khoang đệm ngăn cháy**
+
+| Bộ phận ngăn cháy | Loại bộ phận ngăn cháy | Giới hạn chịu lửa của bộ phận ngăn cháy | Loại bộ phận chèn bịt lỗ mở của bộ phận ngăn cháy | Loại khoang đệm ngăn cháy |
+|---|---|---|---|---|
+| 1. Tường ngăn cháy | 1 | REI 150 | 1 | 1 |
+| | 2 | REI 45 | 2 | 2 |
+| 2. Vách ngăn cháy | 1 | EI 45 | 2 | 1 |
+| | 2 | EI 15 | 3 | 2 |
+| 3. Vách ngăn cháy có diện tích kính lớn hơn 25 % diện tích vách | 1 | EIW 45 ^1)^ | 2 | 1 |
+| | 2 | EIW 15 ^1)^ | 3 | 2 |
+| 4. Sàn ngăn cháy | 1 | REI 150 | 1 | 1 |
+| | 2 | REI 60 | 2 | 1 |
+| | 3 | REI 45 | 2 | 1 |
+| | 4 | REI 15 | 3 | 2 |
+
+> ^1)^ Đối với phần vật liệu khác kính áp dụng chỉ tiêu EI, đối với phần kính áp dụng chỉ tiêu EW. Các vách ngăn cháy đã thử nghiệm đạt chỉ tiêu EI đối với cả phần kính được xem là đạt chỉ tiêu EW.
+
+**Bảng 2 – Giới hạn chịu lửa của các bộ phận chèn bịt của bộ phận ngăn cháy**
+
+| Các bộ phận chèn bịt lỗ mở của bộ phận ngăn cháy | Loại bộ phận chèn bịt của bộ phận ngăn cháy | Giới hạn chịu lửa |
+|---|---|---|
+| 1. Cửa đi (trừ: cửa đi có tỉ lệ diện tích kính lớn hơn 25 % diện tích cửa đi; cửa kín khói), cửa nắp, van ngăn cháy ^1)^, màn ngăn cháy | 1 | EI 60 |
+| | 2 | EI 30 |
+| | 3 | EI 15 |
+| 2. Cửa đi có tỉ lệ diện tích kính lớn hơn 25 % diện tích cửa đi | 1 | EIW 60 ^2)^ |
+| | 2 | EIW 30 ^2)^ |
+| | 3 | EIW 15 ^2)^ |
+| 3. Cửa giếng thang máy (khi có yêu cầu về giới hạn chịu lửa) | 2 | E 30 |
+| 4. Cửa sổ | 1 | E 60 |
+| | 2 | E 30 |
+| | 3 | E 15 |
+
+> ^1)^ Giới hạn chịu lửa của van ngăn cháy được phép chỉ lấy theo tính toàn vẹn (E) nếu những van này lắp đặt bên trong các kênh, giếng và đường ống dẫn mà bảo đảm được khả năng chịu lửa yêu cầu đối với cả tính toàn vẹn (E) và tính cách nhiệt (I).
+>
+> ^2)^ Đối với phần vật liệu khác kính áp dụng chỉ tiêu EI, đối với phần kính áp dụng chỉ tiêu EW. Các cửa đi đã thử nghiệm đạt chỉ tiêu EI đối với cả phần kính được xem là đạt chỉ tiêu EW.
+
+**2.3.3.6** Yêu cầu đối với các bộ phận của khoang đệm ngăn cháy các loại được quy định tại Bảng 3.
+
+> CHÚ THÍCH: Khi trong bộ phận ngăn cháy có các cửa đi, cửa nắp, van, cửa sổ, màn chắn, hay khi ở vị trí các cửa đó có bố trí khoang đệm ngăn cháy thì cửa, van ngăn cháy và khoang đệm ngăn cháy phải được chọn loại cũng có khả năng ngăn cháy phù hợp với loại của bộ phận ngăn cháy theo quy định tại Bảng 1.
+
+**Bảng 3 – Yêu cầu đối với các bộ phận của khoang đệm ngăn cháy**
+
+| Loại khoang đệm ngăn cháy | Vách ngăn | Sàn | Bộ phận chèn bịt lỗ mở |
+|---|---|---|---|
+| 1 | 1 | 3 | 2 |
+| 2 | 2 | 4 | 3 |
+
+*(Ba cột bên phải đều thuộc nhóm "Loại bộ phận của khoang đệm ngăn cháy".)*
+
+### 2.4 Cầu thang bộ và buồng thang bộ
+
+#### 2.4.1 Mục đích phân loại
+
+Cầu thang bộ và buồng thang bộ được phân loại nhằm mục đích để xác định các yêu cầu đối với chúng về giải pháp mặt bằng - không gian và giải pháp kết cấu, cũng như để thiết lập các yêu cầu đối với việc sử dụng chúng trên đường thoát nạn cho người.
+
+#### 2.4.2 Phân loại cầu thang bộ
+
+**2.4.2.1** Cầu thang và buồng thang bộ dùng để thoát nạn cho người từ nhà và công trình khi có cháy được phân thành các loại sau:
+
+- **Loại 1** – cầu thang bên trong nhà, được đặt trong buồng thang;
+- **Loại 2** – cầu thang bên trong nhà, để hở;
+- **Loại 3** – cầu thang bên ngoài nhà, để hở.
+
+> CHÚ THÍCH 1: "Để hở" nghĩa là không được đặt trong buồng thang bộ.
+>
+> CHÚ THÍCH 2: Một số hình minh họa về các loại cầu thang bộ được thể hiện tại Phụ lục I.
+
+**2.4.2.2** Thang chữa cháy để phục vụ cho việc chữa cháy và cứu nạn được phân thành 2 loại sau:
+
+- **P1** – thang đứng;
+- **P2** – thang bậc với độ nghiêng không quá 6:1 (không quá 80°).
+
+#### 2.4.3 Phân loại buồng thang bộ
+
+**2.4.3.1** Các buồng thang bộ thoát nạn được phân thành các loại sau phụ thuộc vào mức độ được bảo vệ chống nhiễm khói khi có cháy:
+
+- Buồng thang bộ thông thường;
+- Buồng thang bộ không nhiễm khói.
+
+> CHÚ THÍCH: Một số hình minh họa về các loại buồng thang bộ được thể hiện tại Phụ lục I.
+
+**2.4.3.2** Các loại buồng thang bộ thông thường được phân thành các loại:
+
+- **L1** – được chiếu sáng tự nhiên qua các lỗ cửa (để hở hoặc lắp kính) ở tường ngoài trên mỗi tầng hoặc không được chiếu sáng tự nhiên trong trường hợp nếu chúng được dành cho thoát nạn chỉ từ các gian phòng của tầng nửa hầm;
+- **L2** – được chiếu sáng tự nhiên qua các lỗ (để hở hoặc lắp kính) ở trên mái.
+
+**2.4.3.3** Các buồng thang bộ không nhiễm khói được phân thành các loại sau, phụ thuộc vào biện pháp bảo vệ chống nhiễm khói khi có cháy:
+
+- **N1** – buồng thang bộ có lối vào buồng thang từ mỗi tầng qua một vùng đệm không khí không nhiễm khói theo các đường đi chuyển tiếp hở (xem phần 3 về một số trường hợp buồng thang loại N1);
+
+> CHÚ THÍCH: Cho phép thay thế buồng thang bộ N1 bằng buồng thang bộ có lối vào buồng thang từ mỗi tầng đi qua khoang đệm. Cả khoang đệm và buồng thang bộ phải có áp suất không khí dương khi có cháy. Việc cấp không khí vào khoang đệm và vào buồng thang bộ là độc lập với nhau.
+
+- **N2** – buồng thang bộ có áp suất không khí dương (áp suất không khí trong buồng thang cao hơn bên ngoài buồng thang) trong buồng thang bộ khi có cháy;
+- **N3** – buồng thang bộ có lối vào buồng thang bộ từ mỗi tầng qua khoang đệm ngăn cháy luôn có áp suất không khí dương (áp suất không khí dương trong khoang đệm ngăn cháy là thường xuyên hoặc khi có cháy).
+
+### 2.5 Nhà, công trình, khoang cháy
+
+#### 2.5.1 Mục đích phân loại
+
+Việc phân loại kỹ thuật về cháy cho nhà, công trình và khoang cháy nhằm thiết lập các yêu cầu an toàn cháy đối với các hệ thống phòng cháy chống cháy cho nhà, công trình phụ thuộc vào công năng (mục đích sử dụng) và tính nguy hiểm cháy của chúng.
+
+#### 2.5.2 Tiêu chí phân loại
+
+Việc phân loại kỹ thuật về cháy cho nhà, công trình, khoang cháy được thực hiện có kể đến các tiêu chí sau:
+
+- Bậc chịu lửa;
+- Cấp nguy hiểm cháy kết cấu;
+- Nhóm nguy hiểm cháy theo công năng.
+
+#### 2.5.3 Phân bậc chịu lửa của nhà, công trình, khoang cháy
+
+**2.5.3.1** Nhà, công trình, khoang cháy được phân thành 5 bậc chịu lửa I, II, III, IV, V.
+
+**2.5.3.2** Thiết lập bậc chịu lửa của nhà, công trình, khoang cháy
+
+Bậc chịu lửa của nhà, công trình, khoang cháy được thiết lập phụ thuộc vào số tầng (hoặc chiều cao PCCC của nhà), nhóm nguy hiểm cháy theo công năng, diện tích khoang cháy (xem Phụ lục H) và tính nguy hiểm cháy của các quá trình công nghệ diễn ra trong nhà, công trình, khoang cháy.
+
+**2.5.3.3** Giới hạn chịu lửa cần thiết của kết cấu xây dựng phải được lựa chọn phù hợp với bậc chịu lửa đã chọn của nhà, công trình và khoang cháy. Trừ những trường hợp được quy định riêng trong quy chuẩn này, sự phù hợp giữa bậc chịu lửa của nhà, công trình và khoang cháy với giới hạn chịu lửa của kết cấu xây dựng của chúng được quy định tại Bảng 4.
+
+**Bảng 4 – Sự phù hợp giữa bậc chịu lửa của nhà, công trình và khoang cháy với giới hạn chịu lửa của cấu kiện xây dựng của nhà, công trình và khoang cháy**
+
+*Giới hạn chịu lửa của cấu kiện, không nhỏ hơn:*
+
+| Bậc chịu lửa của nhà, công trình và khoang cháy | Tường chịu lực, cột chịu lực và các bộ phận chịu lực khác | Tường ngoài không chịu lực | Sàn tầng (bao gồm cả sàn tầng áp mái và sàn trên tầng hầm) | Kết cấu mái không có tầng áp mái — Tấm lợp (kể cả tấm lợp có lớp cách nhiệt) | Kết cấu mái không có tầng áp mái — Giàn, dầm, xà gồ | Buồng thang bộ — Tường trong | Buồng thang bộ — Bản thang và chiếu thang |
+|---|---|---|---|---|---|---|---|
+| **I** | R 120 | E 30 | REI 60 | RE 30 | R 30 | REI 120 | R 60 |
+| **II** | R 90 | E 15 | REI 45 | RE 15 | R 15 | REI 90 | R 60 |
+| **III** | R 45 | E 15 | REI 45 | RE 15 | R 15 | REI 60 | R 45 |
+| **IV** | R 15 | E 15 | REI 15 | RE 15 | R 15 | REI 45 | R 15 |
+| **V** | Không quy định | Không quy định | Không quy định | Không quy định | Không quy định | Không quy định | Không quy định |
+
+> CHÚ THÍCH 1: Trong các nhà có bậc chịu lửa I, II, III thì sàn và trần của tầng hầm, tầng nửa hầm phải làm bằng vật liệu không cháy và có giới hạn chịu lửa ít nhất REI 90. Sàn tầng 1 và tầng trên cùng phải làm bằng vật liệu có tính cháy không thấp hơn Ch1. Trong các nhà có bậc chịu lửa IV, V thì sàn của tầng hầm hoặc tầng nửa hầm phải làm bằng vật liệu có tính cháy không thấp hơn Ch1 và có giới hạn chịu lửa không dưới REI 45.
+>
+> CHÚ THÍCH 2: Không quy định giới hạn chịu lửa của các tấm lợp (kể cả tấm lợp có lớp cách nhiệt) và xà gồ đỡ tấm lợp (trừ các nhà, khoang cháy, gian phòng thuộc nhóm nguy hiểm cháy theo công năng F3.1, F3.2, nhà sản xuất, nhà kho nhóm F5 và các nhà, gian phòng, khoang cháy khác thuộc hạng A, B, C) khi thỏa mãn đồng thời các điều kiện sau:
+>
+> – Mặt dưới xà gồ nằm cách sàn ngay dưới chúng một khoảng cách tối thiểu 6,1 m;
+>
+> – Tấm lợp và xà gồ được làm từ các vật liệu không cháy hoặc cháy yếu (Ch1).
+>
+> CHÚ THÍCH 3: Đối với nhà (nhà nhóm F1.3 và nhà hỗn hợp) có 2 hoặc 3 tầng hầm thì các cấu kiện, kết cấu chịu lực ở tầng hầm phải có giới hạn chịu lửa tối thiểu R 120.
+>
+> CHÚ THÍCH 4: Trong các phòng có sản xuất hoặc bảo quản các chất lỏng cháy được thì sàn phải làm bằng vật liệu không cháy.
+>
+> CHÚ THÍCH 5: Cho phép một phần tường ngoài không chịu lực không cần bảo vệ chống cháy với diện tích xác định theo E.3, Phụ lục E.
+>
+> CHÚ THÍCH 6: Không quy định giới hạn chịu lửa của tường ngoài không chịu lực đối với các mặt nhà đồng thời thỏa mãn các điều kiện sau:
+>
+> – Toàn nhà được trang bị chữa cháy tự động sprinkler theo TCVN 7336;
+>
+> – Bảo đảm khoảng cách phòng cháy chống cháy tối thiểu tương ứng với 100 % diện tích tường ngoài không cần bảo vệ chống cháy tại E.3, Phụ lục E;
+>
+> – Tường ngoài không chịu lực của nhà có cấp nguy hiểm cháy K0. Vật liệu hoàn thiện tường ngoài (nếu có) là vật liệu không cháy hoặc có tính cháy không thấp hơn Ch1 và tính lan truyền cháy không thấp hơn LT1.
+
+Tường chịu lực, cột chịu lực, hệ giằng, vách cứng, giàn, các bộ phận của sàn giữa các tầng và của mái không có tầng áp mái (dầm, vì kèo, xà, tấm sàn, tấm lợp) được coi là các bộ phận chịu lực của nhà nếu chúng bảo đảm độ bền tổng thể và sự ổn định không gian cho nhà khi có cháy.
+
+Thông tin về các bộ phận chịu lực nêu trên của nhà phải được đơn vị thiết kế chỉ rõ trong tài liệu kỹ thuật của nhà.
+
+Không quy định giới hạn chịu lửa và cấp nguy hiểm cháy của các cấu kiện kết cấu mái có tầng áp mái trong các nhà với mọi bậc chịu lửa. Không quy định giới hạn chịu lửa của kết cấu đầu hồi tầng áp mái, trong trường hợp này thì đầu hồi tầng áp mái phải có cấp nguy hiểm cháy tương đương với cấp nguy hiểm cháy của tường bao che nhà. Các cấu kiện, kết cấu thuộc các bộ phận của mái có tầng áp mái phải được đơn vị thiết kế chỉ dẫn trong tài liệu kỹ thuật của nhà.
+
+Không quy định giới hạn chịu lửa đối với bộ phận chèn bịt lỗ mở (cửa, cửa sổ, cửa nắp), cửa trời trên mái, cửa lấy sáng trên mái, và các tấm lợp mái lấy sáng, ngoại trừ các bộ phận chèn bịt lỗ mở trên các bộ phận ngăn cháy và các trường hợp được nói riêng.
+
+Khi giới hạn chịu lửa tối thiểu của các cấu kiện được yêu cầu là R 15 (RE 15, REI 15) thì cho phép sử dụng các kết cấu thép không bọc bảo vệ nếu giới hạn chịu lửa của chúng theo kết quả thử nghiệm hoặc theo tính toán từ R 8 trở lên, hoặc hệ số tiết diện A~m~/V nhỏ hơn hoặc bằng 250 m^-1^.
+
+> CHÚ THÍCH: Hệ số tiết diện A~m~/V xác định theo ISO 834-10 hoặc các tiêu chuẩn tương đương.
+
+Trong các buồng thang bộ không nhiễm khói loại N1 được phép sử dụng các bản thang và các chiếu thang với giới hạn chịu lửa R 15 và có cấp nguy hiểm cháy K0.
+
+Các khoang cháy được ngăn chia bởi các tường ngăn cháy loại 1 và (hoặc) sàn ngăn cháy loại 1. Cho phép ngăn chia khoang cháy theo phương đứng bằng tầng kỹ thuật được ngăn cách với các tầng liền kề bằng các sàn ngăn cháy loại 2, nếu các tường ngăn cháy loại 1 không lệch khỏi trục chính. Cho phép phân chia khoang cháy trong các nhà có bậc chịu lửa IV và V bằng các tường ngăn cháy loại 2.
+
+#### 2.5.4 Phân cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy
+
+**2.5.4.1** Nhà, công trình và khoang cháy được phân thành 4 cấp nguy hiểm cháy kết cấu S0, S1, S2 và S3 theo tính nguy hiểm cháy của cấu kiện xây dựng.
+
+**2.5.4.2** Thiết lập cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy
+
+Cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy được thiết lập phụ thuộc vào số tầng, nhóm nguy hiểm cháy theo công năng, diện tích khoang cháy và tính nguy hiểm cháy của các quá trình công nghệ diễn ra trong nhà, công trình và khoang cháy đó.
+
+**2.5.4.3** Sự phù hợp giữa cấp nguy hiểm cháy kết cấu của nhà và cấp nguy hiểm cháy của cấu kiện xây dựng
+
+Cấp nguy hiểm cháy của cấu kiện xây dựng phải phù hợp với cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy. Sự phù hợp giữa cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy với cấp nguy hiểm cháy đã lựa chọn của kết cấu xây dựng của chúng được quy định tại Bảng 5.
+
+**2.5.4.4** Không quy định về cấp nguy hiểm cháy đối các với bộ phận chèn bịt lỗ thông trên kết cấu bao che của nhà (cửa, cửa sổ, cửa nắp), cửa trời trên mái, cửa lấy sáng trên mái, trừ các bộ phận chèn bịt lỗ mở trong bộ phận ngăn cháy.
+
+> CHÚ THÍCH: Khi áp dụng vào thực tế xây dựng các kết cấu hoặc hệ kết cấu mà không thể xác định được giới hạn chịu lửa hoặc cấp nguy hiểm cháy của chúng trên cơ sở các thử nghiệm chịu lửa tiêu chuẩn hoặc theo tính toán thì cần tiến hành thử nghiệm chịu lửa trên các bộ phận của kết cấu hoặc hệ kết cấu đó theo tài liệu chuẩn được lựa chọn áp dụng.
+
+**Bảng 5 – Sự phù hợp giữa cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy với cấp nguy hiểm cháy của cấu kiện xây dựng**
+
+| Cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy | Các bộ phận chịu lực dạng thanh (cột, xà, giàn và tương tự) | Tường ngoài từ phía ngoài | Tường, vách ngăn, sàn giữa các tầng, và mái không có tầng áp mái | Tường của buồng thang bộ; bộ phận ngăn cháy | Bản thang và chiếu thang trong buồng thang bộ |
+|---|---|---|---|---|---|
+| **S0** | K0 | K0 | K0 | K0 | K0 |
+| **S1** | K1 | K2 | K1 | K0 | K0 |
+| **S2** | K3 | K3 | K2 | K1 | K1 |
+| **S3** | Không quy định | Không quy định | Không quy định | K1 | K3 |
+
+#### 2.5.5 Phân nhóm nguy hiểm cháy theo công năng đối với nhà, công trình, khoang cháy và gian phòng
+
+**2.5.5.1** Nhà và các phần của nhà (khoang cháy, các gian phòng hoặc nhóm các gian phòng có công năng liên quan với nhau) được phân thành các nhóm nguy hiểm cháy theo công năng tùy thuộc vào đặc điểm sử dụng chúng, vào mức đe dọa tới sự an toàn của người trong trường hợp xảy ra đám cháy có tính đến: lứa tuổi, trạng thái thể chất, khả năng có người đang ngủ, nhóm người sử dụng theo công năng chính và số người của nhóm đó. Phân nhóm nguy hiểm cháy theo công năng được quy định tại Bảng 6.
+
+**2.5.5.2** Các gian phòng sản xuất và các gian phòng kho, kể cả các phòng thí nghiệm và nhà xưởng có diện tích trên 50 m², các gian phòng chuẩn bị đồ ăn có thiết bị đun nấu có công suất trên 10 kW trong các nhà thuộc nhóm F1, F2, F3 và F4, được xếp vào nhóm F5.
+
+**2.5.5.3** Trong các nhà có nhóm nguy hiểm cháy theo công năng nhất định, mà trong trường hợp chung cho phép bố trí nhóm các gian phòng và các gian phòng có nhóm nguy hiểm cháy theo công năng khác, thì ngoài việc tuân theo các yêu cầu chung của quy chuẩn này, còn phải bảo đảm các điều kiện bổ sung theo các tiêu chuẩn thiết kế các dạng cụ thể của nhà và các thiết bị kỹ thuật tương ứng đó.
+
+**Bảng 6 – Phân nhóm nhà ^1)^ dựa trên tính nguy hiểm cháy theo công năng**
+
+| Nhóm | Mục đích sử dụng | Đặc điểm sử dụng |
+|---|---|---|
+| **F1** | **Nhà để ở thường xuyên hoặc tạm thời (trong đó có cả để ở suốt ngày đêm)** | Các gian phòng trong nhà này thường được sử dụng cả ngày và đêm. Nhóm người trong đó có thể gồm nhiều lứa tuổi và trạng thái thể chất khác nhau. Đặc trưng của các nhà này là có các phòng ngủ. |
+| F1.1 | Nhà trẻ, trường mẫu giáo, mầm non; bệnh viện (không bao gồm bệnh viện dã chiến), khối nhà điều trị nội trú của cơ sở phòng chống dịch bệnh, phòng khám đa khoa, chuyên khoa, nhà hộ sinh; nhà chuyên dùng cho người cao tuổi và người khuyết tật (không phải nhà căn hộ), nhà dưỡng lão; khối nhà ngủ của các trường nội trú và của các cơ sở cho trẻ em; và các nhà có đặc điểm sử dụng tương tự. | |
+| F1.2 | Khách sạn, nhà khách, nhà nghỉ, nhà trọ; ký túc xá, nhà ở tập thể; khối nhà ngủ của các cơ sở điều dưỡng, nghỉ dưỡng, phục hồi chức năng, chỉnh hình; và các cơ sở lưu trú khác có đặc điểm sử dụng tương tự. | |
+| F1.3 | Nhà chung cư; và các nhà có đặc điểm sử dụng tương tự. | |
+| F1.4 | Nhà ở riêng lẻ; và các nhà có đặc điểm tương tự. | |
+| **F2** | **Nhà của các cơ sở văn hoá, thể thao** | Các gian phòng chính trong các nhà này được đặc trưng bởi số lượng lớn khách lưu lại trong một khoảng thời gian nhất định. |
+| F2.1 | Nhà hát, rạp chiếu phim, rạp xiếc, phòng hoà nhạc; câu lạc bộ, hộp đêm, vũ trường, quán bar, phòng hát, nhà kinh doanh karaoke và các cơ sở tương tự khác trong các gian phòng kín; các công trình thể thao có khán đài, nhà thi đấu, cung thể thao trong nhà; thư viện; trung tâm hội nghị, tổ chức sự kiện không bao gồm dịch vụ ăn uống; và các nhà khác có đặc điểm sử dụng tương tự với số lượng chỗ ngồi tính toán cho người trong các gian phòng kín. | |
+| F2.2 | Nhà bảo tàng, triển lãm; phòng nhảy; khối nhà của các công trình vui chơi giải trí, thủy cung; và các nhà có đặc điểm sử dụng tương tự. | |
+| F2.3 | Nhà của các cơ sở được đề cập ở F2.1 nhưng hở ra ngoài trời, công viên giải trí; và các nhà có đặc điểm sử dụng tương tự. | |
+| F2.4 | Nhà của các cơ sở được đề cập ở F2.2 nhưng hở ra ngoài trời. | |
+| **F3** | **Nhà của các cơ sở thương mại, kinh doanh và dịch vụ dân cư** | Các gian phòng của các nhà này được đặc trưng bởi số lượng khách lớn hơn so với nhân viên phục vụ. |
+| F3.1 | Nhà của cơ sở bán hàng, phòng trưng bày các sản phẩm hàng hóa, nhà hội chợ, trung tâm thương mại, điện máy, siêu thị, cửa hàng bách hóa, cửa hàng tiện ích; nhà sách; cửa hàng kinh doanh mô-tô, xe gắn máy; và các nhà có đặc điểm sử dụng tương tự. | |
+| F3.2 | Nhà hàng, cửa hàng ăn uống, giải khát, trạm dừng nghỉ; trung tâm hội nghị, tổ chức sự kiện có bao gồm dịch vụ ăn uống; và các nhà có đặc điểm sử dụng tương tự. | |
+| F3.3 | Nhà ga đường sắt, nhà ga hàng không; nhà chờ cáp treo vận chuyển người, bến phà, bến xe khách; và các nhà có đặc điểm sử dụng tương tự. | |
+| F3.4 | Phòng khám chữa bệnh (ngoại trú) đa khoa, chuyên khoa và cấp cứu; khối nhà điều trị ngoại trú của cơ sở y tế khác như trạm y tế, chỉnh hình, thẩm mỹ viện, phục hồi chức năng; nhà có kinh doanh dịch vụ xoa bóp; và các nhà có đặc điểm sử dụng tương tự. | |
+| F3.5 | Các gian phòng cho khách của các doanh nghiệp, cơ sở dịch vụ đời sống và công cộng có số lượng chỗ ngồi cho khách không được tính toán (bưu điện, bưu cục, quỹ tiết kiệm, phòng vé, văn phòng tư vấn luật, văn phòng công chứng, cửa hàng giặt là, nhà may, sửa chữa giày và quần áo, cửa hàng cắt tóc); cơ sở phục vụ lễ tang; và các cơ sở tương tự. | |
+| F3.6 | Các khu liên hợp thể dục thể thao và các khu tập luyện, thi đấu thể thao không có khán đài; các gian phòng dịch vụ; sân vận động, trường đua, trường bắn; và các nhà có đặc điểm sử dụng tương tự. | |
+| **F4** | **Các công trình giáo dục, đào tạo, trụ sở làm việc, tổ chức khoa học, nghiên cứu và thiết kế, cơ quan quản lý** | Các gian phòng trong các nhà này được sử dụng một số thời gian nhất định trong ngày, bên trong phòng thường có nhóm người cố định, quen với điều kiện tại chỗ, có độ tuổi và trạng thái thể chất xác định. |
+| F4.1 | Các trường tiểu học, trung học cơ sở, cơ sở đào tạo phổ thông có nhiều cấp học (không bao gồm mầm non, mẫu giáo), trường trung học phổ thông, trung học chuyên nghiệp, trường dạy nghề; trường đào tạo người chuyên hoạt động tôn giáo ở lứa tuổi thiếu niên; và các nhà có đặc điểm sử dụng tương tự. | |
+| F4.2 | Các trường đại học, cao đẳng, học viện, trung cấp chuyên nghiệp, trường bồi dưỡng nâng cao nghiệp vụ, trường công nhân kỹ thuật; trường đào tạo người chuyên hoạt động tôn giáo không thuộc nhóm F4.1; và các nhà có đặc điểm sử dụng tương tự. | |
+| F4.3 | Trụ sở của các cơ quan quản lý, cơ quan Nhà nước các cấp, nhà làm việc của nhân viên văn phòng trong các doanh nghiệp; trụ sở của các tổ chức chính trị, tổ chức chính trị - xã hội; văn phòng làm việc của các tổ chức xã hội – nghề nghiệp, đơn vị sự nghiệp, doanh nghiệp và các tổ chức, cá nhân khác; trụ sở của các tôn giáo; tổ chức thiết kế, tổ chức nghiên cứu khoa học, trạm nghiên cứu địa chấn, trạm khí tượng thủy văn, cơ sở nghiên cứu vũ trụ; tổ chức thông tin và nhà xuất bản; cơ sở truyền thanh, truyền hình, viễn thông, nhà lắp đặt thiết bị thông tin; ngân hàng, cơ quan, văn phòng; và các nhà có đặc điểm sử dụng tương tự. | |
+| F4.4 | Các trạm (đội) chữa cháy và cứu nạn, cứu hộ. | |
+| **F5** | **Các nhà, công trình, gian phòng có công năng sản xuất và kho** | Các gian phòng trong các nhà này được đặc trưng bởi sự có mặt của nhóm người làm việc cố định, kể cả làm việc suốt ngày đêm. |
+| F5.1 | Các nhà sản xuất, các gian phòng sản xuất và thí nghiệm, nhà xưởng, cửa hàng sửa chữa, bảo dưỡng ô-tô, mô-tô, xe gắn máy; và các nhà có đặc điểm sử dụng tương tự. | |
+| F5.2 | Các nhà và công trình kho; ga ra để xe không có dịch vụ kỹ thuật và sửa chữa; kho chứa sách, kho lưu trữ, trung tâm lưu trữ, trung tâm cơ sở dữ liệu chuyên ngành, các gian phòng kho; khu vực lưu giữ hàng hóa của cảng cạn; kho hàng hóa, vật tư cháy được hoặc hàng hóa vật tư không cháy đựng trong các bao bì cháy được; và các nhà có đặc điểm sử dụng tương tự. | |
+| F5.3 | Các nhà phục vụ nông nghiệp và phát triển nông thôn. | |
+
+> ^1)^ Bảng này áp dụng cho nhà, công trình, khoang cháy, gian phòng hoặc nhóm các phòng có công năng liên quan với nhau.
+
+#### 2.5.6 Phân hạng nhà, công trình và gian phòng có công năng sản xuất và kho theo tính nguy hiểm cháy và cháy nổ
+
+**2.5.6.1 Mục đích phân hạng**
+
+Việc phân hạng nhà, công trình và gian phòng có công năng sản xuất và kho theo tính nguy hiểm cháy và cháy nổ được thực hiện nhằm mục đích thiết lập các yêu cầu về an toàn cháy hướng tới việc ngăn ngừa khả năng xuất hiện đám cháy và bảo đảm việc bảo vệ chống cháy cho người và tài sản trong trường hợp xảy ra đám cháy trong nhà, công trình và gian phòng.
+
+**2.5.6.2 Phân hạng gian phòng**
+
+**2.5.6.2.1** Theo tính nguy hiểm cháy và cháy nổ, các gian phòng có công năng sản xuất và kho được phân thành các hạng:
+
+- Nguy hiểm cháy nổ cao (**A**);
+- Nguy hiểm cháy nổ (**B**);
+- Nguy hiểm cháy (**C1, C2, C3 và C4**);
+- Nguy hiểm cháy vừa phải (**D**);
+- Nguy hiểm cháy thấp (**E**).
+
+Các hạng gian phòng có công năng sản xuất và kho được quy định tại Phụ lục C.
+
+**2.5.6.2.2** Nhà, công trình và gian phòng có công năng khác không phân hạng theo tính nguy hiểm cháy và cháy nổ.
+
+**2.5.6.2.3** Hạng gian phòng theo tính nguy hiểm cháy và cháy nổ được xác định căn cứ trên loại chất và vật liệu cháy có trong gian phòng, số lượng và tính chất nguy hiểm cháy của chúng, cũng như căn cứ trên các giải pháp mặt bằng - không gian của gian phòng và đặc điểm của các quá trình công nghệ diễn ra trong gian phòng.
+
+**2.5.6.2.4** Việc xác định hạng gian phòng được thực hiện bằng cách lần lượt kiểm tra gian phòng thuộc hạng nguy hiểm hơn (A) đến ít nguy hiểm hơn (E) theo Bảng C.1, Phụ lục C.
+
+**2.5.6.3 Phân hạng nhà, công trình**
+
+**2.5.6.3.1** Theo tính nguy hiểm cháy và cháy nổ, nhà, công trình được phân thành các hạng A, B, C, D và E.
+
+**2.5.6.3.2** Hạng của nhà và công trình theo tính nguy hiểm cháy và cháy nổ được xác định căn cứ trên tỉ lệ và tổng diện tích các gian phòng thuộc hạng này hay hạng khác trong nhà và công trình đó.
+
+**2.5.6.3.3** Việc xếp hạng nhà và công trình được quy định tại Phụ lục C.
+
+---
+
+## 3 BẢO ĐẢM AN TOÀN CHO NGƯỜI
+
+### 3.1 Quy định chung
+
+**3.1.1** Các yêu cầu trong phần này nhằm bảo đảm:
+
+- Thoát nạn cho người kịp thời và không bị cản trở;
+- Cứu người bị tác động của các yếu tố nguy hiểm của đám cháy;
+- Bảo vệ người trên đường thoát nạn tránh khỏi những tác động của các yếu tố nguy hiểm của đám cháy.
+
+**3.1.2** Thoát nạn là quá trình tự di chuyển có tổ chức của người ra bên ngoài từ các gian phòng, nơi các yếu tố nguy hiểm của đám cháy có thể tác động lên họ. Thoát nạn còn là sự di chuyển không tự chủ của nhóm người ít có khả năng vận động, do các nhân viên phục vụ thực hiện. Thoát nạn được thực hiện theo các đường thoát nạn qua các lối ra thoát nạn.
+
+**3.1.3** Cứu nạn là sự di chuyển cưỡng bức của người ra bên ngoài khi họ bị các yếu tố nguy hiểm của đám cháy tác động hoặc khi xuất hiện nguy cơ trực tiếp của các tác động đó. Cứu nạn được thực hiện một cách tự chủ với sự trợ giúp của lực lượng chữa cháy hoặc nhân viên được huấn luyện chuyên nghiệp, bao gồm cả việc sử dụng các phương tiện cứu hộ, qua các lối ra thoát nạn và lối ra khẩn cấp.
+
+**3.1.4** Việc bảo vệ người trên các đường thoát nạn phải được bảo đảm bằng tổ hợp các giải pháp bố trí mặt bằng - không gian, tiện nghi, kết cấu, kỹ thuật công trình và tổ chức.
+
+Các đường thoát nạn trong phạm vi gian phòng phải bảo đảm sự thoát nạn an toàn qua các lối ra thoát nạn từ gian phòng đó mà không tính đến các phương tiện bảo vệ chống khói và chữa cháy có trong gian phòng này.
+
+Việc bảo vệ đường thoát nạn ngoài phạm vi gian phòng phải được tính đến theo điều kiện bảo đảm thoát nạn an toàn cho người có kể đến tính nguy hiểm cháy theo công năng của các gian phòng trên đường thoát nạn, số người thoát nạn, bậc chịu lửa và cấp nguy hiểm cháy kết cấu của nhà, số lối ra thoát nạn từ một tầng và từ toàn bộ nhà.
+
+Trong các gian phòng và trên các đường thoát nạn ngoài phạm vi gian phòng phải hạn chế tính nguy hiểm cháy của vật liệu xây dựng thuộc các lớp bề mặt kết cấu (lớp hoàn thiện và ốp mặt) tùy thuộc vào tính nguy hiểm cháy theo công năng của gian phòng và nhà, có tính đến các giải pháp khác về bảo vệ đường thoát nạn.
+
+**3.1.5** Khi bố trí thoát nạn từ các gian phòng và nhà thì không được tính đến các biện pháp và phương tiện dùng để cứu nạn, cũng như các lối ra không đáp ứng yêu cầu về lối ra thoát nạn quy định tại 3.2.1.
+
+**3.1.6** Không cho phép bố trí các gian phòng nhóm F5 hạng A hoặc hạng B dưới các gian phòng dùng cho hơn 50 người có mặt đồng thời; không bố trí các gian phòng nhóm F5 này trong các tầng hầm và tầng nửa hầm.
+
+Không cho phép bố trí các gian phòng nhóm F1.1, F1.2 và F1.3 trong các tầng hầm và tầng nửa hầm.
+
+**3.1.7** Trong các nhà có từ 2 đến 3 tầng hầm, chỉ được phép bố trí phòng hút thuốc, các siêu thị và trung tâm thương mại, quán ăn, quán giải khát và các gian phòng công cộng khác nằm sâu hơn tầng hầm 1 khi có các giải pháp bảo đảm an toàn cháy bổ sung theo tài liệu chuẩn được áp dụng và được cơ quan quản lý nhà nước có thẩm quyền chấp thuận theo quy định tại 1.1.10.
+
+Đối với bệnh viện và trường phổ thông, chỉ cho phép bố trí các công năng chính từ tầng bán hầm hoặc tầng hầm 1 (trong trường hợp không có tầng bán hầm) trở lên. Tầng hầm 1 là tầng hầm trên cùng hoặc ngay sát tầng bán hầm.
+
+Tại tất cả các sàn tầng hầm, ít nhất phải có 1 lối vào buồng thang bộ thoát nạn đi qua sảnh ngăn khói được ngăn cách với các không gian xung quanh bằng tường ngăn cháy loại 2. Các cửa đi phải là loại có cơ cấu tự đóng.
+
+**3.1.8** Để bảo đảm thoát nạn an toàn, phải phát hiện cháy và báo cháy kịp thời.
+
+**3.1.9** Để bảo vệ người thoát nạn, phải bảo vệ chống khói xâm nhập các đường thoát nạn của nhà và các phần nhà.
+
+Các yêu cầu cơ bản về bảo vệ chống khói cho nhà được quy định tại Phụ lục D.
+
+**3.1.10** Các thiết bị điện của hệ thống bảo vệ chống cháy của nhà phải được cấp điện ưu tiên từ hai nguồn độc lập (một nguồn điện lưới và một nguồn máy phát điện dự phòng).
+
+> CHÚ THÍCH: Đối với các thiết bị điện có nguồn dự phòng riêng (ví dụ bơm diezen, tủ chống cháy có ắc quy dự phòng) thì chỉ cần một nguồn điện lưới, nhưng nguồn dự phòng riêng này phải đảm bảo hoạt động bình thường khi có cháy.
+
+**3.1.11** Hiệu quả của các giải pháp bảo đảm an toàn cho người khi cháy có thể được đánh giá bằng tính toán.
+
+### 3.2 Lối ra thoát nạn và lối ra khẩn cấp
+
+**3.2.1** Các lối ra được coi là lối ra thoát nạn nếu chúng:
+
+a) Dẫn từ các gian phòng ở tầng 1 ra ngoài theo một trong những cách sau:
+
+- Ra ngoài trực tiếp;
+- Qua hành lang;
+- Qua tiền sảnh (hay phòng chờ);
+- Qua buồng thang bộ;
+- Qua hành lang và tiền sảnh (hay phòng chờ);
+- Qua hành lang và buồng thang bộ.
+
+b) Dẫn từ các gian phòng của tầng bất kỳ, trừ tầng 1, vào một trong các nơi sau:
+
+- Trực tiếp vào buồng thang bộ hay tới cầu thang bộ loại 3;
+- Vào hành lang dẫn trực tiếp vào buồng thang bộ hay tới cầu thang bộ loại 3;
+- Vào phòng sử dụng chung (hay phòng chờ) có lối ra trực tiếp dẫn vào buồng thang bộ hoặc tới cầu thang bộ loại 3;
+- Vào hành lang bên của nhà có chiều cao PCCC dưới 28 m dẫn trực tiếp vào cầu thang bộ loại 2;
+- Ra mái có khai thác sử dụng, hoặc ra một khu vực riêng của mái dẫn tới cầu thang bộ loại 3.
+
+c) Dẫn vào gian phòng liền kề (trừ gian phòng nhóm F5 hạng A hoặc B) trên cùng tầng mà từ gian phòng này có các lối ra như được nêu tại 3.2.1 a), b). Lối ra dẫn vào gian phòng hạng A hoặc B được phép coi là lối ra thoát nạn nếu nó dẫn từ gian phòng kỹ thuật không có người làm việc thường xuyên mà chỉ dùng để phục vụ các gian phòng hạng A hoặc B nêu trên.
+
+d) Các lối ra đáp ứng quy định tại 3.2.2 và các lối ra thoát nạn khác được quy định cụ thể trong quy chuẩn này.
+
+> CHÚ THÍCH: Trong trường hợp sử dụng cầu thang bộ loại 3 để thoát nạn cần có tính toán thoát nạn phù hợp với Phụ lục G.
+
+**3.2.2** Các lối ra từ các tầng hầm và tầng nửa hầm, về nguyên tắc, là lối ra thoát nạn khi chúng thoát trực tiếp ra ngoài và được ngăn cách với các buồng thang bộ chung của nhà (xem Hình I.1, Phụ lục I).
+
+Các lối ra sau đây cũng được coi là lối ra thoát nạn:
+
+a) Các lối ra từ các tầng hầm đi qua các buồng thang bộ chung có lối đi riêng ra bên ngoài được ngăn cách với phần còn lại của buồng thang bộ bằng vách đặc ngăn cháy loại 1 (xem Hình I.2, Phụ lục I);
+
+b) Các lối ra từ các tầng hầm và tầng nửa hầm có bố trí các gian phòng hạng C1 đến C4, D, E, đi vào các gian phòng hạng C1 đến C4, D, E và vào tiền sảnh nằm trên tầng một của nhà nhóm F5;
+
+c) Các lối ra từ phòng chờ, phòng gửi đồ, phòng hút thuốc và phòng vệ sinh ở các tầng hầm hoặc tầng nửa hầm của nhà nhóm F2, F3 và F4 đi vào tiền sảnh của tầng 1 theo các cầu thang bộ riêng loại 2. Trong trường hợp này thì phải bảo đảm các yêu cầu sau:
+
+– Tiền sảnh phải được ngăn cách với các hành lang và gian phòng lân cận bằng các vách ngăn cháy không nhỏ hơn loại 1;
+
+– Các gian phòng tầng 1 và các tầng trên phải có đường thoát nạn không đi qua tiền sảnh này (trừ các gian phòng nằm trong tiền sảnh);
+
+– Vật liệu hoàn thiện các phòng chờ, phòng gửi đồ, phòng hút thuốc và phòng vệ sinh ở các tầng hầm hoặc tầng nửa hầm phải thỏa mãn yêu cầu đối với các gian phòng chung theo Phụ lục B;
+
+– Phòng gửi đồ phải có số lối ra thoát nạn thỏa mãn yêu cầu của quy chuẩn này, không tính lối ra thoát nạn theo cầu thang bộ loại 2 nêu trên.
+
+d) Các cửa mở quay có bản lề trên cửa ra vào dành cho phương tiện vận tải đường sắt hoặc đường bộ.
+
+Cho phép bố trí khoang đệm tại lối ra ngoài trực tiếp từ nhà, từ tầng hầm và tầng nửa hầm.
+
+**3.2.3** Các lối ra không được coi là lối ra thoát nạn nếu trên lối ra này có đặt cửa có cánh mở kiểu trượt hoặc xếp, cửa cuốn, cửa quay.
+
+Các cửa đi có cánh mở ra (cửa bản lề) nằm trong các cửa nói trên được coi là lối ra thoát nạn nếu được thiết kế theo đúng yêu cầu quy định.
+
+**3.2.4** Số lượng và chiều rộng của các lối ra thoát nạn từ các gian phòng, các tầng và các nhà được xác định theo số lượng người thoát nạn lớn nhất có thể đi qua chúng và khoảng cách giới hạn cho phép từ chỗ xa nhất có thể có người (sinh hoạt, làm việc) tới lối ra thoát nạn gần nhất.
+
+> CHÚ THÍCH 1: Số lượng người thoát nạn lớn nhất từ các không gian khác nhau của nhà hoặc phần nhà được xác định theo G.3, Phụ lục G.
+>
+> CHÚ THÍCH 2: Ngoài các yêu cầu chung được nêu trong quy chuẩn này, yêu cầu cụ thể về số lượng và chiều rộng của các lối ra thoát nạn được nêu trong tài liệu chuẩn cho từng loại công trình. Phụ lục G nêu một số quy định cụ thể cho các nhóm nhà thường gặp.
+
+Các phần nhà có công năng khác nhau và được ngăn chia bởi các bộ phận ngăn cháy thì phải có các lối ra thoát nạn độc lập, trừ các trường hợp được quy định cụ thể trong quy chuẩn này.
+
+Các phần nhà có công năng khác nhau và được ngăn chia bởi các bộ phận ngăn cháy thành các khoang cháy trong nhà có nhiều công năng phải có các lối ra thoát nạn riêng từ mỗi tầng. Cho phép không quá 50 % lối ra thoát nạn dẫn vào khoang cháy lân cận (trừ lối ra thoát nạn dẫn vào khoang cháy nhóm F5). Riêng phần nhà nhóm F5 phải có lối ra thoát nạn riêng.
+
+**3.2.5** Các gian phòng sau phải có không ít hơn hai lối ra thoát nạn:
+
+a) Các gian phòng nhóm F1.1 có mặt đồng thời hơn 15 người;
+
+b) Các gian phòng trong các tầng hầm và tầng nửa hầm có mặt đồng thời hơn 15 người; riêng các gian phòng trong tầng hầm và tầng nửa hầm có từ 6 đến 15 người có mặt đồng thời thì cho phép một trong hai lối ra là lối ra khẩn cấp theo các yêu cầu tại đoạn d) của 3.2.13;
+
+c) Các gian phòng có mặt đồng thời từ 50 người trở lên;
+
+d) Các gian phòng (trừ các gian phòng nhóm F5) có mặt đồng thời dưới 50 người (bao gồm cả tầng khán giả ở trên cao hoặc ban công khán phòng) với khoảng cách dọc theo lối đi từ chỗ xa nhất có người đến lối ra thoát nạn vượt quá 25 m. Khi có các lối thoát nạn thông vào gian phòng đang xét từ các gian phòng bên cạnh với số lượng trên 5 người có mặt ở mỗi phòng bên cạnh, thì khoảng cách trên phải bao gồm độ dài đường thoát nạn cho người từ các gian phòng bên cạnh đó;
+
+e) Các gian phòng có tổng số người có mặt trong đó và trong các gian liền kề có lối thoát nạn chỉ đi vào gian phòng đang xét từ 50 người trở lên;
+
+f) Các gian phòng nhóm F5 hạng A hoặc B có số người làm việc trong ca đông nhất lớn hơn 5 người, hạng C – khi số người làm việc trong ca đông nhất lớn hơn 25 người hoặc có diện tích lớn hơn 1 000 m²;
+
+g) Các sàn công tác hở và các sàn dành cho người vận hành và bảo dưỡng thiết bị trong các gian phòng nhóm F5 có diện tích lớn hơn 100 m² – đối với các gian phòng thuộc hạng A và B hoặc lớn hơn 400 m² – đối với các gian phòng thuộc các hạng khác.
+
+Nếu gian phòng phải có từ 2 lối ra thoát nạn trở lên thì cho phép bố trí không quá 50 % số lượng lối ra thoát nạn của gian phòng đó đi qua một gian phòng liền kề, với điều kiện gian phòng liền kề đó cũng phải có lối ra thoát nạn tuân thủ quy định của quy chuẩn này và các tài liệu chuẩn tương ứng cho gian phòng đó.
