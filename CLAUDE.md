@@ -44,9 +44,9 @@ trình là:
    từ khóa lại thành một câu trả lời nghe có vẻ hợp lý.
 5. Khi câu hỏi thuộc lĩnh vực kho chưa bao phủ (tải trọng gió, chống sét, kết
    cấu, tiết kiệm năng lượng, quy hoạch chi tiết…), hãy nói rõ ngay từ đầu thay
-   vì cố nặn ra câu trả lời từ ba văn bản đang có.
+   vì cố nặn ra câu trả lời từ bốn văn bản đang có.
 
-Kho hiện **chỉ có ba văn bản**. Mặc định của bạn khi không chắc phải là *"chưa
+Kho hiện **chỉ có bốn văn bản**. Mặc định của bạn khi không chắc phải là *"chưa
 có trong kho"*, không phải *"có lẽ là…"*.
 
 ## Kiểm tra hiệu lực
@@ -64,8 +64,29 @@ Tình trạng hiện tại:
 | Văn bản | `ngay_hieu_luc` | Chuyển tiếp | Ghi chú |
 |---|---|---|---|
 | **212/2026/NĐ-CP** | `2026-07-01` (Điều 57 khoản 1) | **Điều 55** | Thay thế NĐ 111/2024/NĐ-CP. Đọc Điều 55 trước khi tư vấn cho hồ sơ nộp trước 01/7/2026. |
+| **QCVN 06:2022/BXD** | `2023-01-16` (Điều 2 Thông tư 06/2022/TT-BXD) | **mục 7.1** | Thay thế QCVN 06:2021/BXD. Hồ sơ đã thẩm duyệt trước 16/01/2023 vẫn theo hồ sơ cũ. **Mới có mục 1–7; Phụ lục A–I CHƯA CÓ trong kho.** |
 | **QCVN 10:2024/BXD** | `CHƯA XÁC ĐỊNH` | mục 3.1 | Hiệu lực nằm ở Thông tư 06/2024/TT-BXD — **chưa có trong kho**. |
 | **QCVN 10:2025/BCA** | `CHƯA XÁC ĐỊNH` | không có trong bản Quy chuẩn | Hiệu lực nằm ở Thông tư 103/2025/TT-BCA — **chưa có trong kho**. |
+
+## QCVN 06:2022/BXD — mới có phần chính, CHƯA có phụ lục
+
+Kho hiện chỉ số hóa **mục 1 đến mục 7** (phần chính). **Toàn bộ Phụ lục A đến I
+chưa có trong kho**, trong đó có những bảng tra quan trọng nhất:
+
+- **Phụ lục A** — quy định bổ sung cho một số nhóm nhà;
+- **Phụ lục B** — bảng phân nhóm vật liệu xây dựng theo tính nguy hiểm cháy
+  (B.1 đến B.9, được viện dẫn ở 2.1, 3.3.4, 3.5.2, 3.5.3);
+- **Phụ lục C** — phân hạng nguy hiểm cháy nổ A, B, C, D, E của gian phòng;
+- **Phụ lục D** — yêu cầu bảo vệ chống khói;
+- **Phụ lục E** — khoảng cách phòng cháy chống cháy giữa các nhà;
+- **Phụ lục F** — giới hạn chịu lửa danh định của cấu kiện;
+- **Phụ lục G** — khoảng cách thoát nạn, hệ số không gian sàn (Bảng G.9);
+- **Phụ lục H** — số tầng và diện tích khoang cháy cho phép theo nhóm nhà;
+- **Phụ lục I** — hình minh họa cầu thang và buồng thang.
+
+Khi câu hỏi cần tra các phụ lục này (rất thường gặp: bậc chịu lửa cho phép,
+diện tích khoang cháy, khoảng cách thoát nạn, số người theo hệ số không gian
+sàn), **phải nói rõ là kho chưa có phần đó**, không được suy đoán từ phần chính.
 
 ## Hai văn bản trùng số hiệu "QCVN 10"
 
@@ -118,7 +139,7 @@ bạn đọc nội dung thật.
 
 ## Đo chất lượng truy hồi
 
-`eval/` có bộ 101 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
+`eval/` có bộ 123 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
 vi kho). Sau khi sửa `tools/search.py` hoặc thay đổi cách cắt chunk, **phải chạy
 lại**:
 
@@ -128,9 +149,9 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với tokenizer cũ
 python3 eval/chay_danh_gia.py --chi-tiet # liệt kê câu trượt
 ```
 
-Mức hiện tại: Recall@1 = 0.549 · Recall@5 = 0.844 · Recall@10 = 0.916 · MRR = 0.713.
+Mức hiện tại (123 câu, 4 văn bản): Recall@1 = 0.541 · Recall@5 = 0.805 · Recall@10 = 0.872 · MRR = 0.704.
 **Đừng merge một thay đổi làm các số này tụt** mà không có lý do đo được.
-Điểm yếu đã biết: loại G (câu hỏi bắc cầu hai văn bản) = 0.33, loại I (câu hỏi
+Điểm yếu đã biết: loại G (câu hỏi bắc cầu nhiều văn bản) = 0.17, loại I (câu hỏi
 mơ hồ) = 0.25. Giới hạn của bộ đo được ghi ở `eval/README.md` — đọc trước khi
 trích dẫn con số.
 
@@ -171,6 +192,13 @@ Lệnh này idempotent — chạy hai lần cho kết quả giống hệt nhau.
      `## Chương I. TÊN` · `### Mục 1. TÊN` · `### Điều 1. Tên điều`
    - `cau_truc: "muc"` (Quy chuẩn, Tiêu chuẩn):
      `## 1 TÊN PHẦN` · `### 1.1 Tên mục`
+   - Điều khoản **không có tên** trong bản gốc (ví dụ QCVN 06 mục 4.1 đến
+     4.35) vẫn viết thành `### 4.17` — bộ chia chấp nhận tiêu đề rỗng và tự
+     suy một NHÃN từ câu đầu. Nhãn đó chỉ để hiển thị/tìm kiếm; trích dẫn pháp
+     lý luôn dùng số hiệu mục.
+   - Cắt đến cấp điều khoản nhỏ nhất có đánh số, đừng gộp cả mục lớn thành một
+     chunk: một chunk 20 000 ký tự trùng gần như mọi từ khoá nên nó lấn át các
+     chunk đúng của văn bản khác (đã đo: gộp cả mục làm Recall@1 tụt 0.06).
    - Phụ lục: khai báo `chia_theo` (`"Mẫu số"`, `"Bảng"`, `"H."`) để cắt theo
      tiêu đề cấp 2; không khai báo thì giữ nguyên cả phụ lục làm một chunk.
 5. `python3 tools/build_index.py`

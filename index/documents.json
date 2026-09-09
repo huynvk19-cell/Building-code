@@ -27,6 +27,28 @@
     "so_chunk": 76
   },
   {
+    "doc_id": "qcvn-06-2022-bxd",
+    "so_hieu": "QCVN 06:2022/BXD",
+    "loai_van_ban": "Quy chuẩn kỹ thuật quốc gia",
+    "tieu_de": "",
+    "co_quan_ban_hanh": "Bộ Xây dựng",
+    "ngay_ban_hanh": "2022-11-30",
+    "ngay_hieu_luc": "2023-01-16",
+    "can_cu_hieu_luc": "Điều 2 Thông tư số 06/2022/TT-BXD (có trong tài liệu này, trang đầu)",
+    "thay_the": [
+      "QCVN 06:2021/BXD (ban hành kèm Thông tư số 02/2021/TT-BXD ngày 19/5/2021)"
+    ],
+    "het_hieu_luc": "",
+    "sua_doi_boi": [],
+    "dieu_khoan_chuyen_tiep": "mục 7.1",
+    "linh_vuc": [],
+    "nguon": "",
+    "cau_truc": "muc",
+    "toan_van": "corpus/quy-chuan/qcvn-06-2022-bxd/toan-van.md",
+    "so_don_vi": 345,
+    "so_chunk": 346
+  },
+  {
     "doc_id": "qcvn-10-2024-bxd",
     "so_hieu": "QCVN 10:2024/BXD",
     "loai_van_ban": "Quy chuẩn kỹ thuật quốc gia",

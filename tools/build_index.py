@@ -51,8 +51,11 @@ RE_MUC_LA_MA = re.compile(r"^###\s+(Mục\s+\d+)\.\s*(.+?)\s*$")
 # --- Cấu trúc "muc": Quy chuẩn, Tiêu chuẩn ----------------------------------
 # "## 1 QUY ĐỊNH CHUNG" hoặc "## LỜI NÓI ĐẦU"
 RE_PHAN = re.compile(r"^##\s+(?:(\d+(?:\.\d+)*)\s+)?(.+?)\s*$")
-# "### 1.1 Phạm vi điều chỉnh"
-RE_MUC_SO = re.compile(r"^###\s+(\d+(?:\.\d+)*)\s+(.+?)\s*$")
+# "### 1.1 Phạm vi điều chỉnh" — phần tiêu đề là TÙY CHỌN, vì nhiều quy chuẩn
+# đánh số điều khoản mà không đặt tên (ví dụ QCVN 06:2022/BXD mục 4.1 đến 4.35).
+# Khi không có tiêu đề, tiêu đề hiển thị được suy ra từ câu đầu của điều khoản —
+# đây chỉ là NHÃN để tra cứu, không phải nội dung pháp lý.
+RE_MUC_SO = re.compile(r"^###\s+(\d+(?:\.\d+)*)(?:\s+(.+?))?\s*$")
 
 # --- Phụ lục ----------------------------------------------------------------
 RE_H2 = re.compile(r"^##\s+(.+?)\s*$")
@@ -118,6 +121,27 @@ def yaml_value(value) -> str:
     return f'"{value}"'
 
 
+def nhan_tu_cau_dau(text: str, gioi_han: int = 70) -> str:
+    """Suy một NHÃN ngắn từ câu đầu của điều khoản không có tên trong bản gốc.
+
+    Nhãn này chỉ dùng để hiển thị và tìm kiếm. Trích dẫn pháp lý vẫn dựa vào số
+    hiệu mục (ví dụ "mục 4.17 QCVN 06:2022/BXD"), không dựa vào nhãn này.
+    """
+    for dong in text.splitlines():
+        dong = dong.strip()
+        if not dong or dong.startswith(("|", ">", "!", "#", "-", "*")):
+            continue
+        dong = re.sub(r"\*\*|\*|`", "", dong)
+        dong = re.sub(r"^\d+(?:\.\d+)*\s*", "", dong).strip()
+        if not dong:
+            continue
+        cau = re.split(r"(?<=[.;:])\s", dong)[0]
+        if len(cau) > gioi_han:
+            cau = cau[:gioi_han].rsplit(" ", 1)[0] + "…"
+        return cau
+    return "(không tên)"
+
+
 class ChunkBuilder:
     """Gom dòng vào chunk hiện tại, chốt lại khi gặp tiêu đề mới."""
 
@@ -139,6 +163,13 @@ class ChunkBuilder:
         text = "\n".join(self.current.pop("lines")).strip()
         if text:
             self.current["text"] = text
+            if not self.current.get("tieu_de"):
+                self.current["tieu_de"] = nhan_tu_cau_dau(text)
+                if not self.current.get("slug", "").strip("-"):
+                    so = self.current.get("so_hieu_muc") or ""
+                    self.current["slug"] = (
+                        f"muc-{so.replace('.', '-')}-{slugify(self.current['tieu_de'])}"
+                    )
             self.chunks.append(self.current)
         self.current = None
 
@@ -219,12 +250,31 @@ def split_muc(meta: dict, body: str) -> list[dict]:
     phan = None
     preamble: list[str] = []
     order = 0
+    # Tên mục cha gần nhất theo từng độ sâu, để điều khoản con thừa hưởng ngữ
+    # cảnh. Ví dụ mục 3.2.9 sẽ mang muc="3.2 Lối ra thoát nạn và lối ra khẩn
+    # cấp" — nhờ đó một điều khoản ngắn vẫn tìm được bằng từ khoá của mục cha.
+    ten_muc_cha: dict[int, str] = {}
 
     for line in body.splitlines():
         m = RE_MUC_SO.match(line)
         if m:
             so, tieu_de = m.group(1), m.group(2)
+            if not tieu_de:
+                # Điều khoản không có tên trong bản gốc: chốt chunk đang mở rồi
+                # đặt chỗ, tiêu đề sẽ suy từ câu đầu tiên khi flush.
+                tieu_de = ""
             order += 1
+            sau = so.count(".") + 1
+            if tieu_de:
+                ten_muc_cha[sau] = f"{so} {tieu_de}"
+            for k in list(ten_muc_cha):
+                if k >= sau and not (k == sau and tieu_de):
+                    if k > sau:
+                        del ten_muc_cha[k]
+            cha = next(
+                (ten_muc_cha[k] for k in sorted(ten_muc_cha, reverse=True) if k < sau),
+                None,
+            )
             builder.start(
                 chunk_id=f"{doc_id}:muc-{so}",
                 loai="muc",
@@ -232,7 +282,7 @@ def split_muc(meta: dict, body: str) -> list[dict]:
                 sap_xep=(1,) + sort_key(so),
                 tieu_de=tieu_de,
                 chuong=phan,
-                muc=None,
+                muc=cha,
                 slug=f"muc-{so.replace('.', '-')}-{slugify(tieu_de)}",
             )
             continue
@@ -241,6 +291,7 @@ def split_muc(meta: dict, body: str) -> list[dict]:
         if m:
             so, tieu_de = m.group(1), m.group(2)
             phan = f"{so} {tieu_de}" if so else tieu_de
+            ten_muc_cha.clear()
             order += 1
             # Phần này tự thành một chunk nếu bên dưới không có mục con nào;
             # ChunkBuilder tự bỏ chunk rỗng khi flush.

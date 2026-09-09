@@ -9,6 +9,7 @@ khi một nghị định được sửa đổi, bạn commit bản mới và b�
 | Văn bản | Nội dung | Trạng thái |
 |---|---|---|
 | **Nghị định 212/2026/NĐ-CP** (17/6/2026) | Điều kiện năng lực hoạt động xây dựng; Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng | 58 Điều + 4 Phụ lục — đã số hóa đầy đủ |
+| **QCVN 06:2022/BXD** (30/11/2022) | An toàn cháy cho nhà và công trình — bậc chịu lửa, khoang cháy, thoát nạn, ngăn cháy lan, cấp nước chữa cháy | Mục 1–7 đã số hóa (16 bảng tra). **Phụ lục A–I chưa có** |
 | **QCVN 10:2024/BXD** (01/8/2024) | Xây dựng công trình đảm bảo tiếp cận sử dụng cho người khuyết tật | 19 mục + 2 Phụ lục, **26 hình vẽ** — đã số hóa đầy đủ |
 | **QCVN 10:2025/BCA** (04/11/2025) | Trang bị, bố trí phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ cho nhà và công trình | 20 mục + 8 Phụ lục (A–H) — đã số hóa đầy đủ |
 
@@ -25,9 +26,18 @@ văn bản tự nói, không suy đoán:
 - **QCVN 10:2024/BXD** — thay thế QCVN 10:2014/BXD, chuyển tiếp ở mục 3.1. Ngày
   hiệu lực **chưa xác định trong kho**: nó nằm ở Thông tư 06/2024/TT-BXD, văn bản
   này chưa được số hóa.
+- **QCVN 06:2022/BXD** — hiệu lực **16/01/2023** (Điều 2 Thông tư 06/2022/TT-BXD, có
+  ngay trong tài liệu), thay thế QCVN 06:2021/BXD. Chuyển tiếp ở mục 7.1: hồ sơ đã
+  được góp ý hoặc thẩm duyệt PCCC trước ngày đó thì tiếp tục theo hồ sơ cũ.
 - **QCVN 10:2025/BCA** — ban hành kèm Thông tư 103/2025/TT-BCA. Bản Quy chuẩn
   không chứa điều khoản hiệu lực lẫn chuyển tiếp; cả hai nằm trong Thông tư 103,
   **chưa có trong kho**.
+
+> ⚠️ **QCVN 06:2022/BXD mới có phần chính.** Toàn bộ **Phụ lục A đến I** — gồm bảng
+> phân nhóm vật liệu (B), phân hạng nguy hiểm cháy nổ (C), khoảng cách phòng cháy
+> chống cháy (E), giới hạn chịu lửa cấu kiện (F), khoảng cách thoát nạn và hệ số
+> không gian sàn (G), diện tích khoang cháy cho phép (H) — **chưa được số hóa**.
+> Khi tra những nội dung đó, kho sẽ không có câu trả lời.
 
 ## Tra cứu nhanh
 
@@ -49,7 +59,7 @@ Con số in cạnh mỗi kết quả là **điểm BM25 — nó đo mức trùng
 mức liên quan**. Công cụ luôn trả về kết quả kể cả khi kho không hề có quy định
 về chủ đề bạn hỏi.
 
-Chuyện này đã được đo chứ không phải phỏng đoán: trên bộ 101 câu hỏi chuẩn,
+Chuyện này đã được đo chứ không phải phỏng đoán: trên bộ 123 câu hỏi chuẩn,
 điểm cao nhất của những câu **ngoài phạm vi kho** nằm trong dải 5.9–20.8, còn của
 những câu **có đáp án thật** nằm trong dải 4.2–44.9 — hai dải chồng lên nhau, nên
 không có ngưỡng nào tách được chúng. Vì vậy kho cố tình **không** gắn nhãn "độ tin
@@ -67,6 +77,8 @@ corpus/                       Bản gốc (nguồn sự thật duy nhất)
     toan-van.md               Toàn văn 58 Điều
     muc-luc.md                Mục lục (sinh tự động)
     phu-luc/                  Phụ lục I–IV
+  quy-chuan/qcvn-06-2022-bxd/
+    toan-van.md               Mục 1–7 (phụ lục chưa có)
   quy-chuan/qcvn-10-2024-bxd/
     toan-van.md               Phần 1–3
     phu-luc/hinh/             26 hình vẽ cắt từ PDF gốc
@@ -105,7 +117,7 @@ Chi tiết ở [`docs/huong-dan-su-dung.md`](docs/huong-dan-su-dung.md).
 
 ## Đo chất lượng tra cứu
 
-Kho có bộ **101 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu
+Kho có bộ **123 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu
 cố tình hỏi những thứ **không** có trong kho, để kiểm tra xem công cụ có bịa ra
 câu trả lời không.
 
@@ -115,22 +127,28 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với cấu hình cũ
 python3 eval/chay_danh_gia.py --chi-tiet # xem những câu bị trượt
 ```
 
-Mức hiện tại — đúng chunk nằm trong 5 kết quả đầu ở **84%** số câu, trong 10 kết
-quả đầu ở **92%**:
+Mức hiện tại — đúng chunk nằm trong 5 kết quả đầu ở **80%** số câu, trong 10 kết
+quả đầu ở **87%**:
 
-| | Cấu hình cũ | Hiện tại |
+| | 3 văn bản, 101 câu | 4 văn bản, 123 câu |
 |---|---|---|
-| Recall@1 | 0.480 | **0.549** |
-| Recall@3 | 0.681 | **0.733** |
-| Recall@5 | 0.786 | **0.844** |
-| Recall@10 | 0.857 | **0.916** |
-| MRR | 0.648 | **0.713** |
+| Recall@1 | 0.549 | **0.541** |
+| Recall@3 | 0.733 | **0.752** |
+| Recall@5 | 0.844 | **0.805** |
+| Recall@10 | 0.916 | **0.872** |
+| MRR | 0.713 | **0.704** |
 
-Mức tăng đến từ hai chỗ: tokenizer không còn cắt nát số liệu ("1 200 m²", "0,45 m"
-trước đây bị vỡ thành mảnh vô nghĩa), và câu hỏi gọi đích danh số Điều/mục/Bảng
-được cộng điểm. Riêng loại câu hỏi tra cứu trực tiếp tăng từ 0.42 lên 0.92.
+Hai cột này **không so sánh trực tiếp được** — cột phải có thêm một văn bản lớn
+(346 chunk, gấp đôi phần còn lại của kho) và 22 câu hỏi mới. Thêm văn bản thì
+cạnh tranh tăng nên vài câu cũ bị đẩy xuống; đó là cái giá của việc kho rộng hơn,
+đã đo chứ không giấu.
 
-Còn yếu ở câu hỏi bắc cầu hai văn bản (0.33) và câu hỏi mơ hồ (0.25). Giới hạn
+Câu hỏi tra cứu trực tiếp (loại A) đạt 0.89 trên 28 câu — đây là dạng câu hỏi
+thường gặp nhất khi làm hồ sơ.
+
+Còn yếu ở câu hỏi bắc cầu nhiều văn bản (0.17) và câu hỏi mơ hồ (0.25). Khi kho
+có 4 văn bản, việc "hỏi một câu chạm hai quy chuẩn" khó hơn hẳn — đây là điểm cần
+cải thiện tiếp. Giới hạn
 của phép đo được ghi thẳng trong [`eval/README.md`](eval/README.md) — nên đọc
 trước khi trích dẫn mấy con số này.
 

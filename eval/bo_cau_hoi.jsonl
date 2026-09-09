@@ -99,3 +99,25 @@
 {"id":"J04","loai":"J","hoi":"văn phòng 4 tầng 2000 m2 có cần chữa cháy tự động không","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-1-doi-voi-nha"],"kiem_chung":"trụ sở, văn phòng làm việc"}
 {"id":"J05","loai":"J","hoi":"trường mầm non 120 cháu có phải lắp báo cháy tự động không","vang":["qcvn-10-2025-bca:phu-luc-a-bang-a-1-doi-voi-nha"],"kiem_chung":"100 cháu"}
 {"id":"H04","loai":"H","hoi":"có quy định nào bắt buộc thang máy cho nhà 3 tầng không","vang":["qcvn-10-2024-bxd:muc-2.5"],"kiem_chung":"không có thang máy"}
+{"id": "Q01", "loai": "A", "hoi": "bậc chịu lửa I thì cột chịu lực phải chịu lửa bao lâu", "vang": ["qcvn-06-2022-bxd:muc-2.5.3.3"], "kiem_chung": "R 120"}
+{"id": "Q02", "loai": "A", "hoi": "chiều cao PCCC của nhà được tính như thế nào", "vang": ["qcvn-06-2022-bxd:muc-1.4.9"], "kiem_chung": "chiều cao PCCC"}
+{"id": "Q03", "loai": "A", "hoi": "chiều rộng bản thang bộ thoát nạn tối thiểu là bao nhiêu", "vang": ["qcvn-06-2022-bxd:muc-3.4.1"], "kiem_chung": "1,35 m"}
+{"id": "Q04", "loai": "A", "hoi": "độ dốc và chiều cao bậc thang trên đường thoát nạn", "vang": ["qcvn-06-2022-bxd:muc-3.4.2"], "kiem_chung": "22 cm"}
+{"id": "Q05", "loai": "A", "hoi": "nhà cao bao nhiêu mét thì bắt buộc có thang máy chữa cháy", "vang": ["qcvn-06-2022-bxd:muc-6.13"], "kiem_chung": "thang máy chữa cháy"}
+{"id": "Q06", "loai": "A", "hoi": "chiều rộng đường cho xe chữa cháy tối thiểu", "vang": ["qcvn-06-2022-bxd:muc-6.2.1.1"], "kiem_chung": "3,5 m"}
+{"id": "Q07", "loai": "A", "hoi": "kích thước bãi quay xe chữa cháy hình vuông", "vang": ["qcvn-06-2022-bxd:muc-6.4"], "kiem_chung": "12 m"}
+{"id": "Q08", "loai": "A", "hoi": "chiều cao thông thủy lối ra thoát nạn", "vang": ["qcvn-06-2022-bxd:muc-3.2.9"], "kiem_chung": "1,9 m"}
+{"id": "Q09", "loai": "A", "hoi": "chiều rộng hành lang chung thoát nạn tối thiểu", "vang": ["qcvn-06-2022-bxd:muc-3.3.6"], "kiem_chung": "1,2 m"}
+{"id": "Q10", "loai": "B", "hoi": "phòng chờ nhà ga dùng vật liệu hoàn thiện cấp mấy", "vang": ["qcvn-06-2022-bxd:muc-3.5.9"], "kiem_chung": "CV0"}
+{"id": "Q11", "loai": "A", "hoi": "độ cao lắp miệng họng nước chữa cháy so với sàn", "vang": ["qcvn-06-2022-bxd:muc-5.2.12"], "kiem_chung": "1,20 m"}
+{"id": "Q12", "loai": "A", "hoi": "bán kính phục vụ của trụ cấp nước chữa cháy", "vang": ["qcvn-06-2022-bxd:muc-5.1.4.7"], "kiem_chung": "200 m"}
+{"id": "Q13", "loai": "A", "hoi": "kích thước lối vào từ trên cao cho lực lượng chữa cháy", "vang": ["qcvn-06-2022-bxd:muc-6.3.4"], "kiem_chung": "850 mm"}
+{"id": "Q14", "loai": "B", "hoi": "phòng trực điều khiển chống cháy cần diện tích bao nhiêu", "vang": ["qcvn-06-2022-bxd:muc-6.17.2"], "kiem_chung": "6 m"}
+{"id": "Q15", "loai": "D", "hoi": "hồ sơ đã thẩm duyệt trước khi quy chuẩn 06 có hiệu lực thì sao", "vang": ["qcvn-06-2022-bxd:muc-7.1.1"], "kiem_chung": "thẩm duyệt"}
+{"id": "Q16", "loai": "B", "hoi": "quy chuẩn 06 áp dụng cho chung cư cao bao nhiêu mét", "vang": ["qcvn-06-2022-bxd:muc-1.1.2"], "kiem_chung": "150 m"}
+{"id": "Q17", "loai": "A", "hoi": "tường ngăn cháy loại 1 có giới hạn chịu lửa bao nhiêu", "vang": ["qcvn-06-2022-bxd:muc-2.3.2.1"], "kiem_chung": "Bảng 1"}
+{"id": "Q18", "loai": "A", "hoi": "tổng diện tích lỗ cửa trong bộ phận ngăn cháy tối đa bao nhiêu phần trăm", "vang": ["qcvn-06-2022-bxd:muc-4.19"], "kiem_chung": "25 %"}
+{"id": "Q19", "loai": "C", "hoi": "nhà hỗn hợp được phân nhóm nguy hiểm cháy theo công năng thế nào", "vang": ["qcvn-06-2022-bxd:muc-2.5.5.1"], "kiem_chung": "nhóm nguy hiểm cháy theo công năng"}
+{"id": "Q20", "loai": "A", "hoi": "bao nhiêu mét vuông mái thì cần một lối tiếp cận lên mái", "vang": ["qcvn-06-2022-bxd:muc-6.6"], "kiem_chung": "9 300"}
+{"id": "Q21", "loai": "C", "hoi": "lối ra khẩn cấp ra ban công cần khoảng tường đặc rộng bao nhiêu", "vang": ["qcvn-06-2022-bxd:muc-3.2.13"], "kiem_chung": "ban công"}
+{"id": "Q22", "loai": "A", "hoi": "máy bơm chữa cháy phải khởi động trong bao lâu sau khi báo cháy", "vang": ["qcvn-06-2022-bxd:muc-5.3.2"], "kiem_chung": "3 phút"}
