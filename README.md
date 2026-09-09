@@ -38,12 +38,14 @@ corpus/                       Bản gốc (nguồn sự thật duy nhất)
   quy-chuan/qcvn-10-2025-bca/
     toan-van.md               Phần 1–4 (mục 1.1, 2.3.1…)
     phu-luc/                  Phụ lục A–H (các bảng tra cứu)
+    phu-luc/hinh/             Hình vẽ cắt từ bản gốc
 chunks/                       Mỗi Điều / mục / bảng một file (sinh tự động)
 index/
   chunks.jsonl                Chỉ mục truy hồi kèm metadata
   documents.json              Sổ đăng ký văn bản
 tools/
   ingest_pdf.py               PDF → ảnh trang + OCR nháp
+  cat_hinh.py                 Cắt hình vẽ từ PDF gốc vào corpus/
   build_index.py              corpus/ → chunks/ + index/
   search.py                   Tìm kiếm BM25
 docs/
@@ -72,6 +74,10 @@ Cả ba file PDF gốc đều là **bản scan** (ảnh, không có lớp text).
 
 Bước 2 là bắt buộc: OCR đánh rơi dấu tiếng Việt ("thẩm quyền" → "thâm quyên",
 "dữ liệu" → "đữ liệu"). Với văn bản pháp luật, sai một dấu là sai nghĩa.
+
+**Với hình vẽ** thì làm hai lớp: chép chú dẫn thành chữ để tìm kiếm được, đồng
+thời cắt giữ lại chính hình vẽ trong `phu-luc/hinh/` để nhìn được. Hình vẽ không
+bao giờ được vẽ lại — vẽ lại là diễn giải lại.
 
 > Kho này là **công cụ tra cứu**, không thay thế bản công báo chính thức.
 > Với hồ sơ pháp lý, hãy đối chiếu lại bản gốc trên Cổng thông tin điện tử Chính phủ.

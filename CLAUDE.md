@@ -85,7 +85,26 @@ python3 tools/build_index.py
      `## 1 TÊN PHẦN` · `### 1.1 Tên mục`
    - Phụ lục: khai báo `chia_theo` (`"Mẫu số"`, `"Bảng"`, `"H."`) để cắt theo
      tiêu đề cấp 2; không khai báo thì giữ nguyên cả phụ lục làm một chunk.
-5. `python3 tools/build_index.py`
+5. **Nếu văn bản có hình vẽ, sơ đồ, biểu đồ** — làm cả hai việc, đừng bỏ việc nào:
+   - Chép phần **CHÚ DẪN** thành chữ. Với văn bản kỹ thuật, hầu hết thông số bắt
+     buộc nằm ở chú dẫn chứ không nằm trong nét vẽ. Không có chữ thì
+     `tools/search.py` không tìm ra được — với công cụ tìm kiếm, một file ảnh là
+     vô hình.
+   - **Giữ lại chính hình vẽ**: cắt bằng `tools/cat_hinh.py` vào
+     `corpus/<loại>/<mã>/phu-luc/hinh/`, rồi chèn link tương đối kèm mô tả thay
+     thế (alt text) nói rõ hình thể hiện gì:
+
+     ```markdown
+     ![Hình H.1 - Mặt cắt bến lấy nước, thể hiện trụ chống trôi xe và rào chắn](hinh/hinh-h-01.png)
+     ```
+
+     `build_index.py` tự sửa đường dẫn tương đối khi sinh chunk — không chỉnh tay.
+
+   **Không vẽ lại hình** thành SVG/Mermaid để thay cho bản gốc. Vẽ lại là diễn
+   giải lại, mà văn bản pháp luật thì một nét lệch đã là sai. Sơ đồ tự vẽ chỉ
+   dùng để giải thích cho người đọc, không bao giờ thay bản gốc.
+
+6. `python3 tools/build_index.py`
 
 ## Ngôn ngữ
 

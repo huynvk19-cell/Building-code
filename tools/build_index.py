@@ -32,6 +32,7 @@ Không phụ thuộc thư viện ngoài (chỉ dùng thư viện chuẩn của P
 from __future__ import annotations
 
 import json
+import os
 import re
 import shutil
 import unicodedata
@@ -55,6 +56,28 @@ RE_MUC_SO = re.compile(r"^###\s+(\d+(?:\.\d+)*)\s+(.+?)\s*$")
 
 # --- Phụ lục ----------------------------------------------------------------
 RE_H2 = re.compile(r"^##\s+(.+?)\s*$")
+
+# Link ảnh Markdown: ![mô tả](duong-dan.png)
+RE_ANH = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
+
+
+def doi_duong_dan_anh(text: str, nguon: Path, dich: Path) -> str:
+    """Sửa link ảnh tương đối khi chuyển nội dung từ corpus/ sang chunks/.
+
+    Trong corpus, ảnh được trỏ tương đối theo file nguồn (ví dụ `hinh/h-01.png`).
+    File chunk nằm ở thư mục khác nên cùng đường dẫn đó sẽ trỏ hụt. Hàm này tính
+    lại đường dẫn tương đối từ vị trí file chunk. Link tuyệt đối hoặc link mạng
+    được giữ nguyên.
+    """
+
+    def thay(m: re.Match) -> str:
+        mo_ta, duong_dan = m.group(1), m.group(2).strip()
+        if duong_dan.startswith(("http://", "https://", "data:", "/", "#")):
+            return m.group(0)
+        moi = os.path.relpath((nguon.parent / duong_dan).resolve(), dich.resolve())
+        return f"![{mo_ta}]({Path(moi).as_posix()})"
+
+    return RE_ANH.sub(thay, text)
 
 
 def read_front_matter(text: str) -> tuple[dict, str]:
@@ -408,7 +431,7 @@ def write_chunk_file(doc_meta: dict, chunk: dict, source: Path) -> Path:
         lines += [f"# Điều {chunk['so_hieu_muc']}. {chunk['tieu_de']}", ""]
     elif chunk["loai"] in {"muc", "phan"} and chunk.get("so_hieu_muc"):
         lines += [f"# {chunk['so_hieu_muc']} {chunk['tieu_de']}", ""]
-    lines += [chunk["text"], ""]
+    lines += [doi_duong_dan_anh(chunk["text"], source, out_dir), ""]
 
     out_path.write_text("\n".join(lines), encoding="utf-8")
     return out_path

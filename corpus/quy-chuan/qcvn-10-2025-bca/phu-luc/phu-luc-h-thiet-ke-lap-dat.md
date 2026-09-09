@@ -255,7 +255,9 @@ Khi xác định thể tích nước chữa cháy trong các bồn, bể thì ch
 
 **Hình H.1 — Quy cách bến cho xe chữa cháy lấy nước**
 
-> *(Hình vẽ mặt cắt bến lấy nước; các thông số quy định như sau)*
+![Hình H.1 - Mặt cắt bến cho xe chữa cháy lấy nước, thể hiện trụ chống trôi xe, rào chắn, mực nước cao nhất và thấp nhất](hinh/hinh-h-01-ben-lay-nuoc-xe-chua-chay.png)
+
+> *(Bản gốc: QCVN 10:2025/BCA, trang 52. Các thông số quy định như sau)*
 >
 > CHÚ DẪN:
 > - **(1)** Trụ chống trôi xe có chiều cao h ≥ 0,25 m. Trụ cách mép ngoài của bến tối thiểu 1,5 m.
@@ -286,7 +288,9 @@ Khi ngắt một bồn, bể thì lượng nước trữ để chữa cháy tron
 
 **Hình H.2 — Quy cách đường ống dẫn và hố thu nước cho xe chữa cháy lấy nước**
 
-> *(Hình vẽ mặt cắt hố thu nước; các thông số quy định như sau)*
+![Hình H.2 - Mặt cắt hố thu nước và đường ống dẫn cho xe chữa cháy lấy nước, thể hiện nắp hố thu, lưới chắn rác và vị trí xe đỗ](hinh/hinh-h-02-duong-ong-va-ho-thu-nuoc.png)
+
+> *(Bản gốc: QCVN 10:2025/BCA, trang 53. Các thông số quy định như sau)*
 >
 > CHÚ DẪN:
 > - **(1)** Nắp hố thu nước.

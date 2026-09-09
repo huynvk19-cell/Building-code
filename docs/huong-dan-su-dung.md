@@ -102,6 +102,30 @@ ngon_ngu: "vi"
 
 Phụ lục để trong `corpus/nghi-dinh/213-2026-nd-cp/phu-luc/`.
 
+**Bước 3b — Nếu văn bản có hình vẽ**
+
+Chép chú dẫn thành chữ (thông số bắt buộc nằm ở đó), rồi cắt giữ lại hình:
+
+```bash
+# Xem trang để ước lượng vùng cắt
+python3 tools/cat_hinh.py vanban.pdf --trang 52 --xem
+
+# Cắt ra file PNG
+python3 tools/cat_hinh.py vanban.pdf --trang 52 \
+    --vung 72,62,540,268 \
+    --ra corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/hinh/hinh-h-01.png
+```
+
+Rồi chèn vào Markdown, **nhớ viết mô tả thay thế** — vì công cụ tìm kiếm chỉ đọc
+được chữ, không có mô tả thì hình vẽ vô hình với người tra cứu:
+
+```markdown
+![Hình H.1 - Mặt cắt bến lấy nước, thể hiện trụ chống trôi xe và rào chắn](hinh/hinh-h-01.png)
+```
+
+Đường dẫn viết tương đối so với file Markdown đang sửa; `build_index.py` tự tính
+lại khi sinh chunk.
+
 **Bước 4 — Dựng lại chỉ mục và commit**
 
 ```bash
