@@ -498,3 +498,16 @@ khan. Vẫn phải kèm trích dẫn đầy đủ.
 - **Mọi thứ phải rõ ràng.** Nêu đủ số hiệu mục, đủ tên bảng, đủ tên văn bản. Khi
   một con số phụ thuộc điều kiện thì nêu điều kiện đó ra, đừng để người đọc tự
   đoán.
+- **Ảnh phải đi NGAY SAU nội dung mà nó minh họa, không gom lại một chỗ.**
+  Người dùng đã yêu cầu rõ: *"luôn cung cấp hình ảnh của các nội dung ngay sau
+  nó nếu có"*. Cách làm bắt buộc:
+  1. Trước khi viết câu trả lời, **rà xem mỗi mục/bảng/hình sắp trích có ảnh
+     trong kho không** — cả `bang/` lẫn `hinh/` của mọi văn bản liên quan.
+  2. Viết đoạn trích dẫn → **gửi ảnh của đúng đoạn đó ngay** → mới viết tiếp.
+     Gửi dồn toàn bộ ảnh ở đầu hoặc cuối câu trả lời là SAI, vì người đọc phải
+     tự ghép ảnh với đoạn văn.
+  3. Trích một điều khoản có dẫn chiếu hình (ví dụ mục 3.2.8 dẫn Hình I.3, I.4,
+     I.5; mục 3.4.10 dẫn Hình I.7, I.8) thì **phải gửi kèm các hình đó**, không
+     chỉ gửi bảng.
+  4. Không có ảnh trong kho thì **nói thẳng là chưa có và cần bản PDF gốc**,
+     tuyệt đối không vẽ lại rồi trình bày như ảnh chụp bản in.
