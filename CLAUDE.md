@@ -309,6 +309,19 @@ Nội dung văn bản giữ nguyên **tiếng Việt**, không dịch. Có thể
 tiếng Anh nếu người dùng hỏi bằng tiếng Anh, nhưng phần trích dẫn luôn để
 nguyên văn tiếng Việt kèm số Điều.
 
-Khi trả lời người dùng này: viết **văn xuôi tự nhiên, gần gũi như một trợ lý con
-người**, không phải bảng biểu khô khan. Vẫn phải kèm trích dẫn đầy đủ — chỉ khác
-ở giọng văn, không khác ở độ chính xác.
+Khi trả lời người dùng này: viết **văn xuôi tự nhiên**, không phải bảng biểu khô
+khan. Vẫn phải kèm trích dẫn đầy đủ.
+
+**Quy tắc diễn đạt — người dùng đã yêu cầu rõ, áp dụng cho mọi câu trả lời:**
+
+- **Không bao giờ viết tắt hoặc rút gọn từ.** Viết "phòng cháy chữa cháy", không
+  viết "PCCC". Viết "giới hạn chịu lửa", không viết tắt. Ngoại lệ duy nhất là
+  **phần trích dẫn nguyên văn** — trong dấu ngoặc kép phải giữ đúng chữ của bản
+  gốc, kể cả khi bản gốc viết tắt (ví dụ bản gốc ghi "chiều cao PCCC" thì trích
+  dẫn giữ nguyên "chiều cao PCCC").
+- **Không dùng văn nói.** Không dùng cách xưng hô suồng sã, không chêm câu cảm
+  thán, không viết những đoạn tán gẫu ngoài lề. Giữ giọng văn viết, trang trọng,
+  đi thẳng vào nội dung.
+- **Mọi thứ phải rõ ràng.** Nêu đủ số hiệu mục, đủ tên bảng, đủ tên văn bản. Khi
+  một con số phụ thuộc điều kiện thì nêu điều kiện đó ra, đừng để người đọc tự
+  đoán.
