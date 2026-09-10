@@ -36,8 +36,15 @@ Trách nhiệm phân biệt "có đáp án" với "ngoài phạm vi" **thuộc v
 trình là:
 
 1. **Đọc nội dung chunk trả về**, không chỉ nhìn tiêu đề và điểm số.
-2. **Tự hỏi: đoạn văn này có thật sự chứa quy định về đúng chủ đề được hỏi
-   không?** Trùng vài từ khóa không phải là trả lời.
+2. **Tự hỏi BA câu, không phải một.** Trùng vài từ khoá không phải là trả lời:
+   - **Đúng chủ đề?** Đoạn văn có thật sự chứa quy định về việc được hỏi không?
+   - **Đúng không gian?** Điều khoản này điều chỉnh *trong nhà* hay *ngoài
+     nhà*, hành lang thoát nạn hay vỉa hè, gian phòng hay khoang cháy? Câu này
+     **bắt buộc**, vì bỏ qua nó đã dẫn tới một lỗi có thật (xem mục "ĐỌC PHẠM
+     VI CỦA MỤC LỚN" bên dưới).
+   - **Đúng đối tượng và mục đích?** Bảo vệ ai, chống nguy cơ gì? Quy định
+     chống va đầu cho người khiếm thị và quy định thoát nạn khi cháy dùng
+     chung rất nhiều từ, nhưng không thay thế được nhau.
 3. Nếu **có** → trích dẫn nguyên văn kèm số Điều/mục.
 4. Nếu **không** → nói thẳng: *"kho hiện chưa có văn bản quy định việc này"*, và
    nêu kho đang có những văn bản nào. **Tuyệt đối không** ghép các mảnh chỉ trùng
@@ -270,10 +277,34 @@ Sai lầm này còn nặng hơn vì chính QCVN 10:2024/BXD đã tự nói nó k
 > mục 2.6.2.1: *"Phải bố trí vùng an toàn cho người gặp khó khăn khi tiếp cận
 > tuân thủ quy định tại QCVN 06:2022/BXD."*
 
+### Nguyên nhân gốc — đã truy được, không phải "bất cẩn"
+
+Phạm vi "Đường và hè phố" **vốn có sẵn trong chỉ mục**: chunk chứa mục 2.7.4
+mang đúng `tieu_de = "Đường và hè phố"`. Nhưng lúc đó tôi đọc bằng
+`grep -n 'thông thủy' corpus/.../toan-van.md` rồi `sed` lấy khoảng dòng — tức là
+đọc **file phẳng**, nơi điều khoản đã bị cắt rời khỏi tiêu đề mục.
+
+Nói cách khác: kho được cắt chunk chính là để giữ thứ bậc, rồi tôi bỏ qua nó mà
+đọc file phẳng. Công cụ đã có sẵn câu trả lời; tôi không hỏi.
+
+`tools/tra_muc.py` sinh ra để chặn đúng cơ chế này — một lệnh in ra phạm vi,
+mục cha, cờ sửa đổi, giá trị pháp lý và toàn bộ ảnh kèm:
+
+```bash
+python3 tools/tra_muc.py 2.7.4 --doc qcvn-10-2024-bxd
+#   PHẠM VI   : Đường và hè phố
+#               → có dấu hiệu NGOÀI NHÀ (tiêu đề chứa: đường và hè phố, hè phố)
+```
+
+Khi tiêu đề không đủ để kết luận, công cụ nói thẳng *"không suy được từ tiêu đề
+— PHẢI TỰ ĐỌC"* thay vì đoán. Đây là nguyên tắc đã áp dụng cho điểm số BM25:
+**thà không có nhãn còn hơn có nhãn sai**.
+
 ### Cách làm bắt buộc
 
-1. Trước khi trích một mục con, **đọc tiêu đề mục cấp trên của nó**. Chunk trả
-   về từ `search.py` đã mang sẵn trường `chuong` — dùng nó, đừng bỏ qua.
+1. Trước khi trích một mục con, **chạy `tools/tra_muc.py <số hiệu>`** và đọc
+   dòng PHẠM VI. Chunk trả về từ `search.py` cũng mang sẵn trường `chuong` và
+   `tieu_de` — dùng chúng, đừng bỏ qua.
 2. **Đọc đủ tên hình, tên bảng**, không cắt ngắn. Cụm chữ bị cắt thường chính là
    cụm phân biệt phạm vi (ở đây là "cho người khuyết tật nhìn").
 3. Khi định đặt hai điều khoản của hai văn bản cạnh nhau, **hỏi trước: chúng có
@@ -319,7 +350,20 @@ Luôn kiểm tra thêm mục 1.5.11 về các khu vực **không** phải trang 
 
 Ưu tiên theo thứ tự:
 
+> **`grep` CHỈ ĐỂ ĐỊNH VỊ, KHÔNG BAO GIỜ ĐỂ KẾT LUẬN.** `grep` trên
+> `corpus/.../toan-van.md` trả về đúng một dòng, **đã bị cắt rời khỏi tiêu đề
+> mục chứa nó** — tức là mất luôn phạm vi áp dụng. Đây chính là cơ chế đã gây ra
+> lỗi trích nhầm mục 2.7.4 QCVN 10:2024/BXD (xem bên dưới): phạm vi "Đường và hè
+> phố" **có sẵn trong chỉ mục**, nhưng `grep` không in nó ra. Định vị bằng
+> `grep` xong thì **bắt buộc** mở lại bằng `tools/tra_muc.py` hoặc đọc file
+> chunk trước khi trích.
+
 ```bash
+# 0. Tra một điều khoản đã biết số hiệu, KÈM PHẠM VI — chạy trước khi trích
+python3 tools/tra_muc.py 2.7.4 --doc qcvn-10-2024-bxd
+python3 tools/tra_muc.py 3.3.6            # in cả tiêu đề mục, mục cha, ảnh kèm
+python3 tools/tra_muc.py G.9              # tra bảng
+
 # 1. Tìm theo từ khóa (nhanh nhất, đã đủ cho hầu hết câu hỏi)
 #    Mặc định IN ĐẦY ĐỦ NỘI DUNG — vì bạn buộc phải đọc mới kết luận được.
 python3 tools/search.py "điều kiện cấp chứng chỉ hành nghề hạng II"
