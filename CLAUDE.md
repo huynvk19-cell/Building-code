@@ -298,6 +298,49 @@ Hai lỗi đã mắc khi cắt Phụ lục I, tránh lặp lại:
   đỉnh và dòng chú thích ở đáy. Cách chắc ăn: cắt xong thì **mở lại ảnh bằng thị
   giác máy để xem có cụt không**, đừng tin vào toạ độ.
 
+## Bảng tra — LUÔN KÈM ẢNH KHI TRÍCH DẪN
+
+Người dùng đã yêu cầu rõ: **khi trích dẫn bảng nào thì cắt luôn ảnh bảng đó và
+lưu vào kho.** Quy trình bắt buộc mỗi khi bạn trích một bảng:
+
+1. Nêu **tên đầy đủ** của bảng, không chỉ số hiệu. Viết
+   `Bảng G.2a - Khoảng cách giới hạn cho phép từ cửa ra vào của gian phòng đến
+   lối ra thoát nạn gần nhất đối với nhà công cộng`, đừng viết trống không
+   "Bảng G.2a".
+2. Kiểm tra ảnh đã có chưa: `ls corpus/<văn bản>/phu-luc/bang/`.
+3. Nếu **chưa có** thì cắt ngay bằng `tools/cat_bang.py`, mở lại ảnh bằng thị
+   giác máy để chắc không bị cụt, rồi commit vào kho.
+4. Gửi ảnh cho người dùng bằng công cụ gửi tệp.
+
+```bash
+# Tìm bảng nằm ở trang nào (in ra khung cắt gợi ý, chưa cắt)
+python3 tools/cat_bang.py --pdf <goc.pdf> --tu-trang 50 --den-trang 70 \
+    --dich <thu-muc> --chi-liet-ke
+
+# Cắt cả một dải trang
+python3 tools/cat_bang.py --pdf <goc.pdf> --tu-trang 56 --den-trang 65 \
+    --dich corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang --tien-to bang
+
+# Cắt tay một bảng khi khung tự động chưa đúng
+python3 tools/cat_bang.py --pdf <goc.pdf> --trang 57 --bang G.2a \
+    --y0 81 --y1 396 --dich <thu-muc> --tien-to bang
+```
+
+**RÀNG BUỘC PHẢI BIẾT:** cắt ảnh cần **bản PDF gốc**, mà PDF gốc nằm ở
+`/root/.claude/uploads/<mã phiên>/` — thư mục này **thuộc về một phiên làm việc
+và sẽ biến mất**. Vì vậy:
+
+- Khi PDF gốc **còn** trong phiên: cắt ngay, càng nhiều càng tốt, và commit.
+  Ảnh đã vào git thì tồn tại vĩnh viễn.
+- Khi PDF gốc **không còn**: không thể cắt. Phải **nói thẳng với người dùng là
+  ảnh chưa có trong kho và cần gửi lại tệp PDF gốc**, tuyệt đối không vẽ lại
+  bảng rồi trình bày như ảnh chụp bản in.
+
+Ảnh bảng lưu ở `corpus/<văn bản>/phu-luc/bang/`, đặt tên `bang-<số hiệu>.png`
+(ví dụ `bang-g-2a.png`, `bang-h-7.png`). Trang nối tiếp thêm hậu tố
+`-tiep-1`, `-tiep-2`. Thư mục này chỉ chứa ảnh nên `build_index.py` bỏ qua,
+không làm đổi chỉ mục.
+
 Chú thích hình trong QCVN có thể nằm **bên dưới hoặc bên phải** hình. Khi cắt
 bằng `tools/cat_hinh.py` phải lấy **trọn bề ngang trang** (x từ 35 đến 588 pt với
 khổ A4), nếu không sẽ mất phần chú thích bên phải. Mỗi hình vẽ thuộc về **chú
