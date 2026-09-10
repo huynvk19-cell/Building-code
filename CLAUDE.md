@@ -248,6 +248,54 @@ Recall@5 = 0.90. Hạ sâu hơn thì chôn mất phần hỏi đáp mà không �
 Đổi giá trị này thì **phải chạy lại `eval/chay_danh_gia.py` và quét lại dải**,
 đừng chỉnh theo cảm giác.
 
+## ĐỌC PHẠM VI CỦA MỤC LỚN TRƯỚC KHI TRÍCH ĐIỀU KHOẢN CON
+
+Số hiệu điều khoản **không cho biết nó điều chỉnh không gian nào**. Phải đọc
+tiêu đề của mục cấp trên trước khi trích, nếu không sẽ ghép nhầm hai chế định
+khác hẳn nhau vào cùng một câu trả lời.
+
+**Lỗi đã mắc, người dùng bắt được:** đặt mục 2.7.4 QCVN 10:2024/BXD (vật cản nhô
+ra) cạnh mục 3.3.5 QCVN 06:2022/BXD (thiết bị nhô ra hành lang thoát nạn) như
+hai quy định song song. Thực tế mục 2.7.4 nằm trong **mục 2.7 "Đường và hè
+phố"** — quy định cho **vỉa hè ngoài nhà**, và tên đầy đủ của hình minh họa nó
+là *"Hình 17 – Minh họa về kích thước lắp đặt các vật cản trên lối đi an toàn
+cho **người khuyết tật nhìn**"*, tức là chống va đầu cho người khiếm thị, không
+liên quan gì tới thoát nạn khi cháy.
+
+Sai lầm này còn nặng hơn vì chính QCVN 10:2024/BXD đã tự nói nó không quy định
+đường thoát nạn:
+
+> mục 2.6.2.2: *"Lối thoát nạn dẫn đến cầu thang thoát nạn phải tuân thủ quy
+> định tại QCVN 06:2022/BXD."*
+> mục 2.6.2.1: *"Phải bố trí vùng an toàn cho người gặp khó khăn khi tiếp cận
+> tuân thủ quy định tại QCVN 06:2022/BXD."*
+
+### Cách làm bắt buộc
+
+1. Trước khi trích một mục con, **đọc tiêu đề mục cấp trên của nó**. Chunk trả
+   về từ `search.py` đã mang sẵn trường `chuong` — dùng nó, đừng bỏ qua.
+2. **Đọc đủ tên hình, tên bảng**, không cắt ngắn. Cụm chữ bị cắt thường chính là
+   cụm phân biệt phạm vi (ở đây là "cho người khuyết tật nhìn").
+3. Khi định đặt hai điều khoản của hai văn bản cạnh nhau, **hỏi trước: chúng có
+   cùng điều chỉnh một không gian và một mục đích không?** Trùng từ khoá ("vật
+   cản", "nhô ra") không có nghĩa là cùng chế định.
+4. Kiểm tra xem văn bản này có **giao việc cho văn bản kia** hay không. Nhiều
+   quy chuẩn tự tuyên bố không điều chỉnh một chủ đề và trỏ sang văn bản khác —
+   trích chéo trong trường hợp đó luôn là sai.
+
+### Bản đồ phạm vi QCVN 10:2024/BXD — tra trước khi trích
+
+| Mục | Phạm vi | Ghi chú |
+|---|---|---|
+| 2.1 | Bãi đỗ xe và điểm dừng chờ xe | ngoài nhà |
+| 2.2 | Đường, lối vào công trình | tiếp cận vào nhà (đường dốc) |
+| 2.3 · 2.4 · 2.5 | Cửa · Thang máy · Không gian công cộng trong công trình | **trong nhà** |
+| 2.6 | Thoát nạn | **giao trọn cho QCVN 06:2022/BXD**, chỉ giữ yêu cầu hệ thống báo động |
+| 2.7 · 2.8 · 2.9 | Đường và hè phố · Dấu hiệu cảnh báo · Biển báo | **ngoài nhà** |
+
+QCVN 10:2024/BXD **không quy định chiều rộng hành lang trong nhà**. Căn cứ duy
+nhất cho chiều rộng hành lang là mục 3.3.6 QCVN 06:2022/BXD.
+
 ## Hai văn bản trùng số hiệu "QCVN 10"
 
 Kho có **hai** văn bản cùng mang số hiệu QCVN 10 nhưng khác cơ quan ban hành và
