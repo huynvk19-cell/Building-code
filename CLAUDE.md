@@ -73,7 +73,7 @@ Tình trạng hiện tại:
 | **QCVN 06:2022/BXD** | `2023-01-16` (Điều 2 Thông tư 06/2022/TT-BXD) | **mục 7.1** | Thay thế QCVN 06:2021/BXD. Đã có **đủ mục 1–7 và Phụ lục A–I**. ⚠️ **Đã bị Sửa đổi 1:2023 sửa nhiều điểm** — xem mục riêng bên dưới. |
 | **Sửa đổi 1:2023 QCVN 06:2022/BXD** | `2023-12-01` (Điều 2 Thông tư 09/2023/TT-BXD) | **Điều 3 Thông tư 09/2023/TT-BXD** | Sửa đổi, bổ sung QCVN 06:2022/BXD. **Không thay thế** — phải đọc kèm bản gốc. |
 | **QCVN 10:2024/BXD** | `CHƯA XÁC ĐỊNH` | mục 3.1 | Hiệu lực nằm ở Thông tư 06/2024/TT-BXD — **chưa có trong kho**. |
-| **QCVN 10:2025/BCA** | `CHƯA XÁC ĐỊNH` | không có trong bản Quy chuẩn | Hiệu lực nằm ở Thông tư 103/2025/TT-BCA — **chưa có trong kho**. |
+| **QCVN 10:2025/BCA** | `CHƯA XÁC ĐỊNH` | không có trong bản Quy chuẩn | Hiệu lực nằm ở Thông tư 103/2025/TT-BCA — **chưa có trong kho**. Phần hỏi đáp (giải đáp số 1531 và 1538) nói **30/12/2025**; đã ghi vào `ngay_hieu_luc_theo_tham_khao` nhưng **chưa được coi là đã chứng minh** — vẫn cần Thông tư. |
 | **Hỏi đáp C07** | `KHÔNG ÁP DỤNG` | không có | **KHÔNG phải văn bản quy phạm pháp luật.** 132 giải đáp của Cục Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ. Không có ngày trả lời — xem mục riêng bên dưới. |
 
 ## QCVN 06 — LUÔN PHẢI ĐỌC KÈM SỬA ĐỔI 1:2023
@@ -196,6 +196,17 @@ chống cháy không.
 4. **Không suy rộng từ một trường hợp cụ thể.** Phần lớn giải đáp trả lời cho
    một công trình có quy mô, công năng cụ thể. Đừng biến câu trả lời cho một nhà
    ở 60 m² bán hàng ăn sáng thành quy tắc chung cho mọi nhà ở kết hợp kinh doanh.
+
+### Phần hỏi đáp đã lấp được một khoảng trống của kho
+
+Kho từng để trống ngày hiệu lực của QCVN 10:2025/BCA. Giải đáp số 1531 và số
+1538 nêu nguyên văn *"Phạm vi áp dụng của QCVN 10:2025/BCA (có hiệu lực từ
+30/12/2025)"*. Ngày này đã được ghi vào corpus dưới trường riêng
+`ngay_hieu_luc_theo_tham_khao`, **không** ghi đè `ngay_hieu_luc`.
+
+Đây là cách xử lý bắt buộc với mọi thông tin lấy từ tài liệu tham khảo: **ghi
+lại được, nhưng không nâng lên thành đã chứng minh.** Muốn khẳng định chắc chắn
+vẫn phải có Thông tư số 103/2025/TT-BCA.
 
 ### Khoảng trống lớn nhất của kho, đã đo được
 

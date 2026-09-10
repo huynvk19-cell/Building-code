@@ -13,6 +13,8 @@ tieu_de_en: "National technical regulation on providing and arranging fire preve
 linh_vuc: ["phòng cháy chữa cháy", "cứu nạn cứu hộ", "trang bị phương tiện", "an toàn cháy"]
 ngay_hieu_luc: "CHƯA XÁC ĐỊNH"
 can_cu_hieu_luc: "Bản Quy chuẩn không nêu ngày hiệu lực. Phải tra Thông tư 103/2025/TT-BCA — CHƯA CÓ TRONG KHO."
+ngay_hieu_luc_theo_tham_khao: "2025-12-30"
+nguon_ngay_hieu_luc_tham_khao: "Giải đáp số 1531 và số 1538 của Cục Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ — nguyên văn: \"Phạm vi áp dụng của QCVN 10:2025/BCA (có hiệu lực từ 30/12/2025)\". LÀ TÀI LIỆU THAM KHẢO, không thay được Thông tư 103/2025/TT-BCA."
 thay_the: []
 het_hieu_luc: ""
 sua_doi_boi: []
