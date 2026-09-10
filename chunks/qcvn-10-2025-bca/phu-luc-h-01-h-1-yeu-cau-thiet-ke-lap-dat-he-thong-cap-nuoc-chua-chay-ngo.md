@@ -59,9 +59,7 @@ chuong: "Phụ lục H"
 
 **Bảng H.1 – Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư**
 
-
 ![Ảnh chụp Bảng H.1 từ bản in gốc — Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-1.png)
-
 ![Ảnh chụp Bảng H.1 từ bản in gốc — Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-1-tiep-1.png)
 | Dân số (× 1 000 người) | Số đám cháy đồng thời | Lưu lượng cho 1 đám cháy, L/s — Xây dựng nhà không quá 2 tầng, không phụ thuộc bậc chịu lửa | Lưu lượng cho 1 đám cháy, L/s — Xây dựng nhà từ 3 tầng trở lên, không phụ thuộc bậc chịu lửa |
 |---|---|---|---|
@@ -93,9 +91,7 @@ chuong: "Phụ lục H"
 
 **Bảng H.2 - Lưu lượng nước cho chữa cháy ngoài nhà của nhà thuộc nhóm nguy hiểm cháy theo công năng F1, F2, F3, F4**
 
-
 ![Ảnh chụp Bảng H.2 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà của nhà thuộc nhóm nguy hiểm cháy theo công năng F1, F2, F3, F4](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-2.png)
-
 ![Ảnh chụp Bảng H.2 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà của nhà thuộc nhóm nguy hiểm cháy theo công năng F1, F2, F3, F4 (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-2-tiep-1.png)
 *Lưu lượng nước cho chữa cháy ngoài nhà không phụ thuộc bậc chịu lửa tính cho 1 đám cháy, L/s, theo khối tích nhà (× 1 000 m³)*
 
@@ -141,9 +137,7 @@ chuong: "Phụ lục H"
 
 **Bảng H.4 - Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 không có lỗ mở trên mái có chiều rộng nhà trên 60 m**
 
-
 ![Ảnh chụp Bảng H.4 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 không có lỗ mở trên mái có chiều rộng nhà trên 60 m](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-4.png)
-
 ![Ảnh chụp Bảng H.4 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 không có lỗ mở trên mái có chiều rộng nhà trên 60 m (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-4-tiep-1.png)
 *Lưu lượng nước chữa cháy ngoài nhà tính cho 1 đám cháy, L/s, theo khối tích nhà (× 1 000 m³)*
 

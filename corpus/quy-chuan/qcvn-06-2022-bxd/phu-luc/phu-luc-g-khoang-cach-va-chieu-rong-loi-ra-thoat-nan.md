@@ -69,9 +69,7 @@ Khoảng cách giới hạn cho phép từ cửa ra vào của căn hộ (nhà n
 
 **Bảng G.2b – Khoảng cách giới hạn cho phép từ một điểm bất kỳ của gian phòng công cộng không có ghế ngồi cho khán giả đến lối ra thoát nạn gần nhất**
 
-
 ![Ảnh chụp Bảng G.2b từ bản in gốc — Khoảng cách giới hạn cho phép từ một điểm bất kỳ của gian phòng công cộng không có ghế ngồi cho khán giả đến lối ra thoát nạn gần nhất](bang/bang-g-2b.png)
-
 ![Ảnh chụp Bảng G.2b từ bản in gốc — Khoảng cách giới hạn cho phép từ một điểm bất kỳ của gian phòng công cộng không có ghế ngồi cho khán giả đến lối ra thoát nạn gần nhất (trang tiếp theo 1)](bang/bang-g-2b-tiep-1.png)
 *Khoảng cách giới hạn cho phép, m, từ 1 điểm bất kỳ của gian phòng tới lối ra thoát nạn gần nhất với khối tích gian phòng, 1 000 m³:*
 
@@ -278,6 +276,8 @@ Số lượng người lớn nhất trong một gian phòng, một tầng hoặc
 
 **Bảng G.9 – Hệ số không gian sàn** ^1)^
 
+![Ảnh chụp Bảng G.9 từ bản in gốc — Hệ số không gian sàn](bang/bang-g-9.png)
+![Ảnh chụp Bảng G.9 từ bản in gốc — Hệ số không gian sàn (trang tiếp theo 1)](bang/bang-g-9-tiep-1.png)
 | Không gian sử dụng ^2), 3)^ | Hệ số không gian sàn, m²/người |
 |---|---|
 | 1. Khu vực vui chơi có mái che, hội trường, nơi đông người, câu lạc bộ, sàn nhảy, quầy Bar, Karaoke và các khu tương tự | **1,0** |

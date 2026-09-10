@@ -20,6 +20,13 @@ ngon_ngu: "vi"
 
 ## Bảng A.1 - Đối với nhà
 
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà](bang/bang-a-1.png)
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà (trang tiếp theo 1)](bang/bang-a-1-tiep-1.png)
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà (trang tiếp theo 2)](bang/bang-a-1-tiep-2.png)
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà (trang tiếp theo 3)](bang/bang-a-1-tiep-3.png)
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà (trang tiếp theo 4)](bang/bang-a-1-tiep-4.png)
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà (trang tiếp theo 5)](bang/bang-a-1-tiep-5.png)
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà (trang tiếp theo 6)](bang/bang-a-1-tiep-6.png)
 | STT | Loại nhà | Hệ thống báo cháy tự động | Hệ thống chữa cháy tự động ⁽¹⁾ |
 |---|---|---|---|
 | 1 | Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ (có phần diện tích để kinh doanh dưới 30 % tổng diện tích sàn của nhà) ⁽²⁾ | Cao từ 7 tầng trở lên (cho phép trang bị thiết bị báo cháy độc lập) | Chiều cao PCCC từ 30 m trở lên |
@@ -109,6 +116,8 @@ Cho phép không trang bị hệ thống báo cháy tự động, hệ thống c
 
 ## Bảng A.2 - Đối với hạng mục/khu vực
 
+![Ảnh chụp Bảng A.2 từ bản in gốc — Đối với hạng mục/khu vực](bang/bang-a-2.png)
+![Ảnh chụp Bảng A.2 từ bản in gốc — Đối với hạng mục/khu vực (trang tiếp theo 1)](bang/bang-a-2-tiep-1.png)
 | STT | Hạng mục/khu vực | Hệ thống báo cháy tự động | Hệ thống chữa cháy tự động |
 |---|---|---|---|
 | 1 | Hạng mục cáp ⁽¹⁾ của nhà máy điện (không bao gồm phần cáp đặt ở ngoài nhà, công trình) | Không phụ thuộc vào quy mô ⁽²⁾ | Không phụ thuộc vào quy mô ⁽²⁾ |
@@ -145,6 +154,11 @@ Cho phép chỉ bố trí đầu báo cháy tại các vị trí các đường 
 
 ## Bảng A.3 - Đối với gian phòng
 
+![Ảnh chụp Bảng A.3 từ bản in gốc — Đối với gian phòng](bang/bang-a-3.png)
+![Ảnh chụp Bảng A.3 từ bản in gốc — Đối với gian phòng (trang tiếp theo 1)](bang/bang-a-3-tiep-1.png)
+![Ảnh chụp Bảng A.3 từ bản in gốc — Đối với gian phòng (trang tiếp theo 2)](bang/bang-a-3-tiep-2.png)
+![Ảnh chụp Bảng A.3 từ bản in gốc — Đối với gian phòng (trang tiếp theo 3)](bang/bang-a-3-tiep-3.png)
+![Ảnh chụp Bảng A.3 từ bản in gốc — Đối với gian phòng (trang tiếp theo 4)](bang/bang-a-3-tiep-4.png)
 | STT | Đối tượng bảo vệ | Hệ thống báo cháy tự động | Hệ thống chữa cháy tự động |
 |---|---|---|---|
 | **1** | **Gian phòng kho** | | |
@@ -230,6 +244,8 @@ Cho phép chỉ bố trí đầu báo cháy tại các vị trí các đường 
 > CHÚ THÍCH: Các gian phòng sản xuất và các gian phòng kho, kể cả các phòng thí nghiệm và nhà xưởng có diện tích trên 50 m² trong các nhà thuộc nhóm F1, F2, F3 và F4 thì áp dụng quy định của Quy chuẩn này như đối với gian phòng F5.
 
 ## Bảng A.4 - Đối với thiết bị
+
+![Ảnh chụp Bảng A.4 từ bản in gốc — Đối với thiết bị](bang/bang-a-4.png)
 
 | STT | Đối tượng bảo vệ | Hệ thống báo cháy tự động | Hệ thống chữa cháy tự động |
 |---|---|---|---|

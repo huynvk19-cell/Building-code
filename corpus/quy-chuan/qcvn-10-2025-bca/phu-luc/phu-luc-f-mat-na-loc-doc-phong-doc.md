@@ -17,6 +17,8 @@ ngon_ngu: "vi"
 
 ## Bảng F.1 - Quy định về trang bị mặt nạ lọc độc và mặt nạ phòng độc cách ly
 
+![Ảnh chụp Bảng F.1 từ bản in gốc — Quy định về trang bị mặt nạ lọc độc và mặt nạ phòng độc cách ly](bang/bang-f-1.png)
+
 | STT | Đối tượng | Quy mô, đặc điểm | Số lượng (chiếc) |
 |---|---|---|---|
 | 1 | Khách sạn, nhà khách, nhà nghỉ và cơ sở dịch vụ lưu trú khác | Cao từ 3 tầng trở lên | Trang bị **mặt nạ lọc độc** tại tất cả các tầng nhà với định mức **01 chiếc/01 người** (bao gồm cả khách lưu trú và nhân viên phục vụ có mặt thường xuyên) |

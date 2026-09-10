@@ -20,7 +20,6 @@ chuong: "Phụ lục F"
 
 **Bảng F.5 – Cột bê tông cốt thép (có 4 mặt đều tiếp xúc với lửa)**
 
-
 ![Ảnh chụp Bảng F.5 từ bản in gốc — Cột bê tông cốt thép (có 4 mặt đều tiếp xúc với lửa)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-5.png)
 *Giá trị nhỏ nhất của thông số, mm, để bảo đảm giới hạn chịu lửa:*
 
@@ -42,7 +41,6 @@ chuong: "Phụ lục F"
 > CHÚ THÍCH 3: Các thông số của tiết diện cấu kiện phải xét đồng thời.
 
 **Bảng F.6 – Cột bê tông cốt thép (có 1 mặt tiếp xúc với lửa)**
-
 
 ![Ảnh chụp Bảng F.6 từ bản in gốc — Cột bê tông cốt thép (có 1 mặt tiếp xúc với lửa)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-6.png)
 *Giá trị nhỏ nhất của thông số, mm, để bảo đảm giới hạn chịu lửa:*

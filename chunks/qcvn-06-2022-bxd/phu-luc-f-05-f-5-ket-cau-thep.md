@@ -20,7 +20,6 @@ chuong: "Phụ lục F"
 
 **Bảng F.7 – Cột chống bằng thép được bọc bảo vệ (khối lượng cột trên 1 m dài không nhỏ hơn 45 kg)**
 
-
 ![Ảnh chụp Bảng F.7 từ bản in gốc — Cột chống bằng thép được bọc bảo vệ (khối lượng cột trên 1 m dài không nhỏ hơn 45 kg)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-7.png)
 *Chiều dày nhỏ nhất, mm, của lớp bảo vệ để bảo đảm giới hạn chịu lửa:*
 
@@ -45,7 +44,6 @@ chuong: "Phụ lục F"
 > ^4)^ Lớp bảo vệ dạng rỗng có nghĩa là có một khoảng trống giữa vật liệu bảo vệ và thép. Tất cả các lớp bảo vệ dạng rỗng cho cột phải được chèn bịt một cách có hiệu quả tại mỗi cao trình sàn.
 
 **Bảng F.8 – Dầm thép được bọc bảo vệ (khối lượng dầm trên 1 m dài không nhỏ hơn 30 kg)**
-
 
 ![Ảnh chụp Bảng F.8 từ bản in gốc — Dầm thép được bọc bảo vệ (khối lượng dầm trên 1 m dài không nhỏ hơn 30 kg)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-8.png)
 *Chiều dày nhỏ nhất, mm, của lớp bảo vệ để bảo đảm giới hạn chịu lửa:*

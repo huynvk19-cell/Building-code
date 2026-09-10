@@ -17,6 +17,8 @@ ngon_ngu: "vi"
 
 ## Bảng C.1 - Quy định về trang bị hệ thống cấp nước chữa cháy ngoài nhà
 
+![Ảnh chụp Bảng C.1 từ bản in gốc — Quy định về trang bị hệ thống cấp nước chữa cháy ngoài nhà](bang/bang-c-1.png)
+
 | TT | Loại nhà, công trình | Quy mô |
 |---|---|---|
 | 1 | Nhà khám, chữa bệnh, lưu trú bệnh nhân của bệnh viện | Cao từ 5 tầng trở lên hoặc tổng diện tích sàn từ 3 000 m² trở lên |

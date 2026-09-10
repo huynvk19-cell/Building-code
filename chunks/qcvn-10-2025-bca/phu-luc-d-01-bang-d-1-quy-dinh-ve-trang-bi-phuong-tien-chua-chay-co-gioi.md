@@ -15,6 +15,8 @@ chuong: "Phụ lục D"
 
 ## Bảng D.1 - Quy định về trang bị phương tiện chữa cháy cơ giới
 
+![Ảnh chụp Bảng D.1 từ bản in gốc — Quy định về trang bị phương tiện chữa cháy cơ giới](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-d-1.png)
+![Ảnh chụp Bảng D.1 từ bản in gốc — Quy định về trang bị phương tiện chữa cháy cơ giới (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-d-1-tiep-1.png)
 | TT | Đối tượng | Quy mô | Xe ô tô chữa cháy (chiếc) | Tàu chữa cháy (chiếc) | Máy bơm chữa cháy loại khiêng tay (chiếc) ⁽²⁾ |
 |---|---|---|---|---|---|
 | **1** | **Kho** ⁽¹⁾ | | | | |

@@ -17,6 +17,8 @@ ngon_ngu: "vi"
 
 ## Bảng E.1 - Quy định về trang bị dụng cụ phá dỡ thô sơ
 
+![Ảnh chụp Bảng E.1 từ bản in gốc — Quy định về trang bị dụng cụ phá dỡ thô sơ](bang/bang-e-1.png)
+
 | STT | Đối tượng | Quy mô | Số lượng |
 |---|---|---|---|
 | 1 | Nhà sản xuất | Không phụ thuộc quy mô | 01 bộ dụng cụ phá dỡ thô sơ (xem thành phần bên dưới) |

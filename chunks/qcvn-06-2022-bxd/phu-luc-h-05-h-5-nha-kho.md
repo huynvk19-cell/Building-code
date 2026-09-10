@@ -22,9 +22,7 @@ chuong: "Phụ lục H"
 
 **Bảng H.11 – Nhà kho**
 
-
 ![Ảnh chụp Bảng H.11 từ bản in gốc — Nhà kho](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-11.png)
-
 ![Ảnh chụp Bảng H.11 từ bản in gốc — Nhà kho (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-11-tiep-1.png)
 *Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m²:*
 

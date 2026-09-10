@@ -24,6 +24,8 @@ Số lượng người lớn nhất trong một gian phòng, một tầng hoặc
 
 **Bảng G.9 – Hệ số không gian sàn** ^1)^
 
+![Ảnh chụp Bảng G.9 từ bản in gốc — Hệ số không gian sàn](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-g-9.png)
+![Ảnh chụp Bảng G.9 từ bản in gốc — Hệ số không gian sàn (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-g-9-tiep-1.png)
 | Không gian sử dụng ^2), 3)^ | Hệ số không gian sàn, m²/người |
 |---|---|
 | 1. Khu vực vui chơi có mái che, hội trường, nơi đông người, câu lạc bộ, sàn nhảy, quầy Bar, Karaoke và các khu tương tự | **1,0** |

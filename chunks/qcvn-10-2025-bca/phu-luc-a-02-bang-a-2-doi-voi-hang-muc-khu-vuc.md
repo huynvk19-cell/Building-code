@@ -15,6 +15,8 @@ chuong: "Phụ lục A"
 
 ## Bảng A.2 - Đối với hạng mục/khu vực
 
+![Ảnh chụp Bảng A.2 từ bản in gốc — Đối với hạng mục/khu vực](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-2.png)
+![Ảnh chụp Bảng A.2 từ bản in gốc — Đối với hạng mục/khu vực (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-2-tiep-1.png)
 | STT | Hạng mục/khu vực | Hệ thống báo cháy tự động | Hệ thống chữa cháy tự động |
 |---|---|---|---|
 | 1 | Hạng mục cáp ⁽¹⁾ của nhà máy điện (không bao gồm phần cáp đặt ở ngoài nhà, công trình) | Không phụ thuộc vào quy mô ⁽²⁾ | Không phụ thuộc vào quy mô ⁽²⁾ |

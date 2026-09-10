@@ -30,9 +30,7 @@ Khi trang bị chữa cháy tự động toàn nhà cho nhà sản xuất, cho p
 
 **Bảng H.9 – Nhà sản xuất**
 
-
 ![Ảnh chụp Bảng H.9 từ bản in gốc — Nhà sản xuất](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-9.png)
-
 ![Ảnh chụp Bảng H.9 từ bản in gốc — Nhà sản xuất (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-9-tiep-1.png)
 *Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m²:*
 

@@ -20,11 +20,8 @@ chuong: "Phụ lục F"
 
 **Bảng F.1 – Tường xây hoặc tường bê tông**
 
-
 ![Ảnh chụp Bảng F.1 từ bản in gốc — Tường xây hoặc tường bê tông](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-1.png)
-
 ![Ảnh chụp Bảng F.1 từ bản in gốc — Tường xây hoặc tường bê tông (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-1-tiep-1.png)
-
 ![Ảnh chụp Bảng F.1 từ bản in gốc — Tường xây hoặc tường bê tông (trang tiếp theo 2)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-1-tiep-2.png)
 *Chiều dày nhỏ nhất không kể lớp trát, mm, để bảo đảm giới hạn chịu lửa:*
 

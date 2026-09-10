@@ -453,6 +453,24 @@ Mỗi ảnh đã được **chèn liên kết ngay dưới tiêu đề bảng** 
 chunk trả về từ `search.py` đã mang sẵn đường dẫn ảnh. Chỉ việc gửi tệp đó cho
 người dùng, **không cần cắt lại**.
 
+**BẢNG NHIỀU TRANG: PHẢI GỬI ĐỦ CẢ CHUỖI.** Đây là lỗi đã mắc và bị người dùng
+bắt: trích Bảng G.9 nhưng chỉ gửi `bang-g-9.png` (mục 1–6), trong khi mục 11 mà
+câu trả lời đang dựa vào lại nằm ở `bang-g-9-tiep-1.png`. Trước khi gửi ảnh của
+bất kỳ bảng nào, **luôn `ls` cả thư mục để xem có tệp `-tiep-N` không**, và gửi
+trọn bộ theo đúng thứ tự. Ảnh cuối chuỗi phải là trang mang dòng *(kết thúc)*.
+
+`tools/chen_anh_bang.py` giữ cho corpus không bị sót liên kết:
+
+```bash
+python3 tools/chen_anh_bang.py         # xem trước
+python3 tools/chen_anh_bang.py --ghi   # chèn vào corpus
+```
+
+Công cụ này idempotent và **so sánh trọn bộ ảnh của một bảng với các liên kết đã
+có**, chứ không dừng ở "đã có một ảnh thì thôi" — vì chính cách kiểm tra hời hợt
+đó đã làm 48 liên kết trang tiếp theo bị thiếu mà không ai biết. Chạy lại nó sau
+mỗi lần cắt thêm ảnh.
+
 Bảng trải nhiều trang có thêm tệp hậu tố `-tiep-1`, `-tiep-2`, cũng đã được liên
 kết cùng chỗ.
 

@@ -24,9 +24,7 @@ chuong: "1 QUY ĐỊNH CHUNG"
 
 **Bảng 1 - Loại và nhóm đám cháy**
 
-
 ![Ảnh chụp Bảng 1 từ bản in gốc — Loại và nhóm đám cháy](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-1.png)
-
 ![Ảnh chụp Bảng 1 từ bản in gốc — Loại và nhóm đám cháy (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-1-tiep-1.png)
 | Ký hiệu loại đám cháy | Đặc tính của loại đám cháy | Ký hiệu nhóm đám cháy | Đặc tính của nhóm đám cháy |
 |---|---|---|---|
@@ -46,9 +44,7 @@ chuong: "1 QUY ĐỊNH CHUNG"
 
 **Bảng 2 - Hiệu quả chữa cháy của các chất chữa cháy**
 
-
 ![Ảnh chụp Bảng 2 từ bản in gốc — Hiệu quả chữa cháy của các chất chữa cháy](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-2.png)
-
 ![Ảnh chụp Bảng 2 từ bản in gốc — Hiệu quả chữa cháy của các chất chữa cháy (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-2-tiep-1.png)
 | Chất chữa cháy | | A | B | C | D | E |
 |---|---|---|---|---|---|---|

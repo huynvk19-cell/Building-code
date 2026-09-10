@@ -15,6 +15,8 @@ chuong: "Phụ lục A"
 
 ## Bảng A.4 - Đối với thiết bị
 
+![Ảnh chụp Bảng A.4 từ bản in gốc — Đối với thiết bị](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-4.png)
+
 | STT | Đối tượng bảo vệ | Hệ thống báo cháy tự động | Hệ thống chữa cháy tự động |
 |---|---|---|---|
 | 1 | Buồng sơn sử dụng chất lỏng dễ cháy hoặc chất lỏng cháy ⁽¹⁾ | – | Không phụ thuộc vào quy mô |

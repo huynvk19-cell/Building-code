@@ -31,9 +31,7 @@ Căn cứ vào công năng của đối tượng bảo vệ có thể lựa ch�
 
 **Bảng H.5 – Số tia phun chữa cháy và lưu lượng nước tối thiểu đối với hệ thống họng nước chữa cháy**
 
-
 ![Ảnh chụp Bảng H.5 từ bản in gốc — Số tia phun chữa cháy và lưu lượng nước tối thiểu đối với hệ thống họng nước chữa cháy](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-5.png)
-
 ![Ảnh chụp Bảng H.5 từ bản in gốc — Số tia phun chữa cháy và lưu lượng nước tối thiểu đối với hệ thống họng nước chữa cháy (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-5-tiep-1.png)
 | Nhà ở và công trình công cộng | Số tia phun chữa cháy trên 1 tầng nhà | Lưu lượng tối thiểu cho chữa cháy trong nhà, L/s, đối với một tia phun |
 |---|---|---|
@@ -106,9 +104,7 @@ Căn cứ vào công năng của đối tượng bảo vệ có thể lựa ch�
 
 **Bảng H.7 - Lưu lượng nước chữa cháy phụ thuộc theo chiều cao tia nước đặc và đường kính đầu lăng phun chữa cháy**
 
-
 ![Ảnh chụp Bảng H.7 từ bản in gốc — Lưu lượng nước chữa cháy phụ thuộc theo chiều cao tia nước đặc và đường kính đầu lăng phun chữa cháy](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-7.png)
-
 ![Ảnh chụp Bảng H.7 từ bản in gốc — Lưu lượng nước chữa cháy phụ thuộc theo chiều cao tia nước đặc và đường kính đầu lăng phun chữa cháy (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-7-tiep-1.png)
 *Họng nước chữa cháy DN 50* ⁽¹⁾
 

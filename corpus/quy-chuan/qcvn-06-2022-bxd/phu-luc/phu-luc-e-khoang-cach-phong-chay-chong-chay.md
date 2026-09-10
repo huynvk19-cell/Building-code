@@ -26,9 +26,7 @@ Trong trường hợp cần bảo đảm khoảng cách giữa các nhà, công 
 
 **Bảng E.1 – Khoảng cách phòng cháy chống cháy giữa các nhà ở, nhà và công trình công cộng và khoảng cách từ các nhà ở, nhà và công trình công cộng đến nhà và công trình sản xuất, nhà kho**
 
-
 ![Ảnh chụp Bảng E.1 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà ở, nhà và công trình công cộng và khoảng cách từ các nhà ở, nhà và công trình công cộng đến nhà và công trình sản xuất, nhà kho](bang/bang-e-1.png)
-
 ![Ảnh chụp Bảng E.1 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà ở, nhà và công trình công cộng và khoảng cách từ các nhà ở, nhà và công trình công cộng đến nhà và công trình sản xuất, nhà kho (trang tiếp theo 1)](bang/bang-e-1-tiep-1.png)
 *Khoảng cách phòng cháy chống cháy tối thiểu, m, đến nhà ở và nhà công cộng thứ hai với bậc chịu lửa và cấp nguy hiểm cháy kết cấu:*
 
@@ -67,9 +65,7 @@ Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở 
 
 **Bảng E.2 – Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở công nghiệp**
 
-
 ![Ảnh chụp Bảng E.2 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở công nghiệp](bang/bang-e-2.png)
-
 ![Ảnh chụp Bảng E.2 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở công nghiệp (trang tiếp theo 1)](bang/bang-e-2-tiep-1.png)
 *Khoảng cách giữa các nhà, m:*
 
@@ -131,6 +127,7 @@ Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở 
 
 **Bảng E.4a – Tỷ lệ tổng diện tích lớn nhất của các lỗ mở không được bảo vệ chống cháy so với tổng diện tích bề mặt tường đối diện với đường ranh giới, %** *(cho các nhà thuộc mục 1, 2 Bảng E.3)*
 
+![Ảnh chụp Bảng E.4a từ bản in gốc — Tỷ lệ tổng diện tích lớn nhất của các lỗ mở không được bảo vệ chống cháy so với tổng diện tích bề mặt tường đối diện với đường ranh giới, % *(cho các nhà thuộc mục 1, 2 Bảng E.3)](bang/bang-e-4a.png)
 *Cột = Tổng diện tích tường ngoài, m². Hàng = Khoảng cách phòng cháy chống cháy theo đường ranh giới, m.*
 
 | KC \ Dtích | 9 | 14 | 19 | 23 | 28 | 37 | 47 | 56 | 65 | 74 | 84 | 93 | 140 | 186 | 233 | 326 | 465 | 930 | ≥ 1860 |
@@ -152,6 +149,7 @@ Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở 
 
 **Bảng E.4b – Tỷ lệ tổng diện tích lớn nhất của các lỗ mở không được bảo vệ chống cháy so với tổng diện tích bề mặt tường đối diện với đường ranh giới, %** *(cho các nhà thuộc mục 3, Bảng E.3)*
 
+![Ảnh chụp Bảng E.4b từ bản in gốc — Tỷ lệ tổng diện tích lớn nhất của các lỗ mở không được bảo vệ chống cháy so với tổng diện tích bề mặt tường đối diện với đường ranh giới, % *(cho các nhà thuộc mục 3, Bảng E.3)](bang/bang-e-4b.png)
 *Cột = Tổng diện tích tường ngoài, m². Hàng = Khoảng cách phòng cháy chống cháy theo đường ranh giới, m.*
 
 | KC \ Dtích | 9 | 14 | 19 | 23 | 28 | 37 | 47 | 56 | 65 | 74 | 84 | 93 | 140 | 186 | 233 | 326 | 465 | 930 | ≥ 1860 |

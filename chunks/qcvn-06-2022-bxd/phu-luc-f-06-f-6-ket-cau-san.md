@@ -20,9 +20,7 @@ chuong: "Phụ lục F"
 
 **Bảng F.9 – Sàn bê tông cốt thép (cốt liệu gốc silic hoặc đá vôi)**
 
-
 ![Ảnh chụp Bảng F.9 từ bản in gốc — Sàn bê tông cốt thép (cốt liệu gốc silic hoặc đá vôi)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-9.png)
-
 ![Ảnh chụp Bảng F.9 từ bản in gốc — Sàn bê tông cốt thép (cốt liệu gốc silic hoặc đá vôi) (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-9-tiep-1.png)
 *Giá trị nhỏ nhất của thông số, mm, để bảo đảm giới hạn chịu lửa:*
 
@@ -72,9 +70,7 @@ chuong: "Phụ lục F"
 
 **Bảng F.10 – Sàn bê tông cốt thép ứng suất trước (cốt liệu gốc silic hoặc đá vôi)**
 
-
 ![Ảnh chụp Bảng F.10 từ bản in gốc — Sàn bê tông cốt thép ứng suất trước (cốt liệu gốc silic hoặc đá vôi)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-10.png)
-
 ![Ảnh chụp Bảng F.10 từ bản in gốc — Sàn bê tông cốt thép ứng suất trước (cốt liệu gốc silic hoặc đá vôi) (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-10-tiep-1.png)
 *Giá trị nhỏ nhất của thông số, mm, để bảo đảm giới hạn chịu lửa:*
 

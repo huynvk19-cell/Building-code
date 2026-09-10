@@ -28,9 +28,7 @@ Trong trường hợp cần bảo đảm khoảng cách giữa các nhà, công 
 
 **Bảng E.1 – Khoảng cách phòng cháy chống cháy giữa các nhà ở, nhà và công trình công cộng và khoảng cách từ các nhà ở, nhà và công trình công cộng đến nhà và công trình sản xuất, nhà kho**
 
-
 ![Ảnh chụp Bảng E.1 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà ở, nhà và công trình công cộng và khoảng cách từ các nhà ở, nhà và công trình công cộng đến nhà và công trình sản xuất, nhà kho](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-e-1.png)
-
 ![Ảnh chụp Bảng E.1 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà ở, nhà và công trình công cộng và khoảng cách từ các nhà ở, nhà và công trình công cộng đến nhà và công trình sản xuất, nhà kho (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-e-1-tiep-1.png)
 *Khoảng cách phòng cháy chống cháy tối thiểu, m, đến nhà ở và nhà công cộng thứ hai với bậc chịu lửa và cấp nguy hiểm cháy kết cấu:*
 

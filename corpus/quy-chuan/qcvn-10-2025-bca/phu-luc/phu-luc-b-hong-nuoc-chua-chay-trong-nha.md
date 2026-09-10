@@ -15,6 +15,8 @@ ngon_ngu: "vi"
 
 ## Bảng B.1 - Quy định về trang bị hệ thống họng nước chữa cháy trong nhà
 
+![Ảnh chụp Bảng B.1 từ bản in gốc — Quy định về trang bị hệ thống họng nước chữa cháy trong nhà](bang/bang-b-1.png)
+![Ảnh chụp Bảng B.1 từ bản in gốc — Quy định về trang bị hệ thống họng nước chữa cháy trong nhà (trang tiếp theo 1)](bang/bang-b-1-tiep-1.png)
 | STT | Loại nhà, công trình | Quy mô |
 |---|---|---|
 | **1** | **Nhà ở, công trình công cộng** | |

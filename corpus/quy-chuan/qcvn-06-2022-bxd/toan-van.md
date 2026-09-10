@@ -1053,12 +1053,9 @@ Trong các nhà có nhóm nguy hiểm cháy theo công năng nhất định, mà
 
 **Bảng 6 – Phân nhóm nhà ^1)^ dựa trên tính nguy hiểm cháy theo công năng**
 
-
-![Ảnh chụp Bảng 6 từ bản in gốc — Phân nhóm nhà ^1)^ dựa trên tính nguy hiểm cháy theo công năng](bang/bang-6.png)
-
-![Ảnh chụp Bảng 6 từ bản in gốc — Phân nhóm nhà ^1)^ dựa trên tính nguy hiểm cháy theo công năng (trang tiếp theo 1)](bang/bang-6-tiep-1.png)
-
-![Ảnh chụp Bảng 6 từ bản in gốc — Phân nhóm nhà ^1)^ dựa trên tính nguy hiểm cháy theo công năng (trang tiếp theo 2)](bang/bang-6-tiep-2.png)
+![Ảnh chụp Bảng 6 từ bản in gốc — Phân nhóm nhà  dựa trên tính nguy hiểm cháy theo công năng](bang/bang-6.png)
+![Ảnh chụp Bảng 6 từ bản in gốc — Phân nhóm nhà  dựa trên tính nguy hiểm cháy theo công năng (trang tiếp theo 1)](bang/bang-6-tiep-1.png)
+![Ảnh chụp Bảng 6 từ bản in gốc — Phân nhóm nhà  dựa trên tính nguy hiểm cháy theo công năng (trang tiếp theo 2)](bang/bang-6-tiep-2.png)
 | Nhóm | Mục đích sử dụng | Đặc điểm sử dụng |
 |---|---|---|
 | **F1** | **Nhà để ở thường xuyên hoặc tạm thời (trong đó có cả để ở suốt ngày đêm)** | Các gian phòng trong nhà này thường được sử dụng cả ngày và đêm. Nhóm người trong đó có thể gồm nhiều lứa tuổi và trạng thái thể chất khác nhau. Đặc trưng của các nhà này là có các phòng ngủ. |
@@ -2045,9 +2042,7 @@ Lưu lượng nước cho chữa cháy ngoài nhà cho nhà có nhóm nguy hiể
 
 **Bảng 7 – Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư**
 
-
 ![Ảnh chụp Bảng 7 từ bản in gốc — Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư](bang/bang-7.png)
-
 ![Ảnh chụp Bảng 7 từ bản in gốc — Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư (trang tiếp theo 1)](bang/bang-7-tiep-1.png)
 | Dân số, × 1 000 người | Số đám cháy đồng thời | Lưu lượng cho 1 đám cháy, L/s — Xây dựng nhà không quá 2 tầng không phụ thuộc bậc chịu lửa | Lưu lượng cho 1 đám cháy, L/s — Xây dựng nhà từ 3 tầng trở lên không phụ thuộc bậc chịu lửa |
 |---|---|---|---|
@@ -2362,9 +2357,7 @@ Trường hợp sử dụng các họng nước lưu lượng thấp thì phải
 
 **Bảng 11 – Số tia phun chữa cháy và lưu lượng nước tối thiểu đối với hệ thống họng nước chữa cháy trong nhà**
 
-
 ![Ảnh chụp Bảng 11 từ bản in gốc — Số tia phun chữa cháy và lưu lượng nước tối thiểu đối với hệ thống họng nước chữa cháy trong nhà](bang/bang-11.png)
-
 ![Ảnh chụp Bảng 11 từ bản in gốc — Số tia phun chữa cháy và lưu lượng nước tối thiểu đối với hệ thống họng nước chữa cháy trong nhà (trang tiếp theo 1)](bang/bang-11-tiep-1.png)
 | Nhà ở và công trình công cộng | Số tia phun chữa cháy trên 1 tầng nhà | Lưu lượng tối thiểu cho chữa cháy trong nhà, L/s, đối với một tia phun |
 |---|---|---|

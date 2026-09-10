@@ -15,6 +15,13 @@ chuong: "Phụ lục A"
 
 ## Bảng A.1 - Đối với nhà
 
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-1.png)
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-1-tiep-1.png)
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà (trang tiếp theo 2)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-1-tiep-2.png)
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà (trang tiếp theo 3)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-1-tiep-3.png)
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà (trang tiếp theo 4)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-1-tiep-4.png)
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà (trang tiếp theo 5)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-1-tiep-5.png)
+![Ảnh chụp Bảng A.1 từ bản in gốc — Đối với nhà (trang tiếp theo 6)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-1-tiep-6.png)
 | STT | Loại nhà | Hệ thống báo cháy tự động | Hệ thống chữa cháy tự động ⁽¹⁾ |
 |---|---|---|---|
 | 1 | Nhà ở riêng lẻ kết hợp kinh doanh dịch vụ (có phần diện tích để kinh doanh dưới 30 % tổng diện tích sàn của nhà) ⁽²⁾ | Cao từ 7 tầng trở lên (cho phép trang bị thiết bị báo cháy độc lập) | Chiều cao PCCC từ 30 m trở lên |

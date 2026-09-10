@@ -108,11 +108,8 @@ Vật liệu ốp lát hoàn thiện bề mặt các cấu kiện bao che cabin 
 
 **Bảng A.1 – Giới hạn chịu lửa tối thiểu của các cấu kiện xây dựng**
 
-
 ![Ảnh chụp Bảng A.1 từ bản in gốc — Giới hạn chịu lửa tối thiểu của các cấu kiện xây dựng](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-a-1.png)
-
 ![Ảnh chụp Bảng A.1 từ bản in gốc — Giới hạn chịu lửa tối thiểu của các cấu kiện xây dựng (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-a-1-tiep-1.png)
-
 ![Ảnh chụp Bảng A.1 từ bản in gốc — Giới hạn chịu lửa tối thiểu của các cấu kiện xây dựng (trang tiếp theo 2)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-a-1-tiep-2.png)
 | Tên cấu kiện (bộ phận nhà) | Chiều cao PCCC > 50 và ≤ 100 m | Chiều cao PCCC > 100 và ≤ 150 m |
 |---|---|---|

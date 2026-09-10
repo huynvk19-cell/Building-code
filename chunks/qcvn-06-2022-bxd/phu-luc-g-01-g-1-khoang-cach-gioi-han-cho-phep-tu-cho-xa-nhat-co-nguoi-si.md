@@ -71,9 +71,7 @@ Khoảng cách giới hạn cho phép từ cửa ra vào của căn hộ (nhà n
 
 **Bảng G.2b – Khoảng cách giới hạn cho phép từ một điểm bất kỳ của gian phòng công cộng không có ghế ngồi cho khán giả đến lối ra thoát nạn gần nhất**
 
-
 ![Ảnh chụp Bảng G.2b từ bản in gốc — Khoảng cách giới hạn cho phép từ một điểm bất kỳ của gian phòng công cộng không có ghế ngồi cho khán giả đến lối ra thoát nạn gần nhất](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-g-2b.png)
-
 ![Ảnh chụp Bảng G.2b từ bản in gốc — Khoảng cách giới hạn cho phép từ một điểm bất kỳ của gian phòng công cộng không có ghế ngồi cho khán giả đến lối ra thoát nạn gần nhất (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-g-2b-tiep-1.png)
 *Khoảng cách giới hạn cho phép, m, từ 1 điểm bất kỳ của gian phòng tới lối ra thoát nạn gần nhất với khối tích gian phòng, 1 000 m³:*
 

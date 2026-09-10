@@ -15,6 +15,8 @@ chuong: "Phụ lục G"
 
 ## Bảng G.1 - Quy định về trang bị hệ thống loa thông báo và hướng dẫn thoát nạn
 
+![Ảnh chụp Bảng G.1 từ bản in gốc — Quy định về trang bị hệ thống loa thông báo và hướng dẫn thoát nạn](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-g-1.png)
+
 | STT | Đối tượng | Quy mô |
 |---|---|---|
 | 1 | Chung cư, nhà và công trình công cộng thuộc diện quản lý về phòng cháy, chữa cháy | Cao trên 10 tầng hoặc có từ 2 tầng hầm trở lên |

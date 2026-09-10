@@ -56,7 +56,6 @@ Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao PCCC lớn 
 
 **Bảng H.3 – Nhà của các cơ sở dịch vụ (nhóm F3.5)**
 
-
 ![Ảnh chụp Bảng H.3 từ bản in gốc — Nhà của các cơ sở dịch vụ (nhóm F3.5)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-3.png)
 *Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m²:*
 
@@ -78,7 +77,6 @@ Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao PCCC lớn 
 Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao PCCC lớn nhất cho phép của nhà và diện tích một tầng trong phạm vi một khoang cháy đối với nhà của các cơ sở thương mại (nhóm F3.1) được quy định tại Bảng H.4. Cần tuân thủ thêm các quy định bổ sung tại H.2.12.
 
 **Bảng H.4 – Nhà của các cơ sở thương mại (nhóm F3.1)**
-
 
 ![Ảnh chụp Bảng H.4 từ bản in gốc — Nhà của các cơ sở thương mại (nhóm F3.1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-4.png)
 *Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m²:*
@@ -135,7 +133,6 @@ Trong nhà trẻ, mẫu giáo, mầm non, các hành lang nối các buồng tha
 
 **Bảng H.6 – Nhà của trường học phổ thông (nhóm F4.1) và nhà ngủ của các trường nội trú (nhóm F1.1)**
 
-
 ![Ảnh chụp Bảng H.6 từ bản in gốc — Nhà của trường học phổ thông (nhóm F4.1) và nhà ngủ của các trường nội trú (nhóm F1.1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-6.png)
 | Số học sinh hoặc số chỗ trong nhà | Cấp nguy hiểm cháy kết cấu | Bậc chịu lửa tối thiểu | Chiều cao PCCC lớn nhất cho phép của nhà, m (số tầng) |
 |---|---|---|---|
@@ -172,6 +169,7 @@ Khi rạp chiếu phim có một số phòng chiếu phim thì tổng sức ch�
 
 **Bảng H.7 – Nhà của các cơ sở văn hóa (nhóm F2.1 và F2.2)** *(thư viện, bảo tàng, triển lãm, câu lạc bộ, nhà hát, phòng hòa nhạc, rạp chiếu phim, rạp xiếc và các nhà có đặc điểm sử dụng tương tự)*
 
+![Ảnh chụp Bảng H.7 từ bản in gốc — Nhà của các cơ sở văn hóa (nhóm F2.1 và F2.2) *(thư viện, bảo tàng, triển lãm, câu lạc bộ, nhà hát, phòng hòa nhạc, rạp chiếu phim, rạp xiếc và các nhà có đặc điểm sử dụng tương tự)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-7.png)
 | Nhóm nguy hiểm cháy theo công năng của nhà, công trình | Bậc chịu lửa | Cấp nguy hiểm cháy kết cấu | Chiều cao PCCC lớn nhất cho phép của nhà, m (số tầng trên mặt đất không kể tầng kỹ thuật trên cùng) | Sức chứa của gian phòng hoặc công trình, chỗ |
 |---|---|---|---|---|
 | **F2.1** | I | S0 | 50 | Không hạn chế |

@@ -22,9 +22,7 @@ Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở 
 
 **Bảng E.2 – Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở công nghiệp**
 
-
 ![Ảnh chụp Bảng E.2 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở công nghiệp](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-e-2.png)
-
 ![Ảnh chụp Bảng E.2 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở công nghiệp (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-e-2-tiep-1.png)
 *Khoảng cách giữa các nhà, m:*
 

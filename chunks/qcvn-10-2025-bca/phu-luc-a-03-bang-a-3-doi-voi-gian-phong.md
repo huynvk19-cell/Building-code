@@ -15,6 +15,11 @@ chuong: "Phụ lục A"
 
 ## Bảng A.3 - Đối với gian phòng
 
+![Ảnh chụp Bảng A.3 từ bản in gốc — Đối với gian phòng](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-3.png)
+![Ảnh chụp Bảng A.3 từ bản in gốc — Đối với gian phòng (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-3-tiep-1.png)
+![Ảnh chụp Bảng A.3 từ bản in gốc — Đối với gian phòng (trang tiếp theo 2)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-3-tiep-2.png)
+![Ảnh chụp Bảng A.3 từ bản in gốc — Đối với gian phòng (trang tiếp theo 3)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-3-tiep-3.png)
+![Ảnh chụp Bảng A.3 từ bản in gốc — Đối với gian phòng (trang tiếp theo 4)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-a-3-tiep-4.png)
 | STT | Đối tượng bảo vệ | Hệ thống báo cháy tự động | Hệ thống chữa cháy tự động |
 |---|---|---|---|
 | **1** | **Gian phòng kho** | | |

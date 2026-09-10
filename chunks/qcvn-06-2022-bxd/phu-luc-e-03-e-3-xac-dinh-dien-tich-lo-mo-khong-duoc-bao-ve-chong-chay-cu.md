@@ -54,6 +54,7 @@ chuong: "Phụ lục E"
 
 **Bảng E.4a – Tỷ lệ tổng diện tích lớn nhất của các lỗ mở không được bảo vệ chống cháy so với tổng diện tích bề mặt tường đối diện với đường ranh giới, %** *(cho các nhà thuộc mục 1, 2 Bảng E.3)*
 
+![Ảnh chụp Bảng E.4a từ bản in gốc — Tỷ lệ tổng diện tích lớn nhất của các lỗ mở không được bảo vệ chống cháy so với tổng diện tích bề mặt tường đối diện với đường ranh giới, % *(cho các nhà thuộc mục 1, 2 Bảng E.3)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-e-4a.png)
 *Cột = Tổng diện tích tường ngoài, m². Hàng = Khoảng cách phòng cháy chống cháy theo đường ranh giới, m.*
 
 | KC \ Dtích | 9 | 14 | 19 | 23 | 28 | 37 | 47 | 56 | 65 | 74 | 84 | 93 | 140 | 186 | 233 | 326 | 465 | 930 | ≥ 1860 |
@@ -75,6 +76,7 @@ chuong: "Phụ lục E"
 
 **Bảng E.4b – Tỷ lệ tổng diện tích lớn nhất của các lỗ mở không được bảo vệ chống cháy so với tổng diện tích bề mặt tường đối diện với đường ranh giới, %** *(cho các nhà thuộc mục 3, Bảng E.3)*
 
+![Ảnh chụp Bảng E.4b từ bản in gốc — Tỷ lệ tổng diện tích lớn nhất của các lỗ mở không được bảo vệ chống cháy so với tổng diện tích bề mặt tường đối diện với đường ranh giới, % *(cho các nhà thuộc mục 3, Bảng E.3)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-e-4b.png)
 *Cột = Tổng diện tích tường ngoài, m². Hàng = Khoảng cách phòng cháy chống cháy theo đường ranh giới, m.*
 
 | KC \ Dtích | 9 | 14 | 19 | 23 | 28 | 37 | 47 | 56 | 65 | 74 | 84 | 93 | 140 | 186 | 233 | 326 | 465 | 930 | ≥ 1860 |
