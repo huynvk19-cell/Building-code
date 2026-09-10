@@ -532,7 +532,10 @@ python3 tools/cat_bang.py --pdf <goc.pdf> --trang 57 --bang G.2a \
 
 ### Đã cắt sẵn — kiểm tra trước khi nghĩ tới việc cắt mới
 
-Kho **đã có sẵn 122 ảnh bảng**, phủ **toàn bộ bảng của cả bốn văn bản**:
+Kho **đã có sẵn 121 ảnh bảng**, phủ **toàn bộ bảng của cả bốn văn bản**, và
+**cả 121 ảnh đều đã được chèn liên kết vào corpus** (kiểm lại bằng
+`tools/chen_anh_bang.py`). Con số này từng là 122; một ảnh đã bị xoá vì bắt
+nhầm câu văn xuôi thành bảng — xem phần bảng nhiều trang bên dưới:
 
 | Văn bản | Thư mục ảnh | Số bảng |
 |---|---|---|
