@@ -15,6 +15,8 @@ Hai kiểu cấu trúc, khai báo bằng khóa `cau_truc` trong front matter:
     cau_truc: "muc"              – Quy chuẩn (QCVN), Tiêu chuẩn (TCVN)…
                                    cắt tại "### 1.1 Tên mục"; phần "## 3 TÊN"
                                    không có mục con thì tự nó là một chunk
+    cau_truc: "hoi-dap"          – tài liệu giải đáp nghiệp vụ; cắt tại
+                                   "### HĐ-60 Nhãn", nhóm chủ đề là "## Nhóm 03. Tên"
 
 Phụ lục cắt theo khóa `chia_theo` trong front matter của từng file phụ lục:
 
@@ -58,6 +60,12 @@ RE_PHAN = re.compile(r"^##\s+(?:(\d+(?:\.\d+)*)\s+)?(.+?)\s*$")
 # Số hiệu mục, tiêu đề TÙY CHỌN. Hậu tố chữ cái ("1.4.21a") là cách QCVN
 # đánh số một điểm được CHÈN THÊM giữa hai điểm cũ — gặp nhiều ở các bản sửa đổi.
 RE_MUC_SO = re.compile(r"^###\s+(\d+(?:\.\d+)*[a-z]?)(?:\s+(.+?))?\s*$")
+
+# --- Cấu trúc "hoi-dap": tài liệu giải đáp nghiệp vụ -------------------------
+# "### HĐ-60 Nhãn suy từ câu hỏi" — HĐ-<số hiệu câu hỏi trên cổng thông tin>.
+RE_HOI_DAP = re.compile(r"^###\s+(HĐ-\d+)(?:\s+(.+?))?\s*$")
+# "## Nhóm 03. Đối tượng và thủ tục thẩm duyệt thiết kế, nghiệm thu"
+RE_NHOM = re.compile(r"^##\s+(Nhóm\s+\d+)\.\s*(.+?)\s*$")
 
 # --- Phụ lục ----------------------------------------------------------------
 RE_H2 = re.compile(r"^##\s+(.+?)\s*$")
@@ -338,10 +346,76 @@ def split_muc(meta: dict, body: str) -> list[dict]:
     return chunks
 
 
+def split_hoi_dap(meta: dict, body: str) -> list[dict]:
+    """Cắt tài liệu giải đáp nghiệp vụ: mỗi câu hỏi đáp là một chunk.
+
+    Đơn vị trích dẫn tự nhiên ở đây là **một câu hỏi và câu trả lời cho nó**,
+    chứ không phải điều khoản — vì tài liệu này không có điều khoản. Số hiệu
+    chunk lấy đúng số hiệu câu hỏi trên cổng thông tin (HĐ-60) để người dùng
+    mở lại nguồn gốc kiểm chứng được.
+    """
+    doc_id = meta["doc_id"]
+    builder = ChunkBuilder()
+    nhom = None
+    preamble: list[str] = []
+
+    for line in body.splitlines():
+        m = RE_HOI_DAP.match(line)
+        if m:
+            so, tieu_de = m.group(1), (m.group(2) or "")
+            builder.start(
+                chunk_id=f"{doc_id}:{slugify(so)}",
+                loai="hoi-dap",
+                so_hieu_muc=so,
+                sap_xep=(1, int(so.split("-")[1])),
+                tieu_de=tieu_de,
+                chuong=nhom,
+                muc=None,
+                slug=f"{slugify(so)}-{slugify(tieu_de)}",
+            )
+            continue
+
+        m = RE_NHOM.match(line)
+        if m:
+            nhom = f"{m.group(1)}. {m.group(2)}"
+            # Nhóm chỉ là ngữ cảnh, tự nó không thành chunk.
+            builder.flush()
+            continue
+
+        if builder.current is None:
+            preamble.append(line)
+        else:
+            builder.add(line)
+
+    builder.flush()
+    chunks = builder.chunks
+
+    preamble_text = "\n".join(preamble).strip()
+    if preamble_text:
+        chunks.insert(
+            0,
+            {
+                "chunk_id": f"{doc_id}:mo-dau",
+                "loai": "mo-dau",
+                "so_hieu_muc": None,
+                "sap_xep": (0, 0),
+                "tieu_de": "Cảnh báo về giá trị pháp lý của tài liệu",
+                "chuong": None,
+                "muc": None,
+                "slug": "00-mo-dau",
+                "text": preamble_text,
+            },
+        )
+    return chunks
+
+
 def split_toan_van(path: Path) -> tuple[dict, list[dict]]:
     meta, body = read_front_matter(path.read_text(encoding="utf-8"))
-    if meta.get("cau_truc") == "muc":
+    cau_truc = meta.get("cau_truc")
+    if cau_truc == "muc":
         return meta, split_muc(meta, body)
+    if cau_truc == "hoi-dap":
+        return meta, split_hoi_dap(meta, body)
     return meta, split_dieu(meta, body)
 
 
@@ -449,6 +523,14 @@ def citation(doc_meta: dict, chunk: dict) -> str:
     la_quy_chuan = so_hieu.startswith(("QCVN", "TCVN", "Sửa đổi"))
     ten_vb = so_hieu if la_quy_chuan else f"{loai} số {so_hieu}"
 
+    if chunk["loai"] == "hoi-dap":
+        # Chuỗi trích dẫn tự nó mang cảnh báo, để dù được sao chép đi đâu thì
+        # người đọc vẫn biết đây không phải căn cứ pháp lý.
+        so = (chunk["so_hieu_muc"] or "").replace("HĐ-", "")
+        return (
+            f"Giải đáp số {so} của Cục Cảnh sát Phòng cháy chữa cháy và Cứu nạn "
+            f"cứu hộ (tài liệu tham khảo, không phải văn bản quy phạm pháp luật)"
+        )
     if chunk["loai"] == "dieu":
         return f"Điều {chunk['so_hieu_muc']} {ten_vb}"
     if chunk["loai"] in {"muc", "phan"}:
@@ -479,6 +561,10 @@ def write_chunk_file(doc_meta: dict, chunk: dict, source: Path) -> Path:
         "tieu_de": chunk["tieu_de"],
         "nguon": str(source.relative_to(ROOT)),
     }
+    # Chỉ tài liệu KHÔNG phải quy phạm pháp luật mới khai trường này; sự có mặt
+    # của nó là tín hiệu để search.py in cảnh báo.
+    if doc_meta.get("gia_tri_phap_ly"):
+        fm["gia_tri_phap_ly"] = doc_meta["gia_tri_phap_ly"]
     if chunk.get("so_hieu_muc"):
         fm["so_hieu_muc"] = chunk["so_hieu_muc"]
     if chunk.get("chuong"):
@@ -493,6 +579,8 @@ def write_chunk_file(doc_meta: dict, chunk: dict, source: Path) -> Path:
         lines += [f"# Điều {chunk['so_hieu_muc']}. {chunk['tieu_de']}", ""]
     elif chunk["loai"] in {"muc", "phan"} and chunk.get("so_hieu_muc"):
         lines += [f"# {chunk['so_hieu_muc']} {chunk['tieu_de']}", ""]
+    elif chunk["loai"] == "hoi-dap":
+        lines += [f"# {chunk['so_hieu_muc']} {chunk['tieu_de']}", ""]
     lines += [doi_duong_dan_anh(chunk["text"], source, out_dir), ""]
 
     out_path.write_text("\n".join(lines), encoding="utf-8")
@@ -501,7 +589,9 @@ def write_chunk_file(doc_meta: dict, chunk: dict, source: Path) -> Path:
 
 def write_muc_luc(doc_dir: Path, doc_meta: dict, chunks: list[dict]) -> None:
     ten = doc_meta.get("so_hieu", "")
-    if not ten.startswith(("QCVN", "TCVN")):
+    if doc_meta.get("cau_truc") == "hoi-dap":
+        ten = doc_meta.get("tieu_de", ten)
+    elif not ten.startswith(("QCVN", "TCVN")):
         ten = f"{doc_meta.get('loai_van_ban', '')} số {ten}"
     lines = [
         f"# Mục lục — {ten}",
@@ -528,6 +618,91 @@ def write_muc_luc(doc_dir: Path, doc_meta: dict, chunks: list[dict]) -> None:
         lines.append(f"- [{nhan}]({rel.as_posix()})")
     lines.append("")
     (doc_dir / "muc-luc.md").write_text("\n".join(lines), encoding="utf-8")
+
+
+# Số hiệu văn bản quy phạm pháp luật xuất hiện trong nội dung một chunk.
+RE_VIEN_DAN = (
+    re.compile(r"\b(\d{1,3}/\d{4}/(?:NĐ-CP|TT-BXD|TT-BCA|TT-BTC|QH\d{1,2}))"),
+    re.compile(r"\b(QCVN\s*\d{1,3}:\d{4}/(?:BXD|BCA))"),
+    re.compile(r"\b(TCVN\s*\d{3,5}(?:-\d)?:\d{4})"),
+)
+
+
+def _chuan_so_hieu(s: str) -> str:
+    return re.sub(r"\s+", " ", s).strip().upper()
+
+
+def _rut_so_hieu(s: str) -> list[str]:
+    """Rút số hiệu văn bản ra khỏi một chuỗi mô tả tự do.
+
+    Trường `thay_the` trong corpus được viết kèm chú thích, ví dụ
+    "QCVN 06:2021/BXD (ban hành kèm Thông tư số 02/2021/TT-BXD ngày 19/5/2021)".
+    So khớp cả chuỗi sẽ luôn trượt, nên phải rút riêng số hiệu ra.
+    """
+    # Phải trả về THEO THỨ TỰ XUẤT HIỆN trong chuỗi, không theo thứ tự biểu
+    # thức: chuỗi trên có "02/2021/TT-BXD" khớp biểu thức đầu nhưng lại đứng
+    # sau, lấy nhầm nó sẽ coi Thông tư là văn bản bị thay thế.
+    thay: list[tuple[int, str]] = []
+    for rx in RE_VIEN_DAN:
+        for m in rx.finditer(s):
+            thay.append((m.start(), _chuan_so_hieu(m.group(1))))
+    thay.sort()
+    ra: list[str] = []
+    for _, v in thay:
+        if v not in ra:
+            ra.append(v)
+    return ra
+
+
+def danh_dau_vien_dan(all_chunks: list[dict], documents: list[dict]) -> int:
+    """Với tài liệu THAM KHẢO, ghi lại nó viện dẫn những văn bản nào.
+
+    Tài liệu giải đáp nghiệp vụ không mang ngày trả lời, nên không thể biết nó
+    được viết theo văn bản nào còn hiệu lực tại thời điểm nào. Cách kiểm soát
+    duy nhất trung thực là: liệt kê ra các văn bản mà nó viện dẫn, rồi đối
+    chiếu với sổ đăng ký của kho để chia làm hai loại —
+
+      * `vien_dan_da_bi_thay_the`  – kho CHỨNG MINH ĐƯỢC là đã bị thay thế,
+        căn cứ trường `thay_the` của chính văn bản thay thế nó;
+      * `vien_dan_ngoai_kho`      – kho KHÔNG có, nên không tự kiểm chứng được.
+
+    Không tự suy ra tình trạng hiệu lực của văn bản ngoài kho — chỉ nêu rằng
+    chưa kiểm chứng được.
+    """
+    trong_kho: set[str] = set()
+    for d in documents:
+        if d.get("so_hieu"):
+            trong_kho.update(_rut_so_hieu(d["so_hieu"]) or [_chuan_so_hieu(d["so_hieu"])])
+    # "văn bản bị thay thế" -> "văn bản thay thế nó", lấy từ chính sổ đăng ký.
+    # Chỉ nhận văn bản ĐẦU TIÊN trong chuỗi: nó là văn bản bị thay thế, những
+    # số hiệu sau đó chỉ là chú thích về nơi ban hành văn bản đó.
+    bi_thay_the: dict[str, str] = {}
+    for d in documents:
+        for cu in d.get("thay_the") or []:
+            so = _rut_so_hieu(cu)
+            if so:
+                bi_thay_the[so[0]] = d.get("so_hieu", "")
+
+    dem = 0
+    for c in all_chunks:
+        if not c.get("gia_tri_phap_ly"):
+            continue
+        thay: set[str] = set()
+        for rx in RE_VIEN_DAN:
+            thay.update(_chuan_so_hieu(m) for m in rx.findall(c["text"]))
+        da_thay_the, ngoai_kho = [], []
+        for so in sorted(thay):
+            if so in bi_thay_the:
+                da_thay_the.append({"so_hieu": so, "thay_the_boi": bi_thay_the[so]})
+            elif so not in trong_kho:
+                ngoai_kho.append(so)
+        if da_thay_the:
+            c["vien_dan_da_bi_thay_the"] = da_thay_the
+        if ngoai_kho:
+            c["vien_dan_ngoai_kho"] = ngoai_kho
+        if da_thay_the or ngoai_kho:
+            dem += 1
+    return dem
 
 
 def noi_sua_doi(all_chunks: list[dict], documents: list[dict]) -> int:
@@ -625,6 +800,9 @@ def main() -> None:
                         "ngay_ban_hanh": doc_meta.get("ngay_ban_hanh", ""),
                         "ngay_hieu_luc": doc_meta.get("ngay_hieu_luc", "CHƯA XÁC ĐỊNH"),
                         "het_hieu_luc": doc_meta.get("het_hieu_luc", ""),
+                        # Rỗng với văn bản quy phạm pháp luật; có giá trị với
+                        # tài liệu tham khảo — search.py dựa vào đây để cảnh báo.
+                        "gia_tri_phap_ly": doc_meta.get("gia_tri_phap_ly", ""),
                         "loai_chunk": chunk["loai"],
                         "so_hieu_muc": chunk.get("so_hieu_muc"),
                         "tieu_de": chunk["tieu_de"],
@@ -643,7 +821,9 @@ def main() -> None:
             del c["_sap_xep"]
         all_chunks.extend(doc_chunks)
 
-        don_vi = sum(1 for c in doc_chunks if c["loai_chunk"] in {"dieu", "muc", "phan"})
+        don_vi = sum(
+            1 for c in doc_chunks if c["loai_chunk"] in {"dieu", "muc", "phan", "hoi-dap"}
+        )
         documents.append(
             {
                 "doc_id": doc_meta["doc_id"],
@@ -659,6 +839,7 @@ def main() -> None:
                 "sua_doi_boi": doc_meta.get("sua_doi_boi", []),
                 "dieu_khoan_chuyen_tiep": doc_meta.get("dieu_khoan_chuyen_tiep", ""),
                 "linh_vuc": doc_meta.get("linh_vuc", []),
+                "gia_tri_phap_ly": doc_meta.get("gia_tri_phap_ly", ""),
                 "nguon": doc_meta.get("nguon", ""),
                 "cau_truc": doc_meta.get("cau_truc", "dieu"),
                 "sua_doi_cho": doc_meta.get("sua_doi_cho", []),
@@ -671,6 +852,7 @@ def main() -> None:
         write_muc_luc(doc_dir, doc_meta, doc_chunks)
 
     da_gan = noi_sua_doi(all_chunks, documents)
+    da_danh_dau = danh_dau_vien_dan(all_chunks, documents)
     for doc in documents:
         doc.pop("_sua_doi_cho", None)
 
@@ -685,8 +867,13 @@ def main() -> None:
     print(f"Đã xử lý {len(documents)} văn bản, {len(all_chunks)} chunk.")
     if da_gan:
         print(f"  ⚠ {da_gan} chunk của văn bản gốc đã được gắn cờ ĐÃ BỊ SỬA ĐỔI.")
+    if da_danh_dau:
+        print(
+            f"  ⚠ {da_danh_dau} chunk tài liệu THAM KHẢO đã được ghi rõ các văn bản "
+            f"mà nó viện dẫn."
+        )
     for doc in documents:
-        don_vi = "Điều" if doc["cau_truc"] == "dieu" else "mục"
+        don_vi = {"dieu": "Điều", "hoi-dap": "câu hỏi đáp"}.get(doc["cau_truc"], "mục")
         print(f"  - {doc['so_hieu']}: {doc['so_don_vi']} {don_vi}, {doc['so_chunk']} chunk")
 
 

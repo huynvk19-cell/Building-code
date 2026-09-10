@@ -29,6 +29,7 @@ python3 eval/chay_danh_gia.py
 | H | Phủ định / vắng mặt quy định | 3 |
 | I | Câu hỏi thiếu thông tin | 1 |
 | J | Suy luận tuân thủ từ dữ kiện | 2 |
+| K | Hỏi đáp nghiệp vụ (tài liệu tham khảo) | 20 |
 
 ## Số đo tại thời điểm lập (2026-09-09)
 
@@ -62,3 +63,43 @@ Recall@5 theo loại: A=0,67 · B=0,83 · C=0,75 · D=1,00 · E=1,00 · F=1,00 �
 - Mở rộng lên ~100 câu, ưu tiên loại G, I, C.
 - Nhờ một kiến trúc sư không tham gia dựng corpus viết câu hỏi, để bỏ thiên lệch từ vựng.
 - Bổ sung đo độ đúng trích dẫn và độ đúng con số.
+
+
+## Hệ số trọng số của tài liệu tham khảo
+
+`tools/search.py` nhân điểm BM25 của chunk thuộc tài liệu THAM KHẢO với
+`HE_SO_THAM_KHAO`. Giá trị hiện hành là **0.90**, chọn bằng cách quét dải và đo
+trên bộ 185 câu:
+
+| hệ số | Recall@1 | Recall@3 | MRR | loại K (Recall@5) |
+|---|---|---|---|---|
+| 1.00 | 0.563 | 0.742 | 0.693 | 0.95 |
+| 0.95 | 0.569 | 0.753 | 0.697 | 0.90 |
+| **0.90** | **0.569** | **0.767** | **0.705** | **0.90** |
+| 0.85 | 0.563 | 0.761 | 0.702 | 0.85 |
+| 0.80 | 0.557 | 0.763 | 0.702 | 0.80 |
+| 0.72 | 0.548 | 0.757 | 0.697 | 0.75 |
+| 0.60 | 0.542 | 0.737 | 0.687 | 0.65 |
+
+0.90 cho chỉ số tổng hợp cao nhất đồng thời giữ được loại K ở mức 0.90. Quét lại
+dải này mỗi khi thêm tài liệu tham khảo mới:
+
+```bash
+for h in 1.00 0.95 0.90 0.85 0.80 0.72 0.60; do
+  HE_SO_THAM_KHAO=$h python3 eval/chay_danh_gia.py | grep -E 'Recall@1 |Recall@3|MRR|theo loại'
+done
+```
+
+## Chi phí đã đo của việc thêm phần hỏi đáp
+
+Đo trên **đúng bộ 165 câu trước khi thêm**, để so sánh công bằng:
+
+| | trước | sau (hệ số 1.00) | sau (hệ số 0.90) |
+|---|---|---|---|
+| Recall@1 | 0.554 | 0.545 | 0.558 |
+| Recall@3 | 0.774 | 0.728 | 0.762 |
+| Recall@5 | 0.811 | 0.794 | 0.796 |
+| Recall@10 | 0.887 | 0.859 | 0.882 |
+| MRR | 0.709 | 0.680 | 0.698 |
+
+Không hạ trọng số thì Recall@3 mất 0.046. Hạ trọng số kéo lại còn mất 0.012.

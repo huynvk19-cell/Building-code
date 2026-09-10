@@ -46,8 +46,14 @@ trình là:
    cấu, tiết kiệm năng lượng, quy hoạch chi tiết…), hãy nói rõ ngay từ đầu thay
    vì cố nặn ra câu trả lời từ năm văn bản đang có.
 
-Kho hiện **chỉ có năm văn bản**. Mặc định của bạn khi không chắc phải là *"chưa
-có trong kho"*, không phải *"có lẽ là…"*.
+Kho hiện có **năm văn bản quy phạm pháp luật** và **một tài liệu tham khảo**
+(hỏi đáp nghiệp vụ — xem mục riêng bên dưới). Mặc định của bạn khi không chắc
+phải là *"chưa có trong kho"*, không phải *"có lẽ là…"*.
+
+**Tài liệu tham khảo không bao giờ là căn cứ pháp lý.** Nếu chỉ tìm được câu trả
+lời trong phần hỏi đáp mà không có điều khoản nào chống lưng, phải nói thẳng
+rằng kho chưa có căn cứ quy phạm cho việc này, và nêu rõ phần hỏi đáp chỉ cho
+biết cơ quan quản lý đang hiểu quy định như thế nào.
 
 ## Kiểm tra hiệu lực
 
@@ -68,6 +74,7 @@ Tình trạng hiện tại:
 | **Sửa đổi 1:2023 QCVN 06:2022/BXD** | `2023-12-01` (Điều 2 Thông tư 09/2023/TT-BXD) | **Điều 3 Thông tư 09/2023/TT-BXD** | Sửa đổi, bổ sung QCVN 06:2022/BXD. **Không thay thế** — phải đọc kèm bản gốc. |
 | **QCVN 10:2024/BXD** | `CHƯA XÁC ĐỊNH` | mục 3.1 | Hiệu lực nằm ở Thông tư 06/2024/TT-BXD — **chưa có trong kho**. |
 | **QCVN 10:2025/BCA** | `CHƯA XÁC ĐỊNH` | không có trong bản Quy chuẩn | Hiệu lực nằm ở Thông tư 103/2025/TT-BCA — **chưa có trong kho**. |
+| **Hỏi đáp C07** | `KHÔNG ÁP DỤNG` | không có | **KHÔNG phải văn bản quy phạm pháp luật.** 132 giải đáp của Cục Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ. Không có ngày trả lời — xem mục riêng bên dưới. |
 
 ## QCVN 06 — LUÔN PHẢI ĐỌC KÈM SỬA ĐỔI 1:2023
 
@@ -150,6 +157,86 @@ chính — ví dụ định nghĩa buồng thang L1/L2 nằm ở **mục 2.4.3.2
 Sửa đổi 1:2023 cũng **bổ sung THƯ MỤC TÀI LIỆU THAM KHẢO** (23 mục) sau Phụ lục I.
 Các số `[1]`, `[5]`, `[8]`… rải rác trong bản sửa đổi trỏ về danh mục đó.
 
+## HỎI ĐÁP NGHIỆP VỤ — KINH NGHIỆM THỰC CHIẾN, KHÔNG PHẢI CĂN CỨ PHÁP LÝ
+
+Kho có **132 giải đáp** của Cục Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ
+đối với câu hỏi của công dân và doanh nghiệp, thu thập từ chuyên mục hỏi đáp
+trên cổng thông tin `canhsatpccc.gov.vn`, đặt tại
+`corpus/huong-dan/hoi-dap-c07/`.
+
+Giá trị của nó là cho biết **cơ quan thẩm duyệt thực tế đang hiểu và áp dụng quy
+định như thế nào** — thứ mà đọc trần văn bản quy chuẩn không thấy được. Nhiều
+giải đáp trả lời đúng những câu mà quy chuẩn để mập mờ: công trình đã hoạt động
+rồi có phải nâng cấp theo tiêu chuẩn mới không, nhà ở kết hợp kinh doanh bao
+nhiêu mét vuông thì thành cơ sở thuộc diện quản lý, kết cấu thép có bắt buộc sơn
+chống cháy không.
+
+### Bốn quy tắc bắt buộc khi dùng phần này
+
+1. **Không bao giờ trích giải đáp làm căn cứ pháp lý.** Căn cứ luôn là văn bản
+   quy phạm pháp luật mà giải đáp đó viện dẫn. Giải đáp chỉ đi kèm để cho thấy
+   cơ quan quản lý hiểu điều khoản đó ra sao.
+2. **Luôn nói rõ đây là tài liệu tham khảo.** Chuỗi trích dẫn đã mang sẵn cảnh
+   báo, dùng đúng chuỗi đó: *"Giải đáp số 60 của Cục Cảnh sát Phòng cháy chữa
+   cháy và Cứu nạn cứu hộ (tài liệu tham khảo, không phải văn bản quy phạm pháp
+   luật)"*.
+3. **Không mục nào có ngày trả lời.** Không thể biết giải đáp được viết theo văn
+   bản nào còn hiệu lực tại thời điểm nào. `tools/build_index.py` tự liệt kê các
+   văn bản mà mỗi giải đáp viện dẫn và `tools/search.py` in ra hai loại cảnh báo:
+
+   ```
+   🛑  THAM KHẢO - KHÔNG PHẢI VĂN BẢN QUY PHẠM PHÁP LUẬT — KHÔNG ĐƯỢC dùng làm căn cứ pháp lý.
+   ⚠️  Viện dẫn QCVN 06:2021/BXD — kho xác định văn bản này ĐÃ BỊ THAY THẾ bởi QCVN 06:2022/BXD.
+   ⚠️  Viện dẫn văn bản KHÔNG CÓ TRONG KHO: TCVN 3890:2009, TCVN 3890:2023
+   ```
+
+   Thấy dòng thứ hai thì **tuyệt đối không dùng lại nội dung đó** mà chưa đối
+   chiếu văn bản thay thế. Thấy dòng thứ ba thì phải nói rõ với người dùng rằng
+   kho không tự kiểm chứng được nội dung được viện dẫn.
+4. **Không suy rộng từ một trường hợp cụ thể.** Phần lớn giải đáp trả lời cho
+   một công trình có quy mô, công năng cụ thể. Đừng biến câu trả lời cho một nhà
+   ở 60 m² bán hàng ăn sáng thành quy tắc chung cho mọi nhà ở kết hợp kinh doanh.
+
+### Khoảng trống lớn nhất của kho, đã đo được
+
+**72 trên 132 giải đáp viện dẫn Nghị định số 105/2025/NĐ-CP** quy định chi tiết
+Luật Phòng cháy, chữa cháy và cứu nạn, cứu hộ, hiệu lực từ 01/7/2025 — và văn
+bản đó **chưa có trong kho**. Nghĩa là hơn một nửa phần hỏi đáp trỏ tới một văn
+bản mà kho không đọc được: biết được cơ quan quản lý kết luận gì, nhưng không tự
+kiểm chứng được căn cứ.
+
+Các văn bản khác được viện dẫn nhiều nhưng chưa có trong kho:
+`50/2024/NĐ-CP` (15 lần) · `136/2020/NĐ-CP` (13) · `TCVN 3890:2023` (11) ·
+`36/2025/TT-BCA` (11) · Luật `55/2024/QH15` (10).
+
+**Đây là danh sách tài liệu nên đề nghị người dùng bổ sung, theo đúng thứ tự ưu
+tiên trên.** Có Nghị định số 105/2025/NĐ-CP thì phần hỏi đáp mới dùng được hết
+giá trị.
+
+### Những gì đã bị loại khỏi kho, và vì sao
+
+Bản thu thập có 152 mục. **18 mục đã bị loại**: đó là đơn thư phản ánh về một cơ
+sở hoặc cá nhân cụ thể, mang tên người, địa chỉ nhà, thư điện tử, số điện thoại
+của bên thứ ba, còn câu trả lời chỉ là thông báo chuyển đơn về Công an địa
+phương — không có nội dung hướng dẫn nào. Danh sách nằm trong hằng `LOAI_TRU`
+của `tools/ingest_hoi_dap.py`. Ba mục cùng dùng chung một câu trả lời đã được
+**gộp thành một chunk** giữ đủ cả ba câu hỏi, thay vì để ba chunk gần trùng nhau.
+
+### Vì sao chunk hỏi đáp bị hạ trọng số khi tìm kiếm
+
+`tools/search.py` nhân điểm của chunk tài liệu tham khảo với `HE_SO_THAM_KHAO`
+(hiện là **0.90**). Lý do đo được, không phải cảm tính: hỏi đáp là văn xuôi dài,
+dày từ khoá đời thường, nói đúng những chủ đề mà quy chuẩn nói bằng ngôn ngữ
+pháp lý cô đọng — để nguyên trọng số thì **nó lấn át chính điều khoản mà nó đang
+giải thích**. Trên bộ 165 câu cũ, thêm 133 chunk hỏi đáp làm Recall@3 tụt từ
+0.774 xuống 0.728; hạ trọng số kéo lại còn 0.762.
+
+Giá trị 0.90 được chọn bằng cách quét dải 1.00 → 0.60 và đo cả hai chiều: nó cho
+chỉ số tổng hợp cao nhất **đồng thời** cho loại câu hỏi hỏi đáp (loại K)
+Recall@5 = 0.90. Hạ sâu hơn thì chôn mất phần hỏi đáp mà không được thêm gì.
+Đổi giá trị này thì **phải chạy lại `eval/chay_danh_gia.py` và quét lại dải**,
+đừng chỉnh theo cảm giác.
+
 ## Hai văn bản trùng số hiệu "QCVN 10"
 
 Kho có **hai** văn bản cùng mang số hiệu QCVN 10 nhưng khác cơ quan ban hành và
@@ -201,7 +288,7 @@ bạn đọc nội dung thật.
 
 ## Đo chất lượng truy hồi
 
-`eval/` có bộ 165 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
+`eval/` có bộ 185 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
 vi kho). Sau khi sửa `tools/search.py` hoặc thay đổi cách cắt chunk, **phải chạy
 lại**:
 
@@ -211,15 +298,23 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với tokenizer cũ
 python3 eval/chay_danh_gia.py --chi-tiet # liệt kê câu trượt
 ```
 
-Mức hiện tại (165 câu, 5 văn bản, 682 chunk): Recall@1 = 0.554 · Recall@5 = 0.811 · Recall@10 = 0.887 · MRR = 0.709.
+Mức hiện tại (185 câu, 6 văn bản, 815 chunk): Recall@1 = 0.569 · Recall@3 = 0.767 · Recall@5 = 0.808 · Recall@10 = 0.895 · MRR = 0.705.
+
+Chi phí đã đo của việc thêm 133 chunk hỏi đáp, tính trên **đúng bộ 165 câu cũ**
+để so sánh công bằng: Recall@3 từ 0.774 xuống 0.762, MRR từ 0.709 xuống 0.698 —
+khoảng 1 đến 2 câu trong 155. Đổi lại 132 giải đáp thực tiễn tìm được ở mức
+Recall@5 = 0.90. Đây là đánh đổi có chủ ý, không phải hồi quy bị bỏ sót.
 **Đừng merge một thay đổi làm các số này tụt** mà không có lý do đo được.
 Điểm yếu đã biết: loại G (câu hỏi bắc cầu nhiều văn bản) = 0.17, loại I (câu hỏi
-mơ hồ) = 0.25. Giới hạn của bộ đo được ghi ở `eval/README.md` — đọc trước khi
+mơ hồ) = 0.25. Loại K là câu hỏi nhắm vào phần hỏi đáp nghiệp vụ. Giới hạn của bộ đo được ghi ở `eval/README.md` — đọc trước khi
 trích dẫn con số.
 
 ## Cấu trúc kho
 
 ```
+corpus/quy-chuan/  Quy chuẩn, tiêu chuẩn — văn bản quy phạm pháp luật
+corpus/nghi-dinh/  Nghị định, Luật, Thông tư — văn bản quy phạm pháp luật
+corpus/huong-dan/  Tài liệu THAM KHẢO — không có giá trị pháp lý bắt buộc
 corpus/     Bản gốc do người dùng sở hữu — CHỈ sửa ở đây
 chunks/     Sinh tự động từ corpus/ — KHÔNG sửa tay
 index/      Sinh tự động — KHÔNG sửa tay
@@ -254,6 +349,12 @@ Lệnh này idempotent — chạy hai lần cho kết quả giống hệt nhau.
      `## Chương I. TÊN` · `### Mục 1. TÊN` · `### Điều 1. Tên điều`
    - `cau_truc: "muc"` (Quy chuẩn, Tiêu chuẩn):
      `## 1 TÊN PHẦN` · `### 1.1 Tên mục`
+   - `cau_truc: "hoi-dap"` (tài liệu giải đáp nghiệp vụ):
+     `## Nhóm 03. Tên nhóm` · `### HĐ-60 Nhãn`. Mỗi câu hỏi đáp là một chunk.
+     Tài liệu loại này **bắt buộc** khai thêm `gia_tri_phap_ly` trong front
+     matter — sự có mặt của trường đó là tín hiệu để `search.py` in cảnh báo
+     và để `build_index.py` liệt kê các văn bản mà nó viện dẫn. Thiếu trường
+     này thì tài liệu tham khảo sẽ bị đối xử như văn bản quy phạm pháp luật.
    - Điều khoản **không có tên** trong bản gốc (ví dụ QCVN 06 mục 4.1 đến
      4.35) vẫn viết thành `### 4.17` — bộ chia chấp nhận tiêu đề rỗng và tự
      suy một NHÃN từ câu đầu. Nhãn đó chỉ để hiển thị/tìm kiếm; trích dẫn pháp

@@ -163,3 +163,23 @@
 {"id": "SD22", "loai": "B", "hoi": "định mức diện tích vùng an toàn cho mỗi bệnh nhân bệnh viện", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:sua-doi-phu-luc-h-h-2-9-1-benh-vien-nhom-f1-1-cho-phep-vuo"], "kiem_chung": "2,8 m²/bệnh nhân"}
 {"id": "SD23", "loai": "A", "hoi": "quy định riêng cho nhà karaoke vũ trường còn hiệu lực không", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:sua-doi-phu-luc-a-a-4-bai-bo-toan-bo-nha-kinh-doanh-dich-v"], "kiem_chung": "Bãi bỏ A.4 của Phụ lục A"}
 {"id": "SD24", "loai": "B", "hoi": "vận tốc dòng không khí bù qua lỗ cửa tối đa bao nhiêu", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:sua-doi-phu-luc-d-d-14-5-cap-khong-khi-bu-khi-hut-xa-khoi"], "kiem_chung": "không vượt quá 6 m/s"}
+{"id": "K01", "loai": "K", "hoi": "vách ngăn cháy khác tường ngăn cháy ở chỗ nào", "vang": ["hoi-dap-c07:hd-62"], "kiem_chung": "EI 45 hoặc EIW 45"}
+{"id": "K02", "loai": "K", "hoi": "nhà ở riêng lẻ quy mô bao nhiêu thì thuộc phạm vi áp dụng của quy chuẩn an toàn cháy", "vang": ["hoi-dap-c07:hd-503"], "kiem_chung": "cao từ 7 tầng trở lên"}
+{"id": "K03", "loai": "K", "hoi": "nhà ở riêng lẻ có một phòng học dưới 40 m2 có thuộc diện quản lý về phòng cháy chữa cháy không", "vang": ["hoi-dap-c07:hd-529"], "kiem_chung": "không thuộc danh mục cơ sở thuộc diện quản lý"}
+{"id": "K04", "loai": "K", "hoi": "nhà ở kết hợp bán hàng ăn sáng tầng 1 diện tích 60 m2 có phải cơ sở thuộc diện quản lý không", "vang": ["hoi-dap-c07:hd-531"], "kiem_chung": "mục 32 Phụ lục I"}
+{"id": "K05", "loai": "K", "hoi": "nhà ở có 06 phòng cho thuê có được cấp giấy chứng nhận đủ điều kiện phòng cháy chữa cháy không", "vang": ["hoi-dap-c07:hd-128"], "kiem_chung": "không quy định việc cấp giấy chứng nhận đủ điều kiện"}
+{"id": "K06", "loai": "K", "hoi": "công trình không thuộc Phụ lục III thì ai thẩm định thiết kế về phòng cháy chữa cháy", "vang": ["hoi-dap-c07:hd-362"], "kiem_chung": "chủ đầu tư tự tổ chức thẩm định"}
+{"id": "K07", "loai": "K", "hoi": "khu công nghiệp tổng diện tích trên 300 ha phải trang bị bao nhiêu xe chữa cháy", "vang": ["hoi-dap-c07:hd-132"], "kiem_chung": "03 xe chữa cháy"}
+{"id": "K08", "loai": "K", "hoi": "tần suất kiểm tra định kỳ bình dưỡng khí SCBA quy định ở đâu", "vang": ["hoi-dap-c07:hd-134"], "kiem_chung": "theo hướng dẫn sử dụng của nhà sản xuất"}
+{"id": "K09", "loai": "K", "hoi": "vật liệu PU foam chống cháy lan có phải kiểm định về phòng cháy chữa cháy không", "vang": ["hoi-dap-c07:hd-260"], "kiem_chung": "không phải thực hiện kiểm định"}
+{"id": "K10", "loai": "K", "hoi": "hành vi che khuất phương tiện phòng cháy chữa cháy được hiểu thế nào", "vang": ["hoi-dap-c07:hd-322"], "kiem_chung": "khuất, ảnh hưởng đến hoạt động"}
+{"id": "K11", "loai": "K", "hoi": "hạn chót phải hoàn thành trang bị và kết nối thiết bị truyền tin báo cháy là khi nào", "vang": ["hoi-dap-c07:hd-717"], "kiem_chung": "01 tháng 7 năm 2027"}
+{"id": "K12", "loai": "K", "hoi": "tiền bồi dưỡng cho người tham gia chữa cháy có được trả bằng hiện vật không", "vang": ["hoi-dap-c07:hd-155"], "kiem_chung": "chưa có quy định về việc chi trả tiền bồi dưỡng bằng hiện vật"}
+{"id": "K13", "loai": "K", "hoi": "công trình đã xây xong và hoạt động rồi có phải lắp bổ sung hệ thống theo tiêu chuẩn mới không", "vang": ["hoi-dap-c07:hd-60"], "kiem_chung": "chỉ áp dụng cho các công trình xây dựng mới"}
+{"id": "K14", "loai": "K", "hoi": "dùng đường giao thông công cộng làm bãi đỗ xe chữa cháy có phải sơn đánh dấu không", "vang": ["hoi-dap-c07:hd-64"], "kiem_chung": "ngoại trừ những đường giao thông công cộng"}
+{"id": "K15", "loai": "K", "hoi": "kết cấu thép nhà xưởng có bắt buộc phải dùng sơn chống cháy không", "vang": ["hoi-dap-c07:hd-26"], "kiem_chung": "không nhất thiết phải sử dụng sơn chống cháy"}
+{"id": "K16", "loai": "K", "hoi": "vì sao ba năm ban hành liên tiếp ba quy chuẩn an toàn cháy cho nhà và công trình", "vang": ["hoi-dap-c07:hd-24"], "kiem_chung": "25.000 m2"}
+{"id": "K17", "loai": "K", "hoi": "phòng cháy chữa cháy còn là ngành nghề kinh doanh có điều kiện nữa không", "vang": ["hoi-dap-c07:hd-76"], "kiem_chung": "không còn là ngành nghề kinh doanh có điều kiện"}
+{"id": "K18", "loai": "K", "hoi": "hồ sơ đề nghị thẩm định thiết kế cần giấy tờ đất đai như thế nào", "vang": ["hoi-dap-c07:hd-702"], "kiem_chung": "giấy tờ hợp pháp về đất đai"}
+{"id": "K19", "loai": "K", "hoi": "nhà nhóm F1 F2 F3 có lưu lượng cấp nước chữa cháy ngoài nhà đến 15 L/s thì thế nào", "vang": ["hoi-dap-c07:hd-511"], "kiem_chung": "5.1.3.3"}
+{"id": "K20", "loai": "K", "hoi": "nhà ở kết hợp sản xuất kinh doanh có nguy hiểm cháy nổ thì chủ hộ phải làm gì", "vang": ["hoi-dap-c07:hd-124"], "kiem_chung": "mục 46 Phụ lục II"}

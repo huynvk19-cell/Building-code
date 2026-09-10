@@ -189,6 +189,21 @@ def diem_cau_truc(r: dict, cau: str) -> float:
     return bonus
 
 
+# Hệ số nhân điểm cho chunk của tài liệu THAM KHẢO (hỏi đáp nghiệp vụ).
+#
+# Vì sao cần: tài liệu tham khảo là văn xuôi dài, dày từ khoá đời thường, nói
+# đúng những chủ đề mà quy chuẩn nói bằng ngôn ngữ pháp lý cô đọng. Để nguyên
+# trọng số thì nó lấn át chính điều khoản mà nó đang giải thích — đo được:
+# thêm 133 chunk hỏi đáp làm Recall@3 tụt từ 0.774 xuống 0.728 trên bộ 165 câu.
+#
+# Vì sao hạ trọng số là đúng chứ không phải mẹo: khi cùng một truy vấn khớp cả
+# điều khoản gốc lẫn lời giải thích về điều khoản đó, thứ người dùng cần trước
+# là ĐIỀU KHOẢN. Lời giải thích chỉ có giá trị đi kèm.
+#
+# Giá trị chọn bằng cách quét dải và đo, xem eval/README.md.
+HE_SO_THAM_KHAO = float(os.environ.get("HE_SO_THAM_KHAO", "0.90"))
+
+
 def xep_hang(cau, records, docs, avg_len, idf, tokfn=None, dung_boost=True):
     """Trả về [(điểm, chunk)] đã sắp giảm dần, bỏ các chunk điểm 0."""
     tokfn = tokfn or tokenize
@@ -198,6 +213,8 @@ def xep_hang(cau, records, docs, avg_len, idf, tokfn=None, dung_boost=True):
         s = score(qt, d, avg_len, idf)
         if dung_boost:
             s += diem_cau_truc(r, cau)
+        if r.get("gia_tri_phap_ly"):
+            s *= HE_SO_THAM_KHAO
         if s > 0:
             ra.append((s, r))
     ra.sort(key=lambda x: x[0], reverse=True)
@@ -295,6 +312,9 @@ def main() -> None:
                 "tieu_de": r["tieu_de"], "chuong": r["chuong"],
                 "duong_dan": r["duong_dan"],
                 "sua_doi_boi": r.get("sua_doi_boi") or [],
+                "gia_tri_phap_ly": r.get("gia_tri_phap_ly") or "",
+                "vien_dan_da_bi_thay_the": r.get("vien_dan_da_bi_thay_the") or [],
+                "vien_dan_ngoai_kho": r.get("vien_dan_ngoai_kho") or [],
                 "noi_dung": snippet(r["text"], query_terms) if args.gon else r["text"],
             } for s, r in hits],
         }, ensure_ascii=False, indent=2))
@@ -321,6 +341,21 @@ def main() -> None:
             print(f"    ⚠️  ĐÃ BỊ SỬA ĐỔI bởi {sd['so_hieu']} "
                   f"(hiệu lực {sd['ngay_hieu_luc']}) — ĐỌC CẢ HAI TRƯỚC KHI TRẢ LỜI")
             print(f"       → {sd['duong_dan']}")
+        if r.get("gia_tri_phap_ly"):
+            print(f"    🛑  {r['gia_tri_phap_ly']} — KHÔNG ĐƯỢC dùng làm căn cứ "
+                  f"pháp lý.")
+            print( "       Đây là cách cơ quan quản lý ĐANG HIỂU quy định, không "
+                   "phải bản thân quy định.")
+            print( "       Phải trích văn bản quy phạm pháp luật mà nó viện dẫn, "
+                   "và nói rõ đây là tài liệu tham khảo.")
+        for vd in r.get("vien_dan_da_bi_thay_the") or []:
+            print(f"    ⚠️  Viện dẫn {vd['so_hieu']} — kho xác định văn bản này ĐÃ BỊ "
+                  f"THAY THẾ bởi {vd['thay_the_boi']}.")
+        if r.get("vien_dan_ngoai_kho"):
+            print(f"    ⚠️  Viện dẫn văn bản KHÔNG CÓ TRONG KHO: "
+                  f"{', '.join(r['vien_dan_ngoai_kho'])}")
+            print( "       Không tự kiểm chứng được nội dung lẫn hiệu lực của các "
+                   "văn bản này.")
         print(f"    {r['tieu_de']}")
         if r["chuong"]:
             print(f"    {r['chuong']}")

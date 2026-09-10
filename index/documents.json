@@ -1,5 +1,33 @@
 [
   {
+    "doc_id": "hoi-dap-c07",
+    "so_hieu": "Hỏi đáp C07",
+    "loai_van_ban": "Hỏi đáp nghiệp vụ",
+    "tieu_de": "Giải đáp của Cục Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ đối với câu hỏi của công dân và doanh nghiệp",
+    "co_quan_ban_hanh": "Cục Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ (C07) - Bộ Công an",
+    "ngay_ban_hanh": "KHÔNG XÁC ĐỊNH",
+    "ngay_hieu_luc": "KHÔNG ÁP DỤNG",
+    "can_cu_hieu_luc": "Tài liệu giải đáp nghiệp vụ, không có hiệu lực pháp lý. Căn cứ bắt buộc luôn là văn bản quy phạm pháp luật mà câu trả lời viện dẫn.",
+    "thay_the": [],
+    "het_hieu_luc": "",
+    "sua_doi_boi": [],
+    "dieu_khoan_chuyen_tiep": "",
+    "linh_vuc": [
+      "phòng cháy chữa cháy",
+      "thẩm duyệt thiết kế",
+      "nghiệm thu",
+      "kiểm định phương tiện",
+      "trang bị phương tiện"
+    ],
+    "gia_tri_phap_ly": "THAM KHẢO - KHÔNG PHẢI VĂN BẢN QUY PHẠM PHÁP LUẬT",
+    "nguon": "https://canhsatpccc.gov.vn/vi/faq-contact/citizen-faq (thu thập 132 mục dùng được)",
+    "cau_truc": "hoi-dap",
+    "sua_doi_cho": [],
+    "toan_van": "corpus/huong-dan/hoi-dap-c07/toan-van.md",
+    "so_don_vi": 132,
+    "so_chunk": 133
+  },
+  {
     "doc_id": "212-2026-nd-cp",
     "so_hieu": "212/2026/NĐ-CP",
     "loai_van_ban": "Nghị định",
@@ -20,6 +48,7 @@
       "cơ sở dữ liệu quốc gia",
       "nhà thầu nước ngoài"
     ],
+    "gia_tri_phap_ly": "",
     "nguon": "Cổng thông tin điện tử Chính phủ (bản ký số 18/06/2026)",
     "cau_truc": "dieu",
     "sua_doi_cho": [],
@@ -46,6 +75,7 @@
     ],
     "dieu_khoan_chuyen_tiep": "mục 7.1",
     "linh_vuc": [],
+    "gia_tri_phap_ly": "",
     "nguon": "",
     "cau_truc": "muc",
     "sua_doi_cho": [],
@@ -74,6 +104,7 @@
       "thiết kế công trình",
       "đường và hè phố"
     ],
+    "gia_tri_phap_ly": "",
     "nguon": "Bản PDF ký số của Bộ Xây dựng ngày 01/8/2024",
     "cau_truc": "muc",
     "sua_doi_cho": [],
@@ -100,6 +131,7 @@
       "trang bị phương tiện",
       "an toàn cháy"
     ],
+    "gia_tri_phap_ly": "",
     "nguon": "Bản scan Thông tư 103/2025/TT-BCA",
     "cau_truc": "muc",
     "sua_doi_cho": [],
@@ -121,6 +153,7 @@
     "sua_doi_boi": [],
     "dieu_khoan_chuyen_tiep": "Điều 3 Thông tư số 09/2023/TT-BXD",
     "linh_vuc": [],
+    "gia_tri_phap_ly": "",
     "nguon": "",
     "cau_truc": "muc",
     "sua_doi_cho": [
