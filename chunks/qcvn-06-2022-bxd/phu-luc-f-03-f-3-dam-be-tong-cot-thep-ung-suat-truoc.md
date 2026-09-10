@@ -20,6 +20,8 @@ chuong: "Phụ lục F"
 
 **Bảng F.4 – Dầm bê tông cốt thép ứng suất trước**
 
+
+![Ảnh chụp Bảng F.4 từ bản in gốc — Dầm bê tông cốt thép ứng suất trước](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-4.png)
 *Giá trị nhỏ nhất của thông số, mm, để bảo đảm giới hạn chịu lửa:*
 
 | Đặc điểm | R 240 | R 180 | R 120 | R 90 | R 60 | R 30 |

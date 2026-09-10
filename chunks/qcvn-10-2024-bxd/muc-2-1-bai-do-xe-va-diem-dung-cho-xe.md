@@ -20,6 +20,8 @@ chuong: "2 QUY ĐỊNH KỸ THUẬT"
 
 **Bảng 1 – Số lượng chỗ đỗ xe cho người gặp khó khăn khi tiếp cận trong bãi đỗ xe**
 
+
+![Ảnh chụp Bảng 1 từ bản in gốc — Số lượng chỗ đỗ xe cho người gặp khó khăn khi tiếp cận trong bãi đỗ xe](../../corpus/quy-chuan/qcvn-10-2024-bxd/phu-luc/bang/bang-1.png)
 *Đơn vị tính: Chỗ*
 
 | Tổng số chỗ đỗ xe | Số lượng tối thiểu cho người gặp khó khăn khi tiếp cận |

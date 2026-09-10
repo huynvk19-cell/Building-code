@@ -42,6 +42,8 @@ chuong: "Phụ lục E"
 
 **Bảng E.3 – Giới hạn chịu lửa của tường ngoài phụ thuộc vào khoảng cách phòng cháy chống cháy theo đường ranh giới**
 
+
+![Ảnh chụp Bảng E.3 từ bản in gốc — Giới hạn chịu lửa của tường ngoài phụ thuộc vào khoảng cách phòng cháy chống cháy theo đường ranh giới](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-e-3.png)
 *Khoảng cách phòng cháy chống cháy theo đường ranh giới, m:*
 
 | Nhà thuộc nhóm nguy hiểm cháy theo công năng | ≥ 0 và ≤ 1,5 | > 1,5 và ≤ 3 | > 3 và ≤ 9 | > 9 | Diện tích lỗ mở không được bảo vệ chống cháy |

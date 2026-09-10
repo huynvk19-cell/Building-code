@@ -44,6 +44,8 @@ chuong: "2 QUY ĐỊNH KỸ THUẬT"
 
 **Bảng 2 – Số chỗ dành cho người đi xe lăn**
 
+
+![Ảnh chụp Bảng 2 từ bản in gốc — Số chỗ dành cho người đi xe lăn](../../corpus/quy-chuan/qcvn-10-2024-bxd/phu-luc/bang/bang-2.png)
 *Đơn vị tính: Chỗ*
 
 | Quy mô chỗ ngồi | Số lượng chỗ tối thiểu dành cho người đi xe lăn |

@@ -36,6 +36,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.1 – Nhóm vật liệu cháy theo tính cháy**
 
+
+![Ảnh chụp Bảng B.1 từ bản in gốc — Nhóm vật liệu cháy theo tính cháy](bang/bang-b-1.png)
 | Nhóm cháy của vật liệu | Nhiệt độ khí trong ống thoát khói, T, °C | Mức độ hư hỏng làm giảm chiều dài mẫu, L, % | Mức độ hư hỏng làm giảm khối lượng mẫu, m, % | Khoảng thời gian tự cháy, s |
 |---|---|---|---|---|
 | **Ch1** – cháy yếu | ≤ 135 | ≤ 65 | ≤ 20 | 0 |
@@ -57,6 +59,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.2 – Nhóm vật liệu cháy theo tính bắt cháy**
 
+
+![Ảnh chụp Bảng B.2 từ bản in gốc — Nhóm vật liệu cháy theo tính bắt cháy](bang/bang-b-2.png)
 | Nhóm bắt cháy của vật liệu | Cường độ thông lượng nhiệt bề mặt tới hạn, kW/m² |
 |---|---|
 | **BC1** – khó bắt cháy | ≥ 35 |
@@ -69,6 +73,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.3 – Nhóm vật liệu cháy theo tính lan truyền lửa trên bề mặt**
 
+
+![Ảnh chụp Bảng B.3 từ bản in gốc — Nhóm vật liệu cháy theo tính lan truyền lửa trên bề mặt](bang/bang-b-3.png)
 | Nhóm lan truyền lửa trên bề mặt của vật liệu | Cường độ thông lượng nhiệt bề mặt tới hạn, kW/m² |
 |---|---|
 | **LT1** – không lan truyền | ≥ 11 |
@@ -82,6 +88,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.4 – Nhóm vật liệu cháy theo khả năng sinh khói**
 
+
+![Ảnh chụp Bảng B.4 từ bản in gốc — Nhóm vật liệu cháy theo khả năng sinh khói](bang/bang-b-4.png)
 | Nhóm sinh khói của vật liệu | Giá trị hệ số sinh khói của vật liệu, m²/kg |
 |---|---|
 | **SK1** – khả năng sinh khói thấp | ≤ 50 |
@@ -94,6 +102,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.5 – Nhóm vật liệu cháy theo độc tính**
 
+
+![Ảnh chụp Bảng B.5 từ bản in gốc — Nhóm vật liệu cháy theo độc tính](bang/bang-b-5.png)
 *Chỉ số H~CL50~, g/m³, tương ứng với thời gian, min, để lộ:*
 
 | Nhóm độc tính của vật liệu | 5 | 15 | 30 | 60 |
@@ -109,6 +119,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.6 – Cấp nguy hiểm cháy của vật liệu**
 
+
+![Ảnh chụp Bảng B.6 từ bản in gốc — Cấp nguy hiểm cháy của vật liệu](bang/bang-b-6.png)
 | Đặc tính kỹ thuật về cháy của vật liệu | CV0 | CV1 | CV2 | CV3 | CV4 | CV5 |
 |---|---|---|---|---|---|---|
 | 1. Tính cháy | Không cháy | Ch1 | Ch1 | Ch2 | Ch3 | Ch4 |
@@ -121,6 +133,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.7 – Danh mục các chỉ tiêu về tính nguy hiểm cháy cần thiết phụ thuộc vào công dụng của vật liệu xây dựng**
 
+
+![Ảnh chụp Bảng B.7 từ bản in gốc — Danh mục các chỉ tiêu về tính nguy hiểm cháy cần thiết phụ thuộc vào công dụng của vật liệu xây dựng](bang/bang-b-7.png)
 | Công dụng của vật liệu xây dựng | Nhóm về tính cháy | Nhóm về tính lan truyền lửa trên bề mặt | Nhóm về tính bắt cháy | Nhóm về khả năng sinh khói | Nhóm về độc tính của sản phẩm cháy |
 |---|---|---|---|---|---|
 | 1. Vật liệu hoàn thiện tường và trần, bao gồm cả các lớp phủ từ sơn, men, véc ni ^1)^ | + | – | + | + | + |
@@ -141,6 +155,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.8 – Phạm vi áp dụng của vật liệu hoàn thiện, trang trí, vật liệu ốp lát và vật liệu phủ sàn trên đường thoát nạn**
 
+
+![Ảnh chụp Bảng B.8 từ bản in gốc — Phạm vi áp dụng của vật liệu hoàn thiện, trang trí, vật liệu ốp lát và vật liệu phủ sàn trên đường thoát nạn](bang/bang-b-8.png)
 *Cấp nguy hiểm cháy của vật liệu:*
 
 | Nhóm nguy hiểm cháy theo công năng của nhà, công trình, khoang cháy | Số tầng và chiều cao của nhà | Tường và trần — Tiền sảnh, buồng thang bộ, sảnh thang máy | Tường và trần — Hành lang chung, sảnh chờ | Phủ sàn — Tiền sảnh, buồng thang bộ, sảnh thang máy | Phủ sàn — Hành lang chung, sảnh chờ |
@@ -154,6 +170,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.9 – Phạm vi áp dụng của vật liệu hoàn thiện, trang trí, vật liệu ốp lát và vật liệu phủ sàn trong các gian phòng chung, trừ sân thi đấu thể thao và sàn của phòng nhảy**
 
+
+![Ảnh chụp Bảng B.9 từ bản in gốc — Phạm vi áp dụng của vật liệu hoàn thiện, trang trí, vật liệu ốp lát và vật liệu phủ sàn trong các gian phòng chung, trừ sân thi đấu thể thao và sàn của phòng nhảy](bang/bang-b-9.png)
 | Nhóm nguy hiểm cháy theo công năng của nhà | Sức chứa của gian phòng, người | Tường và trần (bao gồm cả tấm trần treo nếu có) | Phủ sàn |
 |---|---|---|---|
 | F1.2; F2.3; F2.4; F3.1; F3.2; F3.6; F4.2; F4.3; F4.4; F5.1 | > 800 | CV0 | CV2 |

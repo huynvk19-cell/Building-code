@@ -31,8 +31,11 @@ import pymupdf
 # Lề trái/phải của khổ A4 trong các quy chuẩn này. Lấy trọn bề ngang để không
 # mất phần chú thích nằm bên phải bảng.
 X0, X1 = 32, 566
-DPI_CAT = 200      # độ phân giải ảnh xuất ra
-DPI_OCR = 200      # độ phân giải đưa vào Tesseract
+DPI_CAT = 200      # độ phân giải ảnh XUẤT RA — cần nét để đọc số trong bảng
+# Độ phân giải đưa vào Tesseract chỉ để DÒ vị trí dòng tiêu đề, không cần nét.
+# Đo trên máy rảnh: 110 dpi mất 1,4 s/trang, 200 dpi mất 1,8 s/trang, kết quả dò
+# như nhau. Toạ độ vẫn quy về ĐIỂM nên độ chính xác khung cắt không đổi.
+DPI_OCR = 110
 
 # Tiêu đề bảng thật có dạng "Bảng G.2a – Khoảng cách…" (có dấu gạch nối rồi tới
 # tên), hoặc "Bảng G.2b (tiếp theo)" / "(kết thúc)" ở trang nối tiếp. Nếu chỉ dò
@@ -94,6 +97,7 @@ def tim_bang(pdf: Path, tu_trang: int, den_trang: int) -> list[dict]:
             for i, (_, _, nd) in enumerate(cac_dong)
             if RE_TIEU_DE_BANG.match(nd)
         ]
+        print(f"  … quét trang {trang}", file=sys.stderr, flush=True)
         for thu_tu, (i, m) in enumerate(moc):
             y0 = max(cac_dong[i][0] - 8, 20)
             if thu_tu + 1 < len(moc):
@@ -116,10 +120,18 @@ def tim_bang(pdf: Path, tu_trang: int, den_trang: int) -> list[dict]:
 
 
 def cat(pdf: Path, trang: int, y0: float, y1: float, dich: Path) -> Path:
+    """Cắt một khung và lưu PNG THANG XÁM.
+
+    Bản gốc là ảnh quét đen trắng nên màu không mang thông tin gì; lưu thang xám
+    giảm dung lượng khoảng ba lần mà chữ và số trong bảng vẫn nét như cũ. Với
+    122 ảnh thì đây là khác biệt giữa một kho 130 MB và một kho khoảng 45 MB.
+    """
     doc = pymupdf.open(pdf)
     khung = pymupdf.Rect(X0, y0, X1, y1)
     dich.parent.mkdir(parents=True, exist_ok=True)
-    doc[trang - 1].get_pixmap(dpi=DPI_CAT, clip=khung).save(dich)
+    doc[trang - 1].get_pixmap(
+        dpi=DPI_CAT, clip=khung, colorspace=pymupdf.csGRAY
+    ).save(dich)
     return dich
 
 

@@ -809,6 +809,8 @@ Giới hạn chịu lửa đối với các loại bộ phận chèn bịt lỗ 
 
 **Bảng 1 – Giới hạn chịu lửa và loại cấu kiện xây dựng thực hiện chức năng bộ phận ngăn cháy, các loại bộ phận chèn bịt tương ứng với chúng và các khoang đệm ngăn cháy**
 
+
+![Ảnh chụp Bảng 1 từ bản in gốc — Giới hạn chịu lửa và loại cấu kiện xây dựng thực hiện chức năng bộ phận ngăn cháy, các loại bộ phận chèn bịt tương ứng với chúng và các khoang đệm ngăn cháy](bang/bang-1.png)
 | Bộ phận ngăn cháy | Loại bộ phận ngăn cháy | Giới hạn chịu lửa của bộ phận ngăn cháy | Loại bộ phận chèn bịt lỗ mở của bộ phận ngăn cháy | Loại khoang đệm ngăn cháy |
 |---|---|---|---|---|
 | 1. Tường ngăn cháy | 1 | REI 150 | 1 | 1 |
@@ -826,6 +828,8 @@ Giới hạn chịu lửa đối với các loại bộ phận chèn bịt lỗ 
 
 **Bảng 2 – Giới hạn chịu lửa của các bộ phận chèn bịt của bộ phận ngăn cháy**
 
+
+![Ảnh chụp Bảng 2 từ bản in gốc — Giới hạn chịu lửa của các bộ phận chèn bịt của bộ phận ngăn cháy](bang/bang-2.png)
 | Các bộ phận chèn bịt lỗ mở của bộ phận ngăn cháy | Loại bộ phận chèn bịt của bộ phận ngăn cháy | Giới hạn chịu lửa |
 |---|---|---|
 | 1. Cửa đi (trừ: cửa đi có tỉ lệ diện tích kính lớn hơn 25 % diện tích cửa đi; cửa kín khói), cửa nắp, van ngăn cháy ^1)^, màn ngăn cháy | 1 | EI 60 |
@@ -851,6 +855,8 @@ Yêu cầu đối với các bộ phận của khoang đệm ngăn cháy các lo
 
 **Bảng 3 – Yêu cầu đối với các bộ phận của khoang đệm ngăn cháy**
 
+
+![Ảnh chụp Bảng 3 từ bản in gốc — Yêu cầu đối với các bộ phận của khoang đệm ngăn cháy](bang/bang-3.png)
 | Loại khoang đệm ngăn cháy | Vách ngăn | Sàn | Bộ phận chèn bịt lỗ mở |
 |---|---|---|---|
 | 1 | 1 | 3 | 2 |
@@ -946,6 +952,8 @@ Giới hạn chịu lửa cần thiết của kết cấu xây dựng phải đ�
 
 **Bảng 4 – Sự phù hợp giữa bậc chịu lửa của nhà, công trình và khoang cháy với giới hạn chịu lửa của cấu kiện xây dựng của nhà, công trình và khoang cháy**
 
+
+![Ảnh chụp Bảng 4 từ bản in gốc — Sự phù hợp giữa bậc chịu lửa của nhà, công trình và khoang cháy với giới hạn chịu lửa của cấu kiện xây dựng của nhà, công trình và khoang cháy](bang/bang-4.png)
 *Giới hạn chịu lửa của cấu kiện, không nhỏ hơn:*
 
 | Bậc chịu lửa của nhà, công trình và khoang cháy | Tường chịu lực, cột chịu lực và các bộ phận chịu lực khác | Tường ngoài không chịu lực | Sàn tầng (bao gồm cả sàn tầng áp mái và sàn trên tầng hầm) | Kết cấu mái không có tầng áp mái — Tấm lợp (kể cả tấm lợp có lớp cách nhiệt) | Kết cấu mái không có tầng áp mái — Giàn, dầm, xà gồ | Buồng thang bộ — Tường trong | Buồng thang bộ — Bản thang và chiếu thang |
@@ -1020,6 +1028,8 @@ Không quy định về cấp nguy hiểm cháy đối các với bộ phận ch
 
 **Bảng 5 – Sự phù hợp giữa cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy với cấp nguy hiểm cháy của cấu kiện xây dựng**
 
+
+![Ảnh chụp Bảng 5 từ bản in gốc — Sự phù hợp giữa cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy với cấp nguy hiểm cháy của cấu kiện xây dựng](bang/bang-5.png)
 | Cấp nguy hiểm cháy kết cấu của nhà, công trình và khoang cháy | Các bộ phận chịu lực dạng thanh (cột, xà, giàn và tương tự) | Tường ngoài từ phía ngoài | Tường, vách ngăn, sàn giữa các tầng, và mái không có tầng áp mái | Tường của buồng thang bộ; bộ phận ngăn cháy | Bản thang và chiếu thang trong buồng thang bộ |
 |---|---|---|---|---|---|
 | **S0** | K0 | K0 | K0 | K0 | K0 |
@@ -1043,6 +1053,12 @@ Trong các nhà có nhóm nguy hiểm cháy theo công năng nhất định, mà
 
 **Bảng 6 – Phân nhóm nhà ^1)^ dựa trên tính nguy hiểm cháy theo công năng**
 
+
+![Ảnh chụp Bảng 6 từ bản in gốc — Phân nhóm nhà ^1)^ dựa trên tính nguy hiểm cháy theo công năng](bang/bang-6.png)
+
+![Ảnh chụp Bảng 6 từ bản in gốc — Phân nhóm nhà ^1)^ dựa trên tính nguy hiểm cháy theo công năng (trang tiếp theo 1)](bang/bang-6-tiep-1.png)
+
+![Ảnh chụp Bảng 6 từ bản in gốc — Phân nhóm nhà ^1)^ dựa trên tính nguy hiểm cháy theo công năng (trang tiếp theo 2)](bang/bang-6-tiep-2.png)
 | Nhóm | Mục đích sử dụng | Đặc điểm sử dụng |
 |---|---|---|
 | **F1** | **Nhà để ở thường xuyên hoặc tạm thời (trong đó có cả để ở suốt ngày đêm)** | Các gian phòng trong nhà này thường được sử dụng cả ngày và đêm. Nhóm người trong đó có thể gồm nhiều lứa tuổi và trạng thái thể chất khác nhau. Đặc trưng của các nhà này là có các phòng ngủ. |
@@ -2029,6 +2045,10 @@ Lưu lượng nước cho chữa cháy ngoài nhà cho nhà có nhóm nguy hiể
 
 **Bảng 7 – Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư**
 
+
+![Ảnh chụp Bảng 7 từ bản in gốc — Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư](bang/bang-7.png)
+
+![Ảnh chụp Bảng 7 từ bản in gốc — Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư (trang tiếp theo 1)](bang/bang-7-tiep-1.png)
 | Dân số, × 1 000 người | Số đám cháy đồng thời | Lưu lượng cho 1 đám cháy, L/s — Xây dựng nhà không quá 2 tầng không phụ thuộc bậc chịu lửa | Lưu lượng cho 1 đám cháy, L/s — Xây dựng nhà từ 3 tầng trở lên không phụ thuộc bậc chịu lửa |
 |---|---|---|---|
 | ≤ 1 | 1 | 5 | 10 |
@@ -2063,6 +2083,8 @@ Lưu lượng nước cho chữa cháy ngoài nhà cho nhà có nhóm nguy hiể
 
 **Bảng 8 – Lưu lượng nước cho chữa cháy ngoài nhà của nhà thuộc nhóm nguy hiểm cháy theo công năng F1, F2, F3, F4**
 
+
+![Ảnh chụp Bảng 8 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà của nhà thuộc nhóm nguy hiểm cháy theo công năng F1, F2, F3, F4](bang/bang-8.png)
 *Lưu lượng nước cho chữa cháy ngoài nhà không phụ thuộc bậc chịu lửa tính cho 1 đám cháy, L/s, theo khối tích nhà, 1 000 m³:*
 
 | Loại nhà | ≤ 1 | > 1 và ≤ 5 | > 5 và ≤ 25 | > 25 và ≤ 50 | > 50 |
@@ -2086,6 +2108,8 @@ Lưu lượng nước cho chữa cháy ngoài nhà cho nhà có nhóm nguy hiể
 
 **Bảng 9 – Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5**
 
+
+![Ảnh chụp Bảng 9 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5](bang/bang-9.png)
 *Lưu lượng nước cho chữa cháy ngoài nhà đối với nhà có lỗ mở trên mái không phụ thuộc vào chiều rộng của nhà, cũng như nhà không có lỗ mở trên mái có chiều rộng không lớn hơn 60 m, tính cho 1 đám cháy, L/s, theo khối tích nhà, 1 000 m³:*
 
 | Bậc chịu lửa | Cấp nguy hiểm cháy kết cấu | Hạng nguy hiểm cháy và cháy nổ | ≤ 3 | > 3 và ≤ 5 | > 5 và ≤ 20 | > 20 và ≤ 50 | > 50 và ≤ 200 | > 200 và ≤ 400 | > 400 và ≤ 600 | > 600 |
@@ -2103,6 +2127,8 @@ Lưu lượng nước cho chữa cháy ngoài nhà cho nhà có nhóm nguy hiể
 
 **Bảng 10 – Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 không có lỗ mở trên mái có chiều rộng trên 60 m**
 
+
+![Ảnh chụp Bảng 10 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 không có lỗ mở trên mái có chiều rộng trên 60 m](bang/bang-10.png)
 *Lưu lượng nước chữa cháy ngoài nhà đối với nhà không có lỗ mở trên mái có chiều rộng từ 60 m trở lên, tính cho 1 đám cháy, L/s, theo khối tích nhà, 1 000 m³:*
 
 | Bậc chịu lửa | Cấp nguy hiểm cháy kết cấu | Hạng nguy hiểm cháy và cháy nổ | ≤ 50 | > 50 và ≤ 100 | > 100 và ≤ 200 | > 200 và ≤ 300 | > 300 và ≤ 400 | > 400 và ≤ 500 | > 500 và ≤ 600 | > 600 và ≤ 700 | > 700 |
@@ -2336,6 +2362,10 @@ Trường hợp sử dụng các họng nước lưu lượng thấp thì phải
 
 **Bảng 11 – Số tia phun chữa cháy và lưu lượng nước tối thiểu đối với hệ thống họng nước chữa cháy trong nhà**
 
+
+![Ảnh chụp Bảng 11 từ bản in gốc — Số tia phun chữa cháy và lưu lượng nước tối thiểu đối với hệ thống họng nước chữa cháy trong nhà](bang/bang-11.png)
+
+![Ảnh chụp Bảng 11 từ bản in gốc — Số tia phun chữa cháy và lưu lượng nước tối thiểu đối với hệ thống họng nước chữa cháy trong nhà (trang tiếp theo 1)](bang/bang-11-tiep-1.png)
 | Nhà ở và công trình công cộng | Số tia phun chữa cháy trên 1 tầng nhà | Lưu lượng tối thiểu cho chữa cháy trong nhà, L/s, đối với một tia phun |
 |---|---|---|
 | **1. Nhà ở, nhà chung cư** | | |
@@ -2384,6 +2414,8 @@ Trường hợp sử dụng các họng nước lưu lượng thấp thì phải
 
 **Bảng 12 – Số tia phun chữa cháy và lưu lượng nước tối thiểu cho chữa cháy trong nhà đối với nhà sản xuất và nhà kho**
 
+
+![Ảnh chụp Bảng 12 từ bản in gốc — Số tia phun chữa cháy và lưu lượng nước tối thiểu cho chữa cháy trong nhà đối với nhà sản xuất và nhà kho](bang/bang-12.png)
 *Số tia phun chữa cháy và lưu lượng nước tối thiểu, L/s, đối với 1 tia phun, cho chữa cháy trong nhà đối với nhà sản xuất và nhà kho có chiều cao PCCC đến 50 m và theo khối tích, 1 000 m³:*
 
 | Bậc chịu lửa của nhà | Hạng nguy hiểm cháy và cháy nổ của nhà | Cấp nguy hiểm cháy của kết cấu | ≤ 150 | > 150 |
@@ -2401,6 +2433,8 @@ Trường hợp sử dụng các họng nước lưu lượng thấp thì phải
 
 **Bảng 13 – Lưu lượng nước chữa cháy phụ thuộc theo chiều cao tia nước đặc và đường kính đầu lăng phun chữa cháy**
 
+
+![Ảnh chụp Bảng 13 từ bản in gốc — Lưu lượng nước chữa cháy phụ thuộc theo chiều cao tia nước đặc và đường kính đầu lăng phun chữa cháy](bang/bang-13.png)
 *Mỗi nhóm ba cột áp suất ứng với chiều dài cuộn vòi 10 m / 15 m / 20 m. Áp suất tính bằng MPa, lưu lượng lăng phun tính bằng L/s.*
 
 **Họng nước chữa cháy DN 50** ^1)^
@@ -2597,6 +2631,8 @@ Bãi đỗ xe chữa cháy phải có chiều rộng thông thủy bảo đảm 
 
 **Bảng 14 – Kích thước bãi đỗ xe chữa cháy**
 
+
+![Ảnh chụp Bảng 14 từ bản in gốc — Kích thước bãi đỗ xe chữa cháy](bang/bang-14.png)
 *Kích thước bãi đỗ xe chữa cháy, m, tương ứng theo chiều cao PCCC của nhà, m:*
 
 | Nhóm nguy hiểm cháy theo công năng của nhà / Chỉ tiêu kích thước bãi đỗ | ≤ 15 | > 15 và ≤ 28 ^1)^ | > 28 |
@@ -2660,6 +2696,8 @@ Trong những trường hợp cần thiết, khoảng cách từ mép gần nhà
 
 **Bảng 15 – Chiều dài của bãi đỗ xe chữa cháy đối với nhà hoặc phần nhà nhóm F1.1, F1.2, F2, F3, F4**
 
+
+![Ảnh chụp Bảng 15 từ bản in gốc — Chiều dài của bãi đỗ xe chữa cháy đối với nhà hoặc phần nhà nhóm F1.1, F1.2, F2, F3, F4](bang/bang-15.png)
 *Chiều dài yêu cầu của bãi đỗ xe chữa cháy, tính theo chu vi nhà, m:*
 
 | Diện tích sàn cho phép tiếp cận, m² | Nhà không được bảo vệ bằng hệ thống sprinkler | Nhà được bảo vệ bằng hệ thống sprinkler |
@@ -2675,6 +2713,8 @@ Trong những trường hợp cần thiết, khoảng cách từ mép gần nhà
 
 **Bảng 16 – Chiều dài của bãi đỗ xe chữa cháy đối với nhà nhóm F5**
 
+
+![Ảnh chụp Bảng 16 từ bản in gốc — Chiều dài của bãi đỗ xe chữa cháy đối với nhà nhóm F5](bang/bang-16.png)
 *Chiều dài yêu cầu của bãi đỗ xe chữa cháy, tính theo chu vi nhà, m:*
 
 | Quy mô khối tích, m³ | Nhà không được bảo vệ bằng hệ thống sprinkler | Nhà được bảo vệ bằng hệ thống sprinkler |

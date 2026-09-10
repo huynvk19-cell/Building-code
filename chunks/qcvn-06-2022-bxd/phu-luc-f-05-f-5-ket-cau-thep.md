@@ -20,6 +20,8 @@ chuong: "Phụ lục F"
 
 **Bảng F.7 – Cột chống bằng thép được bọc bảo vệ (khối lượng cột trên 1 m dài không nhỏ hơn 45 kg)**
 
+
+![Ảnh chụp Bảng F.7 từ bản in gốc — Cột chống bằng thép được bọc bảo vệ (khối lượng cột trên 1 m dài không nhỏ hơn 45 kg)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-7.png)
 *Chiều dày nhỏ nhất, mm, của lớp bảo vệ để bảo đảm giới hạn chịu lửa:*
 
 | Kết cấu và vật liệu bọc bảo vệ | R 240 | R 180 | R 120 | R 90 | R 60 | R 30 |
@@ -44,6 +46,8 @@ chuong: "Phụ lục F"
 
 **Bảng F.8 – Dầm thép được bọc bảo vệ (khối lượng dầm trên 1 m dài không nhỏ hơn 30 kg)**
 
+
+![Ảnh chụp Bảng F.8 từ bản in gốc — Dầm thép được bọc bảo vệ (khối lượng dầm trên 1 m dài không nhỏ hơn 30 kg)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-8.png)
 *Chiều dày nhỏ nhất, mm, của lớp bảo vệ để bảo đảm giới hạn chịu lửa:*
 
 | Kết cấu và vật liệu bảo vệ | R 240 | R 180 | R 120 | R 90 | R 60 | R 30 |

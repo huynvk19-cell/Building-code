@@ -24,6 +24,12 @@ ngon_ngu: "vi"
 
 **Bảng F.1 – Tường xây hoặc tường bê tông**
 
+
+![Ảnh chụp Bảng F.1 từ bản in gốc — Tường xây hoặc tường bê tông](bang/bang-f-1.png)
+
+![Ảnh chụp Bảng F.1 từ bản in gốc — Tường xây hoặc tường bê tông (trang tiếp theo 1)](bang/bang-f-1-tiep-1.png)
+
+![Ảnh chụp Bảng F.1 từ bản in gốc — Tường xây hoặc tường bê tông (trang tiếp theo 2)](bang/bang-f-1-tiep-2.png)
 *Chiều dày nhỏ nhất không kể lớp trát, mm, để bảo đảm giới hạn chịu lửa:*
 
 | Kết cấu và vật liệu | REI 240 | REI 180 | REI 120 | REI 90 | REI 60 | REI 30 | EI 240 | EI 180 | EI 120 | EI 90 | EI 60 | EI 30 |
@@ -69,6 +75,8 @@ ngon_ngu: "vi"
 
 **Bảng F.2 – Tường ngoài không chịu lực**
 
+
+![Ảnh chụp Bảng F.2 từ bản in gốc — Tường ngoài không chịu lực](bang/bang-f-2.png)
 | Kết cấu và vật liệu | Giới hạn chịu lửa |
 |---|---|
 | **1. Tường bằng khung xương thép có lớp ngoài bằng tấm vật liệu không cháy và lớp trong là:** | |
@@ -102,6 +110,8 @@ ngon_ngu: "vi"
 
 **Bảng F.3 – Dầm bê tông cốt thép**
 
+
+![Ảnh chụp Bảng F.3 từ bản in gốc — Dầm bê tông cốt thép](bang/bang-f-3.png)
 *Giá trị nhỏ nhất của thông số, mm, để bảo đảm giới hạn chịu lửa:*
 
 | Đặc điểm | R 240 | R 180 | R 120 | R 90 | R 60 | R 30 |
@@ -133,6 +143,8 @@ ngon_ngu: "vi"
 
 **Bảng F.4 – Dầm bê tông cốt thép ứng suất trước**
 
+
+![Ảnh chụp Bảng F.4 từ bản in gốc — Dầm bê tông cốt thép ứng suất trước](bang/bang-f-4.png)
 *Giá trị nhỏ nhất của thông số, mm, để bảo đảm giới hạn chịu lửa:*
 
 | Đặc điểm | R 240 | R 180 | R 120 | R 90 | R 60 | R 30 |
@@ -167,6 +179,8 @@ ngon_ngu: "vi"
 
 **Bảng F.5 – Cột bê tông cốt thép (có 4 mặt đều tiếp xúc với lửa)**
 
+
+![Ảnh chụp Bảng F.5 từ bản in gốc — Cột bê tông cốt thép (có 4 mặt đều tiếp xúc với lửa)](bang/bang-f-5.png)
 *Giá trị nhỏ nhất của thông số, mm, để bảo đảm giới hạn chịu lửa:*
 
 | Đặc điểm | R 240 | R 180 | R 120 | R 90 | R 60 | R 30 |
@@ -188,6 +202,8 @@ ngon_ngu: "vi"
 
 **Bảng F.6 – Cột bê tông cốt thép (có 1 mặt tiếp xúc với lửa)**
 
+
+![Ảnh chụp Bảng F.6 từ bản in gốc — Cột bê tông cốt thép (có 1 mặt tiếp xúc với lửa)](bang/bang-f-6.png)
 *Giá trị nhỏ nhất của thông số, mm, để bảo đảm giới hạn chịu lửa:*
 
 | Đặc điểm | R 240 | R 180 | R 120 | R 90 | R 60 | R 30 |
@@ -208,6 +224,8 @@ ngon_ngu: "vi"
 
 **Bảng F.7 – Cột chống bằng thép được bọc bảo vệ (khối lượng cột trên 1 m dài không nhỏ hơn 45 kg)**
 
+
+![Ảnh chụp Bảng F.7 từ bản in gốc — Cột chống bằng thép được bọc bảo vệ (khối lượng cột trên 1 m dài không nhỏ hơn 45 kg)](bang/bang-f-7.png)
 *Chiều dày nhỏ nhất, mm, của lớp bảo vệ để bảo đảm giới hạn chịu lửa:*
 
 | Kết cấu và vật liệu bọc bảo vệ | R 240 | R 180 | R 120 | R 90 | R 60 | R 30 |
@@ -232,6 +250,8 @@ ngon_ngu: "vi"
 
 **Bảng F.8 – Dầm thép được bọc bảo vệ (khối lượng dầm trên 1 m dài không nhỏ hơn 30 kg)**
 
+
+![Ảnh chụp Bảng F.8 từ bản in gốc — Dầm thép được bọc bảo vệ (khối lượng dầm trên 1 m dài không nhỏ hơn 30 kg)](bang/bang-f-8.png)
 *Chiều dày nhỏ nhất, mm, của lớp bảo vệ để bảo đảm giới hạn chịu lửa:*
 
 | Kết cấu và vật liệu bảo vệ | R 240 | R 180 | R 120 | R 90 | R 60 | R 30 |
@@ -257,6 +277,10 @@ ngon_ngu: "vi"
 
 **Bảng F.9 – Sàn bê tông cốt thép (cốt liệu gốc silic hoặc đá vôi)**
 
+
+![Ảnh chụp Bảng F.9 từ bản in gốc — Sàn bê tông cốt thép (cốt liệu gốc silic hoặc đá vôi)](bang/bang-f-9.png)
+
+![Ảnh chụp Bảng F.9 từ bản in gốc — Sàn bê tông cốt thép (cốt liệu gốc silic hoặc đá vôi) (trang tiếp theo 1)](bang/bang-f-9-tiep-1.png)
 *Giá trị nhỏ nhất của thông số, mm, để bảo đảm giới hạn chịu lửa:*
 
 | Kết cấu sàn | REI 240 | REI 180 | REI 120 | REI 90 | REI 60 | REI 30 |
@@ -305,6 +329,10 @@ ngon_ngu: "vi"
 
 **Bảng F.10 – Sàn bê tông cốt thép ứng suất trước (cốt liệu gốc silic hoặc đá vôi)**
 
+
+![Ảnh chụp Bảng F.10 từ bản in gốc — Sàn bê tông cốt thép ứng suất trước (cốt liệu gốc silic hoặc đá vôi)](bang/bang-f-10.png)
+
+![Ảnh chụp Bảng F.10 từ bản in gốc — Sàn bê tông cốt thép ứng suất trước (cốt liệu gốc silic hoặc đá vôi) (trang tiếp theo 1)](bang/bang-f-10-tiep-1.png)
 *Giá trị nhỏ nhất của thông số, mm, để bảo đảm giới hạn chịu lửa:*
 
 | Kết cấu sàn | REI 240 | REI 180 | REI 120 | REI 90 | REI 60 | REI 30 |

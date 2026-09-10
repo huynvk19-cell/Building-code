@@ -20,6 +20,8 @@ chuong: "Phụ lục B"
 
 **Bảng B.8 – Phạm vi áp dụng của vật liệu hoàn thiện, trang trí, vật liệu ốp lát và vật liệu phủ sàn trên đường thoát nạn**
 
+
+![Ảnh chụp Bảng B.8 từ bản in gốc — Phạm vi áp dụng của vật liệu hoàn thiện, trang trí, vật liệu ốp lát và vật liệu phủ sàn trên đường thoát nạn](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-b-8.png)
 *Cấp nguy hiểm cháy của vật liệu:*
 
 | Nhóm nguy hiểm cháy theo công năng của nhà, công trình, khoang cháy | Số tầng và chiều cao của nhà | Tường và trần — Tiền sảnh, buồng thang bộ, sảnh thang máy | Tường và trần — Hành lang chung, sảnh chờ | Phủ sàn — Tiền sảnh, buồng thang bộ, sảnh thang máy | Phủ sàn — Hành lang chung, sảnh chờ |
@@ -33,6 +35,8 @@ chuong: "Phụ lục B"
 
 **Bảng B.9 – Phạm vi áp dụng của vật liệu hoàn thiện, trang trí, vật liệu ốp lát và vật liệu phủ sàn trong các gian phòng chung, trừ sân thi đấu thể thao và sàn của phòng nhảy**
 
+
+![Ảnh chụp Bảng B.9 từ bản in gốc — Phạm vi áp dụng của vật liệu hoàn thiện, trang trí, vật liệu ốp lát và vật liệu phủ sàn trong các gian phòng chung, trừ sân thi đấu thể thao và sàn của phòng nhảy](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-b-9.png)
 | Nhóm nguy hiểm cháy theo công năng của nhà | Sức chứa của gian phòng, người | Tường và trần (bao gồm cả tấm trần treo nếu có) | Phủ sàn |
 |---|---|---|---|
 | F1.2; F2.3; F2.4; F3.1; F3.2; F3.6; F4.2; F4.3; F4.4; F5.1 | > 800 | CV0 | CV2 |

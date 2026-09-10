@@ -211,7 +211,7 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với tokenizer cũ
 python3 eval/chay_danh_gia.py --chi-tiet # liệt kê câu trượt
 ```
 
-Mức hiện tại (165 câu, 5 văn bản, 682 chunk): Recall@1 = 0.556 · Recall@5 = 0.811 · Recall@10 = 0.887 · MRR = 0.713.
+Mức hiện tại (165 câu, 5 văn bản, 682 chunk): Recall@1 = 0.554 · Recall@5 = 0.811 · Recall@10 = 0.887 · MRR = 0.709.
 **Đừng merge một thay đổi làm các số này tụt** mà không có lý do đo được.
 Điểm yếu đã biết: loại G (câu hỏi bắc cầu nhiều văn bản) = 0.17, loại I (câu hỏi
 mơ hồ) = 0.25. Giới hạn của bộ đo được ghi ở `eval/README.md` — đọc trước khi
@@ -325,6 +325,24 @@ python3 tools/cat_bang.py --pdf <goc.pdf> --tu-trang 56 --den-trang 65 \
 python3 tools/cat_bang.py --pdf <goc.pdf> --trang 57 --bang G.2a \
     --y0 81 --y1 396 --dich <thu-muc> --tien-to bang
 ```
+
+### Đã cắt sẵn — kiểm tra trước khi nghĩ tới việc cắt mới
+
+Kho **đã có sẵn 122 ảnh bảng**, phủ **toàn bộ bảng của cả bốn văn bản**:
+
+| Văn bản | Thư mục ảnh | Số bảng |
+|---|---|---|
+| QCVN 06:2022/BXD phần chính | `corpus/quy-chuan/qcvn-06-2022-bxd/bang/` | 16 |
+| QCVN 06:2022/BXD phụ lục | `corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/` | 48 |
+| QCVN 10:2025/BCA | `corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/` | 19 |
+| QCVN 10:2024/BXD | `corpus/quy-chuan/qcvn-10-2024-bxd/phu-luc/bang/` | 2 |
+
+Mỗi ảnh đã được **chèn liên kết ngay dưới tiêu đề bảng** trong `corpus/`, nên
+chunk trả về từ `search.py` đã mang sẵn đường dẫn ảnh. Chỉ việc gửi tệp đó cho
+người dùng, **không cần cắt lại**.
+
+Bảng trải nhiều trang có thêm tệp hậu tố `-tiep-1`, `-tiep-2`, cũng đã được liên
+kết cùng chỗ.
 
 **RÀNG BUỘC PHẢI BIẾT:** cắt ảnh cần **bản PDF gốc**, mà PDF gốc nằm ở
 `/root/.claude/uploads/<mã phiên>/` — thư mục này **thuộc về một phiên làm việc

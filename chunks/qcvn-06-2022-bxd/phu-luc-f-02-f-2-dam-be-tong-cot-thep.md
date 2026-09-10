@@ -20,6 +20,8 @@ chuong: "Phụ lục F"
 
 **Bảng F.3 – Dầm bê tông cốt thép**
 
+
+![Ảnh chụp Bảng F.3 từ bản in gốc — Dầm bê tông cốt thép](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-3.png)
 *Giá trị nhỏ nhất của thông số, mm, để bảo đảm giới hạn chịu lửa:*
 
 | Đặc điểm | R 240 | R 180 | R 120 | R 90 | R 60 | R 30 |

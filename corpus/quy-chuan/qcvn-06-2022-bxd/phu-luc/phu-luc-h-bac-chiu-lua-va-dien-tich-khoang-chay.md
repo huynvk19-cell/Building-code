@@ -25,6 +25,8 @@ Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao PCCC lớn 
 
 **Bảng H.1 – Nhà ở và ký túc xá kiểu căn hộ**
 
+
+![Ảnh chụp Bảng H.1 từ bản in gốc — Nhà ở và ký túc xá kiểu căn hộ](bang/bang-h-1.png)
 | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Chiều cao PCCC lớn nhất cho phép của nhà, m | Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m² |
 |---|---|---|---|
 | **I** | S0 | 75 | 2 500 |
@@ -55,6 +57,8 @@ Cần tuân thủ thêm các quy định bổ sung tại H.2.2 đến H.2.12 đ�
 
 **Bảng H.2 – Nhà công cộng**
 
+
+![Ảnh chụp Bảng H.2 từ bản in gốc — Nhà công cộng](bang/bang-h-2.png)
 *Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m², với số tầng trên mặt đất (không tính tầng kỹ thuật trên cùng):*
 
 | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Chiều cao PCCC lớn nhất cho phép của nhà, m | 1 tầng | 2 tầng | 3 tầng | 4, 5 tầng | 6 đến 9 tầng | 10 đến 16 tầng |
@@ -83,6 +87,8 @@ Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao PCCC lớn 
 
 **Bảng H.3 – Nhà của các cơ sở dịch vụ (nhóm F3.5)**
 
+
+![Ảnh chụp Bảng H.3 từ bản in gốc — Nhà của các cơ sở dịch vụ (nhóm F3.5)](bang/bang-h-3.png)
 *Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m²:*
 
 | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu | Chiều cao PCCC lớn nhất cho phép của nhà, m | Nhà 1 tầng | Nhà nhiều tầng (tối đa 6 tầng không kể đến tầng kỹ thuật trên cùng) |
@@ -104,6 +110,8 @@ Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao PCCC lớn 
 
 **Bảng H.4 – Nhà của các cơ sở thương mại (nhóm F3.1)**
 
+
+![Ảnh chụp Bảng H.4 từ bản in gốc — Nhà của các cơ sở thương mại (nhóm F3.1)](bang/bang-h-4.png)
 *Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m²:*
 
 | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu | Chiều cao PCCC lớn nhất cho phép của nhà, m | 1 tầng | 2 tầng | 3 đến 5 tầng |
@@ -127,6 +135,8 @@ Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao PCCC lớn 
 
 **Bảng H.5 – Nhà trẻ, mẫu giáo, mầm non**
 
+
+![Ảnh chụp Bảng H.5 từ bản in gốc — Nhà trẻ, mẫu giáo, mầm non](bang/bang-h-5.png)
 | Số chỗ trong nhà | Bậc chịu lửa của nhà, không thấp hơn | Cấp nguy hiểm cháy kết cấu của nhà | Chiều cao PCCC lớn nhất cho phép của nhà, m (số tầng trên mặt đất không kể tầng kỹ thuật trên cùng) |
 |---|---|---|---|
 | ≤ 50 | Không quy định | Không quy định | **3 (1 tầng)** |
@@ -156,6 +166,8 @@ Trong nhà trẻ, mẫu giáo, mầm non, các hành lang nối các buồng tha
 
 **Bảng H.6 – Nhà của trường học phổ thông (nhóm F4.1) và nhà ngủ của các trường nội trú (nhóm F1.1)**
 
+
+![Ảnh chụp Bảng H.6 từ bản in gốc — Nhà của trường học phổ thông (nhóm F4.1) và nhà ngủ của các trường nội trú (nhóm F1.1)](bang/bang-h-6.png)
 | Số học sinh hoặc số chỗ trong nhà | Cấp nguy hiểm cháy kết cấu | Bậc chịu lửa tối thiểu | Chiều cao PCCC lớn nhất cho phép của nhà, m (số tầng) |
 |---|---|---|---|
 | **Nhà khối học** | | | |
@@ -293,6 +305,8 @@ Khi rạp chiếu phim có một số phòng chiếu phim thì tổng sức ch�
 
 **Bảng H.8 – Chiều cao PCCC lớn nhất cho phép bố trí một số gian phòng**
 
+
+![Ảnh chụp Bảng H.8 từ bản in gốc — Chiều cao PCCC lớn nhất cho phép bố trí một số gian phòng](bang/bang-h-8.png)
 | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Sức chứa của gian phòng, chỗ | Chiều cao PCCC lớn nhất cho phép bố trí gian phòng, m |
 |---|---|---|---|
 | I, II | S0 | ≤ 300 | 50 |
@@ -326,6 +340,10 @@ Khi trang bị chữa cháy tự động toàn nhà cho nhà sản xuất, cho p
 
 **Bảng H.9 – Nhà sản xuất**
 
+
+![Ảnh chụp Bảng H.9 từ bản in gốc — Nhà sản xuất](bang/bang-h-9.png)
+
+![Ảnh chụp Bảng H.9 từ bản in gốc — Nhà sản xuất (trang tiếp theo 1)](bang/bang-h-9-tiep-1.png)
 *Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m²:*
 
 | Hạng nguy hiểm cháy nổ của nhà hoặc khoang cháy | Chiều cao lớn nhất cho phép của nhà ^1)^, m | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Nhà 1 tầng | Nhà 2 tầng | Nhà từ 3 tầng trở lên |
@@ -370,6 +388,8 @@ Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao nhà lớn 
 
 **Bảng H.10 – Nhà chăn nuôi gia súc, gia cầm và động vật**
 
+
+![Ảnh chụp Bảng H.10 từ bản in gốc — Nhà chăn nuôi gia súc, gia cầm và động vật](bang/bang-h-10.png)
 *Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m²:*
 
 | Hạng nguy hiểm cháy nổ của nhà hoặc khoang cháy | Chiều cao lớn nhất cho phép của nhà ^1)^, m | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Nhà 1 tầng | Nhà 2 tầng | Nhà từ 3 tầng trở lên |
@@ -398,6 +418,10 @@ Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao nhà lớn 
 
 **Bảng H.11 – Nhà kho**
 
+
+![Ảnh chụp Bảng H.11 từ bản in gốc — Nhà kho](bang/bang-h-11.png)
+
+![Ảnh chụp Bảng H.11 từ bản in gốc — Nhà kho (trang tiếp theo 1)](bang/bang-h-11-tiep-1.png)
 *Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m²:*
 
 | Hạng nguy hiểm cháy nổ của nhà hoặc khoang cháy | Chiều cao lớn nhất cho phép của nhà ^1)^, m | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Nhà 1 tầng | Nhà 2 tầng | Nhà từ 3 tầng trở lên |
@@ -448,6 +472,8 @@ Khi trang bị chữa cháy tự động cho nhà kho chứa gỗ thành phẩm 
 
 **Bảng H.12 – Nhà kho chứa gỗ thành phẩm**
 
+
+![Ảnh chụp Bảng H.12 từ bản in gốc — Nhà kho chứa gỗ thành phẩm](bang/bang-h-12.png)
 | Hạng nhà | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m² |
 |---|---|---|---|
 | **C** | I, II, III | S0 | 9 600 |

@@ -248,6 +248,10 @@ Chất lỏng hoặc hỗn hợp các chất lỏng hoặc chất lỏng có ch�
 
 **Bảng 1 - Loại và nhóm đám cháy**
 
+
+![Ảnh chụp Bảng 1 từ bản in gốc — Loại và nhóm đám cháy](phu-luc/bang/bang-1.png)
+
+![Ảnh chụp Bảng 1 từ bản in gốc — Loại và nhóm đám cháy (trang tiếp theo 1)](phu-luc/bang/bang-1-tiep-1.png)
 | Ký hiệu loại đám cháy | Đặc tính của loại đám cháy | Ký hiệu nhóm đám cháy | Đặc tính của nhóm đám cháy |
 |---|---|---|---|
 | A | Cháy chất rắn | A1 | Cháy các chất rắn với quá trình cháy âm ỉ (ví dụ: gỗ, giấy, cỏ khô, rơm rạ, than, sản phẩm dệt...) |
@@ -266,6 +270,10 @@ Chất lỏng hoặc hỗn hợp các chất lỏng hoặc chất lỏng có ch�
 
 **Bảng 2 - Hiệu quả chữa cháy của các chất chữa cháy**
 
+
+![Ảnh chụp Bảng 2 từ bản in gốc — Hiệu quả chữa cháy của các chất chữa cháy](phu-luc/bang/bang-2.png)
+
+![Ảnh chụp Bảng 2 từ bản in gốc — Hiệu quả chữa cháy của các chất chữa cháy (trang tiếp theo 1)](phu-luc/bang/bang-2-tiep-1.png)
 | Chất chữa cháy | | A | B | C | D | E |
 |---|---|---|---|---|---|---|
 | Nước | Phun tia | ++ | - | - | - | - |

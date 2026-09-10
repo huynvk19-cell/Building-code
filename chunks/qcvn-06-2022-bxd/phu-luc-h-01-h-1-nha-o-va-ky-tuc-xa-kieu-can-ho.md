@@ -22,6 +22,8 @@ Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao PCCC lớn 
 
 **Bảng H.1 – Nhà ở và ký túc xá kiểu căn hộ**
 
+
+![Ảnh chụp Bảng H.1 từ bản in gốc — Nhà ở và ký túc xá kiểu căn hộ](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-1.png)
 | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Chiều cao PCCC lớn nhất cho phép của nhà, m | Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m² |
 |---|---|---|---|
 | **I** | S0 | 75 | 2 500 |

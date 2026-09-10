@@ -34,6 +34,8 @@ chuong: "Phụ lục G"
 
 **Bảng G.5 – Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn của các gian phòng không có ghế ngồi cho khán giả của nhà công cộng**
 
+
+![Ảnh chụp Bảng G.5 từ bản in gốc — Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn của các gian phòng không có ghế ngồi cho khán giả của nhà công cộng](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-g-5.png)
 *Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn trong các gian phòng có khối tích, 1 000 m³:*
 
 | Gian phòng | Bậc chịu lửa của nhà | ≤ 5 | > 5 và ≤ 10 | > 10 |
@@ -58,6 +60,8 @@ chuong: "Phụ lục G"
 
 **Bảng G.6 – Số lượng người tối đa trên 1 m chiều rộng của đường thoát nạn từ khán đài của các công trình thể thao, biểu diễn ngoài trời**
 
+
+![Ảnh chụp Bảng G.6 từ bản in gốc — Số lượng người tối đa trên 1 m chiều rộng của đường thoát nạn từ khán đài của các công trình thể thao, biểu diễn ngoài trời](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-g-6.png)
 *Số lượng người tối đa trên 1 m chiều rộng của đường thoát nạn:*
 
 | Bậc chịu lửa của công trình | Theo cầu thang bộ của lối đi chính khán đài — Đi xuống | Theo cầu thang bộ — Đi lên | Đi qua cửa ra từ lối đi chính khán đài — Đi xuống | Đi qua cửa ra — Đi lên |
@@ -83,6 +87,8 @@ Khi chiều cao PCCC của nhà là các trị số trung gian thì số lượn
 
 **Bảng G.7 – Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn từ một gian phòng của nhà sản xuất**
 
+
+![Ảnh chụp Bảng G.7 từ bản in gốc — Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn từ một gian phòng của nhà sản xuất](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-g-7.png)
 | Khối tích của gian phòng, 1 000 m³ | Hạng của gian phòng | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn từ một gian phòng, người |
 |---|---|---|---|---|
 | **≤ 15** | A, B | I, II, III, IV | S0 | 45 |
@@ -112,6 +118,8 @@ Khi chiều cao PCCC của nhà là các trị số trung gian thì số lượn
 
 **Bảng G.8 – Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn từ hành lang của nhà sản xuất**
 
+
+![Ảnh chụp Bảng G.8 từ bản in gốc — Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn từ hành lang của nhà sản xuất](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-g-8.png)
 | Hạng của gian phòng có nguy hiểm cháy cao nhất có lối ra thoát nạn đi vào hành lang | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn từ hành lang, người |
 |---|---|---|---|
 | A, B | I, II, III, IV | S0 | 85 |

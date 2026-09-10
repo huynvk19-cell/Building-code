@@ -59,6 +59,10 @@ chuong: "Phụ lục H"
 
 **Bảng H.1 – Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư**
 
+
+![Ảnh chụp Bảng H.1 từ bản in gốc — Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-1.png)
+
+![Ảnh chụp Bảng H.1 từ bản in gốc — Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-1-tiep-1.png)
 | Dân số (× 1 000 người) | Số đám cháy đồng thời | Lưu lượng cho 1 đám cháy, L/s — Xây dựng nhà không quá 2 tầng, không phụ thuộc bậc chịu lửa | Lưu lượng cho 1 đám cháy, L/s — Xây dựng nhà từ 3 tầng trở lên, không phụ thuộc bậc chịu lửa |
 |---|---|---|---|
 | ≤ 1 | 1 | 5 | 10 |
@@ -89,6 +93,10 @@ chuong: "Phụ lục H"
 
 **Bảng H.2 - Lưu lượng nước cho chữa cháy ngoài nhà của nhà thuộc nhóm nguy hiểm cháy theo công năng F1, F2, F3, F4**
 
+
+![Ảnh chụp Bảng H.2 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà của nhà thuộc nhóm nguy hiểm cháy theo công năng F1, F2, F3, F4](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-2.png)
+
+![Ảnh chụp Bảng H.2 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà của nhà thuộc nhóm nguy hiểm cháy theo công năng F1, F2, F3, F4 (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-2-tiep-1.png)
 *Lưu lượng nước cho chữa cháy ngoài nhà không phụ thuộc bậc chịu lửa tính cho 1 đám cháy, L/s, theo khối tích nhà (× 1 000 m³)*
 
 | Loại nhà | ≤ 1 | > 1 và ≤ 5 | > 5 và ≤ 25 | > 25 và ≤ 50 | > 50 |
@@ -114,6 +122,8 @@ chuong: "Phụ lục H"
 
 **Bảng H.3 - Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 có lỗ mở trên mái không phụ thuộc vào chiều rộng của nhà, cũng như nhà không có lỗ mở trên mái có chiều rộng nhà không lớn hơn 60 m**
 
+
+![Ảnh chụp Bảng H.3 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 có lỗ mở trên mái không phụ thuộc vào chiều rộng của nhà, cũng như nhà không có lỗ mở trên mái có chiều rộng nhà không lớn hơn 60 m](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-3.png)
 *Lưu lượng nước cho chữa cháy ngoài nhà tính cho 1 đám cháy, L/s, theo khối tích nhà (× 1 000 m³)*
 
 | Bậc chịu lửa | Cấp nguy hiểm cháy kết cấu | Hạng nguy hiểm cháy và cháy nổ | ≤ 3 | > 3 và ≤ 5 | > 5 và ≤ 20 | > 20 và ≤ 50 | > 50 và ≤ 200 | > 200 và ≤ 400 | > 400 và ≤ 600 | > 600 |
@@ -131,6 +141,10 @@ chuong: "Phụ lục H"
 
 **Bảng H.4 - Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 không có lỗ mở trên mái có chiều rộng nhà trên 60 m**
 
+
+![Ảnh chụp Bảng H.4 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 không có lỗ mở trên mái có chiều rộng nhà trên 60 m](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-4.png)
+
+![Ảnh chụp Bảng H.4 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 không có lỗ mở trên mái có chiều rộng nhà trên 60 m (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/bang-h-4-tiep-1.png)
 *Lưu lượng nước chữa cháy ngoài nhà tính cho 1 đám cháy, L/s, theo khối tích nhà (× 1 000 m³)*
 
 | Bậc chịu lửa | Cấp nguy hiểm cháy kết cấu | Hạng nguy hiểm cháy và cháy nổ | ≤ 50 | > 50 và ≤ 100 | > 100 và ≤ 200 | > 200 và ≤ 300 | > 300 và ≤ 400 | > 400 và ≤ 500 | > 500 và ≤ 600 | > 600 và ≤ 700 | > 700 |

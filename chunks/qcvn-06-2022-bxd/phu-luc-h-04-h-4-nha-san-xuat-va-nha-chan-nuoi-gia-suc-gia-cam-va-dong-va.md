@@ -30,6 +30,10 @@ Khi trang bị chữa cháy tự động toàn nhà cho nhà sản xuất, cho p
 
 **Bảng H.9 – Nhà sản xuất**
 
+
+![Ảnh chụp Bảng H.9 từ bản in gốc — Nhà sản xuất](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-9.png)
+
+![Ảnh chụp Bảng H.9 từ bản in gốc — Nhà sản xuất (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-9-tiep-1.png)
 *Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m²:*
 
 | Hạng nguy hiểm cháy nổ của nhà hoặc khoang cháy | Chiều cao lớn nhất cho phép của nhà ^1)^, m | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Nhà 1 tầng | Nhà 2 tầng | Nhà từ 3 tầng trở lên |
@@ -74,6 +78,8 @@ Bậc chịu lửa, cấp nguy hiểm cháy kết cấu, chiều cao nhà lớn 
 
 **Bảng H.10 – Nhà chăn nuôi gia súc, gia cầm và động vật**
 
+
+![Ảnh chụp Bảng H.10 từ bản in gốc — Nhà chăn nuôi gia súc, gia cầm và động vật](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-10.png)
 *Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m²:*
 
 | Hạng nguy hiểm cháy nổ của nhà hoặc khoang cháy | Chiều cao lớn nhất cho phép của nhà ^1)^, m | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Nhà 1 tầng | Nhà 2 tầng | Nhà từ 3 tầng trở lên |

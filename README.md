@@ -91,6 +91,8 @@ corpus/                       Bản gốc (nguồn sự thật duy nhất)
     toan-van.md               Mục 1–7
     phu-luc/                  Phụ lục A–I (các bảng tra cứu)
     phu-luc/hinh/             13 hình vẽ cắt từ PDF gốc
+    bang/                     16 ảnh bảng phần chính cắt từ PDF gốc
+    phu-luc/bang/             48 ảnh bảng phụ lục cắt từ PDF gốc
   quy-chuan/sua-doi-1-2023-qcvn-06-2022-bxd/
     toan-van.md               Thông tư 09/2023/TT-BXD + sửa đổi mục 1–7
     phu-luc/                  Sửa đổi Phụ lục A, C, D, E, G, H + Thư mục tham khảo
@@ -147,11 +149,11 @@ quả đầu ở **89%**:
 
 | | 3 văn bản<br>101 câu | 4 văn bản<br>123 câu | + phụ lục QCVN 06<br>141 câu | + Sửa đổi 1:2023<br>165 câu |
 |---|---|---|---|---|
-| Recall@1 | 0.549 | 0.541 | 0.550 | **0.556** |
+| Recall@1 | 0.549 | 0.541 | 0.550 | **0.554** |
 | Recall@3 | 0.733 | 0.752 | 0.779 | **0.774** |
 | Recall@5 | 0.844 | 0.805 | 0.822 | **0.811** |
 | Recall@10 | 0.916 | 0.872 | 0.882 | **0.887** |
-| MRR | 0.713 | 0.704 | 0.708 | **0.713** |
+| MRR | 0.713 | 0.704 | 0.708 | **0.709** |
 
 Các cột này **không so sánh trực tiếp được** — mỗi cột đo trên một bộ câu hỏi
 khác nhau và một kho khác nhau (176 → 346 → 536 → 682 chunk). Thêm văn bản thì

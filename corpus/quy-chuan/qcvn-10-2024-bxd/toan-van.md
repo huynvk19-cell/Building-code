@@ -147,6 +147,8 @@ Dấu hiệu đặc trưng của một bề mặt đã tiêu chuẩn hoá đư�
 
 **Bảng 1 – Số lượng chỗ đỗ xe cho người gặp khó khăn khi tiếp cận trong bãi đỗ xe**
 
+
+![Ảnh chụp Bảng 1 từ bản in gốc — Số lượng chỗ đỗ xe cho người gặp khó khăn khi tiếp cận trong bãi đỗ xe](phu-luc/bang/bang-1.png)
 *Đơn vị tính: Chỗ*
 
 | Tổng số chỗ đỗ xe | Số lượng tối thiểu cho người gặp khó khăn khi tiếp cận |
@@ -298,6 +300,8 @@ Dấu hiệu đặc trưng của một bề mặt đã tiêu chuẩn hoá đư�
 
 **Bảng 2 – Số chỗ dành cho người đi xe lăn**
 
+
+![Ảnh chụp Bảng 2 từ bản in gốc — Số chỗ dành cho người đi xe lăn](phu-luc/bang/bang-2.png)
 *Đơn vị tính: Chỗ*
 
 | Quy mô chỗ ngồi | Số lượng chỗ tối thiểu dành cho người đi xe lăn |

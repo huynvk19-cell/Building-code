@@ -22,6 +22,10 @@ chuong: "Phụ lục H"
 
 **Bảng H.11 – Nhà kho**
 
+
+![Ảnh chụp Bảng H.11 từ bản in gốc — Nhà kho](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-11.png)
+
+![Ảnh chụp Bảng H.11 từ bản in gốc — Nhà kho (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-11-tiep-1.png)
 *Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m²:*
 
 | Hạng nguy hiểm cháy nổ của nhà hoặc khoang cháy | Chiều cao lớn nhất cho phép của nhà ^1)^, m | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Nhà 1 tầng | Nhà 2 tầng | Nhà từ 3 tầng trở lên |
@@ -72,6 +76,8 @@ Khi trang bị chữa cháy tự động cho nhà kho chứa gỗ thành phẩm 
 
 **Bảng H.12 – Nhà kho chứa gỗ thành phẩm**
 
+
+![Ảnh chụp Bảng H.12 từ bản in gốc — Nhà kho chứa gỗ thành phẩm](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-h-12.png)
 | Hạng nhà | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Diện tích lớn nhất cho phép của một tầng nhà trong phạm vi một khoang cháy, m² |
 |---|---|---|---|
 | **C** | I, II, III | S0 | 9 600 |

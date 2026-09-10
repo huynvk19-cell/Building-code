@@ -20,6 +20,8 @@ chuong: "Phụ lục C"
 
 **Bảng C.1 – Hạng nguy hiểm cháy và cháy nổ của gian phòng**
 
+
+![Ảnh chụp Bảng C.1 từ bản in gốc — Hạng nguy hiểm cháy và cháy nổ của gian phòng](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-c-1.png)
 | Hạng nguy hiểm cháy của gian phòng | Đặc điểm của các chất và vật liệu có (hoặc hình thành) trong gian phòng |
 |---|---|
 | **A** — Nguy hiểm cháy nổ cao | – Các chất khí cháy, chất lỏng dễ bắt cháy có nhiệt độ bùng cháy không lớn hơn 28 °C, với khối lượng có thể tạo thành hỗn hợp khí - hơi nguy hiểm nổ, khi bốc cháy tạo ra áp suất nổ dư tính toán trong gian phòng vượt quá 5 kPa.<br>– Các chất và vật liệu có khả năng nổ và cháy khi tác dụng với nước, với ôxy trong không khí hoặc tác dụng với nhau, với khối lượng để áp suất nổ dư tính toán trong gian phòng vượt quá 5 kPa. |

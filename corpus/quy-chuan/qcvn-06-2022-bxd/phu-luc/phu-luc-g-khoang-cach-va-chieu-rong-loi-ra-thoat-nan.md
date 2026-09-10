@@ -22,6 +22,8 @@ Khoảng cách giới hạn cho phép từ cửa ra vào của căn hộ (nhà n
 
 **Bảng G.1 – Khoảng cách giới hạn cho phép từ cửa ra vào của căn hộ hay của phòng ở đến lối ra thoát nạn gần nhất**
 
+
+![Ảnh chụp Bảng G.1 từ bản in gốc — Khoảng cách giới hạn cho phép từ cửa ra vào của căn hộ hay của phòng ở đến lối ra thoát nạn gần nhất](bang/bang-g-1.png)
 *Khoảng cách giới hạn cho phép từ cửa ra vào căn hộ hoặc phòng ở đến lối ra thoát nạn gần nhất, m:*
 
 | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Khi cửa bố trí ở giữa các buồng thang bộ hoặc giữa các lối ra ngoài | Khi cửa bố trí ở hành lang cụt |
@@ -44,6 +46,8 @@ Khoảng cách giới hạn cho phép từ cửa ra vào của căn hộ (nhà n
 
 **Bảng G.2a – Khoảng cách giới hạn cho phép từ cửa ra vào của gian phòng đến lối ra thoát nạn gần nhất đối với nhà công cộng**
 
+
+![Ảnh chụp Bảng G.2a từ bản in gốc — Khoảng cách giới hạn cho phép từ cửa ra vào của gian phòng đến lối ra thoát nạn gần nhất đối với nhà công cộng](bang/bang-g-2a.png)
 *Khoảng cách, m, khi mật độ dòng người thoát nạn, người/m²:*
 
 | Bậc chịu lửa của nhà | ≤ 2 | > 2 và ≤ 3 | > 3 và ≤ 4 | > 4 và ≤ 5 | > 5 |
@@ -65,6 +69,10 @@ Khoảng cách giới hạn cho phép từ cửa ra vào của căn hộ (nhà n
 
 **Bảng G.2b – Khoảng cách giới hạn cho phép từ một điểm bất kỳ của gian phòng công cộng không có ghế ngồi cho khán giả đến lối ra thoát nạn gần nhất**
 
+
+![Ảnh chụp Bảng G.2b từ bản in gốc — Khoảng cách giới hạn cho phép từ một điểm bất kỳ của gian phòng công cộng không có ghế ngồi cho khán giả đến lối ra thoát nạn gần nhất](bang/bang-g-2b.png)
+
+![Ảnh chụp Bảng G.2b từ bản in gốc — Khoảng cách giới hạn cho phép từ một điểm bất kỳ của gian phòng công cộng không có ghế ngồi cho khán giả đến lối ra thoát nạn gần nhất (trang tiếp theo 1)](bang/bang-g-2b-tiep-1.png)
 *Khoảng cách giới hạn cho phép, m, từ 1 điểm bất kỳ của gian phòng tới lối ra thoát nạn gần nhất với khối tích gian phòng, 1 000 m³:*
 
 | Gian phòng | Bậc chịu lửa của nhà | ≤ 5 | > 5 và ≤ 10 | > 10 |
@@ -97,6 +105,8 @@ Khoảng cách giới hạn cho phép từ cửa ra vào của căn hộ (nhà n
 
 **Bảng G.3 – Khoảng cách giới hạn cho phép từ chỗ làm việc xa nhất đến lối ra thoát nạn gần nhất của nhà sản xuất**
 
+
+![Ảnh chụp Bảng G.3 từ bản in gốc — Khoảng cách giới hạn cho phép từ chỗ làm việc xa nhất đến lối ra thoát nạn gần nhất của nhà sản xuất](bang/bang-g-3.png)
 *Khoảng cách, m, khi mật độ dòng người thoát nạn trên lối đi chung, người/m²:*
 
 | Khối tích của gian phòng, 1 000 m³ | Hạng của gian phòng | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | ≤ 1 | > 1 và ≤ 3 | > 3 và ≤ 5 |
@@ -129,6 +139,8 @@ Khoảng cách giới hạn cho phép từ cửa ra vào của căn hộ (nhà n
 
 **Bảng G.4 – Khoảng cách giới hạn cho phép từ cửa ra vào của gian phòng sản xuất có diện tích đến 1 000 m² đến lối ra thoát nạn gần nhất**
 
+
+![Ảnh chụp Bảng G.4 từ bản in gốc — Khoảng cách giới hạn cho phép từ cửa ra vào của gian phòng sản xuất có diện tích đến 1 000 m² đến lối ra thoát nạn gần nhất](bang/bang-g-4.png)
 *Khoảng cách đi theo hành lang, m, từ cửa gian phòng đến lối ra thoát nạn gần nhất, khi mật độ dòng người thoát nạn trên lối đi chung, người/m²:*
 
 | Vị trí cửa ra của gian phòng | Hạng của gian phòng | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | ≤ 2 | > 2 và ≤ 3 | > 3 và ≤ 4 | > 4 và ≤ 5 |
@@ -162,6 +174,8 @@ Khoảng cách giới hạn cho phép từ cửa ra vào của căn hộ (nhà n
 
 **Bảng G.5 – Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn của các gian phòng không có ghế ngồi cho khán giả của nhà công cộng**
 
+
+![Ảnh chụp Bảng G.5 từ bản in gốc — Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn của các gian phòng không có ghế ngồi cho khán giả của nhà công cộng](bang/bang-g-5.png)
 *Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn trong các gian phòng có khối tích, 1 000 m³:*
 
 | Gian phòng | Bậc chịu lửa của nhà | ≤ 5 | > 5 và ≤ 10 | > 10 |
@@ -186,6 +200,8 @@ Khoảng cách giới hạn cho phép từ cửa ra vào của căn hộ (nhà n
 
 **Bảng G.6 – Số lượng người tối đa trên 1 m chiều rộng của đường thoát nạn từ khán đài của các công trình thể thao, biểu diễn ngoài trời**
 
+
+![Ảnh chụp Bảng G.6 từ bản in gốc — Số lượng người tối đa trên 1 m chiều rộng của đường thoát nạn từ khán đài của các công trình thể thao, biểu diễn ngoài trời](bang/bang-g-6.png)
 *Số lượng người tối đa trên 1 m chiều rộng của đường thoát nạn:*
 
 | Bậc chịu lửa của công trình | Theo cầu thang bộ của lối đi chính khán đài — Đi xuống | Theo cầu thang bộ — Đi lên | Đi qua cửa ra từ lối đi chính khán đài — Đi xuống | Đi qua cửa ra — Đi lên |
@@ -211,6 +227,8 @@ Khi chiều cao PCCC của nhà là các trị số trung gian thì số lượn
 
 **Bảng G.7 – Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn từ một gian phòng của nhà sản xuất**
 
+
+![Ảnh chụp Bảng G.7 từ bản in gốc — Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn từ một gian phòng của nhà sản xuất](bang/bang-g-7.png)
 | Khối tích của gian phòng, 1 000 m³ | Hạng của gian phòng | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn từ một gian phòng, người |
 |---|---|---|---|---|
 | **≤ 15** | A, B | I, II, III, IV | S0 | 45 |
@@ -240,6 +258,8 @@ Khi chiều cao PCCC của nhà là các trị số trung gian thì số lượn
 
 **Bảng G.8 – Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn từ hành lang của nhà sản xuất**
 
+
+![Ảnh chụp Bảng G.8 từ bản in gốc — Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn từ hành lang của nhà sản xuất](bang/bang-g-8.png)
 | Hạng của gian phòng có nguy hiểm cháy cao nhất có lối ra thoát nạn đi vào hành lang | Bậc chịu lửa của nhà | Cấp nguy hiểm cháy kết cấu của nhà | Số lượng người tối đa trên 1 m chiều rộng của lối ra thoát nạn từ hành lang, người |
 |---|---|---|---|
 | A, B | I, II, III, IV | S0 | 85 |

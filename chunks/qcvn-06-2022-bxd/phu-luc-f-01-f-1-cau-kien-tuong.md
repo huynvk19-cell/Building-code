@@ -20,6 +20,12 @@ chuong: "Phụ lục F"
 
 **Bảng F.1 – Tường xây hoặc tường bê tông**
 
+
+![Ảnh chụp Bảng F.1 từ bản in gốc — Tường xây hoặc tường bê tông](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-1.png)
+
+![Ảnh chụp Bảng F.1 từ bản in gốc — Tường xây hoặc tường bê tông (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-1-tiep-1.png)
+
+![Ảnh chụp Bảng F.1 từ bản in gốc — Tường xây hoặc tường bê tông (trang tiếp theo 2)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-1-tiep-2.png)
 *Chiều dày nhỏ nhất không kể lớp trát, mm, để bảo đảm giới hạn chịu lửa:*
 
 | Kết cấu và vật liệu | REI 240 | REI 180 | REI 120 | REI 90 | REI 60 | REI 30 | EI 240 | EI 180 | EI 120 | EI 90 | EI 60 | EI 30 |
@@ -65,6 +71,8 @@ chuong: "Phụ lục F"
 
 **Bảng F.2 – Tường ngoài không chịu lực**
 
+
+![Ảnh chụp Bảng F.2 từ bản in gốc — Tường ngoài không chịu lực](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-f-2.png)
 | Kết cấu và vật liệu | Giới hạn chịu lửa |
 |---|---|
 | **1. Tường bằng khung xương thép có lớp ngoài bằng tấm vật liệu không cháy và lớp trong là:** | |

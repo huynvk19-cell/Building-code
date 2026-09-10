@@ -26,6 +26,10 @@ Trong trường hợp cần bảo đảm khoảng cách giữa các nhà, công 
 
 **Bảng E.1 – Khoảng cách phòng cháy chống cháy giữa các nhà ở, nhà và công trình công cộng và khoảng cách từ các nhà ở, nhà và công trình công cộng đến nhà và công trình sản xuất, nhà kho**
 
+
+![Ảnh chụp Bảng E.1 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà ở, nhà và công trình công cộng và khoảng cách từ các nhà ở, nhà và công trình công cộng đến nhà và công trình sản xuất, nhà kho](bang/bang-e-1.png)
+
+![Ảnh chụp Bảng E.1 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà ở, nhà và công trình công cộng và khoảng cách từ các nhà ở, nhà và công trình công cộng đến nhà và công trình sản xuất, nhà kho (trang tiếp theo 1)](bang/bang-e-1-tiep-1.png)
 *Khoảng cách phòng cháy chống cháy tối thiểu, m, đến nhà ở và nhà công cộng thứ hai với bậc chịu lửa và cấp nguy hiểm cháy kết cấu:*
 
 | Bậc chịu lửa của nhà thứ nhất | Cấp nguy hiểm cháy kết cấu của nhà thứ nhất | I, II, III — S0 | II, III — S1 | IV — S0, S1 | IV, V — S2, S3 |
@@ -63,6 +67,10 @@ Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở 
 
 **Bảng E.2 – Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở công nghiệp**
 
+
+![Ảnh chụp Bảng E.2 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở công nghiệp](bang/bang-e-2.png)
+
+![Ảnh chụp Bảng E.2 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở công nghiệp (trang tiếp theo 1)](bang/bang-e-2-tiep-1.png)
 *Khoảng cách giữa các nhà, m:*
 
 | Bậc chịu lửa và cấp nguy hiểm cháy kết cấu | Bậc chịu lửa I và II. Bậc chịu lửa III và IV với cấp S0 | Bậc chịu lửa III và cấp S1 | Bậc chịu lửa III và cấp S2, S3. Bậc chịu lửa IV và cấp S1, S2, S3. Bậc chịu lửa V |
@@ -111,6 +119,8 @@ Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở 
 
 **Bảng E.3 – Giới hạn chịu lửa của tường ngoài phụ thuộc vào khoảng cách phòng cháy chống cháy theo đường ranh giới**
 
+
+![Ảnh chụp Bảng E.3 từ bản in gốc — Giới hạn chịu lửa của tường ngoài phụ thuộc vào khoảng cách phòng cháy chống cháy theo đường ranh giới](bang/bang-e-3.png)
 *Khoảng cách phòng cháy chống cháy theo đường ranh giới, m:*
 
 | Nhà thuộc nhóm nguy hiểm cháy theo công năng | ≥ 0 và ≤ 1,5 | > 1,5 và ≤ 3 | > 3 và ≤ 9 | > 9 | Diện tích lỗ mở không được bảo vệ chống cháy |

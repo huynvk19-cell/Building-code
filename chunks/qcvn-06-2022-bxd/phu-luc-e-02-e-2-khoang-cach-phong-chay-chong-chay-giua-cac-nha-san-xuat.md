@@ -22,6 +22,10 @@ Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở 
 
 **Bảng E.2 – Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở công nghiệp**
 
+
+![Ảnh chụp Bảng E.2 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở công nghiệp](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-e-2.png)
+
+![Ảnh chụp Bảng E.2 từ bản in gốc — Khoảng cách phòng cháy chống cháy giữa các nhà trong một cơ sở công nghiệp (trang tiếp theo 1)](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-e-2-tiep-1.png)
 *Khoảng cách giữa các nhà, m:*
 
 | Bậc chịu lửa và cấp nguy hiểm cháy kết cấu | Bậc chịu lửa I và II. Bậc chịu lửa III và IV với cấp S0 | Bậc chịu lửa III và cấp S1 | Bậc chịu lửa III và cấp S2, S3. Bậc chịu lửa IV và cấp S1, S2, S3. Bậc chịu lửa V |

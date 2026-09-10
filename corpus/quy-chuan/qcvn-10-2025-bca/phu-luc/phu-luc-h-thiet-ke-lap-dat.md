@@ -56,6 +56,10 @@ ngon_ngu: "vi"
 
 **Bảng H.1 – Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư**
 
+
+![Ảnh chụp Bảng H.1 từ bản in gốc — Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư](bang/bang-h-1.png)
+
+![Ảnh chụp Bảng H.1 từ bản in gốc — Lưu lượng nước từ mạng đường ống cho chữa cháy ngoài nhà trong các khu dân cư (trang tiếp theo 1)](bang/bang-h-1-tiep-1.png)
 | Dân số (× 1 000 người) | Số đám cháy đồng thời | Lưu lượng cho 1 đám cháy, L/s — Xây dựng nhà không quá 2 tầng, không phụ thuộc bậc chịu lửa | Lưu lượng cho 1 đám cháy, L/s — Xây dựng nhà từ 3 tầng trở lên, không phụ thuộc bậc chịu lửa |
 |---|---|---|---|
 | ≤ 1 | 1 | 5 | 10 |
@@ -86,6 +90,10 @@ ngon_ngu: "vi"
 
 **Bảng H.2 - Lưu lượng nước cho chữa cháy ngoài nhà của nhà thuộc nhóm nguy hiểm cháy theo công năng F1, F2, F3, F4**
 
+
+![Ảnh chụp Bảng H.2 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà của nhà thuộc nhóm nguy hiểm cháy theo công năng F1, F2, F3, F4](bang/bang-h-2.png)
+
+![Ảnh chụp Bảng H.2 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà của nhà thuộc nhóm nguy hiểm cháy theo công năng F1, F2, F3, F4 (trang tiếp theo 1)](bang/bang-h-2-tiep-1.png)
 *Lưu lượng nước cho chữa cháy ngoài nhà không phụ thuộc bậc chịu lửa tính cho 1 đám cháy, L/s, theo khối tích nhà (× 1 000 m³)*
 
 | Loại nhà | ≤ 1 | > 1 và ≤ 5 | > 5 và ≤ 25 | > 25 và ≤ 50 | > 50 |
@@ -111,6 +119,8 @@ ngon_ngu: "vi"
 
 **Bảng H.3 - Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 có lỗ mở trên mái không phụ thuộc vào chiều rộng của nhà, cũng như nhà không có lỗ mở trên mái có chiều rộng nhà không lớn hơn 60 m**
 
+
+![Ảnh chụp Bảng H.3 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 có lỗ mở trên mái không phụ thuộc vào chiều rộng của nhà, cũng như nhà không có lỗ mở trên mái có chiều rộng nhà không lớn hơn 60 m](bang/bang-h-3.png)
 *Lưu lượng nước cho chữa cháy ngoài nhà tính cho 1 đám cháy, L/s, theo khối tích nhà (× 1 000 m³)*
 
 | Bậc chịu lửa | Cấp nguy hiểm cháy kết cấu | Hạng nguy hiểm cháy và cháy nổ | ≤ 3 | > 3 và ≤ 5 | > 5 và ≤ 20 | > 20 và ≤ 50 | > 50 và ≤ 200 | > 200 và ≤ 400 | > 400 và ≤ 600 | > 600 |
@@ -128,6 +138,10 @@ ngon_ngu: "vi"
 
 **Bảng H.4 - Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 không có lỗ mở trên mái có chiều rộng nhà trên 60 m**
 
+
+![Ảnh chụp Bảng H.4 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 không có lỗ mở trên mái có chiều rộng nhà trên 60 m](bang/bang-h-4.png)
+
+![Ảnh chụp Bảng H.4 từ bản in gốc — Lưu lượng nước cho chữa cháy ngoài nhà cho nhà nhóm F5 không có lỗ mở trên mái có chiều rộng nhà trên 60 m (trang tiếp theo 1)](bang/bang-h-4-tiep-1.png)
 *Lưu lượng nước chữa cháy ngoài nhà tính cho 1 đám cháy, L/s, theo khối tích nhà (× 1 000 m³)*
 
 | Bậc chịu lửa | Cấp nguy hiểm cháy kết cấu | Hạng nguy hiểm cháy và cháy nổ | ≤ 50 | > 50 và ≤ 100 | > 100 và ≤ 200 | > 200 và ≤ 300 | > 300 và ≤ 400 | > 400 và ≤ 500 | > 500 và ≤ 600 | > 600 và ≤ 700 | > 700 |
@@ -321,6 +335,10 @@ Căn cứ vào công năng của đối tượng bảo vệ có thể lựa ch�
 
 **Bảng H.5 – Số tia phun chữa cháy và lưu lượng nước tối thiểu đối với hệ thống họng nước chữa cháy**
 
+
+![Ảnh chụp Bảng H.5 từ bản in gốc — Số tia phun chữa cháy và lưu lượng nước tối thiểu đối với hệ thống họng nước chữa cháy](bang/bang-h-5.png)
+
+![Ảnh chụp Bảng H.5 từ bản in gốc — Số tia phun chữa cháy và lưu lượng nước tối thiểu đối với hệ thống họng nước chữa cháy (trang tiếp theo 1)](bang/bang-h-5-tiep-1.png)
 | Nhà ở và công trình công cộng | Số tia phun chữa cháy trên 1 tầng nhà | Lưu lượng tối thiểu cho chữa cháy trong nhà, L/s, đối với một tia phun |
 |---|---|---|
 | **1. Nhà chung cư, nhà ở tập thể** | | |
@@ -373,6 +391,8 @@ Căn cứ vào công năng của đối tượng bảo vệ có thể lựa ch�
 
 **Bảng H.6 - Số tia phun chữa cháy và lưu lượng nước tối thiểu cho chữa cháy trong nhà đối với nhà sản xuất và nhà kho**
 
+
+![Ảnh chụp Bảng H.6 từ bản in gốc — Số tia phun chữa cháy và lưu lượng nước tối thiểu cho chữa cháy trong nhà đối với nhà sản xuất và nhà kho](bang/bang-h-6.png)
 *Số tia phun chữa cháy và lưu lượng nước tối thiểu, L/s, đối với 1 tia phun, cho chữa cháy trong nhà đối với nhà sản xuất và nhà kho có chiều cao PCCC đến 50 m và theo khối tích (× 1 000 m³)*
 
 | Bậc chịu lửa của nhà | Hạng nguy hiểm cháy và cháy nổ của nhà | Cấp nguy hiểm cháy của kết cấu | ≤ 150 | > 150 |
@@ -390,6 +410,10 @@ Căn cứ vào công năng của đối tượng bảo vệ có thể lựa ch�
 
 **Bảng H.7 - Lưu lượng nước chữa cháy phụ thuộc theo chiều cao tia nước đặc và đường kính đầu lăng phun chữa cháy**
 
+
+![Ảnh chụp Bảng H.7 từ bản in gốc — Lưu lượng nước chữa cháy phụ thuộc theo chiều cao tia nước đặc và đường kính đầu lăng phun chữa cháy](bang/bang-h-7.png)
+
+![Ảnh chụp Bảng H.7 từ bản in gốc — Lưu lượng nước chữa cháy phụ thuộc theo chiều cao tia nước đặc và đường kính đầu lăng phun chữa cháy (trang tiếp theo 1)](bang/bang-h-7-tiep-1.png)
 *Họng nước chữa cháy DN 50* ⁽¹⁾
 
 | Chiều cao tia nước đặc, m | Đầu lăng Ø13 — Lưu lượng, L/s | Ø13 — Áp suất (MPa) vòi 10 m | Ø13 — vòi 15 m | Ø13 — vòi 20 m | Đầu lăng Ø16 — Lưu lượng, L/s | Ø16 — vòi 10 m | Ø16 — vòi 15 m | Ø16 — vòi 20 m | Đầu lăng Ø19 — Lưu lượng, L/s | Ø19 — vòi 10 m | Ø19 — vòi 15 m | Ø19 — vòi 20 m |

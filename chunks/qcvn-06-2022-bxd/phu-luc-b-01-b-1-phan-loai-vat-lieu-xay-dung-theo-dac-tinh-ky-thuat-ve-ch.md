@@ -38,6 +38,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.1 – Nhóm vật liệu cháy theo tính cháy**
 
+
+![Ảnh chụp Bảng B.1 từ bản in gốc — Nhóm vật liệu cháy theo tính cháy](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-b-1.png)
 | Nhóm cháy của vật liệu | Nhiệt độ khí trong ống thoát khói, T, °C | Mức độ hư hỏng làm giảm chiều dài mẫu, L, % | Mức độ hư hỏng làm giảm khối lượng mẫu, m, % | Khoảng thời gian tự cháy, s |
 |---|---|---|---|---|
 | **Ch1** – cháy yếu | ≤ 135 | ≤ 65 | ≤ 20 | 0 |
@@ -59,6 +61,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.2 – Nhóm vật liệu cháy theo tính bắt cháy**
 
+
+![Ảnh chụp Bảng B.2 từ bản in gốc — Nhóm vật liệu cháy theo tính bắt cháy](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-b-2.png)
 | Nhóm bắt cháy của vật liệu | Cường độ thông lượng nhiệt bề mặt tới hạn, kW/m² |
 |---|---|
 | **BC1** – khó bắt cháy | ≥ 35 |
@@ -71,6 +75,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.3 – Nhóm vật liệu cháy theo tính lan truyền lửa trên bề mặt**
 
+
+![Ảnh chụp Bảng B.3 từ bản in gốc — Nhóm vật liệu cháy theo tính lan truyền lửa trên bề mặt](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-b-3.png)
 | Nhóm lan truyền lửa trên bề mặt của vật liệu | Cường độ thông lượng nhiệt bề mặt tới hạn, kW/m² |
 |---|---|
 | **LT1** – không lan truyền | ≥ 11 |
@@ -84,6 +90,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.4 – Nhóm vật liệu cháy theo khả năng sinh khói**
 
+
+![Ảnh chụp Bảng B.4 từ bản in gốc — Nhóm vật liệu cháy theo khả năng sinh khói](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-b-4.png)
 | Nhóm sinh khói của vật liệu | Giá trị hệ số sinh khói của vật liệu, m²/kg |
 |---|---|
 | **SK1** – khả năng sinh khói thấp | ≤ 50 |
@@ -96,6 +104,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.5 – Nhóm vật liệu cháy theo độc tính**
 
+
+![Ảnh chụp Bảng B.5 từ bản in gốc — Nhóm vật liệu cháy theo độc tính](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-b-5.png)
 *Chỉ số H~CL50~, g/m³, tương ứng với thời gian, min, để lộ:*
 
 | Nhóm độc tính của vật liệu | 5 | 15 | 30 | 60 |
@@ -111,6 +121,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.6 – Cấp nguy hiểm cháy của vật liệu**
 
+
+![Ảnh chụp Bảng B.6 từ bản in gốc — Cấp nguy hiểm cháy của vật liệu](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-b-6.png)
 | Đặc tính kỹ thuật về cháy của vật liệu | CV0 | CV1 | CV2 | CV3 | CV4 | CV5 |
 |---|---|---|---|---|---|---|
 | 1. Tính cháy | Không cháy | Ch1 | Ch1 | Ch2 | Ch3 | Ch4 |
@@ -123,6 +135,8 @@ Vật liệu **cháy** là vật liệu khi thử nghiệm không thỏa mãn m�
 
 **Bảng B.7 – Danh mục các chỉ tiêu về tính nguy hiểm cháy cần thiết phụ thuộc vào công dụng của vật liệu xây dựng**
 
+
+![Ảnh chụp Bảng B.7 từ bản in gốc — Danh mục các chỉ tiêu về tính nguy hiểm cháy cần thiết phụ thuộc vào công dụng của vật liệu xây dựng](../../corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/bang-b-7.png)
 | Công dụng của vật liệu xây dựng | Nhóm về tính cháy | Nhóm về tính lan truyền lửa trên bề mặt | Nhóm về tính bắt cháy | Nhóm về khả năng sinh khói | Nhóm về độc tính của sản phẩm cháy |
 |---|---|---|---|---|---|
 | 1. Vật liệu hoàn thiện tường và trần, bao gồm cả các lớp phủ từ sơn, men, véc ni ^1)^ | + | – | + | + | + |
