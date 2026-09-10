@@ -55,10 +55,14 @@ RE_PHAN = re.compile(r"^##\s+(?:(\d+(?:\.\d+)*)\s+)?(.+?)\s*$")
 # đánh số điều khoản mà không đặt tên (ví dụ QCVN 06:2022/BXD mục 4.1 đến 4.35).
 # Khi không có tiêu đề, tiêu đề hiển thị được suy ra từ câu đầu của điều khoản —
 # đây chỉ là NHÃN để tra cứu, không phải nội dung pháp lý.
-RE_MUC_SO = re.compile(r"^###\s+(\d+(?:\.\d+)*)(?:\s+(.+?))?\s*$")
+# Số hiệu mục, tiêu đề TÙY CHỌN. Hậu tố chữ cái ("1.4.21a") là cách QCVN
+# đánh số một điểm được CHÈN THÊM giữa hai điểm cũ — gặp nhiều ở các bản sửa đổi.
+RE_MUC_SO = re.compile(r"^###\s+(\d+(?:\.\d+)*[a-z]?)(?:\s+(.+?))?\s*$")
 
 # --- Phụ lục ----------------------------------------------------------------
 RE_H2 = re.compile(r"^##\s+(.+?)\s*$")
+# Số hiệu mục trong phụ lục: "D.5", "A.1.2.1", "H.2.12.10"…
+RE_SO_PHU_LUC = re.compile(r"[A-Z]\.\d+(?:\.\d+)*[a-z]?")
 
 # Link ảnh Markdown: ![mô tả](duong-dan.png)
 RE_ANH = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
@@ -393,6 +397,10 @@ def split_phu_luc(path: Path, thu_tu: int = 0) -> tuple[dict, list[dict]]:
                 dau, _, con_lai = heading.partition(" ")
                 if con_lai:
                     so_muc, tieu_de = dau, con_lai
+                elif RE_SO_PHU_LUC.fullmatch(dau):
+                    # Điều khoản KHÔNG CÓ TÊN trong bản gốc (ví dụ "## D.5"). Trước đây
+                    # so_muc bị bỏ trống nên không ghép được với bản sửa đổi.
+                    so_muc = dau
             builder.start(
                 chunk_id=f"{doc_id}:{phan_slug}-{slugify(heading, 40)}",
                 loai=loai,
@@ -436,7 +444,9 @@ def citation(doc_meta: dict, chunk: dict) -> str:
     """Chuỗi trích dẫn chuẩn cho từng loại văn bản."""
     so_hieu = doc_meta.get("so_hieu", doc_meta["doc_id"])
     loai = doc_meta.get("loai_van_ban", "")
-    la_quy_chuan = so_hieu.startswith(("QCVN", "TCVN"))
+    # "Sửa đổi 1:2023 QCVN 06:2022/BXD" tự nó đã là tên đầy đủ — thêm "Quy chuẩn
+    # kỹ thuật quốc gia (bản sửa đổi) số ..." vào trước sẽ thành một chuỗi vô nghĩa.
+    la_quy_chuan = so_hieu.startswith(("QCVN", "TCVN", "Sửa đổi"))
     ten_vb = so_hieu if la_quy_chuan else f"{loai} số {so_hieu}"
 
     if chunk["loai"] == "dieu":
@@ -520,6 +530,71 @@ def write_muc_luc(doc_dir: Path, doc_meta: dict, chunks: list[dict]) -> None:
     (doc_dir / "muc-luc.md").write_text("\n".join(lines), encoding="utf-8")
 
 
+def noi_sua_doi(all_chunks: list[dict], documents: list[dict]) -> int:
+    """Gắn cờ cho những chunk của văn bản GỐC đã bị một văn bản SỬA ĐỔI đụng tới.
+
+    Một bản sửa đổi (ví dụ Sửa đổi 1:2023 QCVN 06:2022/BXD) khai `sua_doi_cho`
+    trong front matter và cắt chunk theo đúng số hiệu mục mà nó sửa. Nhờ vậy có
+    thể ghép hai bên theo `so_hieu_muc`.
+
+    Việc này quan trọng vì kho giữ NGUYÊN VĂN bản gốc — không được sửa chữ trong
+    đó. Nếu không có cờ này, người tra mục 3.2.8 sẽ đọc bản 2022 và tưởng đó là
+    quy định đang có hiệu lực, trong khi nó đã bị thay từ 01/12/2023.
+    """
+    # doc_id bản sửa đổi -> số hiệu của văn bản gốc mà nó sửa
+    sua_cho: dict[str, str] = {}
+    for doc in documents:
+        goc = doc.get("_sua_doi_cho") or []
+        if goc:
+            sua_cho[doc["doc_id"]] = goc[0]
+
+    if not sua_cho:
+        return 0
+
+    # (số hiệu văn bản gốc, số hiệu mục) -> danh sách chunk sửa đổi
+    ban_do: dict[tuple[str, str], list[dict]] = {}
+    for c in all_chunks:
+        goc = sua_cho.get(c["doc_id"])
+        if goc and c.get("so_hieu_muc"):
+            ban_do.setdefault((goc, c["so_hieu_muc"]), []).append(c)
+
+    def to_hon(so: str) -> list[str]:
+        """'A.1.2.1' -> ['A.1.2.1', 'A.1.2', 'A.1'] — từ hẹp tới rộng."""
+        phan = so.split(".")
+        return [".".join(phan[: i + 1]) for i in range(len(phan) - 1, 0, -1)]
+
+    # Bản gốc có thể cắt THÔ hơn bản sửa đổi: sửa đổi nhắm A.1.2.1 nhưng bản gốc
+    # chỉ có một chunk A.1. Khi đó gắn cờ vào chunk cha gần nhất, để người tra A.1
+    # vẫn thấy cảnh báo. Không làm ngược lại (không kéo cờ xuống các mục con).
+    co_san = {(c["so_hieu"], c["so_hieu_muc"]) for c in all_chunks if c.get("so_hieu_muc")}
+    for (goc_so, so), hits in list(ban_do.items()):
+        if (goc_so, so) in co_san:
+            continue
+        for cha in to_hon(so):
+            if (goc_so, cha) in co_san:
+                ban_do.setdefault((goc_so, cha), []).extend(hits)
+                break
+
+    dem = 0
+    for c in all_chunks:
+        if c["doc_id"] in sua_cho or not c.get("so_hieu_muc"):
+            continue
+        hits = ban_do.get((c["so_hieu"], c["so_hieu_muc"]))
+        if not hits:
+            continue
+        c["sua_doi_boi"] = [
+            {
+                "so_hieu": h["so_hieu"],
+                "chunk_id": h["chunk_id"],
+                "ngay_hieu_luc": h["ngay_hieu_luc"],
+                "duong_dan": h["duong_dan"],
+            }
+            for h in hits
+        ]
+        dem += 1
+    return dem
+
+
 def main() -> None:
     if CHUNKS.exists():
         shutil.rmtree(CHUNKS)
@@ -586,12 +661,18 @@ def main() -> None:
                 "linh_vuc": doc_meta.get("linh_vuc", []),
                 "nguon": doc_meta.get("nguon", ""),
                 "cau_truc": doc_meta.get("cau_truc", "dieu"),
+                "sua_doi_cho": doc_meta.get("sua_doi_cho", []),
+                "_sua_doi_cho": doc_meta.get("sua_doi_cho", []),
                 "toan_van": str(toan_van.relative_to(ROOT)),
                 "so_don_vi": don_vi,
                 "so_chunk": len(doc_chunks),
             }
         )
         write_muc_luc(doc_dir, doc_meta, doc_chunks)
+
+    da_gan = noi_sua_doi(all_chunks, documents)
+    for doc in documents:
+        doc.pop("_sua_doi_cho", None)
 
     with (INDEX / "chunks.jsonl").open("w", encoding="utf-8") as fh:
         for record in all_chunks:
@@ -602,6 +683,8 @@ def main() -> None:
     )
 
     print(f"Đã xử lý {len(documents)} văn bản, {len(all_chunks)} chunk.")
+    if da_gan:
+        print(f"  ⚠ {da_gan} chunk của văn bản gốc đã được gắn cờ ĐÃ BỊ SỬA ĐỔI.")
     for doc in documents:
         don_vi = "Điều" if doc["cau_truc"] == "dieu" else "mục"
         print(f"  - {doc['so_hieu']}: {doc['so_don_vi']} {don_vi}, {doc['so_chunk']} chunk")

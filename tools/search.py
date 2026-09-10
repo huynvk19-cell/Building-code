@@ -294,6 +294,7 @@ def main() -> None:
                 "diem": round(s, 3), "trich_dan": r["trich_dan"],
                 "tieu_de": r["tieu_de"], "chuong": r["chuong"],
                 "duong_dan": r["duong_dan"],
+                "sua_doi_boi": r.get("sua_doi_boi") or [],
                 "noi_dung": snippet(r["text"], query_terms) if args.gon else r["text"],
             } for s, r in hits],
         }, ensure_ascii=False, indent=2))
@@ -316,6 +317,10 @@ def main() -> None:
           "nội dung để tự xác nhận.\n")
     for rank, (s, r) in enumerate(hits, 1):
         print(f"[{rank}] {r['trich_dan']}  (điểm {s:.2f})")
+        for sd in r.get("sua_doi_boi") or []:
+            print(f"    ⚠️  ĐÃ BỊ SỬA ĐỔI bởi {sd['so_hieu']} "
+                  f"(hiệu lực {sd['ngay_hieu_luc']}) — ĐỌC CẢ HAI TRƯỚC KHI TRẢ LỜI")
+            print(f"       → {sd['duong_dan']}")
         print(f"    {r['tieu_de']}")
         if r["chuong"]:
             print(f"    {r['chuong']}")

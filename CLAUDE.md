@@ -26,8 +26,8 @@ liên quan**. Một câu hỏi hoàn toàn ngoài phạm vi kho vẫn nhận đ�
 điểm nhìn có vẻ "cao".
 
 Điều này **đã được đo, không phải phỏng đoán**: trên bộ câu hỏi chuẩn
-(`eval/`), điểm top-1 của các câu **ngoài phạm vi kho** rơi vào 7.1–32.3, còn
-của các câu **có đáp án thật** rơi vào 4.6–66.2. Hai dải **chồng lấn hoàn toàn**.
+(`eval/`), điểm top-1 của các câu **ngoài phạm vi kho** rơi vào 7.2–34.1, còn
+của các câu **có đáp án thật** rơi vào 4.6–67.3. Hai dải **chồng lấn hoàn toàn**.
 Thử nghiệm thứ hai — đo tỉ lệ phủ từ hiếm — còn tệ hơn. Vì vậy **không có ngưỡng
 tin cậy nào trong công cụ này**, và đừng thêm vào: một nhãn tin cậy sai nguy hiểm
 hơn không có nhãn, vì nó tạo cảm giác an toàn giả.
@@ -44,9 +44,9 @@ trình là:
    từ khóa lại thành một câu trả lời nghe có vẻ hợp lý.
 5. Khi câu hỏi thuộc lĩnh vực kho chưa bao phủ (tải trọng gió, chống sét, kết
    cấu, tiết kiệm năng lượng, quy hoạch chi tiết…), hãy nói rõ ngay từ đầu thay
-   vì cố nặn ra câu trả lời từ bốn văn bản đang có.
+   vì cố nặn ra câu trả lời từ năm văn bản đang có.
 
-Kho hiện **chỉ có bốn văn bản**. Mặc định của bạn khi không chắc phải là *"chưa
+Kho hiện **chỉ có năm văn bản**. Mặc định của bạn khi không chắc phải là *"chưa
 có trong kho"*, không phải *"có lẽ là…"*.
 
 ## Kiểm tra hiệu lực
@@ -64,38 +64,91 @@ Tình trạng hiện tại:
 | Văn bản | `ngay_hieu_luc` | Chuyển tiếp | Ghi chú |
 |---|---|---|---|
 | **212/2026/NĐ-CP** | `2026-07-01` (Điều 57 khoản 1) | **Điều 55** | Thay thế NĐ 111/2024/NĐ-CP. Đọc Điều 55 trước khi tư vấn cho hồ sơ nộp trước 01/7/2026. |
-| **QCVN 06:2022/BXD** | `2023-01-16` (Điều 2 Thông tư 06/2022/TT-BXD) | **mục 7.1** | Thay thế QCVN 06:2021/BXD. Hồ sơ đã thẩm duyệt trước 16/01/2023 vẫn theo hồ sơ cũ. Đã có **đủ mục 1–7 và Phụ lục A–I**. |
+| **QCVN 06:2022/BXD** | `2023-01-16` (Điều 2 Thông tư 06/2022/TT-BXD) | **mục 7.1** | Thay thế QCVN 06:2021/BXD. Đã có **đủ mục 1–7 và Phụ lục A–I**. ⚠️ **Đã bị Sửa đổi 1:2023 sửa nhiều điểm** — xem mục riêng bên dưới. |
+| **Sửa đổi 1:2023 QCVN 06:2022/BXD** | `2023-12-01` (Điều 2 Thông tư 09/2023/TT-BXD) | **Điều 3 Thông tư 09/2023/TT-BXD** | Sửa đổi, bổ sung QCVN 06:2022/BXD. **Không thay thế** — phải đọc kèm bản gốc. |
 | **QCVN 10:2024/BXD** | `CHƯA XÁC ĐỊNH` | mục 3.1 | Hiệu lực nằm ở Thông tư 06/2024/TT-BXD — **chưa có trong kho**. |
 | **QCVN 10:2025/BCA** | `CHƯA XÁC ĐỊNH` | không có trong bản Quy chuẩn | Hiệu lực nằm ở Thông tư 103/2025/TT-BCA — **chưa có trong kho**. |
 
-## QCVN 06:2022/BXD — đã đủ phần chính và toàn bộ Phụ lục A–I
+## QCVN 06 — LUÔN PHẢI ĐỌC KÈM SỬA ĐỔI 1:2023
 
-Kho đã số hóa **mục 1 đến mục 7** (phần chính) và **toàn bộ Phụ lục A đến I**,
-kể cả các bảng tra hay dùng nhất:
+Đây là phần dễ trả lời sai nhất trong kho. Đọc hết trước khi tư vấn bất cứ điều
+gì về an toàn cháy.
 
-- **Phụ lục A** — quy định bổ sung cho một số nhóm nhà (A.4 là karaoke, vũ trường);
-- **Phụ lục B** — phân nhóm vật liệu xây dựng theo tính nguy hiểm cháy
-  (Bảng B.1 đến B.9, được viện dẫn ở 2.1, 3.3.4, 3.5.2, 3.5.3);
+Kho có **hai văn bản** cho cùng một quy chuẩn:
+
+- **QCVN 06:2022/BXD** — bản gốc, hiệu lực 16/01/2023. Đủ mục 1–7 và Phụ lục A–I.
+- **Sửa đổi 1:2023 QCVN 06:2022/BXD** — hiệu lực **01/12/2023**, ban hành kèm
+  Thông tư 09/2023/TT-BXD. Sửa khoảng **120 điểm** của bản gốc.
+
+Bản sửa đổi **không thay thế** bản gốc. Lời nói đầu của chính nó nói rõ: *"Các
+nội dung không được nêu tại Sửa đổi 1 này thì tiếp tục áp dụng QCVN
+06:2022/BXD"*. Nghĩa là quy định đang có hiệu lực = **bản gốc, đã vá bằng bản
+sửa đổi**. Không văn bản nào một mình là câu trả lời đầy đủ.
+
+### Cách làm bắt buộc
+
+Kho **giữ nguyên văn bản gốc**, không sửa chữ trong đó — vì corpus phải trung
+thành với bản in. Thay vào đó `tools/build_index.py` tự ghép hai bên theo số
+hiệu mục và gắn trường `sua_doi_boi` vào chunk của bản gốc. `tools/search.py`
+in cảnh báo:
+
+```
+⚠️  ĐÃ BỊ SỬA ĐỔI bởi Sửa đổi 1:2023 QCVN 06:2022/BXD (hiệu lực 2023-12-01)
+```
+
+**Thấy dòng đó thì bắt buộc mở file sửa đổi ra đọc rồi mới trả lời.** Trả lời
+chỉ dựa trên bản gốc là trả lời sai quy định hiện hành. Hiện có **92 chunk** của
+bản gốc mang cờ này.
+
+Khi trích dẫn, ghi rõ cả hai, ví dụ:
+
+> Theo mục 3.2.8 QCVN 06:2022/BXD, được sửa đổi bởi mục 3.2.8 Sửa đổi 1:2023
+> QCVN 06:2022/BXD (hiệu lực 01/12/2023), khoảng cách giữa hai lối ra thoát nạn…
+
+Nếu mục được hỏi **không** mang cờ thì bản gốc vẫn nguyên hiệu lực, trích bình thường.
+
+### Những điểm đã bị BÃI BỎ — tuyệt đối không trích như đang có hiệu lực
+
+| Bị bãi bỏ | Nội dung |
+|---|---|
+| **A.4 (toàn bộ)** | Quy định riêng cho **nhà kinh doanh karaoke, vũ trường** — bậc chịu lửa tối thiểu IV, ngưỡng 300 m²/200 m²/20 người… |
+| **1.3** | (điểm 1.3 phần Quy định chung) |
+| **7.4** | (điểm 7.4 phần Tổ chức thực hiện) |
+| **A.1.3.12**, **H.2.10.3** | |
+| **bãi bỏ một phần** | 3.2.11 (câu 2 đoạn 1) · 3.3.5 (câu 3 đoạn 2) · 3.4.13 (đoạn 2 và đoạn a) · A.1.3.2 (đoạn 2) · A.3.1.16 (đoạn e) · G.1.2.1 (CHÚ THÍCH) · Bảng 7 (CHÚ THÍCH 3) · 6.2.2.3 (CHÚ THÍCH 2) |
+| **bỏ cụm từ** | 3.4.8 (“là buồng thang bộ không nhiễm khói và”) · 5.1.1.3 · 5.1.5.7 · 6.17.1 (“theo A.4”) · A.3.1.8 (“khoảng cách hở thông thủy… 100 mm”) |
+
+Câu hỏi về **karaoke, vũ trường** rất hay gặp — A.4 đã bị bãi bỏ hoàn toàn từ
+01/12/2023, và 6.17.1 cũng đã bỏ cụm từ "theo A.4". Đừng trích A.4.
+
+### Điều khoản chuyển tiếp — hỏi hồ sơ ở giai đoạn nào
+
+Điều 3 Thông tư 09/2023/TT-BXD chia ba trường hợp:
+
+1. Đã **thẩm duyệt xong** trước 01/12/2023 → tiếp tục theo hồ sơ đã thẩm duyệt.
+2. Đã có **văn bản góp ý** ở bước thiết kế cơ sở nhưng chưa thẩm duyệt → thẩm
+   duyệt theo văn bản góp ý đó.
+3. Chưa góp ý và chưa thẩm duyệt → phải theo **cả QCVN 06:2022/BXD và Sửa đổi 1:2023**.
+
+Nội dung kho hiện có của QCVN 06:2022/BXD:
+
+- **Phụ lục A** — quy định bổ sung cho một số nhóm nhà (**A.4 đã bị bãi bỏ**);
+- **Phụ lục B** — phân nhóm vật liệu xây dựng theo tính nguy hiểm cháy (Bảng B.1–B.9);
 - **Phụ lục C** — phân hạng nguy hiểm cháy nổ A, B, C, D, E của gian phòng;
-- **Phụ lục D** — yêu cầu bảo vệ chống khói (D.1 đến D.14);
-- **Phụ lục E** — khoảng cách phòng cháy chống cháy giữa các nhà;
-- **Phụ lục F** — giới hạn chịu lửa danh định của cấu kiện (Bảng F.1 đến F.10);
-- **Phụ lục G** — khoảng cách thoát nạn, chiều rộng lối ra, hệ số không gian
-  sàn (Bảng G.9);
-- **Phụ lục H** — số tầng và diện tích khoang cháy cho phép theo nhóm nhà
-  (Bảng H.1 đến H.5, cách tính diện tích khoang cháy ở H.6);
-- **Phụ lục I** — hình minh họa cầu thang, buồng thang và khoảng đệm không
-  nhiễm khói (Hình I.1 đến I.9).
+- **Phụ lục D** — yêu cầu bảo vệ chống khói (D.1–D.14);
+- **Phụ lục E** — khoảng cách phòng cháy chống cháy;
+- **Phụ lục F** — giới hạn chịu lửa danh định của cấu kiện (Bảng F.1–F.10);
+- **Phụ lục G** — khoảng cách thoát nạn, chiều rộng lối ra, hệ số không gian sàn (Bảng G.9);
+- **Phụ lục H** — số tầng và diện tích khoang cháy cho phép (Bảng H.1–H.5, cách tính ở H.6);
+- **Phụ lục I** — hình minh họa cầu thang, buồng thang (Hình I.1–I.9).
 
-Hai điều cần nhớ khi trả lời:
+**Phụ lục I chỉ là tham khảo**, không bắt buộc áp dụng; nó minh họa cho 2.4.2,
+3.2.2, 3.2.8 và 3.4.10. Cần căn cứ ràng buộc thì trích điều khoản gốc ở phần
+chính — ví dụ định nghĩa buồng thang L1/L2 nằm ở **mục 2.4.3.2**. Các phụ lục A
+đến H đều là **quy định bắt buộc**.
 
-1. **Phụ lục I chỉ là tham khảo**, không bắt buộc áp dụng. Nó minh họa cho
-   2.4.2, 3.2.2, 3.2.8 và 3.4.10. Khi cần căn cứ ràng buộc thì trích điều
-   khoản gốc ở phần chính, đừng trích Phụ lục I. Ví dụ định nghĩa buồng thang
-   L1/L2 nằm ở **mục 2.4.3.2**, còn Phụ lục I chỉ vẽ lại cho dễ hình dung.
-   Các phụ lục A, B, C, D, E, F, G, H đều là **quy định (bắt buộc)**.
-2. **Bản số hóa vẫn thiếu Sửa đổi 1:2023** (nếu có) và mọi văn bản sửa đổi sau
-   ngày 30/11/2022 — kho chỉ có bản gốc QCVN 06:2022/BXD.
+Sửa đổi 1:2023 cũng **bổ sung THƯ MỤC TÀI LIỆU THAM KHẢO** (23 mục) sau Phụ lục I.
+Các số `[1]`, `[5]`, `[8]`… rải rác trong bản sửa đổi trỏ về danh mục đó.
 
 ## Hai văn bản trùng số hiệu "QCVN 10"
 
@@ -148,7 +201,7 @@ bạn đọc nội dung thật.
 
 ## Đo chất lượng truy hồi
 
-`eval/` có bộ 141 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
+`eval/` có bộ 165 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
 vi kho). Sau khi sửa `tools/search.py` hoặc thay đổi cách cắt chunk, **phải chạy
 lại**:
 
@@ -158,7 +211,7 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với tokenizer cũ
 python3 eval/chay_danh_gia.py --chi-tiet # liệt kê câu trượt
 ```
 
-Mức hiện tại (141 câu, 4 văn bản, 536 chunk): Recall@1 = 0.550 · Recall@5 = 0.822 · Recall@10 = 0.882 · MRR = 0.708.
+Mức hiện tại (165 câu, 5 văn bản, 682 chunk): Recall@1 = 0.556 · Recall@5 = 0.811 · Recall@10 = 0.887 · MRR = 0.713.
 **Đừng merge một thay đổi làm các số này tụt** mà không có lý do đo được.
 Điểm yếu đã biết: loại G (câu hỏi bắc cầu nhiều văn bản) = 0.17, loại I (câu hỏi
 mơ hồ) = 0.25. Giới hạn của bộ đo được ghi ở `eval/README.md` — đọc trước khi
@@ -210,8 +263,16 @@ Lệnh này idempotent — chạy hai lần cho kết quả giống hệt nhau.
      chunk đúng của văn bản khác (đã đo: gộp cả mục làm Recall@1 tụt 0.06).
    - Phụ lục: khai báo `chia_theo` (`"Mẫu số"`, `"Bảng"`, `"H."`) để cắt theo
      tiêu đề cấp 2; không khai báo thì giữ nguyên cả phụ lục làm một chunk.
-5. `python3 tools/build_index.py`
-6. Thêm vài câu hỏi cho văn bản mới vào `eval/bo_cau_hoi.jsonl` rồi chạy lại
+5. Nếu văn bản mới là **bản sửa đổi** của một văn bản đã có trong kho: khai
+   `sua_doi_cho: ["<số hiệu bản gốc>"]` trong front matter, và **cắt chunk theo
+   đúng số hiệu mục mà nó sửa** (`### 3.2.8`, `## A.2.12`). `build_index.py` sẽ
+   tự ghép hai bên và gắn cờ `sua_doi_boi` lên chunk của bản gốc, `search.py` sẽ
+   in cảnh báo. Nếu bản gốc cắt thô hơn (chỉ có `A.1` trong khi sửa đổi nhắm
+   `A.1.2.1`) thì cờ được gắn lên mục cha gần nhất — không kéo ngược xuống các
+   mục con. Tuyệt đối **không sửa chữ trong corpus của bản gốc** để "cập nhật"
+   nó; corpus phải trung thành với bản in.
+6. `python3 tools/build_index.py`
+7. Thêm vài câu hỏi cho văn bản mới vào `eval/bo_cau_hoi.jsonl` rồi chạy lại
    `python3 eval/chay_danh_gia.py`.
 
 ## Hình vẽ

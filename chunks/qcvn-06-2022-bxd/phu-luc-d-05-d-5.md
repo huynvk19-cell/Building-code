@@ -8,10 +8,13 @@ ngay_hieu_luc: "2023-01-16"
 loai_chunk: "muc"
 tieu_de: "D.5"
 nguon: "corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/phu-luc-d-bao-ve-chong-khoi.md"
+so_hieu_muc: "D.5"
 chuong: "Phụ lục D"
 ---
 
-> **Trích dẫn:** D.5 QCVN 06:2022/BXD
+> **Trích dẫn:** mục D.5 QCVN 06:2022/BXD
+
+# D.5 D.5
 
 ## D.5
 

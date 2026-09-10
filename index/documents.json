@@ -22,6 +22,7 @@
     ],
     "nguon": "Cổng thông tin điện tử Chính phủ (bản ký số 18/06/2026)",
     "cau_truc": "dieu",
+    "sua_doi_cho": [],
     "toan_van": "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md",
     "so_don_vi": 58,
     "so_chunk": 76
@@ -39,11 +40,15 @@
       "QCVN 06:2021/BXD (ban hành kèm Thông tư số 02/2021/TT-BXD ngày 19/5/2021)"
     ],
     "het_hieu_luc": "",
-    "sua_doi_boi": [],
+    "sua_doi_boi": [
+      "Sửa đổi 1:2023 QCVN 06:2022/BXD (Thông tư số 09/2023/TT-BXD ngày 16/10/2023",
+      "hiệu lực 01/12/2023)"
+    ],
     "dieu_khoan_chuyen_tiep": "mục 7.1",
     "linh_vuc": [],
     "nguon": "",
     "cau_truc": "muc",
+    "sua_doi_cho": [],
     "toan_van": "corpus/quy-chuan/qcvn-06-2022-bxd/toan-van.md",
     "so_don_vi": 389,
     "so_chunk": 399
@@ -71,6 +76,7 @@
     ],
     "nguon": "Bản PDF ký số của Bộ Xây dựng ngày 01/8/2024",
     "cau_truc": "muc",
+    "sua_doi_cho": [],
     "toan_van": "corpus/quy-chuan/qcvn-10-2024-bxd/toan-van.md",
     "so_don_vi": 19,
     "so_chunk": 22
@@ -96,8 +102,32 @@
     ],
     "nguon": "Bản scan Thông tư 103/2025/TT-BCA",
     "cau_truc": "muc",
+    "sua_doi_cho": [],
     "toan_van": "corpus/quy-chuan/qcvn-10-2025-bca/toan-van.md",
     "so_don_vi": 20,
     "so_chunk": 39
+  },
+  {
+    "doc_id": "sua-doi-1-2023-qcvn-06-2022-bxd",
+    "so_hieu": "Sửa đổi 1:2023 QCVN 06:2022/BXD",
+    "loai_van_ban": "Quy chuẩn kỹ thuật quốc gia (bản sửa đổi)",
+    "tieu_de": "",
+    "co_quan_ban_hanh": "Bộ Xây dựng",
+    "ngay_ban_hanh": "2023-10-16",
+    "ngay_hieu_luc": "2023-12-01",
+    "can_cu_hieu_luc": "Điều 2 Thông tư số 09/2023/TT-BXD (có trong tài liệu này)",
+    "thay_the": [],
+    "het_hieu_luc": "null",
+    "sua_doi_boi": [],
+    "dieu_khoan_chuyen_tiep": "Điều 3 Thông tư số 09/2023/TT-BXD",
+    "linh_vuc": [],
+    "nguon": "",
+    "cau_truc": "muc",
+    "sua_doi_cho": [
+      "QCVN 06:2022/BXD"
+    ],
+    "toan_van": "corpus/quy-chuan/sua-doi-1-2023-qcvn-06-2022-bxd/toan-van.md",
+    "so_don_vi": 138,
+    "so_chunk": 146
   }
 ]

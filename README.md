@@ -10,6 +10,7 @@ khi một nghị định được sửa đổi, bạn commit bản mới và b�
 |---|---|---|
 | **Nghị định 212/2026/NĐ-CP** (17/6/2026) | Điều kiện năng lực hoạt động xây dựng; Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng | 58 Điều + 4 Phụ lục — đã số hóa đầy đủ |
 | **QCVN 06:2022/BXD** (30/11/2022) | An toàn cháy cho nhà và công trình — bậc chịu lửa, khoang cháy, thoát nạn, ngăn cháy lan, cấp nước chữa cháy | Mục 1–7 + **Phụ lục A–I**, 64 bảng tra, **13 hình vẽ** — đã số hóa đầy đủ |
+| **Sửa đổi 1:2023 QCVN 06:2022/BXD** (16/10/2023) | Sửa đổi, bổ sung ~120 điểm của QCVN 06:2022/BXD — hiệu lực **01/12/2023** | Toàn văn Thông tư 09/2023/TT-BXD + phần chính + Phụ lục A, C, D, E, G, H + Thư mục tham khảo |
 | **QCVN 10:2024/BXD** (01/8/2024) | Xây dựng công trình đảm bảo tiếp cận sử dụng cho người khuyết tật | 19 mục + 2 Phụ lục, **26 hình vẽ** — đã số hóa đầy đủ |
 | **QCVN 10:2025/BCA** (04/11/2025) | Trang bị, bố trí phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ cho nhà và công trình | 20 mục + 8 Phụ lục (A–H) — đã số hóa đầy đủ |
 
@@ -33,16 +34,20 @@ văn bản tự nói, không suy đoán:
   không chứa điều khoản hiệu lực lẫn chuyển tiếp; cả hai nằm trong Thông tư 103,
   **chưa có trong kho**.
 
-> ℹ️ **QCVN 06:2022/BXD đã có đủ Phụ lục A đến I**, gồm bảng phân nhóm vật liệu
-> (B), phân hạng nguy hiểm cháy nổ (C), bảo vệ chống khói (D), khoảng cách phòng
-> cháy chống cháy (E), giới hạn chịu lửa cấu kiện (F), khoảng cách thoát nạn và
-> hệ số không gian sàn (G), diện tích khoang cháy cho phép (H) và 13 hình minh
-> họa cầu thang, buồng thang (I).
+> ⚠️ **QCVN 06 phải đọc kèm Sửa đổi 1:2023.** Bản sửa đổi (hiệu lực 01/12/2023)
+> **không thay thế** bản gốc — nó chỉ chứa phần được sửa. Quy định đang có hiệu
+> lực = bản gốc **đã vá bằng** bản sửa đổi.
 >
-> Lưu ý **Phụ lục I chỉ mang tính tham khảo**, không bắt buộc áp dụng — nó minh
-> họa cho các mục 2.4.2, 3.2.2, 3.2.8 và 3.4.10. Cần căn cứ ràng buộc thì trích
-> điều khoản gốc ở phần chính. Kho cũng **chưa có văn bản sửa đổi nào sau
-> 30/11/2022**.
+> Kho giữ nguyên văn cả hai và tự nối chúng: chunk nào của bản gốc bị đụng tới
+> đều mang cờ `sua_doi_boi`, và `search.py` in cảnh báo `⚠️ ĐÃ BỊ SỬA ĐỔI` ngay
+> trên kết quả. Hiện có **92 chunk** mang cờ này.
+>
+> Đáng chú ý: **toàn bộ điểm A.4 (nhà kinh doanh karaoke, vũ trường) đã bị bãi
+> bỏ** từ 01/12/2023, cùng với các điểm 1.3, 7.4, A.1.3.12, H.2.10.3.
+>
+> **Phụ lục I chỉ mang tính tham khảo**, không bắt buộc áp dụng — nó minh họa cho
+> các mục 2.4.2, 3.2.2, 3.2.8 và 3.4.10. Cần căn cứ ràng buộc thì trích điều
+> khoản gốc ở phần chính.
 
 ## Tra cứu nhanh
 
@@ -64,7 +69,7 @@ Con số in cạnh mỗi kết quả là **điểm BM25 — nó đo mức trùng
 mức liên quan**. Công cụ luôn trả về kết quả kể cả khi kho không hề có quy định
 về chủ đề bạn hỏi.
 
-Chuyện này đã được đo chứ không phải phỏng đoán: trên bộ 141 câu hỏi chuẩn,
+Chuyện này đã được đo chứ không phải phỏng đoán: trên bộ 165 câu hỏi chuẩn,
 điểm cao nhất của những câu **ngoài phạm vi kho** nằm trong dải 5.9–20.8, còn của
 những câu **có đáp án thật** nằm trong dải 4.2–44.9 — hai dải chồng lên nhau, nên
 không có ngưỡng nào tách được chúng. Vì vậy kho cố tình **không** gắn nhãn "độ tin
@@ -86,6 +91,9 @@ corpus/                       Bản gốc (nguồn sự thật duy nhất)
     toan-van.md               Mục 1–7
     phu-luc/                  Phụ lục A–I (các bảng tra cứu)
     phu-luc/hinh/             13 hình vẽ cắt từ PDF gốc
+  quy-chuan/sua-doi-1-2023-qcvn-06-2022-bxd/
+    toan-van.md               Thông tư 09/2023/TT-BXD + sửa đổi mục 1–7
+    phu-luc/                  Sửa đổi Phụ lục A, C, D, E, G, H + Thư mục tham khảo
   quy-chuan/qcvn-10-2024-bxd/
     toan-van.md               Phần 1–3
     phu-luc/hinh/             26 hình vẽ cắt từ PDF gốc
@@ -124,7 +132,7 @@ Chi tiết ở [`docs/huong-dan-su-dung.md`](docs/huong-dan-su-dung.md).
 
 ## Đo chất lượng tra cứu
 
-Kho có bộ **141 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu
+Kho có bộ **165 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu
 cố tình hỏi những thứ **không** có trong kho, để kiểm tra xem công cụ có bịa ra
 câu trả lời không.
 
@@ -134,26 +142,34 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với cấu hình cũ
 python3 eval/chay_danh_gia.py --chi-tiet # xem những câu bị trượt
 ```
 
-Mức hiện tại — đúng chunk nằm trong 5 kết quả đầu ở **82%** số câu, trong 10 kết
-quả đầu ở **88%**:
+Mức hiện tại — đúng chunk nằm trong 5 kết quả đầu ở **81%** số câu, trong 10 kết
+quả đầu ở **89%**:
 
-| | 3 văn bản, 101 câu | 4 văn bản, 123 câu | 4 văn bản + phụ lục QCVN 06, 141 câu |
-|---|---|---|---|
-| Recall@1 | 0.549 | 0.541 | **0.550** |
-| Recall@3 | 0.733 | 0.752 | **0.779** |
-| Recall@5 | 0.844 | 0.805 | **0.822** |
-| Recall@10 | 0.916 | 0.872 | **0.882** |
-| MRR | 0.713 | 0.704 | **0.708** |
+| | 3 văn bản<br>101 câu | 4 văn bản<br>123 câu | + phụ lục QCVN 06<br>141 câu | + Sửa đổi 1:2023<br>165 câu |
+|---|---|---|---|---|
+| Recall@1 | 0.549 | 0.541 | 0.550 | **0.556** |
+| Recall@3 | 0.733 | 0.752 | 0.779 | **0.774** |
+| Recall@5 | 0.844 | 0.805 | 0.822 | **0.811** |
+| Recall@10 | 0.916 | 0.872 | 0.882 | **0.887** |
+| MRR | 0.713 | 0.704 | 0.708 | **0.713** |
 
-Ba cột này **không so sánh trực tiếp được** — mỗi cột đo trên một bộ câu hỏi khác
-nhau và một kho khác nhau (176 → 346 → 536 chunk). Thêm văn bản thì cạnh tranh
-tăng nên vài câu cũ bị đẩy xuống; đó là cái giá của việc kho rộng hơn, đã đo chứ
-không giấu.
+Các cột này **không so sánh trực tiếp được** — mỗi cột đo trên một bộ câu hỏi
+khác nhau và một kho khác nhau (176 → 346 → 536 → 682 chunk). Thêm văn bản thì
+cạnh tranh tăng nên vài câu cũ bị đẩy xuống; đó là cái giá của việc kho rộng
+hơn, đã đo chứ không giấu.
 
-Riêng bước cuối cho thấy một điều đáng nói: khi thêm 190 chunk phụ lục QCVN 06
-**mà chưa thêm câu hỏi nào cho chúng**, Recall@1 tụt từ 0.541 xuống 0.504. Sau
-khi bổ sung 18 câu hỏi cho chính các phụ lục đó, chỉ số về 0.550. Nghĩa là phần
-tụt ban đầu là do bộ đo chưa phủ nội dung mới, không phải do truy hồi kém đi.
+Hai lần mở rộng gần đây đều được đo riêng, kể cả phần xấu:
+
+**Thêm 190 chunk phụ lục QCVN 06.** Khi chưa thêm câu hỏi nào cho chúng,
+Recall@1 tụt 0.541 → 0.504. Sau khi bổ sung 18 câu cho chính các phụ lục đó, chỉ
+số về 0.550. Phần tụt ban đầu là do bộ đo chưa phủ nội dung mới, không phải do
+truy hồi kém đi.
+
+**Thêm 146 chunk Sửa đổi 1:2023.** Đo lại trên **đúng bộ 141 câu cũ** (không tính
+24 câu mới), Recall@5 tụt 0.822 → 0.807: chính xác **2 câu** bị chunk của bản sửa
+đổi chen mất chỗ trong top-5, trong khi MRR lại nhích lên 0.708 → 0.713. Đổi lại,
+20 trong 24 câu mới về bản sửa đổi vào được top-5. Đây là đánh đổi có chủ ý —
+thà mất 2 câu còn hơn để người dùng đọc bản 2022 mà tưởng là quy định hiện hành.
 
 Câu hỏi tra cứu trực tiếp (loại A) đạt 0.89 trên 28 câu — đây là dạng câu hỏi
 thường gặp nhất khi làm hồ sơ.

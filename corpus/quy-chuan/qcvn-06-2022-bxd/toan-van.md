@@ -11,12 +11,12 @@ ngay_hieu_luc: "2023-01-16"
 can_cu_hieu_luc: "Điều 2 Thông tư số 06/2022/TT-BXD (có trong tài liệu này, trang đầu)"
 het_hieu_luc: ""
 thay_the: ["QCVN 06:2021/BXD (ban hành kèm Thông tư số 02/2021/TT-BXD ngày 19/5/2021)"]
-sua_doi_boi: []
+sua_doi_boi: ["Sửa đổi 1:2023 QCVN 06:2022/BXD (Thông tư số 09/2023/TT-BXD ngày 16/10/2023, hiệu lực 01/12/2023)"]
 dieu_khoan_chuyen_tiep: "mục 7.1"
 cau_truc: "muc"
 ngon_ngu: "vi"
 nguon_pdf: "06bxd_1.pdf — bản scan, 88 trang, phần chính (trang 1–87)"
-ghi_chu_pham_vi: "File này chỉ chứa PHẦN CHÍNH (mục 1–7). Các Phụ lục A–I (trang 88–169+) nằm ở phần 2, CHƯA CÓ TRONG KHO tại thời điểm số hóa phần này."
+ghi_chu_pham_vi: "File này chứa PHẦN CHÍNH (mục 1–7). Các Phụ lục A–I nằm trong thư mục phu-luc/. Nhiều điểm đã bị Sửa đổi 1:2023 thay đổi — chunk nào bị đụng tới đều mang sẵn trường sua_doi_boi."
 ---
 
 # QCVN 06:2022/BXD

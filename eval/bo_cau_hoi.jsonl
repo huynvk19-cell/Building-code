@@ -139,3 +139,27 @@
 {"id": "PL16", "loai": "C", "hoi": "diện tích khoang cháy được xác định thế nào", "vang": ["qcvn-06-2022-bxd:phu-luc-h-h-6-tinh-dien-tich-khoang-chay"], "kiem_chung": "diện tích lớn nhất của một tầng"}
 {"id": "PL17", "loai": "B", "hoi": "bố trí buồng thang bộ loại N1 thì kích thước d của ban công tối thiểu bao nhiêu", "vang": ["qcvn-06-2022-bxd:phu-luc-i-i-3-cau-thang-va-buong-thang-bo-tren-duo"], "kiem_chung": "*d* ≥ 2,0 m"}
 {"id": "PL18", "loai": "C", "hoi": "buồng thang N1 nếu b lớn hơn 1,2 m và nhỏ hơn 4,0 m thì lấy a bằng bao nhiêu", "vang": ["qcvn-06-2022-bxd:phu-luc-i-i-3-cau-thang-va-buong-thang-bo-tren-duo"], "kiem_chung": "có thể lấy *a* ≥ *b*"}
+{"id": "SD01", "loai": "A", "hoi": "Sửa đổi 1:2023 QCVN 06 có hiệu lực từ ngày nào", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-0.1"], "kiem_chung": "01/12/2023"}
+{"id": "SD02", "loai": "C", "hoi": "hồ sơ đã thẩm duyệt PCCC trước khi Sửa đổi 1 có hiệu lực thì theo bản nào", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-0.1"], "kiem_chung": "tiếp tục được thực hiện theo hồ sơ thiết kế đã thẩm duyệt"}
+{"id": "SD03", "loai": "A", "hoi": "chung cư được cao tối đa bao nhiêu mét và mấy tầng hầm theo sửa đổi 1", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-1.1.2"], "kiem_chung": "không quá 150 m"}
+{"id": "SD04", "loai": "B", "hoi": "nhà ở riêng lẻ cao mấy tầng thì phải áp dụng quy chuẩn an toàn cháy", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-1.1.2"], "kiem_chung": "7 tầng"}
+{"id": "SD05", "loai": "A", "hoi": "sảnh thông tầng là gì", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-1.4.49a"], "kiem_chung": "Không gian trống nối thông từ hai tầng trở lên"}
+{"id": "SD06", "loai": "A", "hoi": "khối đế của nhà là gì", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-1.4.32a"], "kiem_chung": "Phần dưới của nhà"}
+{"id": "SD07", "loai": "B", "hoi": "hành lang bên phải có chiều cao thông thủy tối thiểu bao nhiêu", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-1.4.23"], "kiem_chung": "không nhỏ hơn 1,2 m"}
+{"id": "SD08", "loai": "B", "hoi": "sai số thi công cho phép với chiều rộng lối ra thoát nạn là bao nhiêu", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-1.5.5"], "kiem_chung": "± 5%"}
+{"id": "SD09", "loai": "A", "hoi": "cửa cuốn cửa quay có được coi là lối ra thoát nạn không", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-3.2.3"], "kiem_chung": "cửa cuốn hoặc cửa quay"}
+{"id": "SD10", "loai": "B", "hoi": "khoảng cách giữa hai lối ra thoát nạn tối thiểu bao nhiêu mét theo sửa đổi", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-3.2.8"], "kiem_chung": "lớn hơn hoặc bằng 7 m"}
+{"id": "SD11", "loai": "B", "hoi": "gian phòng tầng hầm có bao nhiêu người thì cần hai lối thoát nạn", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-3.2.5"], "kiem_chung": "hơn 15 người"}
+{"id": "SD12", "loai": "C", "hoi": "nhà cao dưới 15 m diện tích tầng bao nhiêu thì được một lối thoát nạn", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-3.2.6.2"], "kiem_chung": "300 m²"}
+{"id": "SD13", "loai": "B", "hoi": "cho phép tối đa mấy bậc thang rẻ quạt tại chiếu nghỉ", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-3.4.4"], "kiem_chung": "tối đa 3 bậc thang chéo"}
+{"id": "SD14", "loai": "B", "hoi": "cầu thang bộ loại 3 được dùng thoát nạn cho nhà cao bao nhiêu", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-3.4.11"], "kiem_chung": "từ trên 28 m đến 50 m"}
+{"id": "SD15", "loai": "A", "hoi": "thời gian phục hồi nước dự trữ chữa cháy tối đa bao lâu", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-5.1.3.4"], "kiem_chung": "24 giờ"}
+{"id": "SD16", "loai": "B", "hoi": "bán kính phục vụ của trụ nước chữa cháy khi có xe chữa cháy", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-5.1.5.9"], "kiem_chung": "400 m"}
+{"id": "SD17", "loai": "B", "hoi": "áp suất họng nước chữa cháy sửa thành bao nhiêu MPa", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:muc-5.2.6"], "kiem_chung": "0,6 MPa"}
+{"id": "SD18", "loai": "C", "hoi": "bán kính phục vụ của thang máy chữa cháy là bao nhiêu", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:sua-doi-phu-luc-a-a-2-12-thang-may-chua-chay-ban-kinh-phuc"], "kiem_chung": "không vượt quá 45 m"}
+{"id": "SD19", "loai": "B", "hoi": "chiều dài tối đa một khoang hành lang khối căn hộ", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:sua-doi-phu-luc-a-a-2-14-chieu-dai-khoang-hanh-lang"], "kiem_chung": "không quá 30 m"}
+{"id": "SD20", "loai": "C", "hoi": "vùng an toàn lánh nạn tạm thời được phân thành mấy loại", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:sua-doi-phu-luc-a-a-3-2-2-vung-an-toan-bo-sung-moi"], "kiem_chung": "4 loại"}
+{"id": "SD21", "loai": "C", "hoi": "bệnh viện được xây cao quá 28 m với điều kiện gì", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:sua-doi-phu-luc-h-h-2-9-1-benh-vien-nhom-f1-1-cho-phep-vuo"], "kiem_chung": "tối đa 50 m"}
+{"id": "SD22", "loai": "B", "hoi": "định mức diện tích vùng an toàn cho mỗi bệnh nhân bệnh viện", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:sua-doi-phu-luc-h-h-2-9-1-benh-vien-nhom-f1-1-cho-phep-vuo"], "kiem_chung": "2,8 m²/bệnh nhân"}
+{"id": "SD23", "loai": "A", "hoi": "quy định riêng cho nhà karaoke vũ trường còn hiệu lực không", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:sua-doi-phu-luc-a-a-4-bai-bo-toan-bo-nha-kinh-doanh-dich-v"], "kiem_chung": "Bãi bỏ A.4 của Phụ lục A"}
+{"id": "SD24", "loai": "B", "hoi": "vận tốc dòng không khí bù qua lỗ cửa tối đa bao nhiêu", "vang": ["sua-doi-1-2023-qcvn-06-2022-bxd:sua-doi-phu-luc-d-d-14-5-cap-khong-khi-bu-khi-hut-xa-khoi"], "kiem_chung": "không vượt quá 6 m/s"}
