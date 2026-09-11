@@ -36,10 +36,12 @@ Phần này cần code. **Chưa cần thiết ở quy mô hiện tại** — vă
 dùng thuật ngữ rất cố định ("chứng chỉ hành nghề", "hạng II", "chủ nhiệm"),
 nên BM25 trong `tools/search.py` đã cho kết quả tốt.
 
-## Vì sao chia chunk theo Điều?
+## Vì sao chia chunk theo đơn vị trích dẫn?
 
-Điều là đơn vị trích dẫn tự nhiên của văn bản pháp luật. Người ta nói
-"theo Điều 33" chứ không nói "theo trang 27". Chia theo Điều nghĩa là:
+Mỗi loại văn bản có đơn vị trích dẫn riêng: nghị định dùng **Điều**, quy chuẩn
+dùng **mục** (1.1, 2.4.1), phụ lục dùng **bảng** (Bảng A.1). Người ta nói
+"theo Điều 33" hay "theo Bảng A.1" chứ không nói "theo trang 27". Chia theo đúng
+đơn vị đó nghĩa là:
 
 - Kết quả tìm kiếm luôn là một đơn vị trích dẫn được
 - Không có chunk nào bị cắt ngang giữa một quy định

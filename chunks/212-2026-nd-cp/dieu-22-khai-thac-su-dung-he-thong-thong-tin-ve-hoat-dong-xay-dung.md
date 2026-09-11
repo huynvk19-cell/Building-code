@@ -4,10 +4,11 @@ doc_id: "212-2026-nd-cp"
 so_hieu: "212/2026/NĐ-CP"
 loai_van_ban: "Nghị định"
 ngay_ban_hanh: "2026-06-17"
+ngay_hieu_luc: "2026-07-01"
 loai_chunk: "dieu"
 tieu_de: "Khai thác, sử dụng Hệ thống thông tin về hoạt động xây dựng"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "22"
+so_hieu_muc: "22"
 chuong: "Chương III. KHAI THÁC, SỬ DỤNG, KẾT NỐI, CHIA SẺ DỮ LIỆU, CẬP NHẬT, ĐIỀU CHỈNH DỮ LIỆU, THÔNG TIN TRONG HỆ THỐNG THÔNG TIN VỀ HOẠT ĐỘNG XÂY DỰNG"
 ---
 

@@ -4,10 +4,11 @@ doc_id: "212-2026-nd-cp"
 so_hieu: "212/2026/NĐ-CP"
 loai_van_ban: "Nghị định"
 ngay_ban_hanh: "2026-06-17"
+ngay_hieu_luc: "2026-07-01"
 loai_chunk: "dieu"
 tieu_de: "Trách nhiệm của các bộ, cơ quan ngang bộ, Ủy ban nhân dân cấp tỉnh, cấp xã"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "54"
+so_hieu_muc: "54"
 chuong: "Chương V. TRÁCH NHIỆM CỦA CÁC CƠ QUAN, TỔ CHỨC"
 ---
 

@@ -4,10 +4,11 @@ doc_id: "212-2026-nd-cp"
 so_hieu: "212/2026/NĐ-CP"
 loai_van_ban: "Nghị định"
 ngay_ban_hanh: "2026-06-17"
+ngay_hieu_luc: "2026-07-01"
 loai_chunk: "dieu"
 tieu_de: "Xây dựng Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng"
 nguon: "corpus/nghi-dinh/212-2026-nd-cp/toan-van.md"
-so_dieu: "4"
+so_hieu_muc: "4"
 chuong: "Chương I. NHỮNG QUY ĐỊNH CHUNG"
 ---
 

@@ -11,21 +11,41 @@ Các tùy chọn hữu ích:
 | Tùy chọn | Tác dụng |
 |---|---|
 | `--k 10` | Lấy 10 kết quả thay vì 5 |
-| `--full` | In toàn văn Điều thay vì trích đoạn |
+| `--gon` | Chỉ in tiêu đề, không in nội dung (để duyệt nhanh) |
 | `--khong-dau` | Gõ không dấu vẫn tìm được (`chung chi hanh nghe`) |
-| `--loai dieu` | Chỉ tìm trong các Điều, bỏ qua phụ lục và biểu mẫu |
-| `--loai bieu-mau` | Chỉ tìm biểu mẫu |
+| `--loai dieu` | Chỉ tìm trong các Điều (nghị định, luật) |
+| `--loai muc` | Chỉ tìm trong các mục của quy chuẩn (1.1, 2.3, H.2…) |
+| `--loai bang` | Chỉ tìm trong các bảng tra cứu (Bảng A.1, B.1…) |
+| `--loai bieu-mau` | Chỉ tìm biểu mẫu (Mẫu số 01…) |
 | `--doc 212-2026-nd-cp` | Giới hạn trong một văn bản |
 | `--json` | Xuất JSON cho script hoặc agent đọc |
+
+### Một điều quan trọng về con số điểm
+
+Cạnh mỗi kết quả có một con số. Nó là **điểm BM25** — đo xem câu hỏi trùng bao
+nhiêu từ với đoạn văn, chứ **không** đo đoạn văn có trả lời đúng câu hỏi hay không.
+
+Nghĩa là: công cụ **luôn luôn** trả về đủ 5 kết quả, kể cả khi bạn hỏi một thứ kho
+hoàn toàn không có (tải trọng gió, chống sét, kết cấu…). Nó sẽ vẫn tìm ra vài đoạn
+tình cờ trùng chữ, và điểm trông vẫn "bình thường".
+
+Chuyện này đã được đo trên bộ 101 câu hỏi chuẩn: điểm của câu ngoài phạm vi kho
+(5.9–20.8) chồng lấn hẳn với điểm của câu có đáp án thật (4.2–44.9). Không có
+ngưỡng nào tách được hai nhóm, nên kho cố tình không gắn nhãn "độ tin cậy" —
+một nhãn sai còn tai hại hơn không có nhãn.
+
+**Cách dùng đúng**: đọc nội dung đoạn văn trả về, rồi tự hỏi *đoạn này có thật sự
+nói về điều mình hỏi không*. Nếu không, kết luận đúng là "kho chưa có quy định về
+việc này" chứ không phải cố ghép các mảnh lại. Kho mới có ba văn bản thôi.
 
 Ví dụ thực tế:
 
 ```bash
 # Tôi có 5 năm kinh nghiệm, xin được chứng chỉ hạng mấy?
-python3 tools/search.py --full "thời gian kinh nghiệm hạng I hạng II hạng III"
+python3 tools/search.py "thời gian kinh nghiệm hạng I hạng II hạng III"
 
 # Hồ sơ xin cấp chứng chỉ gồm những gì?
-python3 tools/search.py --full "hồ sơ đề nghị cấp chứng chỉ hành nghề"
+python3 tools/search.py "hồ sơ đề nghị cấp chứng chỉ hành nghề"
 
 # Chuyên ngành kiến trúc được cấp chứng chỉ lĩnh vực nào?
 python3 tools/search.py --loai phu-luc "chuyên ngành đào tạo kiến trúc"
@@ -33,6 +53,24 @@ python3 tools/search.py --loai phu-luc "chuyên ngành đào tạo kiến trúc"
 # Cần mẫu đơn nào?
 python3 tools/search.py --loai bieu-mau "đơn đề nghị cấp chứng chỉ"
 ```
+
+Về phòng cháy chữa cháy (QCVN 10:2025/BCA):
+
+```bash
+# Nhà tôi có phải lắp báo cháy / chữa cháy tự động không?
+python3 tools/search.py --loai bang "chung cư báo cháy tự động số tầng"
+
+# Bao nhiêu tầng thì phải có họng nước chữa cháy trong nhà?
+python3 tools/search.py "họng nước chữa cháy trong nhà chung cư số tầng"
+
+# Lưu lượng nước chữa cháy ngoài nhà cho khu dân cư?
+python3 tools/search.py --doc qcvn-10-2025-bca "lưu lượng nước chữa cháy ngoài nhà dân số"
+```
+
+> **Thứ tự tra bảng PCCC** (mục 1.5.9 QCVN 10:2025/BCA):
+> **Bảng A.1** (toàn nhà) → **Bảng A.2** (hạng mục/khu vực) → **Bảng A.3**
+> (gian phòng) → **Bảng A.4** (thiết bị). Nhớ xem thêm **mục 1.5.11** liệt kê các
+> khu vực KHÔNG phải trang bị (phòng tắm, vệ sinh, cầu thang bộ, hành lang bên…).
 
 ## 2. Đọc thẳng khi đã biết số Điều
 
@@ -82,6 +120,30 @@ ngon_ngu: "vi"
 
 Phụ lục để trong `corpus/nghi-dinh/213-2026-nd-cp/phu-luc/`.
 
+**Bước 3b — Nếu văn bản có hình vẽ**
+
+Chép chú dẫn thành chữ (thông số bắt buộc nằm ở đó), rồi cắt giữ lại hình:
+
+```bash
+# Xem trang để ước lượng vùng cắt
+python3 tools/cat_hinh.py vanban.pdf --trang 52 --xem
+
+# Cắt ra file PNG
+python3 tools/cat_hinh.py vanban.pdf --trang 52 \
+    --vung 72,62,540,268 \
+    --ra corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/hinh/hinh-h-01.png
+```
+
+Rồi chèn vào Markdown, **nhớ viết mô tả thay thế** — vì công cụ tìm kiếm chỉ đọc
+được chữ, không có mô tả thì hình vẽ vô hình với người tra cứu:
+
+```markdown
+![Hình H.1 - Mặt cắt bến lấy nước, thể hiện trụ chống trôi xe và rào chắn](hinh/hinh-h-01.png)
+```
+
+Đường dẫn viết tương đối so với file Markdown đang sửa; `build_index.py` tự tính
+lại khi sinh chunk.
+
 **Bước 4 — Dựng lại chỉ mục và commit**
 
 ```bash
@@ -106,11 +168,32 @@ bi_thay_the_boi: "215/2026/NĐ-CP"
 
 ## 5. Quy ước tiêu đề (bộ chia chunk dựa vào đây)
 
+Khai báo `cau_truc` trong front matter để chọn kiểu cắt.
+
+**`cau_truc: "dieu"`** (mặc định — Nghị định, Luật, Thông tư):
+
 | Cấp | Cú pháp |
 |---|---|
 | Chương | `## Chương I. NHỮNG QUY ĐỊNH CHUNG` |
 | Mục | `### Mục 1. TÊN MỤC` |
 | Điều | `### Điều 1. Phạm vi điều chỉnh` |
-| Mẫu (phụ lục) | `## Mẫu số 01 — Tên mẫu` |
 
-Sai cú pháp thì `build_index.py` sẽ không tách được Điều đó thành chunk riêng.
+**`cau_truc: "muc"`** (Quy chuẩn QCVN, Tiêu chuẩn TCVN):
+
+| Cấp | Cú pháp |
+|---|---|
+| Phần | `## 1 QUY ĐỊNH CHUNG` |
+| Mục | `### 1.1 Phạm vi điều chỉnh` |
+
+Phần không có mục con (ví dụ `## 3 QUY ĐỊNH VỀ QUẢN LÝ`) thì tự nó là một chunk.
+
+**Phụ lục** — khai báo `chia_theo` trong front matter của từng file:
+
+| `chia_theo` | Cắt tại |
+|---|---|
+| `"Mẫu số"` | `## Mẫu số 01 — Tên mẫu` |
+| `"Bảng"` | `## Bảng A.1 - Đối với nhà` |
+| `"H."` | `## H.1 Yêu cầu thiết kế…` |
+| *(không khai báo)* | giữ nguyên cả phụ lục làm một chunk |
+
+Sai cú pháp thì `build_index.py` sẽ không tách được mục đó thành chunk riêng.

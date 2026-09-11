@@ -7,6 +7,12 @@ ngay_ban_hanh: "2026-06-17"
 noi_ban_hanh: "Hà Nội"
 tieu_de: "Quy định về điều kiện năng lực hoạt động xây dựng, Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng"
 linh_vuc: ["xây dựng", "chứng chỉ hành nghề", "cơ sở dữ liệu quốc gia", "nhà thầu nước ngoài"]
+ngay_hieu_luc: "2026-07-01"
+can_cu_hieu_luc: "Điều 57 khoản 1 của chính Nghị định này"
+thay_the: ["Nghị định 111/2024/NĐ-CP"]
+het_hieu_luc: ""
+sua_doi_boi: []
+dieu_khoan_chuyen_tiep: "Điều 55"
 nguon: "Cổng thông tin điện tử Chính phủ (bản ký số 18/06/2026)"
 phuong_phap_so_hoa: "OCR (tesseract-vie) + hiệu đính bằng thị giác máy (Claude vision)"
 trang_thai: "đang cập nhật"
