@@ -313,6 +313,7 @@ def main() -> None:
                 "duong_dan": r["duong_dan"],
                 "sua_doi_boi": r.get("sua_doi_boi") or [],
                 "gia_tri_phap_ly": r.get("gia_tri_phap_ly") or "",
+                "trang_thai": r.get("trang_thai") or "",
                 "vien_dan_da_bi_thay_the": r.get("vien_dan_da_bi_thay_the") or [],
                 "vien_dan_ngoai_kho": r.get("vien_dan_ngoai_kho") or [],
                 "noi_dung": snippet(r["text"], query_terms) if args.gon else r["text"],
@@ -341,6 +342,10 @@ def main() -> None:
             print(f"    ⚠️  ĐÃ BỊ SỬA ĐỔI bởi {sd['so_hieu']} "
                   f"(hiệu lực {sd['ngay_hieu_luc']}) — ĐỌC CẢ HAI TRƯỚC KHI TRẢ LỜI")
             print(f"       → {sd['duong_dan']}")
+        if r.get("trang_thai") == "KHUNG RỖNG":
+            print("    📭  KHUNG RỖNG — kho CHƯA CÓ NỘI DUNG của văn bản này.")
+            print("       Chỉ có tên, số hiệu, ngày ban hành. Không trích được điều khoản nào.")
+            print("       Phải nói thẳng với người dùng là kho thiếu và đề nghị cung cấp bản gốc.")
         if r.get("gia_tri_phap_ly"):
             print(f"    🛑  {r['gia_tri_phap_ly']} — KHÔNG ĐƯỢC dùng làm căn cứ "
                   f"pháp lý.")

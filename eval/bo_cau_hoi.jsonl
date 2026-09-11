@@ -183,3 +183,15 @@
 {"id": "K18", "loai": "K", "hoi": "hồ sơ đề nghị thẩm định thiết kế cần giấy tờ đất đai như thế nào", "vang": ["hoi-dap-c07:hd-702"], "kiem_chung": "giấy tờ hợp pháp về đất đai"}
 {"id": "K19", "loai": "K", "hoi": "nhà nhóm F1 F2 F3 có lưu lượng cấp nước chữa cháy ngoài nhà đến 15 L/s thì thế nào", "vang": ["hoi-dap-c07:hd-511"], "kiem_chung": "5.1.3.3"}
 {"id": "K20", "loai": "K", "hoi": "nhà ở kết hợp sản xuất kinh doanh có nguy hiểm cháy nổ thì chủ hộ phải làm gì", "vang": ["hoi-dap-c07:hd-124"], "kiem_chung": "mục 46 Phụ lục II"}
+{"id": "L01", "loai": "E", "hoi": "Nghị định 347/2026 có hiệu lực từ ngày nào", "vang": ["347-2026-nd-cp:dieu-41"], "kiem_chung": "15 tháng 9 năm 2026"}
+{"id": "L02", "loai": "E", "hoi": "văn bản nào bãi bỏ Điều 74 Nghị định 217/2026 về quản lý hoạt động xây dựng", "vang": ["347-2026-nd-cp:dieu-39"], "kiem_chung": "Điều 74"}
+{"id": "L03", "loai": "E", "hoi": "Phụ lục V Nghị định 105/2025 có còn áp dụng không", "vang": ["347-2026-nd-cp:dieu-30"], "kiem_chung": "Bãi bỏ Phụ lục V"}
+{"id": "L04", "loai": "E", "hoi": "Phụ lục III Nghị định 105/2025 bị thay thế bằng gì", "vang": ["347-2026-nd-cp:dieu-31"], "kiem_chung": "Thay thế Phụ lục III"}
+{"id": "L05", "loai": "F", "hoi": "khách sạn nhà nghỉ quy mô bao nhiêu thì thuộc diện thẩm định thiết kế về phòng cháy chữa cháy", "vang": ["347-2026-nd-cp:phu-luc-iii"], "kiem_chung": "Khách sạn, nhà khách, nhà nghỉ"}
+{"id": "L06", "loai": "F", "hoi": "công trình karaoke vũ trường mấy tầng thì phải thẩm định thiết kế", "vang": ["347-2026-nd-cp:phu-luc-iii"], "kiem_chung": "karaoke"}
+{"id": "L07", "loai": "F", "hoi": "nhà chung cư cao bao nhiêu tầng thuộc diện thẩm định thiết kế về phòng cháy và chữa cháy", "vang": ["347-2026-nd-cp:phu-luc-iii"], "kiem_chung": "nhà chung cư, nhà ở tập thể cao từ 7 tầng"}
+{"id": "L08", "loai": "E", "hoi": "hồ sơ thủ tục hành chính đã nộp trước ngày nghị định mới có hiệu lực thì giải quyết ra sao", "vang": ["347-2026-nd-cp:dieu-40"], "kiem_chung": "tiếp nhận"}
+{"id": "L09", "loai": "H", "hoi": "kho có nội dung Nghị định 105/2025 quy định chi tiết Luật Phòng cháy chữa cháy chưa", "vang": ["105-2025-nd-cp:mo-dau"], "kiem_chung": "KHUNG RỖNG"}
+{"id": "L10", "loai": "B", "hoi": "danh mục xe chữa cháy gồm những loại nào", "vang": ["347-2026-nd-cp:phu-luc-iv"], "kiem_chung": "xe chữa cháy có xitec"}
+{"id": "L11", "loai": "A", "hoi": "Mẫu số PC01 là biểu mẫu gì", "vang": ["347-2026-nd-cp:phu-luc-viii"], "kiem_chung": "Phiếu thông tin của cơ sở"}
+{"id": "L12", "loai": "C", "hoi": "Nghị định 347/2026 sửa đổi bổ sung những nghị định nào", "vang": ["347-2026-nd-cp:mo-dau"], "kiem_chung": "105/2025/NĐ-CP"}

@@ -53,8 +53,9 @@ trình là:
    cấu, tiết kiệm năng lượng, quy hoạch chi tiết…), hãy nói rõ ngay từ đầu thay
    vì cố nặn ra câu trả lời từ năm văn bản đang có.
 
-Kho hiện có **năm văn bản quy phạm pháp luật** và **một tài liệu tham khảo**
-(hỏi đáp nghiệp vụ — xem mục riêng bên dưới). Mặc định của bạn khi không chắc
+Kho hiện có **sáu văn bản quy phạm pháp luật có nội dung**, **một tài liệu tham
+khảo** (hỏi đáp nghiệp vụ) và **năm khung rỗng** (văn bản mới chỉ có tên, chưa
+có nội dung — xem mục riêng bên dưới). Mặc định của bạn khi không chắc
 phải là *"chưa có trong kho"*, không phải *"có lẽ là…"*.
 
 **Tài liệu tham khảo không bao giờ là căn cứ pháp lý.** Nếu chỉ tìm được câu trả
@@ -81,6 +82,8 @@ Tình trạng hiện tại:
 | **Sửa đổi 1:2023 QCVN 06:2022/BXD** | `2023-12-01` (Điều 2 Thông tư 09/2023/TT-BXD) | **Điều 3 Thông tư 09/2023/TT-BXD** | Sửa đổi, bổ sung QCVN 06:2022/BXD. **Không thay thế** — phải đọc kèm bản gốc. |
 | **QCVN 10:2024/BXD** | `CHƯA XÁC ĐỊNH` | mục 3.1 | Hiệu lực nằm ở Thông tư 06/2024/TT-BXD — **chưa có trong kho**. |
 | **QCVN 10:2025/BCA** | `CHƯA XÁC ĐỊNH` | không có trong bản Quy chuẩn | Hiệu lực nằm ở Thông tư 103/2025/TT-BCA — **chưa có trong kho**. Phần hỏi đáp (giải đáp số 1531 và 1538) nói **30/12/2025**; đã ghi vào `ngay_hieu_luc_theo_tham_khao` nhưng **chưa được coi là đã chứng minh** — vẫn cần Thông tư. |
+| **347/2026/NĐ-CP** | `2026-09-15` (Điều 41 khoản 1) | **Điều 40** | Sửa đổi 4 nghị định: 169/2025, **105/2025**, 106/2025, 282/2025. Bãi bỏ Điều 74 Nghị định 217/2026. ⚠️ Một phần nội dung (Điều 41 khoản 2) có hiệu lực **cùng thời điểm Luật sửa đổi Luật Phòng cháy chữa cháy** — ngày đó **CHƯA XÁC ĐỊNH**. |
+| **105/2025 · 106/2025 · 169/2025 · 282/2025 · 217/2026** | `CHƯA XÁC ĐỊNH` | — | **KHUNG RỖNG — chưa có nội dung.** Xem mục riêng bên dưới. |
 | **Hỏi đáp C07** | `KHÔNG ÁP DỤNG` | không có | **KHÔNG phải văn bản quy phạm pháp luật.** 132 giải đáp của Cục Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ. Không có ngày trả lời — xem mục riêng bên dưới. |
 
 ## QCVN 06 — LUÔN PHẢI ĐỌC KÈM SỬA ĐỔI 1:2023
@@ -163,6 +166,51 @@ chính — ví dụ định nghĩa buồng thang L1/L2 nằm ở **mục 2.4.3.2
 
 Sửa đổi 1:2023 cũng **bổ sung THƯ MỤC TÀI LIỆU THAM KHẢO** (23 mục) sau Phụ lục I.
 Các số `[1]`, `[5]`, `[8]`… rải rác trong bản sửa đổi trỏ về danh mục đó.
+
+## KHUNG RỖNG — VĂN BẢN CHỈ CÓ TÊN, CHƯA CÓ NỘI DUNG
+
+Kho có **năm khung rỗng** ở `corpus/nghi-dinh/`: `105/2025/NĐ-CP`,
+`106/2025/NĐ-CP`, `169/2025/NĐ-CP`, `282/2025/NĐ-CP`, `217/2026/NĐ-CP`.
+
+Chúng mang `trang_thai: "KHUNG RỖNG"` và **chỉ có tên, số hiệu, ngày ban hành**
+— không một điều khoản nào. Mục đích: khi tra "105/2025" thì kho trả về một
+chunk nói thẳng *văn bản này chưa có nội dung, cần bổ sung*, thay vì trả về rỗng
+khiến người trả lời tưởng là "pháp luật không quy định".
+
+`tools/search.py` in cảnh báo:
+
+```
+📭  KHUNG RỖNG — kho CHƯA CÓ NỘI DUNG của văn bản này.
+```
+
+**Thấy dòng đó thì tuyệt đối không trích gì từ chunk ấy.** Phải nói với người
+dùng là kho thiếu văn bản này và đề nghị cung cấp bản gốc.
+
+Khung rỗng **không** được tính là "đã có trong kho": `build_index.py` loại chúng
+khỏi tập đối chiếu khi đánh dấu `vien_dan_ngoai_kho`, nếu không thì cảnh báo
+"viện dẫn văn bản không có trong kho" sẽ tắt mất và tạo cảm giác an toàn giả.
+
+Tạo thêm khung rỗng bằng `tools/tao_khung_van_ban.py --tu-bang <tệp .tsv>`.
+
+## HAI KIỂU BẢN SỬA ĐỔI — GHÉP KHÁC NHAU
+
+Kho có hai kiểu bản sửa đổi, và cơ chế ghép phải phân biệt:
+
+- **Kiểu quy chuẩn** (Sửa đổi 1:2023 QCVN 06:2022/BXD): chunk được đánh số theo
+  **đúng số hiệu mục của bản gốc** (`### 3.2.8` sửa mục 3.2.8). Ghép thẳng theo
+  `so_hieu_muc`.
+- **Kiểu nghị định** (347/2026/NĐ-CP): chunk mang **số Điều của chính nó**, còn
+  đích sửa nằm trong **tên điều**. Điều 10 của nó sửa Điều 1 của Nghị định
+  105/2025; Điều 1 sửa khoản 5 Điều 31 của Nghị định 169/2025. Ghép theo
+  `so_hieu_muc` ở đây sẽ **sai hoàn toàn**.
+
+`build_index.py` có hàm `muc_tieu_sua_doi()` suy đích từ **tên Chương** (chứa số
+hiệu văn bản bị sửa) và **tên Điều** (chứa số Điều bị sửa). Khi tên điều không
+nhắm vào một Điều cụ thể ("Bãi bỏ một số quy định", "Thay thế một số cụm từ")
+thì hàm trả về `None` và **bỏ qua** — thà bỏ sót còn hơn gắn cờ sai.
+
+Một bản sửa đổi có thể nhắm **nhiều văn bản gốc cùng lúc**, nên `sua_doi_cho`
+là danh sách và phải đọc trọn danh sách, đừng lấy phần tử đầu.
 
 ## HỎI ĐÁP NGHIỆP VỤ — KINH NGHIỆM THỰC CHIẾN, KHÔNG PHẢI CĂN CỨ PHÁP LÝ
 
@@ -391,7 +439,7 @@ bạn đọc nội dung thật.
 
 ## Đo chất lượng truy hồi
 
-`eval/` có bộ 185 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
+`eval/` có bộ 197 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
 vi kho). Sau khi sửa `tools/search.py` hoặc thay đổi cách cắt chunk, **phải chạy
 lại**:
 
@@ -401,7 +449,7 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với tokenizer cũ
 python3 eval/chay_danh_gia.py --chi-tiet # liệt kê câu trượt
 ```
 
-Mức hiện tại (185 câu, 6 văn bản, 815 chunk): Recall@1 = 0.569 · Recall@3 = 0.767 · Recall@5 = 0.808 · Recall@10 = 0.895 · MRR = 0.705.
+Mức hiện tại (197 câu, 12 văn bản, 866 chunk): Recall@1 = 0.559 · Recall@3 = 0.776 · Recall@5 = 0.820 · Recall@10 = 0.898 · MRR = 0.701.
 
 Chi phí đã đo của việc thêm 133 chunk hỏi đáp, tính trên **đúng bộ 165 câu cũ**
 để so sánh công bằng: Recall@3 từ 0.774 xuống 0.762, MRR từ 0.709 xuống 0.698 —
@@ -436,8 +484,21 @@ Lệnh này idempotent — chạy hai lần cho kết quả giống hệt nhau.
 
 ## Khi thêm văn bản mới
 
-1. `python3 tools/ingest_pdf.py <file.pdf> --ten <ma-van-ban>`
-2. Đọc từng ảnh trang bằng **thị giác máy** và chép lại thành Markdown.
+1. **Kiểm tra PDF có lớp văn bản thật không** — quyết định toàn bộ cách làm:
+
+   ```bash
+   python3 -c "import pymupdf,sys; d=pymupdf.open(sys.argv[1]); \
+     print(sum(1 for p in d if p.get_text().strip()), '/', len(d))" <file.pdf>
+   ```
+
+   - **Có lớp văn bản** (bản ký số của cơ quan phát hành): dùng
+     `python3 tools/ingest_pdf_text.py <file.pdf>` — trích thẳng, chính xác
+     tuyệt đối, không qua OCR. Vẫn phải mở vài trang bằng thị giác máy để đối
+     chiếu. Phụ lục thêm `--phu-luc`.
+   - **Không có lớp văn bản** (bản quét): theo các bước 2 và 3 dưới đây.
+
+2. `python3 tools/ingest_pdf.py <file.pdf> --ten <ma-van-ban>`
+3. Đọc từng ảnh trang bằng **thị giác máy** và chép lại thành Markdown.
    **Không** dán thẳng kết quả OCR vào corpus — Tesseract đánh rơi dấu tiếng
    Việt ("thẩm quyền" → "thâm quyên"), với văn bản pháp luật là sai nghĩa.
    OCR chỉ dùng để đối chiếu.

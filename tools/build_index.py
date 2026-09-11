@@ -173,6 +173,11 @@ class ChunkBuilder:
         if self.current is None:
             return
         text = "\n".join(self.current.pop("lines")).strip()
+        # Một số Điều mang trọn quy định NGAY TRONG TÊN và không có thân, ví dụ
+        # "Điều 39. Bãi bỏ Điều 74 Nghị định số 217/2026/NĐ-CP...". Bỏ chúng vì
+        # thân rỗng là làm mất hẳn một điều khoản khỏi kho.
+        if not text and self.current.get("loai") == "dieu" and self.current.get("tieu_de"):
+            text = f"Điều {self.current['so_hieu_muc']}. {self.current['tieu_de']}"
         if text:
             self.current["text"] = text
             if not self.current.get("tieu_de"):
@@ -669,9 +674,13 @@ def danh_dau_vien_dan(all_chunks: list[dict], documents: list[dict]) -> int:
     Không tự suy ra tình trạng hiệu lực của văn bản ngoài kho — chỉ nêu rằng
     chưa kiểm chứng được.
     """
+    # Khung rỗng CHỈ có tên và ngày ban hành, không có một điều khoản nào — nên
+    # phải coi như kho KHÔNG có văn bản đó. Nếu tính nó là "đã có", cảnh báo
+    # "viện dẫn văn bản không có trong kho" sẽ tắt đi và người trả lời tưởng là
+    # kiểm chứng được, trong khi thực tế không đọc được gì.
     trong_kho: set[str] = set()
     for d in documents:
-        if d.get("so_hieu"):
+        if d.get("so_hieu") and d.get("trang_thai") != "KHUNG RỖNG":
             trong_kho.update(_rut_so_hieu(d["so_hieu"]) or [_chuan_so_hieu(d["so_hieu"])])
     # "văn bản bị thay thế" -> "văn bản thay thế nó", lấy từ chính sổ đăng ký.
     # Chỉ nhận văn bản ĐẦU TIÊN trong chuỗi: nó là văn bản bị thay thế, những
@@ -705,6 +714,41 @@ def danh_dau_vien_dan(all_chunks: list[dict], documents: list[dict]) -> int:
     return dem
 
 
+# "...NGHỊ ĐỊNH SỐ 105/2025/NĐ-CP NGÀY 15 THÁNG 5 NĂM 2025..." trong tên Chương
+RE_CHUONG_NHAM = re.compile(r"NGHỊ ĐỊNH SỐ\s+(\d{1,3}/\d{4}/NĐ-CP)", re.I)
+# "Sửa đổi, bổ sung khoản 8, khoản 17 Điều 1" -> Điều 1 (lấy lần nhắc CUỐI)
+RE_DIEU_NHAM = re.compile(r"Điều\s+(\d+)")
+# "Bãi bỏ Điều 74 Nghị định số 217/2026/NĐ-CP" — số hiệu nằm ngay trong tên điều
+RE_ND_TRONG_TEN = re.compile(r"Nghị định số\s+(\d{1,3}/\d{4}/NĐ-CP)", re.I)
+
+
+def muc_tieu_sua_doi(chunk: dict) -> tuple[str, str] | None:
+    """Suy ra (số hiệu văn bản bị sửa, số Điều bị sửa) từ tên Chương và tên Điều.
+
+    Cần thiết vì có HAI kiểu bản sửa đổi khác hẳn nhau:
+
+    * Kiểu QCVN (Sửa đổi 1:2023): chunk được đánh số theo ĐÚNG số hiệu mục của
+      bản gốc — ghép thẳng theo `so_hieu_muc` là đúng.
+    * Kiểu Nghị định (347/2026/NĐ-CP): chunk mang số Điều CỦA CHÍNH NÓ, còn
+      đích sửa nằm trong TÊN điều. Điều 10 của nó sửa Điều 1 của Nghị định
+      105/2025. Ghép theo `so_hieu_muc` ở đây sẽ sai hoàn toàn — Điều 1 sửa
+      "khoản 5 Điều 31" mà lại bị gắn vào Điều 1 của văn bản gốc.
+
+    Trả về None khi tên điều không nhắm vào một Điều cụ thể (ví dụ "Bãi bỏ một
+    số quy định", "Thay thế một số cụm từ") — những điều đó sửa nhiều đích cùng
+    lúc nên không ghép được, và thà bỏ sót còn hơn gắn cờ sai.
+    """
+    ten = chunk.get("tieu_de") or ""
+    chuong = chunk.get("chuong") or ""
+    m_nd = RE_ND_TRONG_TEN.search(ten) or RE_CHUONG_NHAM.search(chuong)
+    if not m_nd:
+        return None
+    dieu = RE_DIEU_NHAM.findall(ten)
+    if not dieu:
+        return None
+    return m_nd.group(1).upper(), dieu[-1]
+
+
 def noi_sua_doi(all_chunks: list[dict], documents: list[dict]) -> int:
     """Gắn cờ cho những chunk của văn bản GỐC đã bị một văn bản SỬA ĐỔI đụng tới.
 
@@ -717,11 +761,13 @@ def noi_sua_doi(all_chunks: list[dict], documents: list[dict]) -> int:
     quy định đang có hiệu lực, trong khi nó đã bị thay từ 01/12/2023.
     """
     # doc_id bản sửa đổi -> số hiệu của văn bản gốc mà nó sửa
-    sua_cho: dict[str, str] = {}
+    # Một bản sửa đổi có thể nhắm NHIỀU văn bản gốc cùng lúc (347/2026/NĐ-CP
+    # sửa bốn nghị định), nên phải giữ trọn danh sách chứ không lấy phần tử đầu.
+    sua_cho: dict[str, list[str]] = {}
     for doc in documents:
         goc = doc.get("_sua_doi_cho") or []
         if goc:
-            sua_cho[doc["doc_id"]] = goc[0]
+            sua_cho[doc["doc_id"]] = [g.upper() for g in goc]
 
     if not sua_cho:
         return 0
@@ -729,9 +775,15 @@ def noi_sua_doi(all_chunks: list[dict], documents: list[dict]) -> int:
     # (số hiệu văn bản gốc, số hiệu mục) -> danh sách chunk sửa đổi
     ban_do: dict[tuple[str, str], list[dict]] = {}
     for c in all_chunks:
-        goc = sua_cho.get(c["doc_id"])
-        if goc and c.get("so_hieu_muc"):
-            ban_do.setdefault((goc, c["so_hieu_muc"]), []).append(c)
+        if c["doc_id"] not in sua_cho:
+            continue
+        mt = muc_tieu_sua_doi(c)
+        if mt:
+            # Bản sửa đổi kiểu Nghị định: đích nằm trong tên điều.
+            ban_do.setdefault(mt, []).append(c)
+        elif c.get("so_hieu_muc") and len(sua_cho[c["doc_id"]]) == 1:
+            # Bản sửa đổi kiểu QCVN: chunk đánh số theo mục của bản gốc.
+            ban_do.setdefault((sua_cho[c["doc_id"]][0], c["so_hieu_muc"]), []).append(c)
 
     def to_hon(so: str) -> list[str]:
         """'A.1.2.1' -> ['A.1.2.1', 'A.1.2', 'A.1'] — từ hẹp tới rộng."""
@@ -803,6 +855,7 @@ def main() -> None:
                         # Rỗng với văn bản quy phạm pháp luật; có giá trị với
                         # tài liệu tham khảo — search.py dựa vào đây để cảnh báo.
                         "gia_tri_phap_ly": doc_meta.get("gia_tri_phap_ly", ""),
+                        "trang_thai": doc_meta.get("trang_thai", ""),
                         "loai_chunk": chunk["loai"],
                         "so_hieu_muc": chunk.get("so_hieu_muc"),
                         "tieu_de": chunk["tieu_de"],
@@ -840,6 +893,7 @@ def main() -> None:
                 "dieu_khoan_chuyen_tiep": doc_meta.get("dieu_khoan_chuyen_tiep", ""),
                 "linh_vuc": doc_meta.get("linh_vuc", []),
                 "gia_tri_phap_ly": doc_meta.get("gia_tri_phap_ly", ""),
+                "trang_thai": doc_meta.get("trang_thai", ""),
                 "nguon": doc_meta.get("nguon", ""),
                 "cau_truc": doc_meta.get("cau_truc", "dieu"),
                 "sua_doi_cho": doc_meta.get("sua_doi_cho", []),
