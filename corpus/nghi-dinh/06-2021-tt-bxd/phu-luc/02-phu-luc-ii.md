@@ -3,6 +3,7 @@ doc_id: "06-2021-tt-bxd"
 phan: "Phụ lục II"
 tieu_de: "PHÂN CẤP CÔNG TRÌNH XÂY DỰNG THEO QUY MÔ KẾT CẤU"
 chia_theo: "Bảng"
+anh_thu_cong: true
 ---
 
 ## Bảng 2: Phân cấp công trình xây dựng theo quy mô kết cấu

@@ -11,7 +11,7 @@ ngay_hieu_luc: "2021-08-15"
 can_cu_hieu_luc: "khoản 1 Điều 5 Thông tư số 06/2021/TT-BXD"
 thay_the: ["03/2016/TT-BXD ngày 10/3/2016"]
 het_hieu_luc: ""
-sua_doi_boi: []
+sua_doi_boi: ["02/2025/TT-BXD (hiệu lực 20/5/2025)"]
 dieu_khoan_chuyen_tiep: "Điều 4"
 nguon: "Công báo số 669 + 670 ngày 16/7/2021"
 phuong_phap_so_hoa: "Phần thân trích bằng tools/ingest_pdf_text.py; ba phụ lục in XOAY NGANG trích bằng tools/ingest_bang_pdf.py dựng lại lưới từ đường kẻ in trong PDF (KHÔNG qua OCR), đối chiếu bằng thị giác máy"

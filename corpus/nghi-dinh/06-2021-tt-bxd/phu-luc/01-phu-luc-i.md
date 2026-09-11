@@ -3,6 +3,7 @@ doc_id: "06-2021-tt-bxd"
 phan: "Phụ lục I"
 tieu_de: "PHÂN CẤP CÔNG TRÌNH XÂY DỰNG THEO MỨC ĐỘ QUAN TRỌNG HOẶC QUY MÔ CÔNG SUẤT"
 chia_theo: "Bảng"
+anh_thu_cong: true
 ---
 
 ## Bảng 1.1: Phân cấp công trình sử dụng cho mục đích dân dụng (công trình dân dụng)

@@ -12,7 +12,7 @@ so_hieu_muc: "Ví"
 chuong: "Phụ lục III"
 ---
 
-> **Trích dẫn:** mục Ví Thông tư số 06/2021/TT-BXD
+> **Trích dẫn:** dụ 10: Công trình Giao thông - Tuyến đường ô tô cao tốc A Dự án đầu tư xây dựng “Tuyến đường ô tô cao tốc A” dài 200 km, tốc độ thiết kế 120 km/h. Trên tuyến đường này có các công trình: Thông tư số 06/2021/TT-BXD
 
 # Ví dụ 10: Công trình Giao thông - Tuyến đường ô tô cao tốc A Dự án đầu tư xây dựng “Tuyến đường ô tô cao tốc A” dài 200 km, tốc độ thiết kế 120 km/h. Trên tuyến đường này có các công trình:
 

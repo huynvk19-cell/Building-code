@@ -12,7 +12,7 @@ so_hieu_muc: "Ví"
 chuong: "Phụ lục III"
 ---
 
-> **Trích dẫn:** mục Ví Thông tư số 06/2021/TT-BXD
+> **Trích dẫn:** dụ 6: Công trình công nghiệp - Nhà máy cơ khí C Dự án đầu tư xây dựng “Nhà máy cơ khí C” với mục đích chế tạo các sản phẩm cơ khí nhỏ lẻ theo đặt hàng của các doanh nghiệp khác. Sản phẩm của nhà máy này khá đa dạng và tùy thuộc yêu cầu khách hàng nên tại thời điểm lập dự án không xác định cụ thể được loại sản phẩm và sản lượng sản xuất. Dự án có các công trình sau: Thông tư số 06/2021/TT-BXD
 
 # Ví dụ 6: Công trình công nghiệp - Nhà máy cơ khí C Dự án đầu tư xây dựng “Nhà máy cơ khí C” với mục đích chế tạo các sản phẩm cơ khí nhỏ lẻ theo đặt hàng của các doanh nghiệp khác. Sản phẩm của nhà máy này khá đa dạng và tùy thuộc yêu cầu khách hàng nên tại thời điểm lập dự án không xác định cụ thể được loại sản phẩm và sản lượng sản xuất. Dự án có các công trình sau:
 

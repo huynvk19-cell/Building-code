@@ -545,7 +545,10 @@ def citation(doc_meta: dict, chunk: dict) -> str:
     if chunk["loai"] == "dieu":
         return f"Điều {chunk['so_hieu_muc']} {ten_vb}"
     if chunk["loai"] in {"muc", "phan"}:
-        if chunk["so_hieu_muc"]:
+        # `so_hieu_muc` của chunk phụ lục cắt theo `chia_theo` là CHỮ tiền tố
+        # ("Mục", "Bảng"), không phải số hiệu. Ghép thẳng sẽ ra "mục Mục Thông
+        # tư số 02/2025/TT-BXD". Không có chữ số thì dùng tiêu đề.
+        if chunk["so_hieu_muc"] and any(k.isdigit() for k in chunk["so_hieu_muc"]):
             return f"mục {chunk['so_hieu_muc']} {ten_vb}"
         return f"{chunk['tieu_de']} {ten_vb}"
     if chunk["loai"] == "bang":
@@ -797,8 +800,17 @@ def noi_sua_doi(all_chunks: list[dict], documents: list[dict]) -> int:
         if mt:
             # Bản sửa đổi kiểu Nghị định: đích nằm trong tên điều.
             ban_do.setdefault(mt, []).append(c)
-        elif c.get("so_hieu_muc") and len(sua_cho[c["doc_id"]]) == 1:
+        elif (c.get("so_hieu_muc")
+              and (c.get("loai") or c.get("loai_chunk")) != "dieu"
+              and len(sua_cho[c["doc_id"]]) == 1):
             # Bản sửa đổi kiểu QCVN: chunk đánh số theo mục của bản gốc.
+            # Điều kiện `loai != "dieu"` là bắt buộc, không phải phòng xa: chỉ
+            # kiểm "nhắm một văn bản duy nhất" thì Thông tư 02/2025/TT-BXD —
+            # sửa đúng một văn bản nhưng đánh số Điều CỦA CHÍNH NÓ — rơi vào
+            # nhánh này và gắn "Điều 2. Điều khoản thi hành" của nó lên
+            # "Điều 2. Nguyên tắc xác định cấp công trình" của bản gốc. Một cờ
+            # sửa đổi sai chỗ còn tệ hơn không có cờ, vì nó khiến người tra mở
+            # nhầm điều khoản rồi tin là đã đối chiếu xong.
             ban_do.setdefault((sua_cho[c["doc_id"]][0], c["so_hieu_muc"]), []).append(c)
 
     def to_hon(so: str) -> list[str]:

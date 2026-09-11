@@ -12,7 +12,7 @@ so_hieu_muc: "Ví"
 chuong: "Phụ lục III"
 ---
 
-> **Trích dẫn:** mục Ví Thông tư số 06/2021/TT-BXD
+> **Trích dẫn:** dụ 7: Công trình hạ tầng kỹ thuật (HTKT) - Tháp truyền hình HN Dự án xây dựng “Tháp tuyền hình HN” cao 600 m. Dự án có các công trình sau: Thông tư số 06/2021/TT-BXD
 
 # Ví dụ 7: Công trình hạ tầng kỹ thuật (HTKT) - Tháp truyền hình HN Dự án xây dựng “Tháp tuyền hình HN” cao 600 m. Dự án có các công trình sau:
 

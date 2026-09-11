@@ -98,6 +98,10 @@ def doc_trang(trang, so_cot: int | None) -> list[list[str]]:
 
 
 # Đầu một đoạn văn xuôi trong phụ lục: "1.", "a)", "- ", "3.1 Ví dụ 1:".
+# LƯU Ý khi cắt theo ví dụ: cùng một bản in dùng CẢ dấu hai chấm lẫn dấu
+# gạch ngang sau số hiệu ("Ví dụ 1: …" nhưng "Ví dụ 5 - …"). Chỉ nhận dấu
+# hai chấm thì Ví dụ 5 và Ví dụ 12 của Phụ lục III Thông tư 06/2021/TT-BXD
+# không thành chunk riêng mà bị nuốt vào ví dụ liền trước.
 RE_DAU_DOAN_PL = re.compile(r"^(?:\d+(?:\.\d+)*[.)]?\s|[a-zđ]\)\s|[-–—]\s|Ví dụ\s)")
 
 

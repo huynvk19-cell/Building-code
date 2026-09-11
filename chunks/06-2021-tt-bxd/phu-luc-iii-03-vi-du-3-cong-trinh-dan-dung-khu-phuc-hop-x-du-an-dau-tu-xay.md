@@ -12,7 +12,7 @@ so_hieu_muc: "Ví"
 chuong: "Phụ lục III"
 ---
 
-> **Trích dẫn:** mục Ví Thông tư số 06/2021/TT-BXD
+> **Trích dẫn:** dụ 3: Công trình dân dụng - Khu phức hợp X Dự án đầu tư xây dựng “Khu phức hợp X” trên Lô đất A thuộc một khu đô thị đã có hệ thống hạ tầng kỹ thuật hoàn chỉnh. Khu phức hợp X có các các công trình sau: Thông tư số 06/2021/TT-BXD
 
 # Ví dụ 3: Công trình dân dụng - Khu phức hợp X Dự án đầu tư xây dựng “Khu phức hợp X” trên Lô đất A thuộc một khu đô thị đã có hệ thống hạ tầng kỹ thuật hoàn chỉnh. Khu phức hợp X có các các công trình sau:
 

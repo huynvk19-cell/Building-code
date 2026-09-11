@@ -58,7 +58,15 @@ def dong_anh(so: str, ten: str, duong_dan: Path, thu_tu: int, md: Path) -> str:
 
 
 def xu_ly(md: Path, thu_muc_anh: Path, ghi: bool) -> int:
-    dong = md.read_text(encoding="utf-8").splitlines()
+    noi_dung = md.read_text(encoding="utf-8")
+    # Có văn bản mà ảnh được gắn CÓ CHỦ Ý theo từng phần, không phải trọn bộ:
+    # Phụ lục I Thông tư 06/2021/TT-BXD cắt chunk tới cấp nhóm công trình, mỗi
+    # nhóm chỉ kèm đúng những trang nó trải qua. Gắn trọn 15 ảnh của Bảng 1.2
+    # vào mọi nhóm là nhấn chìm ảnh đúng giữa mười bốn ảnh sai. Văn bản như vậy
+    # khai `anh_thu_cong: true` trong front matter để công cụ bỏ qua.
+    if re.search(r"(?m)^anh_thu_cong:\s*true\s*$", noi_dung):
+        return 0
+    dong = noi_dung.splitlines()
     ra: list[str] = []
     them = 0
     i = 0

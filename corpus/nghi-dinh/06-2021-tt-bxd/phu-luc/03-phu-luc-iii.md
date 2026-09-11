@@ -141,7 +141,11 @@ c) Áp dụng cấp công trình trong quản lý các hoạt động đầu tư
 
 
 + Trường hợp phạm vi thực hiện cho toàn bộ dây chuyền công nghệ chính: Theo điểm c khoản 3 Điều 3 Thông tư này, áp dụng cấp của dây chuyền công nghệ chính (đã xác định tại mục a Ví dụ này) là Cấp I; + Trường hợp phạm vi thực hiện cho một công trình độc lập (thuộc dây chuyền chính hoặc công trình độc lập khác thuộc dự án) hoặc cho một số công trình thuộc dự án đầu tư xây dựng công trình: Cách xác định xem Ví dụ 1 của Phụ lục này.
-3.5 Ví dụ 5 - Công trình công nghiệp - Thủy điện B Dự án đầu tư xây dựng “Thủy điện B” có công suất thiết kế 30MW. Dự án có các công trình sau:
+
+## Ví dụ 5 - Công trình công nghiệp - Thủy điện B Dự án đầu tư xây dựng “Thủy điện B” có công suất thiết kế 30MW. Dự án có các công trình sau:
+
+*(mục 3.5 Phụ lục III)*
+
 - Hồ chứa nước: Dung tích 10 triệu m3;
 - Cụm công trình “Tuyến đầu mối” gồm các công trình: Đập chính dâng nước (cao 30 m, kết cấu bê tông đặt trên nền đá), Tràn xả mặt, Đập phụ,...;
 - Cụm công trình “Tuyến năng lượng” gồm các công trình: Nhà máy thủy điện (công suất 30MW), Cửa lấy nước, Đường hầm dẫn nước, Tháp điều áp, Ống áp lực dẫn nước vào tua bin, Cửa ra, Kênh xả,...;
@@ -262,7 +266,11 @@ c) Áp dụng cấp công trình trong quản lý các hoạt động đầu tư
 
 
 Công trình “Hải đăng M” không có trong Bảng 1.4 Phụ lục I, vì vậy cấp công trình được xác định theo loại và quy mô kết cấu. Theo Bảng 2 Phụ lục II, công trình này tương ứng với mục 2.2.3; cấp công trình xác định được theo chiều cao của kết cấu là cấp II.
-3.12 Ví dụ 12 - Công trình nông nghiệp và phát triển nông thôn - Trang trại A Dự án đầu tư xây dựng “Trang trại A”, diện tích 30 ha bao gồm các công trình sau:
+
+## Ví dụ 12 - Công trình nông nghiệp và phát triển nông thôn - Trang trại A Dự án đầu tư xây dựng “Trang trại A”, diện tích 30 ha bao gồm các công trình sau:
+
+*(mục 3.12 Phụ lục III)*
+
 - A1: Hệ thống cấp nước tưới cho diện tích tưới 25 ha;
 - A2: Hệ thống tiêu thoát nước cho diện tích 29,5 ha;
 - A3 (Nhà kính ươm cây giống): Cao 1 tầng, chiều cao 12 m, nhịp kết cấu lớn nhất 30 m, tổng diện tích 4.000 m2; và các công trình khác: Nhà làm việc, Nhà ở cho người lao động, Hệ thống đường nội bộ; Trạm biến áp và đường dây; Hệ thống cấp nước sinh hoạt (Bể nước và đường ống); Hệ thống thoát nước thải sinh hoạt; các Kho hàng; Sân bãi, Tường rào. Dự án Trang trại A có một số công trình chính phục vụ trực tiếp cho các công tác thủy lợi, trồng trọt (gồm các công trình A1, A2 và A3) và công trình phụ trợ khác. Cấp của các công trình này xác định theo quy định tại khoản 2 Điều 2 Thông tư này như sau:

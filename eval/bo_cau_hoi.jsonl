@@ -213,3 +213,13 @@
 {"id": "O08", "loai": "B", "hoi": "hệ thống đường đô thị trong đồ án quy hoạch chung", "vang": ["qcvn-01-2021-bxd:muc-2.9.3.1"], "kiem_chung": "dự báo nhu cầu vận chuyển hành khách"}
 {"id": "O09", "loai": "A", "hoi": "quy chuẩn quy hoạch xây dựng có hiệu lực từ ngày nào", "vang": ["qcvn-01-2021-bxd:muc-0.2"], "kiem_chung": "có hiệu lực kể từ ngày 05/7/2021"}
 {"id": "O10", "loai": "B", "hoi": "mật độ xây dựng thuần tối đa cho phép của lô đất", "vang": ["qcvn-01-2021-bxd:muc-2.6.3"], "kiem_chung": "Mật độ xây dựng thuần tối đa của lô đất xây dựng nhà ở riêng lẻ"}
+{"id": "R01", "loai": "A", "hoi": "trường tiểu học 800 học sinh là công trình cấp mấy", "vang": ["06-2021-tt-bxd:phu-luc-i-bang-1-1-nhom-1-1-1-cong-trinh-giao-duc"], "kiem_chung": "≥ 700"}
+{"id": "R02", "loai": "A", "hoi": "nhà để xe ô tô ngầm 400 chỗ thuộc cấp công trình nào", "vang": ["06-2021-tt-bxd:phu-luc-i-bang-1-3-nhom-1-3-8-nha-de-xe-o-to-san-b"], "kiem_chung": "Nhà để xe ô tô ngầm"}
+{"id": "R03", "loai": "A", "hoi": "nguyên tắc xác định cấp công trình xây dựng", "vang": ["06-2021-tt-bxd:dieu-02"], "kiem_chung": "Mức độ quan trọng, quy mô công suất"}
+{"id": "R04", "loai": "B", "hoi": "quy định chuyển tiếp về cấp công trình của thông tư phân cấp", "vang": ["06-2021-tt-bxd:dieu-04"], "kiem_chung": "đã được quyết định đầu tư trước ngày Thông tư này có hiệu lực"}
+{"id": "R05", "loai": "B", "hoi": "phân cấp công trình theo quy mô kết cấu nhà và kết cấu dạng nhà", "vang": ["06-2021-tt-bxd:phu-luc-ii-bang-2-nhom-2-1-2-1-1-nha-ket-cau-dang-n"], "kiem_chung": "Chiều cao"}
+{"id": "R06", "loai": "C", "hoi": "sân gôn bao nhiêu lỗ thì là công trình cấp II", "vang": ["02-2025-tt-bxd:phu-luc-muc-1-sua-doi-bo-sung-muc-1-1-3-3-bang-1"], "kiem_chung": "Sân gôn"}
+{"id": "R07", "loai": "C", "hoi": "công trình lấn biển được phân cấp thế nào", "vang": ["02-2025-tt-bxd:phu-luc-muc-7-bo-sung-muc-1-3-10-vao-sau-muc-1-3"], "kiem_chung": "Công trình lấn biển"}
+{"id": "R08", "loai": "A", "hoi": "thông tư sửa đổi phân cấp công trình có hiệu lực từ ngày nào", "vang": ["02-2025-tt-bxd:dieu-02"], "kiem_chung": "kể từ ngày 20 tháng 5 năm 2025"}
+{"id": "R09", "loai": "B", "hoi": "cấp công trình của dự án phân kỳ đầu tư xác định thế nào", "vang": ["02-2025-tt-bxd:dieu-01"], "kiem_chung": "dự án phân kỳ đầu tư"}
+{"id": "R10", "loai": "F", "hoi": "ví dụ xác định cấp công trình nhà máy xi măng", "vang": ["06-2021-tt-bxd:phu-luc-iii-vi-du-4-cong-trinh-cong-nghiep-nha-may-x"], "kiem_chung": "Nhà máy xi măng"}

@@ -12,7 +12,7 @@ so_hieu_muc: "Ví"
 chuong: "Phụ lục III"
 ---
 
-> **Trích dẫn:** mục Ví Thông tư số 06/2021/TT-BXD
+> **Trích dẫn:** dụ 2: Công trình dân dụng - Bệnh viện đa khoa Q Dự án đầu tư xây dựng “Bệnh viện đa khoa Q” có quy mô 450 giường bệnh lưu trú. Dự án có các công trình sau: Thông tư số 06/2021/TT-BXD
 
 # Ví dụ 2: Công trình dân dụng - Bệnh viện đa khoa Q Dự án đầu tư xây dựng “Bệnh viện đa khoa Q” có quy mô 450 giường bệnh lưu trú. Dự án có các công trình sau:
 

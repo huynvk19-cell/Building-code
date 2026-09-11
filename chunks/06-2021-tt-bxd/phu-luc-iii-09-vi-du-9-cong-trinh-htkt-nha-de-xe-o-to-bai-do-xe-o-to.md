@@ -12,7 +12,7 @@ so_hieu_muc: "Ví"
 chuong: "Phụ lục III"
 ---
 
-> **Trích dẫn:** mục Ví Thông tư số 06/2021/TT-BXD
+> **Trích dẫn:** dụ 9: Công trình HTKT - Nhà để xe ô tô, Bãi đỗ xe ô tô Thông tư số 06/2021/TT-BXD
 
 # Ví dụ 9: Công trình HTKT - Nhà để xe ô tô, Bãi đỗ xe ô tô
 

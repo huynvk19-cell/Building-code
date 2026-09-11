@@ -12,7 +12,7 @@ so_hieu_muc: "Ví"
 chuong: "Phụ lục III"
 ---
 
-> **Trích dẫn:** mục Ví Thông tư số 06/2021/TT-BXD
+> **Trích dẫn:** dụ 8: Công trình HTKT - Nhà máy nước A Dự án đầu tư xây dựng “Nhà máy nước A” có công suất 50.000 m3/ngày đêm để cấp nước sinh hoạt cho một khu đô thị. Dự án có các công trình sau: Thông tư số 06/2021/TT-BXD
 
 # Ví dụ 8: Công trình HTKT - Nhà máy nước A Dự án đầu tư xây dựng “Nhà máy nước A” có công suất 50.000 m3/ngày đêm để cấp nước sinh hoạt cho một khu đô thị. Dự án có các công trình sau:
 

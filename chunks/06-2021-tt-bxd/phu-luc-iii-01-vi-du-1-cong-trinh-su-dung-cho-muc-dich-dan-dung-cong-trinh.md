@@ -12,7 +12,7 @@ so_hieu_muc: "Ví"
 chuong: "Phụ lục III"
 ---
 
-> **Trích dẫn:** mục Ví Thông tư số 06/2021/TT-BXD
+> **Trích dẫn:** dụ 1: Công trình sử dụng cho mục đích dân dụng (công trình dân dụng) - Trường trung học phổ thông A Dự án đầu tư xây dựng “Trường trung học phổ thông A” quy mô 1.500 học sinh. Dự án có các công trình sau: Thông tư số 06/2021/TT-BXD
 
 # Ví dụ 1: Công trình sử dụng cho mục đích dân dụng (công trình dân dụng) - Trường trung học phổ thông A Dự án đầu tư xây dựng “Trường trung học phổ thông A” quy mô 1.500 học sinh. Dự án có các công trình sau:
 
