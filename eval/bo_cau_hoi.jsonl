@@ -195,3 +195,8 @@
 {"id": "L10", "loai": "B", "hoi": "danh mục xe chữa cháy gồm những loại nào", "vang": ["347-2026-nd-cp:phu-luc-iv"], "kiem_chung": "xe chữa cháy có xitec"}
 {"id": "L11", "loai": "A", "hoi": "Mẫu số PC01 là biểu mẫu gì", "vang": ["347-2026-nd-cp:phu-luc-viii"], "kiem_chung": "Phiếu thông tin của cơ sở"}
 {"id": "L12", "loai": "C", "hoi": "Nghị định 347/2026 sửa đổi bổ sung những nghị định nào", "vang": ["347-2026-nd-cp:mo-dau"], "kiem_chung": "105/2025/NĐ-CP"}
+{"id": "A44", "loai": "A", "hoi": "Quyết định 975/QĐ-BXD bãi bỏ những thủ tục hành chính nào", "vang": ["975-qd-bxd:phan-phan-i-2-thu-tuc-han"], "kiem_chung": "Cấp chứng chỉ hành nghề kiến trúc"}
+{"id": "B42", "loai": "B", "hoi": "còn được gia hạn chứng chỉ hành nghề kiến trúc nữa không", "vang": ["975-qd-bxd:phan-phan-i-2-thu-tuc-han"], "kiem_chung": "Gia hạn chứng chỉ hành nghề kiến trúc"}
+{"id": "B43", "loai": "B", "hoi": "sát hạch cấp chứng chỉ hành nghề kiến trúc do tổ chức xã hội nghề nghiệp thực hiện", "vang": ["975-qd-bxd:phan-phan-i-2-thu-tuc-han"], "kiem_chung": "đủ điều kiện thực hiện sát hạch"}
+{"id": "E12", "loai": "E", "hoi": "Quyết định 975/QĐ-BXD có hiệu lực từ ngày nào và làm hết hiệu lực văn bản nào", "vang": ["975-qd-bxd:phan-dieu-2"], "kiem_chung": "01 tháng 7 năm 2026"}
+{"id": "F24", "loai": "F", "hoi": "thời hạn thẩm định quy hoạch đô thị và nông thôn do nhà đầu tư tổ chức lập là bao nhiêu ngày làm việc", "vang": ["975-qd-bxd:phan-phan-ii-noi-dung-cu"], "kiem_chung": "20 ngày làm việc"}
