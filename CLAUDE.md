@@ -460,6 +460,32 @@ Recall@5 = 0.90. Đây là đánh đổi có chủ ý, không phải hồi quy b
 mơ hồ) = 0.25. Loại K là câu hỏi nhắm vào phần hỏi đáp nghiệp vụ. Giới hạn của bộ đo được ghi ở `eval/README.md` — đọc trước khi
 trích dẫn con số.
 
+## Quy trình đưa thay đổi lên kho — ĐẨY THẲNG VÀO `main`
+
+Người dùng đã chọn rõ: **làm việc và đẩy thẳng lên `main`**, không qua nhánh phụ,
+không qua pull request. Trước đây quy trình là đẩy lên nhánh
+`claude/rag-construction-standards-pn8bjr` rồi người dùng tự gộp; nhánh đó nay
+**đã được gộp trọn vào `main`**, không còn commit lơ lửng.
+
+Vì không còn cửa kiểm tra của người dùng trước khi thay đổi vào kho, **bốn bước
+dưới đây là bắt buộc trước mỗi lần đẩy** — chúng thay thế phần việc mà bước xem
+lại pull request từng đảm nhiệm:
+
+```bash
+python3 tools/build_index.py        # 1. dựng lại chỉ mục, phải chạy được sạch
+python3 tools/build_index.py        # 2. chạy lần hai, kết quả phải giống hệt
+python3 eval/chay_danh_gia.py       # 3. không có dòng LỖI, chỉ số không tụt
+python3 tools/chen_anh_bang.py      # 4. không còn liên kết ảnh nào bị sót
+```
+
+Chỉ số tụt mà không giải thích được bằng phép đo thì **không đẩy** — sửa hoặc
+hoàn tác trước.
+
+Riêng những thay đổi **đụng tới nội dung corpus của văn bản pháp luật** (chép
+thêm điều khoản, sửa số liệu, cắt lại ảnh) thì vẫn phải kiểm chứng bằng thị giác
+máy đối chiếu bản gốc trước khi đẩy — đây là loại lỗi mà chỉ số truy hồi không
+bắt được.
+
 ## Cấu trúc kho
 
 ```
