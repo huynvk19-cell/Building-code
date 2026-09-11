@@ -481,7 +481,57 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với tokenizer cũ
 python3 eval/chay_danh_gia.py --chi-tiet # liệt kê câu trượt
 ```
 
-Mức hiện tại (205 câu, 13 văn bản, 989 chunk): Recall@1 = 0.562 · Recall@3 = 0.778 · Recall@5 = 0.809 · Recall@10 = 0.892 · MRR = 0.700.
+Mức hiện tại (205 câu, 13 văn bản, 989 chunk): Recall@1 = 0.570 · Recall@3 = 0.791 · Recall@5 = 0.839 · Recall@10 = 0.892 · MRR = 0.711.
+
+### Vì sao KHÔNG dùng cơ sở dữ liệu vector — đã đo, không phải quan điểm
+
+Quy mô hiện tại: **989 chunk · 2,2 MB · 15 ms mỗi truy vấn · 0,29 s dựng lại
+toàn bộ chỉ mục**. Cơ sở dữ liệu vector sinh ra để giải bài toán tìm láng giềng
+gần đúng ở quy mô hàng triệu véc-tơ; ở đây nó giải một bài toán kho này chưa có.
+
+Quan trọng hơn, **phép đo cho thấy truy hồi không phải là chỗ hỏng**:
+
+| Recall@K | Giá trị |
+|---|---|
+| @5 | 0.839 |
+| @10 | 0.892 |
+| @50 | 0.949 |
+| @100 | 0.979 |
+
+**Không một câu nào** trong bộ đánh giá thất bại vì BM25 tìm không ra chunk
+vàng — mọi chunk vàng đều được tìm thấy, chỉ bị xếp hạng thấp. Nghĩa là việc
+cần làm là **xếp hạng lại**, không phải đổi cách tìm. Nhúng ngữ nghĩa có dư địa
+thật (trần của một bộ xếp hạng lại hoàn hảo trên top 50 là 0.949), nhưng nó là
+lớp XẾP HẠNG LẠI đặt sau BM25, không phải lớp thay thế BM25.
+
+Lý do không thay BM25: tra cứu pháp luật cần khớp **định danh chính xác** —
+"mục 3.3.6", "Bảng G.9", và nhất là "QCVN 10:2024/BXD" so với "QCVN 10:2025/BCA"
+(khác một ký tự, hai văn bản hoàn toàn khác nhau). Véc-tơ nhúng làm mờ đúng thứ
+đó. Kho đã có `diem_cau_truc` cộng 12 điểm cho khớp số hiệu chính xác — một hệ
+thống thuần véc-tơ mất tín hiệu này.
+
+**Ngưỡng nên xem lại quyết định:** khi kho vượt khoảng **100 000 chunk** (gấp
+100 lần hiện nay, tương đương hơn 1 000 văn bản), hoặc khi có bằng chứng đo được
+rằng một lớp xếp hạng lại bằng nhúng vượt hơn tín hiệu vị trí gần nhau.
+
+**Ràng buộc môi trường hiện tại:** PyPI truy cập được nhưng `huggingface.co` bị
+chặn (HTTP 000) — tải được thư viện nhưng **không tải được trọng số mô hình**,
+nên không kiểm chứng được nhúng ngữ nghĩa từ đầu đến cuối trong phiên làm việc.
+
+### Tín hiệu vị trí gần nhau — lớp xếp hạng lại hiện hành
+
+`search.py` xếp hạng lại **top 10** bằng `diem_gan_nhau()`: cửa sổ ngắn nhất
+chứa được nhiều từ truy vấn nhất. Lý do: điều khoản pháp luật phát biểu quy định
+cô đọng nên các từ nằm sát nhau; chunk dài trùng nhiều từ nhưng rải rác thường
+chỉ *nhắc tới* chủ đề chứ không *quy định* về nó.
+
+Đo được: Recall@5 từ 0.809 lên 0.839, MRR từ 0.700 lên 0.711, Recall@10 giữ
+nguyên, thời gian từ 8 ms lên 15 ms. Hệ số 2.0 chọn từ một **mặt phẳng** 1.0–2.5
+chứ không phải một đỉnh nhọn. Số ứng viên 10 chọn từ quét 10/15/20/30/50/100 —
+xếp lại sâu hơn làm Recall@10 tụt 0.024.
+
+Đổi hai hằng số `HE_SO_GAN_NHAU` và `SO_UNG_VIEN_XEP_LAI` thì **phải quét lại
+cả hai dải**, đừng chỉnh theo cảm giác.
 
 Chi phí đã đo của việc thêm 133 chunk hỏi đáp, tính trên **đúng bộ 165 câu cũ**
 để so sánh công bằng: Recall@3 từ 0.774 xuống 0.762, MRR từ 0.709 xuống 0.698 —
