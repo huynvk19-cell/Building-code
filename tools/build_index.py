@@ -178,6 +178,12 @@ class ChunkBuilder:
         # thân rỗng là làm mất hẳn một điều khoản khỏi kho.
         if not text and self.current.get("loai") == "dieu" and self.current.get("tieu_de"):
             text = f"Điều {self.current['so_hieu_muc']}. {self.current['tieu_de']}"
+        # Mục CHA của quy chuẩn ("2.6 Yêu cầu về kiến trúc cảnh quan…") thường
+        # chỉ có tên, nội dung nằm ở các mục con. Bỏ nó đi thì PHẠM VI của cả
+        # nhánh biến mất khỏi chỉ mục — đúng cơ chế đã gây ra lỗi trích nhầm
+        # mục 2.7.4 QCVN 10:2024/BXD. Giữ lại tên làm thân chunk.
+        if not text and self.current.get("loai") == "muc" and self.current.get("tieu_de"):
+            text = f"{self.current['so_hieu_muc']} {self.current['tieu_de']}"
         if text:
             self.current["text"] = text
             if not self.current.get("tieu_de"):

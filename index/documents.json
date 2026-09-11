@@ -208,6 +208,46 @@
     "so_chunk": 46
   },
   {
+    "doc_id": "qcvn-01-2021-bxd",
+    "so_hieu": "QCVN 01:2021/BXD",
+    "loai_van_ban": "Quy chuẩn kỹ thuật quốc gia",
+    "tieu_de": "Quy chuẩn kỹ thuật quốc gia về Quy hoạch xây dựng",
+    "co_quan_ban_hanh": "Bộ Xây dựng",
+    "ngay_ban_hanh": "2021-05-19",
+    "ngay_hieu_luc": "2021-07-05",
+    "can_cu_hieu_luc": "Điều 2 Thông tư số 01/2021/TT-BXD ngày 19/5/2021 của Bộ Xây dựng",
+    "thay_the": [
+      "QCVN 01:2019/BXD (ban hành kèm Thông tư số 22/2019/TT-BXD ngày 31/12/2019)"
+    ],
+    "het_hieu_luc": "",
+    "sua_doi_boi": [],
+    "dieu_khoan_chuyen_tiep": "mục 3.4",
+    "linh_vuc": [
+      "quy hoạch xây dựng",
+      "quy hoạch đô thị",
+      "quy hoạch nông thôn",
+      "sử dụng đất",
+      "mật độ xây dựng",
+      "khoảng lùi",
+      "hạ tầng kỹ thuật",
+      "giao thông đô thị",
+      "cấp nước",
+      "thoát nước",
+      "cấp điện",
+      "cây xanh",
+      "nghĩa trang",
+      "chất thải rắn"
+    ],
+    "gia_tri_phap_ly": "",
+    "trang_thai": "hoàn chỉnh",
+    "nguon": "Công báo số 599 + 600 ngày 31/5/2021",
+    "cau_truc": "muc",
+    "sua_doi_cho": [],
+    "toan_van": "corpus/quy-chuan/qcvn-01-2021-bxd/toan-van.md",
+    "so_don_vi": 168,
+    "so_chunk": 168
+  },
+  {
     "doc_id": "qcvn-04-2021-bxd",
     "so_hieu": "QCVN 04:2021/BXD",
     "loai_van_ban": "Quy chuẩn kỹ thuật quốc gia",
@@ -236,8 +276,8 @@
     "cau_truc": "muc",
     "sua_doi_cho": [],
     "toan_van": "corpus/quy-chuan/qcvn-04-2021-bxd/toan-van.md",
-    "so_don_vi": 123,
-    "so_chunk": 123
+    "so_don_vi": 134,
+    "so_chunk": 134
   },
   {
     "doc_id": "qcvn-06-2022-bxd",
@@ -264,8 +304,8 @@
     "cau_truc": "muc",
     "sua_doi_cho": [],
     "toan_van": "corpus/quy-chuan/qcvn-06-2022-bxd/toan-van.md",
-    "so_don_vi": 389,
-    "so_chunk": 399
+    "so_don_vi": 435,
+    "so_chunk": 445
   },
   {
     "doc_id": "qcvn-10-2024-bxd",

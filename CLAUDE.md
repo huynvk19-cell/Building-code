@@ -53,7 +53,7 @@ trình là:
    cấu, tiết kiệm năng lượng, quy hoạch chi tiết…), hãy nói rõ ngay từ đầu thay
    vì cố nặn ra câu trả lời từ năm văn bản đang có.
 
-Kho hiện có **bảy văn bản quy phạm pháp luật có nội dung**, **một tài liệu tham
+Kho hiện có **tám văn bản quy phạm pháp luật có nội dung**, **một tài liệu tham
 khảo** (hỏi đáp nghiệp vụ) và **năm khung rỗng** (văn bản mới chỉ có tên, chưa
 có nội dung — xem mục riêng bên dưới). Mặc định của bạn khi không chắc
 phải là *"chưa có trong kho"*, không phải *"có lẽ là…"*.
@@ -82,6 +82,7 @@ Tình trạng hiện tại:
 | **Sửa đổi 1:2023 QCVN 06:2022/BXD** | `2023-12-01` (Điều 2 Thông tư 09/2023/TT-BXD) | **Điều 3 Thông tư 09/2023/TT-BXD** | Sửa đổi, bổ sung QCVN 06:2022/BXD. **Không thay thế** — phải đọc kèm bản gốc. |
 | **QCVN 10:2024/BXD** | `CHƯA XÁC ĐỊNH` | mục 3.1 | Hiệu lực nằm ở Thông tư 06/2024/TT-BXD — **chưa có trong kho**. |
 | **QCVN 10:2025/BCA** | `CHƯA XÁC ĐỊNH` | không có trong bản Quy chuẩn | Hiệu lực nằm ở Thông tư 103/2025/TT-BCA — **chưa có trong kho**. Phần hỏi đáp (giải đáp số 1531 và 1538) nói **30/12/2025**; đã ghi vào `ngay_hieu_luc_theo_tham_khao` nhưng **chưa được coi là đã chứng minh** — vẫn cần Thông tư. |
+| **QCVN 01:2021/BXD** | `2021-07-05` (Điều 2 Thông tư 01/2021/TT-BXD) | **mục 3.4** | **Quy hoạch xây dựng.** Thay thế QCVN 01:2019/BXD. Đủ 5 phần, 164 mục, 32 bảng. ⚠️ Viện dẫn **QCVN 06:2021/BXD** và **QCVN 10:2014/BXD** — cả hai ĐÃ BỊ THAY THẾ, xem mục cảnh báo bên dưới. |
 | **QCVN 04:2021/BXD** | `2021-07-05` (Điều 2 Thông tư 03/2021/TT-BXD) | không có | **Nhà chung cư.** Thay thế QCVN 04:2019/BXD. ⚠️ Viện dẫn **QCVN 06:2021/BXD** (12 chỗ) và **QCVN 10:2014/BXD** (7 chỗ) — cả hai ĐÃ BỊ THAY THẾ, xem mục cảnh báo bên dưới. |
 | **347/2026/NĐ-CP** | `2026-09-15` (Điều 41 khoản 1) | **Điều 40** | Sửa đổi 4 nghị định: 169/2025, **105/2025**, 106/2025, 282/2025. Bãi bỏ Điều 74 Nghị định 217/2026. ⚠️ Một phần nội dung (Điều 41 khoản 2) có hiệu lực **cùng thời điểm Luật sửa đổi Luật Phòng cháy chữa cháy** — ngày đó **CHƯA XÁC ĐỊNH**. |
 | **105/2025 · 106/2025 · 169/2025 · 282/2025 · 217/2026** | `CHƯA XÁC ĐỊNH` | — | **KHUNG RỖNG — chưa có nội dung.** Xem mục riêng bên dưới. |
@@ -471,7 +472,7 @@ bạn đọc nội dung thật.
 
 ## Đo chất lượng truy hồi
 
-`eval/` có bộ 205 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
+`eval/` có bộ 215 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
 vi kho). Sau khi sửa `tools/search.py` hoặc thay đổi cách cắt chunk, **phải chạy
 lại**:
 
@@ -481,7 +482,15 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với tokenizer cũ
 python3 eval/chay_danh_gia.py --chi-tiet # liệt kê câu trượt
 ```
 
-Mức hiện tại (205 câu, 13 văn bản, 989 chunk): Recall@1 = 0.570 · Recall@3 = 0.791 · Recall@5 = 0.839 · Recall@10 = 0.892 · MRR = 0.711.
+Mức hiện tại (215 câu, 14 văn bản, 1 214 chunk): Recall@1 = 0.550 · Recall@3 = 0.781 · Recall@5 = 0.842 · Recall@10 = 0.890 · MRR = 0.698.
+
+Chi phí đã đo của việc thêm QCVN 01:2021/BXD (168 chunk) và giữ lại các **mục cha chỉ
+có tên** (57 chunk trong các văn bản cũ): Recall@1 từ 0.570 xuống 0.550, MRR từ 0.711
+xuống 0.698. Tách riêng hai nguyên nhân bằng phép đo: giữ mục cha tốn 0.005 (khoảng
+một câu trên 205), phần còn lại là pha loãng do thêm một văn bản mới — đúng loại đánh
+đổi đã chấp nhận khi thêm phần hỏi đáp. Đổi lại, 10 câu hỏi mới về quy hoạch xây dựng
+đều tìm được đáp án, và **phạm vi của mục cha quay lại chỉ mục** — thứ mà việc thiếu nó
+đã gây ra lỗi trích nhầm mục 2.7.4 QCVN 10:2024/BXD.
 
 ### Vì sao KHÔNG dùng cơ sở dữ liệu vector — đã đo, không phải quan điểm
 
@@ -618,6 +627,45 @@ Lệnh này idempotent — chạy hai lần cho kết quả giống hệt nhau.
      Lệch là có mục bị nuốt. Đã gặp thật: phần "Giải thích từ ngữ" của
      QCVN 04:2021 đặt số hiệu **đứng một mình trên dòng** rồi mới tới thuật ngữ
      ở dòng sau, làm mất trọn 30 mục 1.4.1 đến 1.4.30 trước khi sửa.
+
+     **Năm bẫy đã gặp thật khi trích quy chuẩn bằng `--muc`**, đều đã có hàng
+     rào trong `tools/ingest_pdf_text.py`; đọc trước khi sửa các hàm đó:
+
+     1. **Dải ký tự `[a-zà-ỹ]` nuốt cả CHỮ HOA tiếng Việt.** "Đ" là U+0110,
+        "Ư" là U+01AF, "Ấ" là U+1EA4 — đều nằm giữa "à" (U+00E0) và "ỹ"
+        (U+1EF9). Dùng dải đó để đoán "dòng nối tiếp" thì tiêu đề
+        "1.2 Đối tượng áp dụng" bị coi là phần nối tiếp và mất tên mục. Phải
+        dùng `str.islower()`, không dùng dải ký tự.
+     2. **Tiêu đề mục là MỘT DÒNG RIÊNG trong bản in.** Nối dòng trước rồi mới
+        tách thì không còn ranh giới để tách, mọi mục mất tên. Ràng buộc này y
+        hệt ràng buộc đã phải đặt cho tên Điều của nghị định.
+     3. **Một ô bảng có thể trông giống số hiệu mục.** Bảng chiều rộng đường
+        của QCVN 01:2021/BXD có ô "2.400 - 4 000"; quy tắc "số hiệu phải tăng
+        dần" đã nhận nó thành mục 2.400 rồi chặn mất 67 mục còn lại. Hàng rào
+        đúng là `hop_le_tiep()`: chỉ cho **xuống một cấp bắt đầu từ 1**
+        (2.9.3 → 2.9.3.1) hoặc **tăng 1 ở một cấp rồi dừng** (2.9.3.4 → 2.9.4).
+     4. **Dòng thân bị ngắt trang có thể mở đầu bằng số hiệu.** Câu "…áp dụng
+        quy định từ điểm 2.7.3 đến điểm 2.7.7 dưới đây" xuống dòng thành
+        "2.7.3 đến điểm 2.7.7 dưới đây;" và sinh ra một mục 2.7.3 giả đứng ngay
+        trước mục 2.7.3 thật. Chữ thường ngay sau số hiệu là dấu hiệu chắc chắn
+        của phần nối tiếp.
+     5. **Tiêu đề chạy của bản Công báo lọt vào giữa câu.** Sau khi nối dòng,
+        corpus có những chỗ như "…đảm bảo CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021
+        QCVN 04:2021/BXD quy định…" — QCVN 04:2021/BXD từng dính 18 chỗ, đã gỡ.
+        `RE_RAC` nay lọc trọn dòng `CÔNG BÁO/...` và dòng chỉ có số hiệu quy
+        chuẩn; neo trọn dòng nên số hiệu nằm GIỮA câu văn không bị đụng tới.
+
+     **Mục cha chỉ có tên vẫn phải thành chunk.** Mục như
+     "2.6 Yêu cầu về kiến trúc cảnh quan…" không có thân riêng, nội dung nằm ở
+     các mục con. `build_index.py` từng bỏ chúng vì thân rỗng — và thế là
+     **phạm vi của cả nhánh biến mất khỏi chỉ mục**, đúng cơ chế đã gây ra lỗi
+     trích nhầm mục 2.7.4 QCVN 10:2024/BXD. Nay tên mục được dùng làm thân
+     chunk. Chi phí đo được: 0.005 Recall@1.
+
+     **Tiêu đề bảng phải đứng riêng một dòng và in đậm** (`**Bảng 2.1: Tên**`),
+     nếu không nó dính liền phần chữ trong ô bảng và `tools/chen_anh_bang.py`
+     không nhận ra để gắn ảnh. Tiêu đề bảng thật luôn có dấu ngăn sau số hiệu
+     (`:` hoặc `–`); câu viện dẫn "quy định tại Bảng 2.6;" thì không.
    - **Không có lớp văn bản** (bản quét): theo các bước 2 và 3 dưới đây.
 
 2. `python3 tools/ingest_pdf.py <file.pdf> --ten <ma-van-ban>`
@@ -716,8 +764,8 @@ python3 tools/cat_bang.py --pdf <goc.pdf> --trang 57 --bang G.2a \
 
 ### Đã cắt sẵn — kiểm tra trước khi nghĩ tới việc cắt mới
 
-Kho **đã có sẵn 121 ảnh bảng**, phủ **toàn bộ bảng của cả bốn văn bản**, và
-**cả 121 ảnh đều đã được chèn liên kết vào corpus** (kiểm lại bằng
+Kho **đã có sẵn 160 ảnh bảng**, phủ **toàn bộ bảng của cả năm văn bản**, và
+**cả 160 ảnh đều đã được chèn liên kết vào corpus** (kiểm lại bằng
 `tools/chen_anh_bang.py`). Con số này từng là 122; một ảnh đã bị xoá vì bắt
 nhầm câu văn xuôi thành bảng — xem phần bảng nhiều trang bên dưới:
 
@@ -727,6 +775,7 @@ nhầm câu văn xuôi thành bảng — xem phần bảng nhiều trang bên d�
 | QCVN 06:2022/BXD phụ lục | `corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/` | 48 |
 | QCVN 10:2025/BCA | `corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/` | 19 |
 | QCVN 10:2024/BXD | `corpus/quy-chuan/qcvn-10-2024-bxd/phu-luc/bang/` | 2 |
+| QCVN 01:2021/BXD | `corpus/quy-chuan/qcvn-01-2021-bxd/bang/` | 32 (39 ảnh, 7 bảng tràn trang) |
 
 Mỗi ảnh đã được **chèn liên kết ngay dưới tiêu đề bảng** trong `corpus/`, nên
 chunk trả về từ `search.py` đã mang sẵn đường dẫn ảnh. Chỉ việc gửi tệp đó cho

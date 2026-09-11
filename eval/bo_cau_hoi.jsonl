@@ -203,3 +203,13 @@
 {"id": "M06", "loai": "F", "hoi": "diện tích sử dụng tối thiểu của văn phòng kết hợp lưu trú", "vang": ["qcvn-04-2021-bxd:muc-2.2.6.1"], "kiem_chung": "không nhỏ hơn 25 m2"}
 {"id": "M07", "loai": "D", "hoi": "nhà chung cư cao trên 150 m hoặc có 4 tầng hầm thì áp dụng quy chuẩn thế nào", "vang": ["qcvn-04-2021-bxd:muc-1.1.2"], "kiem_chung": "150 m"}
 {"id": "M08", "loai": "B", "hoi": "chung cư có bắt buộc hệ thống thu gom rác không", "vang": ["qcvn-04-2021-bxd:muc-2.7.1"], "kiem_chung": "thu gom"}
+{"id": "O01", "loai": "A", "hoi": "khoảng lùi công trình so với chỉ giới đường đỏ quy định ở đâu", "vang": ["qcvn-01-2021-bxd:muc-2.6.2"], "kiem_chung": "Khoảng lùi của các công trình tiếp giáp với đường giao thông"}
+{"id": "O02", "loai": "A", "hoi": "mật độ xây dựng thuần là gì", "vang": ["qcvn-01-2021-bxd:muc-1.4.20"], "kiem_chung": "tỷ lệ diện tích chiếm đất của các công trình kiến trúc chính"}
+{"id": "O03", "loai": "A", "hoi": "chỉ giới đường đỏ được định nghĩa thế nào", "vang": ["qcvn-01-2021-bxd:muc-1.4.22"], "kiem_chung": "Đường ranh giới được xác định trên bản đồ quy hoạch"}
+{"id": "O04", "loai": "C", "hoi": "bán kính phục vụ trụ sở đội cảnh sát phòng cháy chữa cháy trong quy hoạch đô thị", "vang": ["qcvn-01-2021-bxd:muc-2.6.13"], "kiem_chung": "bán kính phục vụ tối đa là 3 km"}
+{"id": "O05", "loai": "C", "hoi": "cấp nước chữa cháy trong quy hoạch đô thị quy định thế nào", "vang": ["qcvn-01-2021-bxd:muc-2.10.5"], "kiem_chung": "Phải tận dụng các sông hồ, ao để cấp nước chữa cháy"}
+{"id": "O06", "loai": "A", "hoi": "kích thước tối thiểu lô đất xây dựng nhà ở trong khu quy hoạch mới", "vang": ["qcvn-01-2021-bxd:muc-2.6.6"], "kiem_chung": "Lô đất xây dựng nhà ở trong các khu quy hoạch xây dựng mới"}
+{"id": "O07", "loai": "B", "hoi": "quy hoạch nghĩa trang và cơ sở hỏa táng", "vang": ["qcvn-01-2021-bxd:muc-2.13.2"], "kiem_chung": "Nhu cầu đất nghĩa trang"}
+{"id": "O08", "loai": "B", "hoi": "hệ thống đường đô thị trong đồ án quy hoạch chung", "vang": ["qcvn-01-2021-bxd:muc-2.9.3.1"], "kiem_chung": "dự báo nhu cầu vận chuyển hành khách"}
+{"id": "O09", "loai": "A", "hoi": "quy chuẩn quy hoạch xây dựng có hiệu lực từ ngày nào", "vang": ["qcvn-01-2021-bxd:muc-0.2"], "kiem_chung": "có hiệu lực kể từ ngày 05/7/2021"}
+{"id": "O10", "loai": "B", "hoi": "mật độ xây dựng thuần tối đa cho phép của lô đất", "vang": ["qcvn-01-2021-bxd:muc-2.6.3"], "kiem_chung": "Mật độ xây dựng thuần tối đa của lô đất xây dựng nhà ở riêng lẻ"}

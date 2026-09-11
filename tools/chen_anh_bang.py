@@ -23,7 +23,7 @@ CORPUS = ROOT / "corpus"
 
 # "**Bảng G.9 – Hệ số không gian sàn** ^1)^"  ·  "## Bảng B.1 - Quy định về..."
 RE_TIEU_DE = re.compile(
-    r"^(?:#{1,4}\s+|\*\*)B[aả]ng\s+([A-Z]?\.?\d+[a-zA-Z]?)\s*[-–—]\s*(.+?)(?:\*\*)?\s*(?:\^\d\)\^)?\s*$"
+    r"^(?:#{1,4}\s+|\*\*)B[aả]ng\s+([A-Z]?\.?\d+(?:\.\d+)?[a-zA-Z]?)\s*[-–—:]\s*(.+?)(?:\*\*)?\s*(?:\^\d\)\^)?\s*$"
 )
 RE_ANH = re.compile(r"^!\[.*\]\([^)]*bang/.*\.png\)\s*$")
 RE_DUONG_DAN = re.compile(r"\(([^()]+\.png)\)\s*$")

@@ -16,4 +16,4 @@ chuong: "3 QUY ĐỊNH VỀ QUẢN LÝ"
 
 # 3.3 Quy định chuyển tiếp:
 
-Quy định chuyển tiếp: - Hồ sơ thiết kế xây dựng nhà chung cư, nhà chung cư hỗn hợp được cơ quan chuyên môn về xây dựng có thẩm quyền thẩm định trước khi Quy chuẩn này có hiệu lực, tiếp tục thực hiện theo hồ sơ thiết kế đã được thẩm định. - Hồ sơ thiết kế xây dựng nhà chung cư, nhà chung cư hỗn hợp được thẩm định sau thời điểm Quy chuẩn này có hiệu lực phải tuân thủ các quy định trong Quy chuẩn này. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+Quy định chuyển tiếp: - Hồ sơ thiết kế xây dựng nhà chung cư, nhà chung cư hỗn hợp được cơ quan chuyên môn về xây dựng có thẩm quyền thẩm định trước khi Quy chuẩn này có hiệu lực, tiếp tục thực hiện theo hồ sơ thiết kế đã được thẩm định. - Hồ sơ thiết kế xây dựng nhà chung cư, nhà chung cư hỗn hợp được thẩm định sau thời điểm Quy chuẩn này có hiệu lực phải tuân thủ các quy định trong Quy chuẩn này.

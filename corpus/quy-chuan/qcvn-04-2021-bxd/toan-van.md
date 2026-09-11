@@ -53,7 +53,7 @@ Quy chuẩn này quy định các yêu cầu kỹ thuật áp dụng khi xây d�
 
 ### 1.3
 
-Tài liệu viện dẫn Các tài liệu viện dẫn sau là cần thiết cho việc áp dụng quy chuẩn này. Trường hợp các tài liệu viện dẫn được sửa đổi, bổ sung hoặc thay thế thì áp dụng phiên bản mới nhất. QCVN 01:2021/BXD, Quy chuẩn kỹ thuật quốc gia về quy hoạch xây dựng. QCVN 01-1:2018/BYT, Quy chuẩn kỹ thuật quốc gia về chất lượng nước sạch sử dụng cho mục đích sinh hoạt. QCVN 02:2009/BXD, Quy chuẩn kỹ thuật quốc gia về số liệu điều kiện tự nhiên dùng trong xây dựng. QCVN 02:2019/BLĐTBXH, Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với thang máy. QCXDVN 05:2008/BXD, Quy chuẩn kỹ thuật quốc gia về nhà ở và công trình công cộng - An toàn sinh mạng và sức khỏe. QCVN 06:2021/BXD, Quy chuẩn kỹ thuật quốc gia về an toàn cháy cho nhà và công trình. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD QCVN 09:2017/BXD, Quy chuẩn kỹ thuật quốc gia về các công trình xây dựng sử dụng năng lượng hiệu quả. QCVN 10:2014/BXD, Quy chuẩn kỹ thuật quốc gia về xây dựng công trình đảm bảo cho người khuyết tật tiếp cận sử dụng. QCVN 12:2014/BXD, Quy chuẩn kỹ thuật quốc gia về hệ thống điện của nhà ở và công trình công cộng. QCVN 13:2018/BXD, Quy chuẩn kỹ thuật quốc gia về gara ô tô. QCVN 26:2010/BTNMT, Quy chuẩn kỹ thuật quốc gia về tiếng ồn. QCVN QTĐ 8:2010/BCT, Quy chuẩn kỹ thuật quốc gia về kỹ thuật điện. Tập 8: Quy chuẩn kỹ thuật điện hạ áp. QCVN 14:2008/BTNMT, Quy chuẩn kỹ thuật quốc gia về nước thải sinh hoạt. Quy chuẩn hệ thống cấp thoát nước trong nhà và công trình do Bộ Xây dựng ban hành theo Quyết định số 47/1999/QĐ-BXD ngày 21 tháng 12 năm 1999. Quy phạm trang bị điện do Bộ Công nghiệp ban hành theo Quyết định số 19/2006/QĐ-BCN ngày 11 tháng 7 năm 2006. TCVN 6396-72:2010,Yêu cầu an toàn về cấu tạo và lắp đặt thang máy. Áp dụng riêng cho thang máy chở người và thang máy chở người và hàng. Phần 72: Thang máy chữa cháy. TCVN 6396-73:2010,Yêu cầu an toàn về cấu tạo và lắp đặt thang máy. Áp dụng riêng cho thang máy chở người và thang máy chở người và hàng. Phần 73: Trạng thái của thang máy trong trường hợp có cháy.
+Tài liệu viện dẫn Các tài liệu viện dẫn sau là cần thiết cho việc áp dụng quy chuẩn này. Trường hợp các tài liệu viện dẫn được sửa đổi, bổ sung hoặc thay thế thì áp dụng phiên bản mới nhất. QCVN 01:2021/BXD, Quy chuẩn kỹ thuật quốc gia về quy hoạch xây dựng. QCVN 01-1:2018/BYT, Quy chuẩn kỹ thuật quốc gia về chất lượng nước sạch sử dụng cho mục đích sinh hoạt. QCVN 02:2009/BXD, Quy chuẩn kỹ thuật quốc gia về số liệu điều kiện tự nhiên dùng trong xây dựng. QCVN 02:2019/BLĐTBXH, Quy chuẩn kỹ thuật quốc gia về an toàn lao động đối với thang máy. QCXDVN 05:2008/BXD, Quy chuẩn kỹ thuật quốc gia về nhà ở và công trình công cộng - An toàn sinh mạng và sức khỏe. QCVN 06:2021/BXD, Quy chuẩn kỹ thuật quốc gia về an toàn cháy cho nhà và công trình. QCVN 09:2017/BXD, Quy chuẩn kỹ thuật quốc gia về các công trình xây dựng sử dụng năng lượng hiệu quả. QCVN 10:2014/BXD, Quy chuẩn kỹ thuật quốc gia về xây dựng công trình đảm bảo cho người khuyết tật tiếp cận sử dụng. QCVN 12:2014/BXD, Quy chuẩn kỹ thuật quốc gia về hệ thống điện của nhà ở và công trình công cộng. QCVN 13:2018/BXD, Quy chuẩn kỹ thuật quốc gia về gara ô tô. QCVN 26:2010/BTNMT, Quy chuẩn kỹ thuật quốc gia về tiếng ồn. QCVN QTĐ 8:2010/BCT, Quy chuẩn kỹ thuật quốc gia về kỹ thuật điện. Tập 8: Quy chuẩn kỹ thuật điện hạ áp. QCVN 14:2008/BTNMT, Quy chuẩn kỹ thuật quốc gia về nước thải sinh hoạt. Quy chuẩn hệ thống cấp thoát nước trong nhà và công trình do Bộ Xây dựng ban hành theo Quyết định số 47/1999/QĐ-BXD ngày 21 tháng 12 năm 1999. Quy phạm trang bị điện do Bộ Công nghiệp ban hành theo Quyết định số 19/2006/QĐ-BCN ngày 11 tháng 7 năm 2006. TCVN 6396-72:2010,Yêu cầu an toàn về cấu tạo và lắp đặt thang máy. Áp dụng riêng cho thang máy chở người và thang máy chở người và hàng. Phần 72: Thang máy chữa cháy. TCVN 6396-73:2010,Yêu cầu an toàn về cấu tạo và lắp đặt thang máy. Áp dụng riêng cho thang máy chở người và thang máy chở người và hàng. Phần 73: Trạng thái của thang máy trong trường hợp có cháy.
 
 ### 1.4
 
@@ -65,7 +65,7 @@ Nhà chung cư Nhà có từ 2 tầng trở lên, có nhiều căn hộ, có l�
 
 ### 1.4.2
 
-Cụm nhà chung cư Tập hợp từ hai nhà chung cư trở lên được xây dựng theo quy hoạch được duyệt, hồ sơ dự án do cơ quan có thẩm quyền phê duyệt. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+Cụm nhà chung cư Tập hợp từ hai nhà chung cư trở lên được xây dựng theo quy hoạch được duyệt, hồ sơ dự án do cơ quan có thẩm quyền phê duyệt.
 
 ### 1.4.3
 
@@ -93,7 +93,7 @@ Căn hộ lưu trú Căn hộ nằm trong nhà chung cư hỗn hợp (condotel),
 
 ### 1.4.9
 
-Văn phòng kết hợp lưu trú Văn phòng kết hợp lưu trú (officetel) nằm trong nhà chung cư hỗn hợp, có các trang thiết bị và dịch vụ cần thiết phục vụ cho một hay nhiều cá nhân làm việc kết hợp lưu trú. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+Văn phòng kết hợp lưu trú Văn phòng kết hợp lưu trú (officetel) nằm trong nhà chung cư hỗn hợp, có các trang thiết bị và dịch vụ cần thiết phục vụ cho một hay nhiều cá nhân làm việc kết hợp lưu trú.
 
 ### 1.4.10
 
@@ -107,17 +107,17 @@ Chiều cao thông thủy Chiều cao từ mặt sàn hoàn thiện đến mặt
 
 ### 1.4.12
 
-Chiều cao phòng cháy chữa cháy (Chiều cao PCCC) Chiều cao phòng cháy chữa cháy (chiều cao PCCC) của nhà được xác định bằng khoảng cách từ mặt đường thấp nhất cho xe chữa cháy tiếp cận tới mép dưới của lỗ cửa (cửa sổ) mở trên tường ngoài của tầng trên cùng, không kể tầng kỹ thuật trên cùng. Khi không có lỗ cửa (cửa sổ), thì chiều cao PCCC được xác định bằng một nửa tổng khoảng cách tính từ mặt đường cho xe  chữa cháy tiếp cận đến mặt sàn và đến trần của tầng trên cùng. Trong trường hợp mái nhà được khai thác sử dụng thì chiều cao PCCC của nhà được xác định bằng khoảng cách lớn nhất  từ mặt đường cho xe chữa cháy tiếp cận đến mép trên của tường chắn mái.
+Chiều cao phòng cháy chữa cháy (Chiều cao PCCC) Chiều cao phòng cháy chữa cháy (chiều cao PCCC) của nhà được xác định bằng khoảng cách từ mặt đường thấp nhất cho xe chữa cháy tiếp cận tới mép dưới của lỗ cửa (cửa sổ) mở trên tường ngoài của tầng trên cùng, không kể tầng kỹ thuật trên cùng. Khi không có lỗ cửa (cửa sổ), thì chiều cao PCCC được xác định bằng một nửa tổng khoảng cách tính từ mặt đường cho xe chữa cháy tiếp cận đến mặt sàn và đến trần của tầng trên cùng. Trong trường hợp mái nhà được khai thác sử dụng thì chiều cao PCCC của nhà được xác định bằng khoảng cách lớn nhất từ mặt đường cho xe chữa cháy tiếp cận đến mép trên của tường chắn mái.
 
 ### 1.4.13
 
-Diện tích sử dụng căn hộ Diện tích sàn được tính theo kích thước thông thủy của căn hộ: bao gồm diện tích sàn có kể đến tường/vách ngăn các phòng  bên trong căn hộ, diện tích ban công, lô gia; không bao gồm diện tích phần sàn có cột/vách chịu lực, có hộp kỹ thuật nằm bên trong căn hộ và diện tích tường/vách bao tòa nhà/căn hộ, tường/vách phân chia giữa các căn hộ.
+Diện tích sử dụng căn hộ Diện tích sàn được tính theo kích thước thông thủy của căn hộ: bao gồm diện tích sàn có kể đến tường/vách ngăn các phòng bên trong căn hộ, diện tích ban công, lô gia; không bao gồm diện tích phần sàn có cột/vách chịu lực, có hộp kỹ thuật nằm bên trong căn hộ và diện tích tường/vách bao tòa nhà/căn hộ, tường/vách phân chia giữa các căn hộ.
 
 CHÚ THÍCH: Kích thước thông thủy là kích thước được đo đến mép trong của lớp hoàn thiện tường/vách/đố kính/lan can sát mặt sàn (không bao gồm các chi tiết trang trí nội thất như ốp chân tường/gờ/phào...).Đối với ban công, lô gia thì tính toán toàn bộ diện tích sàn, trường hợp có mép tường chung thì tính theo mép trong của tường chung.
 
 ### 1.4.14
 
-Số tầng nhà Số tầng của tòa nhà bao gồm toàn bộ các tầng trên mặt đất (kể cả tầng kỹ thuật, tầng tum) và tầng bán/nửa hầm, không bao gồm tầng áp mái. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+Số tầng nhà Số tầng của tòa nhà bao gồm toàn bộ các tầng trên mặt đất (kể cả tầng kỹ thuật, tầng tum) và tầng bán/nửa hầm, không bao gồm tầng áp mái.
 
 CHÚ THÍCH 1: Tầng tum không tính vào số tầng nhà của công trình khi chỉ có chức năng sử dụng để bao che lồng cầu thang bộ/giếng thang máy và che chắn các thiết bị kỹ thuật của công trình (nếu có), đồng thời có diện tích mái tum không vượt quá 30% diện tích sàn mái.
 
@@ -147,7 +147,7 @@ Tầng kỹ thuật Tầng hoặc một phần tầng bố trí các gian kỹ t
 
 ### 1.4.20
 
-Gian kỹ thuật Gian phòng bố trí các thiết  bị kỹ thuật của tòa nhà hoặc tầng nhà. Các gian kỹ thuật có thể bố trí trên toàn bộ hoặc một phần của tầng kỹ thuật. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+Gian kỹ thuật Gian phòng bố trí các thiết bị kỹ thuật của tòa nhà hoặc tầng nhà. Các gian kỹ thuật có thể bố trí trên toàn bộ hoặc một phần của tầng kỹ thuật.
 
 ### 1.4.21
 
@@ -163,7 +163,7 @@ Lô gia Không gian có lan can bảo vệ, lùi vào so với mặt tường ba
 
 ### 1.4.24
 
-Không gian sinh hoạt cộng đồng Không gian được bố trí để tổ chức các hoạt động chung của cư dân sống trong nhà  chung cư, cụm nhà chung cư như: hội nghị cư dân, các hoạt động sinh hoạt văn hóa, vui chơi, giải trí và các sinh hoạt cộng đồng khác.
+Không gian sinh hoạt cộng đồng Không gian được bố trí để tổ chức các hoạt động chung của cư dân sống trong nhà chung cư, cụm nhà chung cư như: hội nghị cư dân, các hoạt động sinh hoạt văn hóa, vui chơi, giải trí và các sinh hoạt cộng đồng khác.
 
 ### 1.4.25
 
@@ -179,7 +179,7 @@ Khoang cháy Một phần của nhà được ngăn cách với các phần khá
 
 ### 1.4.28
 
-Tuổi thọ thiết kế Thời hạn sử dụng dự kiến theo thiết kế của công trình để tính toán kết cấu xây dựng (bao gồm cả phần nền móng) đảm bảo an toàn chịu lực và đảm bảo điều kiện sử dụng bình thường trong suốt thời gian khai thác và sử dụng công trình mà không phải tiến hành bất kỳ sửa chữa lớn hay gia cường kết cấu chịu lực nào. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+Tuổi thọ thiết kế Thời hạn sử dụng dự kiến theo thiết kế của công trình để tính toán kết cấu xây dựng (bao gồm cả phần nền móng) đảm bảo an toàn chịu lực và đảm bảo điều kiện sử dụng bình thường trong suốt thời gian khai thác và sử dụng công trình mà không phải tiến hành bất kỳ sửa chữa lớn hay gia cường kết cấu chịu lực nào.
 
 ### 1.4.29
 
@@ -187,7 +187,7 @@ Tiêu chuẩn lựa chọn áp dụng Tiêu chuẩn kỹ thuật quốc gia ho�
 
 ### 1.4.30
 
-Tài liệu chuẩn Tài liệu đề ra các quy tắc, hướng dẫn hoặc đặc tính đối với những hoạt  động hoặc những kết quả của chúng.
+Tài liệu chuẩn Tài liệu đề ra các quy tắc, hướng dẫn hoặc đặc tính đối với những hoạt động hoặc những kết quả của chúng.
 
 CHÚ THÍCH 1: Thuật ngữ “tài liệu chuẩn” là một thuật ngữ chung bao gồm các tài liệu như các tiêu chuẩn, quy định kỹ thuật, quy phạm thực hành và quy chuẩn kỹ thuật.
 
@@ -225,7 +225,7 @@ Nhà chung cư, nhà chung cư hỗn hợp phải được bảo trì theo đún
 
 ### 2.1.7
 
-Phần căn hộ chung cư trong nhà chung cư hỗn hợp phải có lối ra vào (không bao gồm buồng thang bộ thoát nạn) độc lập. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+Phần căn hộ chung cư trong nhà chung cư hỗn hợp phải có lối ra vào (không bao gồm buồng thang bộ thoát nạn) độc lập.
 
 ### 2.1.8
 
@@ -281,7 +281,7 @@ Các yêu cầu khác quy định theo tiêu chuẩn được lựa chọn áp d
 
 ### 2.2.6.1
 
-Diện tích sử dụng của văn phòng kết hợp lưu trú không nhỏ hơn 25 m2, trong đó diện tích của khu vực làm việc tối thiếu 9 m2. Không bố trí bếp trong văn phòng kết hợp lưu trú. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+Diện tích sử dụng của văn phòng kết hợp lưu trú không nhỏ hơn 25 m2, trong đó diện tích của khu vực làm việc tối thiếu 9 m2. Không bố trí bếp trong văn phòng kết hợp lưu trú.
 
 ### 2.2.6.2
 
@@ -297,7 +297,7 @@ Phần chức năng khác như văn phòng, nhà hàng, siêu thị, khách sạ
 
 ### 2.2.9
 
-Nhà  chung cư, phần căn hộ chung cư trong nhà chung cư hỗn hợp phải có chỗ phơi quần áo đảm bảo mỹ quan của tòa nhà và đô thị.
+Nhà chung cư, phần căn hộ chung cư trong nhà chung cư hỗn hợp phải có chỗ phơi quần áo đảm bảo mỹ quan của tòa nhà và đô thị.
 
 ### 2.2.10
 
@@ -305,11 +305,11 @@ Trong nhà chung cư, nhà chung cư hỗn hợp: - Đối với phòng ở, chi
 
 ### 2.2.11
 
-Cửa sổ của nhà chung cư, nhà chung cư hỗn hợp: - Cửa sổ chỉ được làm cửa trượt hoặc cửa lật có cữ an toàn khi mở. Vị trí của các bộ phận  điều khiển đóng mở cửa phải tuân thủ các quy định tại QCXDVN 05:2008/BXD. - Đối với căn hộ không có ban công hoặc lô gia, phải bố trí tối thiểu một cửa sổ ở tường mặt ngoài nhà có kích thước lỗ cửa thông thủy không nhỏ hơn (600x600) mm phục vụ cứu nạn, cứu hộ. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+Cửa sổ của nhà chung cư, nhà chung cư hỗn hợp: - Cửa sổ chỉ được làm cửa trượt hoặc cửa lật có cữ an toàn khi mở. Vị trí của các bộ phận điều khiển đóng mở cửa phải tuân thủ các quy định tại QCXDVN 05:2008/BXD. - Đối với căn hộ không có ban công hoặc lô gia, phải bố trí tối thiểu một cửa sổ ở tường mặt ngoài nhà có kích thước lỗ cửa thông thủy không nhỏ hơn (600x600) mm phục vụ cứu nạn, cứu hộ.
 
 ### 2.2.12
 
-Rào, lan can, ban công và lô gia ngoài việc đảm bảo các yêu cầu an toàn theo quy định của QCXDVN 05:2008/BXD thì chiều cao thông thủy tính từ sàn đến mặt dưới lỗ cửa/bậu cửa  sổ trong nhà chung cư, nhà chung cư hỗn hợp không được nhỏ hơn 1,4 m. Các vị trí khác tuân thủ QCXDVN 05:2008/BXD.
+Rào, lan can, ban công và lô gia ngoài việc đảm bảo các yêu cầu an toàn theo quy định của QCXDVN 05:2008/BXD thì chiều cao thông thủy tính từ sàn đến mặt dưới lỗ cửa/bậu cửa sổ trong nhà chung cư, nhà chung cư hỗn hợp không được nhỏ hơn 1,4 m. Các vị trí khác tuân thủ QCXDVN 05:2008/BXD.
 
 ### 2.2.13
 
@@ -339,7 +339,7 @@ Chỗ để xe của nhà chung cư, phần căn hộ trong nhà chung cư hỗn
 
 ### 2.2.17.2
 
-Diện tích chỗ để xe (bao gồm đường nội bộ trong gara/bãi để xe) của phần căn hộ lưu trú và phần văn phòng kết hợp lưu trú trong nhà chung cư hỗn hợp CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD phải tính toán đảm bảo tối thiểu 20 m2 cho 160 m2 diện tích sử dụng căn hộ lưu trú và phần văn phòng kết hợp lưu trú; phải nằm trong phần diện tích của dự án đã được phê duyệt.
+Diện tích chỗ để xe (bao gồm đường nội bộ trong gara/bãi để xe) của phần căn hộ lưu trú và phần văn phòng kết hợp lưu trú trong nhà chung cư hỗn hợp phải tính toán đảm bảo tối thiểu 20 m2 cho 160 m2 diện tích sử dụng căn hộ lưu trú và phần văn phòng kết hợp lưu trú; phải nằm trong phần diện tích của dự án đã được phê duyệt.
 
 ### 2.2.17.3
 
@@ -357,11 +357,11 @@ Kết cấu nhà chung cư, nhà chung cư hỗn hợp trong thời gian thi cô
 
 ### 2.3.2
 
-Nhà chung cư, nhà chung cư hỗn hợp phải đảm bảo các yêu cầu sau: a) Chuyển vị ngang tại đỉnh nhà và chuyển vị ngang tương đối giữa các tầng không được lớn hơn giá trị quy định theo tiêu chuẩn được lựa chọn áp dụng. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD b) Gia tốc cực đại của chuyển động tại đỉnh nhà do tải trọng gió tác dụng không vượt quá giá trị quy định trong tiêu chuẩn thiết kế lựa chọn áp dụng.
+Nhà chung cư, nhà chung cư hỗn hợp phải đảm bảo các yêu cầu sau: a) Chuyển vị ngang tại đỉnh nhà và chuyển vị ngang tương đối giữa các tầng không được lớn hơn giá trị quy định theo tiêu chuẩn được lựa chọn áp dụng. b) Gia tốc cực đại của chuyển động tại đỉnh nhà do tải trọng gió tác dụng không vượt quá giá trị quy định trong tiêu chuẩn thiết kế lựa chọn áp dụng.
 
 ### 2.3.3
 
-Móng và kết cấu móng, kết cấu tầng hầm và hệ thống kỹ thuật phần ngầm của nhà phải được  tính toán, thiết kế dựa trên các đặc trưng của đất nền, điều kiện địa chất thủy văn tại địa điểm xây dựng, cũng như mức độ xâm thực của đất nền và nước ngầm, phải đáp ứng được các yêu cầu sau: - Đảm bảo an toàn chịu lực và ổn định; - Đảm bảo độ lún, lún lệch nằm trong giới hạn cho phép theo quy định của nhiệm vụ thiết kế và tiêu chuẩn được lựa chọn áp dụng; - Đảm bảo an toàn cho bản thân công trình và các công trình lân cận trong quá trình thi công móng và tầng hầm.
+Móng và kết cấu móng, kết cấu tầng hầm và hệ thống kỹ thuật phần ngầm của nhà phải được tính toán, thiết kế dựa trên các đặc trưng của đất nền, điều kiện địa chất thủy văn tại địa điểm xây dựng, cũng như mức độ xâm thực của đất nền và nước ngầm, phải đáp ứng được các yêu cầu sau: - Đảm bảo an toàn chịu lực và ổn định; - Đảm bảo độ lún, lún lệch nằm trong giới hạn cho phép theo quy định của nhiệm vụ thiết kế và tiêu chuẩn được lựa chọn áp dụng; - Đảm bảo an toàn cho bản thân công trình và các công trình lân cận trong quá trình thi công móng và tầng hầm.
 
 ### 2.3.4
 
@@ -389,7 +389,7 @@ Cần bố trí tối thiểu 1 thang máy cho 200 người cư trú trong tòa 
 
 ### 2.4.4
 
-Chiều rộng sảnh thang máy chở người phải bố trí phù hợp theo tiêu chuẩn được lựa chọn áp dụng. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+Chiều rộng sảnh thang máy chở người phải bố trí phù hợp theo tiêu chuẩn được lựa chọn áp dụng.
 
 ### 2.4.5
 
@@ -427,7 +427,7 @@ Hệ thống cấp nước phải đảm bảo chất lượng vệ sinh theo QC
 
 ### 2.5.3
 
-Hệ thống cấp nước chữa cháy trong nhà và hệ thống cấp nước chữa cháy ngoài nhà phải tuân thủ các quy định của QCVN 06:2021/BXD và đảm bảo các yêu cầu sau: - Khi chưa có hệ thống cấp nước chữa cháy ngoài nhà hoặc không đảm bảo lưu lượng, áp lực nước chữa cháy (cột áp) thì phải có nguồn nước dự trữ đảm bảo lưu lượng nước chữa cháy của hệ thống họng nước chữa cháy bên trong nhà ít nhất trong 3 h; CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD - Nhà có chiều cao PCCC lớn hơn 50 m phải có họng nước chữa cháy cho lực lượng chữa cháy bố trí ở mỗi tầng,cửa căn hộ xa nhất của tầng phải nằm trong phạm vi 45 m tính từ họng nước chữa cháy (có tính toán đến đường di chuyển). Họng chờ phải đặt trong khoang đệm ngăn cháy (khoang đệm của buồng thang bộ không nhiễm khói hoặc khoang đệm của thang máy chữa cháy). Hệ thống họng chờ cấp nước chữa cháy cho lực lượng chữa cháy phải có họng chờ lắp đặt ở ngoài nhà để tiếp nước từ xe hoặc máy bơm chữa cháy và được nối với đường ống cấp nước chữa cháy trong nhà. Họng chờ phải thỏa mãn các quy định hiện hành; - Các họng nước chữa cháy trong nhà phải bố trí tại những nơi dễ tiếp cận sử dụng. Lưu lượng cần thiết của hệ thống họng nước chữa cháy trong nhà được lấy theo tiêu chuẩn kỹ thuật  được lựa chọn áp dụng, riêng đối với nhà có chiều cao PCCC trên 50 m và diện tích sàn của mỗi tầng lớn hơn 1500 m2, các tầng ở phải đảm bảo lưu lượng nước chữa cháy cho không ít hơn 4 tia phun chữa cháy, mỗi tia phun có lưu lượng 2,5 L/s trong khoảng thời gian chữa cháy tính toán nhưng không ít hơn 1 h. Mỗi điểm của tầng phải đảm bảo có hai họng nước chữa cháy phun tới đồng thời; - Cấp nước chữa cháy cho các hệ thống chữa cháy phải thực hiện theo các quy chuẩn, tiêu chuẩn hiện hành về phòng cháy chữa cháy.
+Hệ thống cấp nước chữa cháy trong nhà và hệ thống cấp nước chữa cháy ngoài nhà phải tuân thủ các quy định của QCVN 06:2021/BXD và đảm bảo các yêu cầu sau: - Khi chưa có hệ thống cấp nước chữa cháy ngoài nhà hoặc không đảm bảo lưu lượng, áp lực nước chữa cháy (cột áp) thì phải có nguồn nước dự trữ đảm bảo lưu lượng nước chữa cháy của hệ thống họng nước chữa cháy bên trong nhà ít nhất trong 3 h; - Nhà có chiều cao PCCC lớn hơn 50 m phải có họng nước chữa cháy cho lực lượng chữa cháy bố trí ở mỗi tầng,cửa căn hộ xa nhất của tầng phải nằm trong phạm vi 45 m tính từ họng nước chữa cháy (có tính toán đến đường di chuyển). Họng chờ phải đặt trong khoang đệm ngăn cháy (khoang đệm của buồng thang bộ không nhiễm khói hoặc khoang đệm của thang máy chữa cháy). Hệ thống họng chờ cấp nước chữa cháy cho lực lượng chữa cháy phải có họng chờ lắp đặt ở ngoài nhà để tiếp nước từ xe hoặc máy bơm chữa cháy và được nối với đường ống cấp nước chữa cháy trong nhà. Họng chờ phải thỏa mãn các quy định hiện hành; - Các họng nước chữa cháy trong nhà phải bố trí tại những nơi dễ tiếp cận sử dụng. Lưu lượng cần thiết của hệ thống họng nước chữa cháy trong nhà được lấy theo tiêu chuẩn kỹ thuật được lựa chọn áp dụng, riêng đối với nhà có chiều cao PCCC trên 50 m và diện tích sàn của mỗi tầng lớn hơn 1500 m2, các tầng ở phải đảm bảo lưu lượng nước chữa cháy cho không ít hơn 4 tia phun chữa cháy, mỗi tia phun có lưu lượng 2,5 L/s trong khoảng thời gian chữa cháy tính toán nhưng không ít hơn 1 h. Mỗi điểm của tầng phải đảm bảo có hai họng nước chữa cháy phun tới đồng thời; - Cấp nước chữa cháy cho các hệ thống chữa cháy phải thực hiện theo các quy chuẩn, tiêu chuẩn hiện hành về phòng cháy chữa cháy.
 
 ### 2.5.4
 
@@ -449,7 +449,7 @@ Bể xử lý nước thải của nhà phải được đặt ở vị trí thu
 
 ### 2.6.1
 
-Các căn hộ và không gian ngoài căn hộ trong nhà chung cư, nhà chung cư hỗn hợp phải có hệ thống thông gió tự nhiên hoặc cưỡng bức. Phải bố trí thông gió cục bộ cho khu vực bếp, phòng tắm, phòng vệ sinh. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+Các căn hộ và không gian ngoài căn hộ trong nhà chung cư, nhà chung cư hỗn hợp phải có hệ thống thông gió tự nhiên hoặc cưỡng bức. Phải bố trí thông gió cục bộ cho khu vực bếp, phòng tắm, phòng vệ sinh.
 
 ### 2.6.2
 
@@ -479,13 +479,13 @@ Hệ thống hố thoát trong khu vệ sinh của nhà chung cư, nhà chung c�
 
 ### 2.6.8
 
-Các hệ thống thông gió thoát khói, hút khói  và bảo vệ chống khói cho các lối thoát nạn, giới hạn chịu lửa của các đường ống gió và kênh - giếng dẫn gió phải phù hợp với các yêu cầu trong QCVN 06:2021/BXD.
+Các hệ thống thông gió thoát khói, hút khói và bảo vệ chống khói cho các lối thoát nạn, giới hạn chịu lửa của các đường ống gió và kênh - giếng dẫn gió phải phù hợp với các yêu cầu trong QCVN 06:2021/BXD.
 
 ### 2.7 Yêu cầu về hệ thống thu gom rác
 
 ### 2.7.1
 
-Nhà chung cư và nhà chung cư hỗn hợp phải có hệ thống thu gom rác đảm bảo các quy định về an toàn cháy nổ, vệ sinh môi trường. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+Nhà chung cư và nhà chung cư hỗn hợp phải có hệ thống thu gom rác đảm bảo các quy định về an toàn cháy nổ, vệ sinh môi trường.
 
 ### 2.7.2
 
@@ -493,11 +493,11 @@ Hệ thống thu gom rác bên trong nhà chung cư và nhà chung cư hỗn h�
 
 ### 2.7.3
 
-Hệ thống thu gom rác thải trong nhà theo đường ống phải đảm bảo các yêu cầu sau: - Cửa ống thu rác phải được bố trí tại buồng thu rác đặt ở từng tầng. Buồng thu rác phải là một không gian khép kín, được thông gió  tự nhiên hoặc cưỡng bức, không gây lây lan mùi ra các khu vực xung quanh; - Lối vào buồng thu rác ở mỗi tầng phải đi qua khoang đệm chống cháy. Buồng thu rác và khoang đệm chống cháy phải được bố trí hệ thống báo cháy tự động hoặc chữa cháy tự động; - Tổ hợp đường ống, cửa của đường ống thu rác, tấm chắn, van, cửa buồng thu rác phải được chế tạo từ vật liệu chống ăn mòn, không cháy (xác định theo QCVN 06:2021/BXD). Tổ hợp này phải được cách âm khi bố trí sát phòng ngủ; - Cửa của đường ống thu rác phải là cửa chống cháy loại 1, kín khít, ngăn được mùi và có cơ cấu chắn khói tự động; - Phần đỉnh của đường ống thu rác phải có đường ống thoát hơi nhô lên khỏi mái nhà không ít  hơn 0,7 m, diện tích mặt cắt không nhỏ hơn 0,05 m2 đồng thời phải có mái che mưa và lưới chắn để ngăn không cho các loài côn trùng, gặm nhấm xâm nhập; - Buồng chứa rác phải được bố trí ngay dưới đường ống thu rác tại tầng đầu tiên trên mặt đất hoặc tầng nửa hầm hoặc tầng hầm thứ nhất (nếu không có tầng nửa hầm); buồng chứa rác phải có chiều cao thông thủy không dưới 2,5 m và có cửa mở ra ngoài; buồng chứa rác phải có cửa cách ly với lối vào nhà bằng tường đặc và được ngăn với các bộ phận khác của nhà bằng tường ngăn cháy (có giới hạn chịu lửa không thấp hơn REI 60); phải có hệ thống thông gió; có hệ thống báo cháy tự động, chữa cháy tự động; - Buồng chứa rác phải có hố thu và đường ống dẫn nước bẩn vào hệ thống thoát nước thải chung của nhà, cũng như có lối vào riêng phục vụ việc chuyên chở rác.
+Hệ thống thu gom rác thải trong nhà theo đường ống phải đảm bảo các yêu cầu sau: - Cửa ống thu rác phải được bố trí tại buồng thu rác đặt ở từng tầng. Buồng thu rác phải là một không gian khép kín, được thông gió tự nhiên hoặc cưỡng bức, không gây lây lan mùi ra các khu vực xung quanh; - Lối vào buồng thu rác ở mỗi tầng phải đi qua khoang đệm chống cháy. Buồng thu rác và khoang đệm chống cháy phải được bố trí hệ thống báo cháy tự động hoặc chữa cháy tự động; - Tổ hợp đường ống, cửa của đường ống thu rác, tấm chắn, van, cửa buồng thu rác phải được chế tạo từ vật liệu chống ăn mòn, không cháy (xác định theo QCVN 06:2021/BXD). Tổ hợp này phải được cách âm khi bố trí sát phòng ngủ; - Cửa của đường ống thu rác phải là cửa chống cháy loại 1, kín khít, ngăn được mùi và có cơ cấu chắn khói tự động; - Phần đỉnh của đường ống thu rác phải có đường ống thoát hơi nhô lên khỏi mái nhà không ít hơn 0,7 m, diện tích mặt cắt không nhỏ hơn 0,05 m2 đồng thời phải có mái che mưa và lưới chắn để ngăn không cho các loài côn trùng, gặm nhấm xâm nhập; - Buồng chứa rác phải được bố trí ngay dưới đường ống thu rác tại tầng đầu tiên trên mặt đất hoặc tầng nửa hầm hoặc tầng hầm thứ nhất (nếu không có tầng nửa hầm); buồng chứa rác phải có chiều cao thông thủy không dưới 2,5 m và có cửa mở ra ngoài; buồng chứa rác phải có cửa cách ly với lối vào nhà bằng tường đặc và được ngăn với các bộ phận khác của nhà bằng tường ngăn cháy (có giới hạn chịu lửa không thấp hơn REI 60); phải có hệ thống thông gió; có hệ thống báo cháy tự động, chữa cháy tự động; - Buồng chứa rác phải có hố thu và đường ống dẫn nước bẩn vào hệ thống thoát nước thải chung của nhà, cũng như có lối vào riêng phục vụ việc chuyên chở rác.
 
 ### 2.7.4
 
-Hệ thống thu gom rác thải trong nhà trên từng tầng phải đảm bảo các yêu cầu sau: - Thùng thu gom rác thải phải được đặt tại mỗi tầng trong một phòng riêng, không gây cản trở việc thoát nạn, cứu hộ; CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD - Trong mỗi phòng thu gom rác thải phải bố trí đồng thời thùng thu gom rác thải hữu cơ dễ phân hủy và thùng thu gom rác thải khó phân hủy; - Phòng chứa thùng thu gom rác thải phải được ngăn với khu vực khác bằng các bộ phận ngăn cháy, có hệ thống thông gió, có hệ thống báo cháy tự động, chữa cháy tự động; - Các thùng thu gom rác thải phải kín, không phát tán mùi, không rò rỉ, không gây rơi vãi rác khi vận chuyển. Việc vận chuyển các thùng thu gom rác ra khỏi mỗi tầng phải được thực hiện trong ngày; - Các loại rác gây nguy cơ cháy nổ, phát tán dịch bệnh không được đổ vào thùng thu gom rác.
+Hệ thống thu gom rác thải trong nhà trên từng tầng phải đảm bảo các yêu cầu sau: - Thùng thu gom rác thải phải được đặt tại mỗi tầng trong một phòng riêng, không gây cản trở việc thoát nạn, cứu hộ; - Trong mỗi phòng thu gom rác thải phải bố trí đồng thời thùng thu gom rác thải hữu cơ dễ phân hủy và thùng thu gom rác thải khó phân hủy; - Phòng chứa thùng thu gom rác thải phải được ngăn với khu vực khác bằng các bộ phận ngăn cháy, có hệ thống thông gió, có hệ thống báo cháy tự động, chữa cháy tự động; - Các thùng thu gom rác thải phải kín, không phát tán mùi, không rò rỉ, không gây rơi vãi rác khi vận chuyển. Việc vận chuyển các thùng thu gom rác ra khỏi mỗi tầng phải được thực hiện trong ngày; - Các loại rác gây nguy cơ cháy nổ, phát tán dịch bệnh không được đổ vào thùng thu gom rác.
 
 ### 2.8
 
@@ -519,7 +519,7 @@ Phòng kỹ thuật điện phải bố trí ở vị trí khô ráo, có khóa,
 
 Nhà có chiều cao PCCC từ 28 m trở lên phải được trang bị máy phát điện dự phòng với công suất tối thiểu đảm bảo hoạt động của mạng điện ưu tiên gồm: điện cho bơm nước sinh hoạt, bơm nước chữa cháy, hệ thống báo cháy tự động, hệ thống bảo vệ chống khói, thang máy chữa cháy, chiếu sáng công cộng, thiết bị báo cháy, camera quan sát, thông báo cháy và điều khiển thoát nạn và các phụ tải khác theo quy định của tiêu chuẩn thiết kế hiện hành.
 
-CHÚ THÍCH: Đối với nhà có chiều cao PCCC thấp hơn 28 m, khi có yêu cầu trang bị hệ thống chữa cháy tự động, hệ thống bảo vệ chống khói cần phải có nguồn điện dự phòng đảm bảo hoạt động của các hệ thống này theo QCVN 06:2021/BXD. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+CHÚ THÍCH: Đối với nhà có chiều cao PCCC thấp hơn 28 m, khi có yêu cầu trang bị hệ thống chữa cháy tự động, hệ thống bảo vệ chống khói cần phải có nguồn điện dự phòng đảm bảo hoạt động của các hệ thống này theo QCVN 06:2021/BXD.
 
 ### 2.8.5
 
@@ -545,7 +545,7 @@ Khuyến khích áp dụng Quy chuẩn này khi cải tạo nhà chung cư cũ.
 
 ### 3.3
 
-Quy định chuyển tiếp: - Hồ sơ thiết kế xây dựng nhà chung cư, nhà chung cư hỗn hợp được cơ quan chuyên môn về xây dựng có thẩm quyền thẩm định trước khi Quy chuẩn này có hiệu lực, tiếp tục thực hiện theo hồ sơ thiết kế đã được thẩm định. - Hồ sơ thiết kế xây dựng nhà chung cư, nhà chung cư hỗn hợp được thẩm định sau thời điểm Quy chuẩn này có hiệu lực phải tuân thủ các quy định trong Quy chuẩn này. CÔNG BÁO/Số 599 + 600/Ngày 31-5-2021 QCVN 04:2021/BXD
+Quy định chuyển tiếp: - Hồ sơ thiết kế xây dựng nhà chung cư, nhà chung cư hỗn hợp được cơ quan chuyên môn về xây dựng có thẩm quyền thẩm định trước khi Quy chuẩn này có hiệu lực, tiếp tục thực hiện theo hồ sơ thiết kế đã được thẩm định. - Hồ sơ thiết kế xây dựng nhà chung cư, nhà chung cư hỗn hợp được thẩm định sau thời điểm Quy chuẩn này có hiệu lực phải tuân thủ các quy định trong Quy chuẩn này.
 
 ## 4 TRÁCH NHIỆM CỦA TỔ CHỨC, CÁ NHÂN
 
