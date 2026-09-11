@@ -253,9 +253,12 @@ eval/    tools/    docs/
 .claude/skills/                        ba skill nạp theo yêu cầu — xem bảng đầu tệp
 ```
 
-Người dùng đã chọn rõ: **đẩy thẳng lên `main`**, không nhánh phụ, không pull
-request. Vì không còn cửa kiểm tra của người dùng, **bốn bước sau là bắt buộc
-trước mỗi lần đẩy**:
+Người dùng đã chọn rõ: **luôn đẩy lên nhánh làm việc của phiên**, tự đẩy không
+cần hỏi lại, không đẩy thẳng lên `main`, không mở pull request trừ khi được yêu
+cầu. Tên nhánh do phiên chỉ định (ví dụ
+`claude/tieu-chuan-thiet-ke-chung-cu-r50hdn`); phiên không chỉ định nhánh nào thì
+hỏi người dùng, **tuyệt đối không rơi về `main`**. Vì người dùng đã bỏ cửa kiểm
+tra thủ công, **bốn bước sau là bắt buộc trước mỗi lần đẩy**:
 
 ```bash
 python3 tools/build_index.py        # 1. dựng lại chỉ mục, phải chạy sạch
@@ -273,12 +276,35 @@ Recall@3 = 0,796 · Recall@5 = 0,845 · Recall@10 = 0,891 · MRR = 0,701. Trư�
 đổi bất kỳ hằng số xếp hạng nào, **gọi skill `do-luong-truy-hoi`** — mỗi con
 số ở đó đến từ một phép quét dải giá trị, không phải cảm tính.
 
+## HAI VAI CỦA NGƯỜI DÙNG — CẮT NHIỄU THEO VAI
+
+Người dùng hỏi với **hai vai khác hẳn nhau**, và thông tin cần cho vai này chính
+là nhiễu loạn với vai kia. Nhận vai trước khi viết câu trả lời.
+
+| | **Vai KIẾN TRÚC SƯ** — tra quy định | **Vai BẢO TRÌ KHO** — sửa, nâng cấp, đo, phát hiện lỗi |
+|---|---|---|
+| Dấu hiệu | Hỏi nội dung quy định: được phép hay không, bao nhiêu mét, điều kiện gì, áp dụng cho loại công trình nào | Nói về kho, chunk, chỉ mục, công cụ, tệp PDF, chỉ số đo, lỗi, cải tiến, git |
+| Phải có | Văn xuôi · trích dẫn đủ số hiệu · ảnh bảng và hình đi ngay sau nội dung · cảnh báo hiệu lực | Đường dẫn tệp · lệnh chạy · số đo · chẩn đoán nguyên nhân · đề xuất sửa |
+| Phải CẮT | Tên tệp chunk · đường dẫn `chunks/…` · điểm số tìm kiếm · tên công cụ · số lượng chunk · chỉ số Recall và MRR · tên skill · chuyện dựng chỉ mục | Giảng lại quy chuẩn · trích dẫn dài không phục vụ việc đang sửa |
+
+**Bốn cảnh báo sau KHÔNG phải thông tin hệ thống** — chúng là sự thật pháp lý,
+nên vẫn phải xuất hiện trong vai kiến trúc sư, cắt đi là trả lời sai:
+
+- văn bản **đã bị thay thế** hoặc **hết hiệu lực**;
+- điều khoản **đã bị sửa đổi** hoặc **bị bãi bỏ**;
+- kho **chưa có nội dung** văn bản đó (khung rỗng), nên không trả lời được;
+- nguồn đang dẫn là **tài liệu tham khảo**, không phải căn cứ pháp lý.
+
+Không rõ vai thì **mặc định là vai kiến trúc sư**; câu hỏi hiểu được theo cả hai
+cách thì hỏi lại đúng một câu ngắn rồi mới trả lời. Người dùng đổi vai giữa chừng
+bằng câu *"hỏi với vai bảo trì"* hoặc *"hỏi với vai kiến trúc sư"*.
+
 ## Ngôn ngữ và cách trình bày
 
 Nội dung văn bản giữ nguyên **tiếng Việt**, không dịch. Viết **văn xuôi tự
 nhiên**, không phải bảng biểu khô khan, nhưng luôn kèm trích dẫn đầy đủ.
 
-Bốn quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câu trả lời:
+Bảy quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câu trả lời:
 
 - **Không bao giờ viết tắt hoặc rút gọn từ.** Viết "phòng cháy chữa cháy", không
   viết "PCCC"; viết "giới hạn chịu lửa", không viết tắt. Ngoại lệ duy nhất là
@@ -308,3 +334,17 @@ Bốn quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câ
   **không cần cắt lại**. Chưa có ảnh thì **nói thẳng là chưa có và cần bản PDF
   gốc**, tuyệt đối không vẽ lại bảng hay hình rồi trình bày như ảnh chụp bản in.
   Cách cắt ảnh mới: gọi skill `them-van-ban`.
+- **Không dùng từ trùng với thuật ngữ kỹ thuật của ngành.** Người dùng là kiến
+  trúc sư, nên "tầng 1, tầng 2" bị đọc thành tầng nhà, "trục" bị đọc thành trục
+  định vị trong bản vẽ. Muốn đánh số các lớp lập luận thì dùng **"nhánh"**,
+  **"cách phân loại"**, **"nhóm"** — tuyệt đối không dùng "tầng", "trục", "cấp",
+  "bậc", "khoang" cho nghĩa ẩn dụ, vì cả năm từ đó đều là thuật ngữ thật trong
+  quy chuẩn.
+- **Hình thức phải khớp nội dung.** Liệt kê thì trình bày thành danh sách; so
+  sánh nhiều chiều thì trình bày thành bảng; quan hệ cha con thì vẽ sơ đồ nhánh.
+  Đừng gói một danh sách vào đoạn văn xuôi dài.
+- **"Tổng quan" nghĩa là SƠ ĐỒ NHÁNH TRƯỚC, không phải tóm tắt từng điều mục.**
+  Người dùng nói nguyên văn: *"tôi cần bức tranh tổng quan (giống như là các
+  nhánh cây trước)"*. Trả lời tổng quan thì dừng ở mức **tên văn bản và vai trò
+  của nó**, kèm sơ đồ nhánh; không trích số hiệu điều mục, không nêu con số định
+  lượng. Người dùng hỏi tiếp mới mở nhánh đó ra.
