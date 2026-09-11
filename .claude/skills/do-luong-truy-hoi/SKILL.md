@@ -1,7 +1,21 @@
+---
+name: do-luong-truy-hoi
+description: >-
+  Hồ sơ bằng chứng đo lường của kho RAG này: chỉ số Recall và MRR, lý do KHÔNG
+  dùng cơ sở dữ liệu vector, cách chọn từng hằng số xếp hạng, và những mục hỏi
+  đáp đã bị loại vì chứa thông tin cá nhân của người thứ ba. BẮT BUỘC gọi skill
+  này TRƯỚC KHI: sửa tools/search.py, tools/build_index.py hay cách cắt chunk;
+  đổi HE_SO_THAM_KHAO, HE_SO_GAN_NHAU, SO_UNG_VIEN_XEP_LAI hay bất kỳ hằng số
+  xếp hạng nào; đề xuất dùng vector database, embedding, nhúng ngữ nghĩa, tìm
+  kiếm ngữ nghĩa hay reranker; trả lời câu hỏi kiểu "sao không dùng X cho nhanh
+  hơn"; hoặc trích một con số chất lượng truy hồi cho người dùng. Mỗi con số
+  trong đó đến từ một phép quét dải giá trị — trả lời từ trí nhớ là trả lời sai.
+---
+
 # Đo lường và các quyết định thiết kế — hồ sơ bằng chứng
 
-Tệp này tách khỏi `CLAUDE.md` vì nó là **hồ sơ tra khi cần**, không phải hàng
-rào phải bật lên trong mọi câu trả lời. Đọc nó khi bạn định:
+Skill này tách khỏi `CLAUDE.md` vì nó là **hồ sơ tra khi cần**, không phải hàng
+rào phải bật lên trong mọi câu trả lời. Nó được nạp khi bạn định:
 
 - sửa `tools/search.py`, `tools/build_index.py` hoặc cách cắt chunk;
 - đổi một hằng số xếp hạng (`HE_SO_THAM_KHAO`, `HE_SO_GAN_NHAU`,

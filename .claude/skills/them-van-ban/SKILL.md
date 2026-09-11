@@ -1,7 +1,22 @@
+---
+name: them-van-ban
+description: >-
+  Quy trình số hóa văn bản pháp luật xây dựng vào kho RAG này, kèm năm bẫy đã
+  mắc thật của bộ trích quy chuẩn và cách cắt ảnh bảng, ảnh hình từ PDF gốc.
+  BẮT BUỘC gọi skill này TRƯỚC KHI làm bất cứ việc nào sau đây, kể cả khi người
+  dùng chỉ gửi một tệp PDF kèm câu "thêm cái này vào kho" mà không nói gì thêm:
+  thêm hoặc cập nhật một quy chuẩn, tiêu chuẩn, nghị định, thông tư, luật; chạy
+  tools/ingest_pdf_text.py hoặc tools/ingest_pdf.py; sửa bất kỳ hàm nào trong
+  tools/ingest_pdf_text.py, tools/cat_bang.py, tools/cat_hinh.py,
+  tools/chen_anh_bang.py; cắt ảnh bảng hoặc hình từ PDF; tạo khung rỗng cho văn
+  bản chưa có nội dung; hoặc khi thấy số mục trích ra không khớp bản gốc. Bỏ qua
+  skill này thì gần như chắc chắn mắc lại một trong năm bẫy đã ghi trong đó.
+---
+
 # Thêm văn bản mới vào kho
 
-Tệp này tách khỏi `CLAUDE.md` để `CLAUDE.md` chỉ còn những hàng rào phải bật
-lên trong MỌI câu trả lời. Nội dung ở đây chỉ cần đọc khi bạn thật sự bắt tay
+Skill này tách khỏi `CLAUDE.md` để `CLAUDE.md` chỉ còn những hàng rào phải bật
+lên trong MỌI câu trả lời. Nội dung ở đây nạp vào ngữ cảnh đúng lúc bạn bắt tay
 vào một trong ba việc: **số hóa một văn bản mới**, **cắt ảnh bảng hoặc hình**,
 hoặc **sửa `tools/ingest_pdf_text.py`**.
 

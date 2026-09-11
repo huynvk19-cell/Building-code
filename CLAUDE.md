@@ -6,11 +6,20 @@ kiến trúc sư, cần trích dẫn chính xác chứ không cần diễn giả
 Tệp này chỉ chứa **những hàng rào phải bật lên trong mọi câu trả lời**. Ba loại
 việc còn lại có tệp riêng, đọc khi bắt tay vào làm:
 
-| Định làm gì | Đọc tệp nào |
+Phần còn lại nằm trong **ba skill**, chỉ nạp vào ngữ cảnh khi được gọi — nhờ
+vậy tệp này không phải mang chúng suốt phiên làm việc:
+
+| Khi nào | Gọi skill |
 |---|---|
-| Thêm văn bản mới · cắt ảnh bảng, hình · sửa `tools/ingest_pdf_text.py` | **`docs/them-van-ban-moi.md`** — bắt buộc, chứa 5 bẫy đã mắc thật |
-| Sửa `search.py`, `build_index.py`, đổi hằng số xếp hạng, bàn về vector database | **`docs/do-luong-va-thiet-ke.md`** |
-| Trả lời người dùng cuối về cách dùng kho | `docs/huong-dan-su-dung.md` |
+| Câu hỏi chạm tới **an toàn cháy, thoát nạn, phòng cháy chữa cháy, karaoke, hoặc tiếp cận cho người khuyết tật** | **`an-toan-chay`** — BẮT BUỘC, gọi trước khi viết câu trả lời |
+| Thêm văn bản mới · cắt ảnh bảng, hình · sửa `tools/ingest_pdf_text.py` | **`them-van-ban`** — BẮT BUỘC, chứa 5 bẫy đã mắc thật |
+| Sửa `search.py`, `build_index.py`, đổi hằng số xếp hạng, bàn về vector database | **`do-luong-truy-hoi`** |
+
+**Ba skill này không phải tài liệu tham khảo tùy chọn.** Mỗi cái chứa những điều
+khoản đã bị bãi bỏ hoặc những bẫy kỹ thuật mà nếu không đọc thì câu trả lời sẽ
+sai — sai một cách nghe rất hợp lý. Khi phân vân có nên gọi hay không, hãy gọi.
+
+Hướng dẫn dành cho người dùng cuối (không phải cho bạn) ở `docs/huong-dan-su-dung.md`.
 
 ## Nguyên tắc trả lời — bắt buộc
 
@@ -66,74 +75,15 @@ ngày cụ thể. `het_hieu_luc` có giá trị → phải cảnh báo.
 | Văn bản | `ngay_hieu_luc` | Chuyển tiếp | Ghi chú |
 |---|---|---|---|
 | **212/2026/NĐ-CP** | `2026-07-01` (Điều 57 khoản 1) | **Điều 55** | Thay thế NĐ 111/2024. Đọc Điều 55 trước khi tư vấn cho hồ sơ nộp trước 01/7/2026. |
-| **QCVN 06:2022/BXD** | `2023-01-16` (Điều 2 TT 06/2022/TT-BXD) | **mục 7.1** | Đủ mục 1–7 và Phụ lục A–I. ⚠️ **Đã bị Sửa đổi 1:2023 sửa nhiều điểm** — xem mục riêng. |
+| **QCVN 06:2022/BXD** | `2023-01-16` (Điều 2 TT 06/2022/TT-BXD) | **mục 7.1** | Đủ mục 1–7 và Phụ lục A–I. ⚠️ **Đã bị Sửa đổi 1:2023 sửa nhiều điểm, có phần BỊ BÃI BỎ** — gọi skill `an-toan-chay`. |
 | **Sửa đổi 1:2023 QCVN 06:2022/BXD** | `2023-12-01` (Điều 2 TT 09/2023/TT-BXD) | **Điều 3 TT 09/2023/TT-BXD** | **Không thay thế** bản gốc — phải đọc kèm. |
-| **QCVN 01:2021/BXD** | `2021-07-05` (Điều 2 TT 01/2021/TT-BXD) | **mục 3.4** | **Quy hoạch xây dựng.** 5 phần, 164 mục, 32 bảng. ⚠️ Viện dẫn QCVN 06:2021/BXD và QCVN 10:2014/BXD — cả hai đã bị thay thế. |
-| **QCVN 04:2021/BXD** | `2021-07-05` (Điều 2 TT 03/2021/TT-BXD) | không có | **Nhà chung cư.** ⚠️ Viện dẫn QCVN 06:2021/BXD (12 chỗ) và QCVN 10:2014/BXD (7 chỗ) — cả hai đã bị thay thế. |
+| **QCVN 01:2021/BXD** | `2021-07-05` (Điều 2 TT 01/2021/TT-BXD) | **mục 3.4** | **Quy hoạch xây dựng.** 5 phần, 164 mục, 32 bảng. ⚠️ Viện dẫn QCVN 06:2021/BXD và QCVN 10:2014/BXD — cả hai đã bị thay thế; gọi `an-toan-chay`. |
+| **QCVN 04:2021/BXD** | `2021-07-05` (Điều 2 TT 03/2021/TT-BXD) | không có | **Nhà chung cư.** ⚠️ Viện dẫn QCVN 06:2021/BXD (12 chỗ) và QCVN 10:2014/BXD (7 chỗ) — cả hai đã bị thay thế; gọi `an-toan-chay`. |
 | **QCVN 10:2024/BXD** | `CHƯA XÁC ĐỊNH` | mục 3.1 | Hiệu lực nằm ở Thông tư 06/2024/TT-BXD — **chưa có trong kho**. |
 | **QCVN 10:2025/BCA** | `CHƯA XÁC ĐỊNH` | không có | Hiệu lực nằm ở Thông tư 103/2025/TT-BCA — **chưa có trong kho**. Hỏi đáp nói 30/12/2025, đã ghi vào `ngay_hieu_luc_theo_tham_khao` nhưng **chưa coi là đã chứng minh**. |
 | **347/2026/NĐ-CP** | `2026-09-15` (Điều 41 khoản 1) | **Điều 40** | Sửa 4 nghị định: 169/2025, **105/2025**, 106/2025, 282/2025. Bãi bỏ Điều 74 NĐ 217/2026. ⚠️ Điều 41 khoản 2 có hiệu lực cùng Luật sửa đổi Luật Phòng cháy chữa cháy — ngày đó **CHƯA XÁC ĐỊNH**. |
 | **105/2025 · 106/2025 · 169/2025 · 282/2025 · 217/2026** | `CHƯA XÁC ĐỊNH` | — | **KHUNG RỖNG — chưa có nội dung.** |
 | **Hỏi đáp C07** | `KHÔNG ÁP DỤNG` | không có | **KHÔNG phải văn bản quy phạm pháp luật.** 132 giải đáp, không mục nào có ngày trả lời. |
-
-## QCVN 06 — LUÔN PHẢI ĐỌC KÈM SỬA ĐỔI 1:2023
-
-Phần dễ trả lời sai nhất trong kho. Quy định đang có hiệu lực = **bản gốc, đã vá
-bằng bản sửa đổi**; không văn bản nào một mình là câu trả lời đầy đủ. Lời nói đầu
-của bản sửa đổi nói rõ: *"Các nội dung không được nêu tại Sửa đổi 1 này thì tiếp
-tục áp dụng QCVN 06:2022/BXD"*.
-
-Corpus **giữ nguyên bản gốc**, không sửa chữ trong đó. `build_index.py` tự ghép
-hai bên theo số hiệu mục và `search.py` in cảnh báo:
-
-```
-⚠️  ĐÃ BỊ SỬA ĐỔI bởi Sửa đổi 1:2023 QCVN 06:2022/BXD (hiệu lực 2023-12-01)
-```
-
-**Thấy dòng đó thì bắt buộc mở file sửa đổi ra đọc rồi mới trả lời** (hiện 95
-chunk mang cờ này), và khi trích phải ghi cả hai:
-
-> Theo mục 3.2.8 QCVN 06:2022/BXD, được sửa đổi bởi mục 3.2.8 Sửa đổi 1:2023
-> QCVN 06:2022/BXD (hiệu lực 01/12/2023), …
-
-### Những điểm đã BỊ BÃI BỎ — tuyệt đối không trích như đang có hiệu lực
-
-| Bị bãi bỏ | Nội dung |
-|---|---|
-| **A.4 (toàn bộ)** | Quy định riêng cho **nhà kinh doanh karaoke, vũ trường**. Câu hỏi về karaoke rất hay gặp — A.4 đã bỏ hoàn toàn từ 01/12/2023, và 6.17.1 cũng đã bỏ cụm "theo A.4". **Đừng trích A.4.** |
-| **1.3 · 7.4 · A.1.3.12 · H.2.10.3** | bãi bỏ toàn bộ |
-| **bãi bỏ một phần** | 3.2.11 (câu 2 đoạn 1) · 3.3.5 (câu 3 đoạn 2) · 3.4.13 (đoạn 2 và đoạn a) · A.1.3.2 (đoạn 2) · A.3.1.16 (đoạn e) · G.1.2.1 (CHÚ THÍCH) · Bảng 7 (CHÚ THÍCH 3) · 6.2.2.3 (CHÚ THÍCH 2) |
-| **bỏ cụm từ** | 3.4.8 · 5.1.1.3 · 5.1.5.7 · 6.17.1 · A.3.1.8 |
-
-### Điều khoản chuyển tiếp — hỏi hồ sơ đang ở giai đoạn nào
-
-Điều 3 Thông tư 09/2023/TT-BXD chia ba trường hợp: đã **thẩm duyệt xong** trước
-01/12/2023 → theo hồ sơ đã thẩm duyệt; đã có **văn bản góp ý** thiết kế cơ sở
-nhưng chưa thẩm duyệt → theo văn bản góp ý; chưa cả hai → phải theo **cả bản gốc
-và Sửa đổi 1:2023**.
-
-**Phụ lục I chỉ là tham khảo**, minh họa cho 2.4.2, 3.2.2, 3.2.8 và 3.4.10; cần
-căn cứ ràng buộc thì trích phần chính (ví dụ định nghĩa buồng thang L1/L2 nằm ở
-**mục 2.4.3.2**). Phụ lục A đến H đều là **quy định bắt buộc**.
-
-## CẢNH BÁO "VIỆN DẪN VĂN BẢN ĐÃ BỊ THAY THẾ" — ÁP CHO MỌI VĂN BẢN
-
-Một quy chuẩn còn hiệu lực vẫn có thể viện dẫn một quy chuẩn đã bị thay thế, vì
-nó ban hành trước. Đây là bẫy thật:
-
-| Văn bản viện dẫn | Viện dẫn | Phải đọc thay bằng |
-|---|---|---|
-| QCVN 04:2021/BXD (12 chỗ) · QCVN 01:2021/BXD · Hỏi đáp C07 (4 chỗ) | QCVN 06:2021/BXD | **QCVN 06:2022/BXD** + Sửa đổi 1:2023 |
-| QCVN 04:2021/BXD (7 chỗ) · QCVN 01:2021/BXD | QCVN 10:2014/BXD | **QCVN 10:2024/BXD** |
-
-Ví dụ: mục 2.1.2 QCVN 04:2021/BXD viết *"phải đảm bảo các yêu cầu về an toàn
-cháy theo QCVN 06:2021/BXD"*. Trả lời theo đúng chữ đó là **sai quy định hiện
-hành**. `search.py` in cảnh báo `⚠️ Viện dẫn … ĐÃ BỊ THAY THẾ bởi …`.
-
-Cảnh báo *"viện dẫn văn bản KHÔNG CÓ TRONG KHO"* chỉ áp cho tài liệu tham khảo —
-bật cho mọi văn bản sẽ nhấn chìm tín hiệu quan trọng vì quy chuẩn viện dẫn rất
-nhiều TCVN chưa có. Không cảnh báo khi câu đang trích **chính là tuyên bố thay
-thế** ("Quy chuẩn này thay thế QCVN 06:2021").
 
 ## KHUNG RỖNG — VĂN BẢN CHỈ CÓ TÊN, CHƯA CÓ NỘI DUNG
 
@@ -175,7 +125,7 @@ không thấy được.
 105/2025/NĐ-CP**, văn bản chưa có trong kho. Danh sách tài liệu nên đề nghị bổ
 sung theo thứ tự ưu tiên: `105/2025/NĐ-CP` · `50/2024/NĐ-CP` (15 lần) ·
 `136/2020/NĐ-CP` (13) · `TCVN 3890:2023` (11) · `36/2025/TT-BCA` (11) · Luật
-`55/2024/QH15` (10). Phân tích đầy đủ ở `docs/do-luong-va-thiet-ke.md`.
+`55/2024/QH15` (10). Phân tích đầy đủ trong skill `do-luong-truy-hoi`.
 
 ## ĐỌC PHẠM VI CỦA MỤC LỚN TRƯỚC KHI TRÍCH ĐIỀU KHOẢN CON
 
@@ -205,29 +155,14 @@ công cụ đã có câu trả lời, tôi không hỏi.
 4. Kiểm tra văn bản này có **giao việc cho văn bản kia** không. Trích chéo khi
    một quy chuẩn đã tự tuyên bố không điều chỉnh chủ đề đó luôn là sai.
 
-### Bản đồ phạm vi QCVN 10:2024/BXD — tra trước khi trích
-
-| Mục | Phạm vi |
-|---|---|
-| 2.1 Bãi đỗ xe, điểm dừng chờ xe · 2.7 Đường và hè phố · 2.8 Dấu hiệu cảnh báo · 2.9 Biển báo | **ngoài nhà** |
-| 2.2 Đường, lối vào công trình | tiếp cận vào nhà (đường dốc) |
-| 2.3 Cửa · 2.4 Thang máy · 2.5 Không gian công cộng trong công trình | **trong nhà** |
-| 2.6 Thoát nạn | **giao trọn cho QCVN 06:2022/BXD**, chỉ giữ yêu cầu hệ thống báo động |
-
-QCVN 10:2024/BXD **không quy định chiều rộng hành lang trong nhà**. Căn cứ duy
-nhất cho chiều rộng hành lang là mục 3.3.6 QCVN 06:2022/BXD.
-
 ## Hai văn bản trùng số hiệu "QCVN 10"
 
-**QCVN 10:2024/BXD** (Bộ Xây dựng) — tiếp cận sử dụng cho người khuyết tật.
-**QCVN 10:2025/BCA** (Bộ Công an) — trang bị phương tiện phòng cháy chữa cháy.
-Khi trích **phải ghi đủ đuôi `/BXD` hoặc `/BCA`**. Gặp cảnh báo
-`⚠ Kết quả chỉ đến từ QCVN 10:.../...` thì hỏi lại người dùng cần văn bản nào.
-
-Khi hỏi về trang bị phương tiện phòng cháy chữa cháy, theo mục 1.5.9 QCVN
-10:2025/BCA tra theo thứ tự **Bảng A.1** (toàn nhà) → **Bảng A.2** (hạng mục,
-khu vực) → **Bảng A.3** (gian phòng) → **Bảng A.4** (thiết bị), và luôn kiểm tra
-thêm mục 1.5.11 về các khu vực **không** phải trang bị.
+**QCVN 10:2024/BXD** (Bộ Xây dựng) là tiếp cận sử dụng cho người khuyết tật;
+**QCVN 10:2025/BCA** (Bộ Công an) là trang bị phương tiện phòng cháy chữa cháy.
+Nội dung khác hẳn nhau, nên khi trích **phải ghi đủ đuôi `/BXD` hoặc `/BCA`**.
+Gặp cảnh báo `⚠ Kết quả chỉ đến từ QCVN 10:.../...` thì hỏi lại người dùng cần
+văn bản nào. Bản đồ phạm vi trong nhà hay ngoài nhà của QCVN 10:2024/BXD nằm
+trong skill `an-toan-chay`.
 
 ## Cách tra cứu
 
@@ -264,6 +199,7 @@ corpus/quy-chuan/  corpus/nghi-dinh/   văn bản quy phạm pháp luật — CH
 corpus/huong-dan/                      tài liệu THAM KHẢO, không có giá trị pháp lý
 chunks/  index/                        sinh tự động — KHÔNG sửa tay
 eval/    tools/    docs/
+.claude/skills/                        ba skill nạp theo yêu cầu — xem bảng đầu tệp
 ```
 
 Người dùng đã chọn rõ: **đẩy thẳng lên `main`**, không nhánh phụ, không pull
@@ -283,7 +219,7 @@ thị giác máy đối chiếu bản gốc — đây là loại lỗi mà chỉ
 
 Mức truy hồi hiện tại (215 câu, 14 văn bản, 1 214 chunk): Recall@1 = 0,550 ·
 Recall@3 = 0,781 · Recall@5 = 0,842 · Recall@10 = 0,890 · MRR = 0,698. Trước khi
-đổi bất kỳ hằng số xếp hạng nào, **đọc `docs/do-luong-va-thiet-ke.md`** — mỗi con
+đổi bất kỳ hằng số xếp hạng nào, **gọi skill `do-luong-truy-hoi`** — mỗi con
 số ở đó đến từ một phép quét dải giá trị, không phải cảm tính.
 
 ## Ngôn ngữ và cách trình bày
@@ -320,4 +256,4 @@ Bốn quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câ
   liên kết vào corpus nên chunk trả về đã mang sẵn đường dẫn — chỉ việc gửi tệp,
   **không cần cắt lại**. Chưa có ảnh thì **nói thẳng là chưa có và cần bản PDF
   gốc**, tuyệt đối không vẽ lại bảng hay hình rồi trình bày như ảnh chụp bản in.
-  Cách cắt ảnh mới: xem `docs/them-van-ban-moi.md`.
+  Cách cắt ảnh mới: gọi skill `them-van-ban`.
