@@ -195,3 +195,11 @@
 {"id": "L10", "loai": "B", "hoi": "danh mục xe chữa cháy gồm những loại nào", "vang": ["347-2026-nd-cp:phu-luc-iv"], "kiem_chung": "xe chữa cháy có xitec"}
 {"id": "L11", "loai": "A", "hoi": "Mẫu số PC01 là biểu mẫu gì", "vang": ["347-2026-nd-cp:phu-luc-viii"], "kiem_chung": "Phiếu thông tin của cơ sở"}
 {"id": "L12", "loai": "C", "hoi": "Nghị định 347/2026 sửa đổi bổ sung những nghị định nào", "vang": ["347-2026-nd-cp:mo-dau"], "kiem_chung": "105/2025/NĐ-CP"}
+{"id": "M01", "loai": "E", "hoi": "quy chuẩn về nhà chung cư có hiệu lực từ ngày nào", "vang": ["qcvn-04-2021-bxd:muc-0.2"], "kiem_chung": "05/7/2021"}
+{"id": "M02", "loai": "B", "hoi": "nhà chung cư là gì theo quy chuẩn", "vang": ["qcvn-04-2021-bxd:muc-1.4.1"], "kiem_chung": "Nhà có từ 2 tầng trở lên"}
+{"id": "M03", "loai": "B", "hoi": "định nghĩa tầng hầm trong nhà chung cư", "vang": ["qcvn-04-2021-bxd:muc-1.4.17"], "kiem_chung": "quá một nửa chiều cao"}
+{"id": "M04", "loai": "F", "hoi": "chiều cao thông thủy phòng ở trong căn hộ chung cư tối thiểu bao nhiêu", "vang": ["qcvn-04-2021-bxd:muc-2.2.10"], "kiem_chung": "2,6 m"}
+{"id": "M05", "loai": "F", "hoi": "chung cư từ mấy tầng trở lên bắt buộc phải có thang máy", "vang": ["qcvn-04-2021-bxd:muc-2.4.1"], "kiem_chung": "từ 5 tầng trở lên"}
+{"id": "M06", "loai": "F", "hoi": "diện tích sử dụng tối thiểu của văn phòng kết hợp lưu trú", "vang": ["qcvn-04-2021-bxd:muc-2.2.6.1"], "kiem_chung": "không nhỏ hơn 25 m2"}
+{"id": "M07", "loai": "D", "hoi": "nhà chung cư cao trên 150 m hoặc có 4 tầng hầm thì áp dụng quy chuẩn thế nào", "vang": ["qcvn-04-2021-bxd:muc-1.1.2"], "kiem_chung": "150 m"}
+{"id": "M08", "loai": "B", "hoi": "chung cư có bắt buộc hệ thống thu gom rác không", "vang": ["qcvn-04-2021-bxd:muc-2.7.1"], "kiem_chung": "thu gom"}

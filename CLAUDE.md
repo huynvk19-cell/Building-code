@@ -53,7 +53,7 @@ trình là:
    cấu, tiết kiệm năng lượng, quy hoạch chi tiết…), hãy nói rõ ngay từ đầu thay
    vì cố nặn ra câu trả lời từ năm văn bản đang có.
 
-Kho hiện có **sáu văn bản quy phạm pháp luật có nội dung**, **một tài liệu tham
+Kho hiện có **bảy văn bản quy phạm pháp luật có nội dung**, **một tài liệu tham
 khảo** (hỏi đáp nghiệp vụ) và **năm khung rỗng** (văn bản mới chỉ có tên, chưa
 có nội dung — xem mục riêng bên dưới). Mặc định của bạn khi không chắc
 phải là *"chưa có trong kho"*, không phải *"có lẽ là…"*.
@@ -82,6 +82,7 @@ Tình trạng hiện tại:
 | **Sửa đổi 1:2023 QCVN 06:2022/BXD** | `2023-12-01` (Điều 2 Thông tư 09/2023/TT-BXD) | **Điều 3 Thông tư 09/2023/TT-BXD** | Sửa đổi, bổ sung QCVN 06:2022/BXD. **Không thay thế** — phải đọc kèm bản gốc. |
 | **QCVN 10:2024/BXD** | `CHƯA XÁC ĐỊNH` | mục 3.1 | Hiệu lực nằm ở Thông tư 06/2024/TT-BXD — **chưa có trong kho**. |
 | **QCVN 10:2025/BCA** | `CHƯA XÁC ĐỊNH` | không có trong bản Quy chuẩn | Hiệu lực nằm ở Thông tư 103/2025/TT-BCA — **chưa có trong kho**. Phần hỏi đáp (giải đáp số 1531 và 1538) nói **30/12/2025**; đã ghi vào `ngay_hieu_luc_theo_tham_khao` nhưng **chưa được coi là đã chứng minh** — vẫn cần Thông tư. |
+| **QCVN 04:2021/BXD** | `2021-07-05` (Điều 2 Thông tư 03/2021/TT-BXD) | không có | **Nhà chung cư.** Thay thế QCVN 04:2019/BXD. ⚠️ Viện dẫn **QCVN 06:2021/BXD** (12 chỗ) và **QCVN 10:2014/BXD** (7 chỗ) — cả hai ĐÃ BỊ THAY THẾ, xem mục cảnh báo bên dưới. |
 | **347/2026/NĐ-CP** | `2026-09-15` (Điều 41 khoản 1) | **Điều 40** | Sửa đổi 4 nghị định: 169/2025, **105/2025**, 106/2025, 282/2025. Bãi bỏ Điều 74 Nghị định 217/2026. ⚠️ Một phần nội dung (Điều 41 khoản 2) có hiệu lực **cùng thời điểm Luật sửa đổi Luật Phòng cháy chữa cháy** — ngày đó **CHƯA XÁC ĐỊNH**. |
 | **105/2025 · 106/2025 · 169/2025 · 282/2025 · 217/2026** | `CHƯA XÁC ĐỊNH` | — | **KHUNG RỖNG — chưa có nội dung.** Xem mục riêng bên dưới. |
 | **Hỏi đáp C07** | `KHÔNG ÁP DỤNG` | không có | **KHÔNG phải văn bản quy phạm pháp luật.** 132 giải đáp của Cục Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ. Không có ngày trả lời — xem mục riêng bên dưới. |
@@ -166,6 +167,37 @@ chính — ví dụ định nghĩa buồng thang L1/L2 nằm ở **mục 2.4.3.2
 
 Sửa đổi 1:2023 cũng **bổ sung THƯ MỤC TÀI LIỆU THAM KHẢO** (23 mục) sau Phụ lục I.
 Các số `[1]`, `[5]`, `[8]`… rải rác trong bản sửa đổi trỏ về danh mục đó.
+
+## CẢNH BÁO "VIỆN DẪN VĂN BẢN ĐÃ BỊ THAY THẾ" — ÁP CHO MỌI VĂN BẢN
+
+Một quy chuẩn còn hiệu lực vẫn có thể **viện dẫn một quy chuẩn khác đã bị thay
+thế**, vì nó được ban hành trước. Đây là bẫy thật, không phải giả định:
+
+| Văn bản viện dẫn | Viện dẫn | Phải đọc thay bằng |
+|---|---|---|
+| QCVN 04:2021/BXD (12 chỗ) | QCVN 06:2021/BXD | **QCVN 06:2022/BXD** + Sửa đổi 1:2023 |
+| QCVN 04:2021/BXD (7 chỗ) | QCVN 10:2014/BXD | **QCVN 10:2024/BXD** |
+| Hỏi đáp C07 (4 chỗ) | QCVN 06:2021/BXD | **QCVN 06:2022/BXD** + Sửa đổi 1:2023 |
+
+Ví dụ cụ thể: mục 2.1.2 QCVN 04:2021/BXD viết *"phải đảm bảo các yêu cầu về an
+toàn cháy theo QCVN 06:2021/BXD"*. Trả lời theo đúng chữ đó là **sai quy định
+hiện hành**, vì QCVN 06:2021/BXD đã bị QCVN 06:2022/BXD thay thế và bản 2022 lại
+còn bị Sửa đổi 1:2023 vá tiếp.
+
+`search.py` in cảnh báo:
+
+```
+⚠️  Viện dẫn QCVN 06:2021/BXD — kho xác định văn bản này ĐÃ BỊ THAY THẾ bởi QCVN 06:2022/BXD.
+```
+
+Cảnh báo này **áp cho mọi văn bản**, kể cả quy phạm pháp luật. Riêng cảnh báo
+*"viện dẫn văn bản KHÔNG CÓ TRONG KHO"* thì chỉ áp cho tài liệu tham khảo — vì
+quy chuẩn viện dẫn rất nhiều TCVN chưa có, bật hết lên sẽ nhấn chìm tín hiệu
+quan trọng. Đây là lựa chọn có chủ ý, đã cân nhắc nhiễu.
+
+Không cảnh báo khi văn bản đang trích **chính là bản thay thế** — câu "Quy chuẩn
+này thay thế QCVN 06:2021" là tuyên bố thay thế, không phải dẫn chiếu tới quy
+định cũ.
 
 ## KHUNG RỖNG — VĂN BẢN CHỈ CÓ TÊN, CHƯA CÓ NỘI DUNG
 
@@ -439,7 +471,7 @@ bạn đọc nội dung thật.
 
 ## Đo chất lượng truy hồi
 
-`eval/` có bộ 197 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
+`eval/` có bộ 205 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
 vi kho). Sau khi sửa `tools/search.py` hoặc thay đổi cách cắt chunk, **phải chạy
 lại**:
 
@@ -449,7 +481,7 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với tokenizer cũ
 python3 eval/chay_danh_gia.py --chi-tiet # liệt kê câu trượt
 ```
 
-Mức hiện tại (197 câu, 12 văn bản, 866 chunk): Recall@1 = 0.559 · Recall@3 = 0.776 · Recall@5 = 0.820 · Recall@10 = 0.898 · MRR = 0.701.
+Mức hiện tại (205 câu, 13 văn bản, 989 chunk): Recall@1 = 0.562 · Recall@3 = 0.778 · Recall@5 = 0.809 · Recall@10 = 0.892 · MRR = 0.700.
 
 Chi phí đã đo của việc thêm 133 chunk hỏi đáp, tính trên **đúng bộ 165 câu cũ**
 để so sánh công bằng: Recall@3 từ 0.774 xuống 0.762, MRR từ 0.709 xuống 0.698 —
@@ -517,10 +549,25 @@ Lệnh này idempotent — chạy hai lần cho kết quả giống hệt nhau.
      print(sum(1 for p in d if p.get_text().strip()), '/', len(d))" <file.pdf>
    ```
 
-   - **Có lớp văn bản** (bản ký số của cơ quan phát hành): dùng
+   - **Có lớp văn bản** (bản ký số, bản Công báo): dùng
      `python3 tools/ingest_pdf_text.py <file.pdf>` — trích thẳng, chính xác
      tuyệt đối, không qua OCR. Vẫn phải mở vài trang bằng thị giác máy để đối
-     chiếu. Phụ lục thêm `--phu-luc`.
+     chiếu. Ba chế độ:
+     - mặc định — nghị định, thông tư: nhận `Chương I` và `Điều 12. Tên điều`;
+     - `--muc` — quy chuẩn, tiêu chuẩn: nhận `1. TÊN PHẦN`, `1.1 Tên mục`,
+       `1.1.1 nội dung`;
+     - `--phu-luc` — phụ lục: chỉ làm sạch đoạn, không tách tiêu đề.
+
+     **Luôn đối chiếu số mục nhận được với số mục trong bản gốc** trước khi tin:
+
+     ```bash
+     grep -cE '^[0-9]+(\.[0-9]+)+ ' <bản trích thô>     # có trong PDF
+     grep -c '^### ' <bản đã định dạng>                 # đã nhận
+     ```
+
+     Lệch là có mục bị nuốt. Đã gặp thật: phần "Giải thích từ ngữ" của
+     QCVN 04:2021 đặt số hiệu **đứng một mình trên dòng** rồi mới tới thuật ngữ
+     ở dòng sau, làm mất trọn 30 mục 1.4.1 đến 1.4.30 trước khi sửa.
    - **Không có lớp văn bản** (bản quét): theo các bước 2 và 3 dưới đây.
 
 2. `python3 tools/ingest_pdf.py <file.pdf> --ten <ma-van-ban>`

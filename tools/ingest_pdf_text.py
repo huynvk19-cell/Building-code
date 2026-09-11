@@ -33,6 +33,18 @@ except ImportError:
 
 # Tiêu đề chương thường bị gom chung một đoạn với tên chương viết HOA.
 RE_CHUONG = re.compile(r"^Chương\s+([IVXLC]+)\b\s*(.*)$")
+# --- Cấu trúc "muc" của quy chuẩn: 1. TÊN PHẦN / 1.1 Tên mục / 1.1.1 nội dung
+RE_PHAN_QC = re.compile(r"^(\d+)\.\s+([A-ZĐÀ-Ỹ][A-ZĐÀ-Ỹ\s,\-()/]{3,})$")
+RE_MUC_QC = re.compile(r"^(\d+(?:\.\d+)+)\s+(\S.*)$")
+# Quy chuẩn mở đoạn bằng "1.1 " hoặc "1.1.1 " — KHÔNG có dấu chấm cuối số hiệu,
+# khác hẳn nghị định ("1. ", "a) "). Dùng riêng cho chế độ --muc.
+# Dấu chấm sau số hiệu là TÙY CHỌN: tiêu đề phần viết "1. QUY ĐỊNH CHUNG"
+# còn mục con viết "1.1 Phạm vi" — thiếu `\.?` thì tiêu đề phần không mở đoạn
+# mới và bị gộp vào đoạn trước, khiến cả cây cấu trúc không nhận được.
+# Phần "Giải thích từ ngữ" đặt số hiệu ĐỨNG MỘT MÌNH trên dòng rồi mới tới
+# thuật ngữ ở dòng sau, nên phải chấp nhận cả trường hợp không có gì phía sau
+# số hiệu — thiếu nhánh `$` thì mất trọn 30 mục định nghĩa 1.4.1 đến 1.4.30.
+RE_DAU_DOAN_QC = re.compile(r"^\s*(?:\d+(?:\.\d+)*\.?(?:\s+|$)|CHÚ THÍCH|Bảng\s)")
 RE_DIEU = re.compile(r"^Điều\s+(\d+)\.\s*(.*)$")
 # Tên điều đang dang dở khi kết thúc bằng dấu phẩy hoặc một từ nối/từ dẫn.
 DANG_DO = re.compile(r"(?:,|\b(?:và|khoản|điểm|Điều|tên|của|số|tại|các))\s*$")
@@ -84,8 +96,14 @@ def doc_text(pdf: Path) -> list[str]:
     return dong
 
 
-def gom_doan(dong: list[str]) -> list[str]:
-    """Nối dòng bị ngắt giữa câu; giữ nguyên ranh giới đoạn."""
+def gom_doan(dong: list[str], dau_doan: re.Pattern | None = None) -> list[str]:
+    """Nối dòng bị ngắt giữa câu; giữ nguyên ranh giới đoạn.
+
+    `dau_doan` cho phép truyền quy tắc nhận biết đầu đoạn riêng: nghị định và
+    quy chuẩn đánh số khác nhau ("1. " so với "1.1 "), dùng chung một quy tắc
+    thì quy chuẩn sẽ bị gom cả tiêu đề lẫn thân vào một đoạn.
+    """
+    dau_doan = dau_doan or RE_DAU_DOAN
     doan: list[str] = []
     dem: list[str] = []
 
@@ -116,7 +134,7 @@ def gom_doan(dong: list[str]) -> list[str]:
                 chot()
                 gom_tieu_de = False
             continue
-        if RE_DAU_DOAN.match(l) or RE_CHUONG.match(st):
+        if dau_doan.match(l) or RE_CHUONG.match(st):
             chot()
         dem.append(l)
         # Đoạn kết thúc rõ ràng bằng dấu chấm + ngoặc kép đóng.
@@ -188,17 +206,55 @@ def dinh_dang(doan: list[str], la_phu_luc: bool) -> list[str]:
     return ra
 
 
+def dinh_dang_muc(doan: list[str]) -> list[str]:
+    """Cấu trúc quy chuẩn: "1. QUY ĐỊNH CHUNG" / "1.1 Phạm vi" / "1.1.1 nội dung".
+
+    Ràng buộc chống nhận nhầm dẫn chiếu chéo: số phần phải tăng liên tiếp, và
+    số mục phải thuộc đúng phần đang mở. Trong quy chuẩn, dẫn chiếu kiểu
+    "quy định tại 2.4.1" nằm GIỮA câu nên đã bị loại sẵn nhờ neo đầu dòng;
+    ràng buộc số thứ tự chặn nốt các trường hợp dòng thân bắt đầu bằng số.
+
+    Mục cấp N.M vừa có thể là TIÊU ĐỀ ("2.1 Yêu cầu chung") vừa có thể mang
+    luôn nội dung. Phân biệt bằng: tiêu đề thì ngắn và không kết thúc bằng dấu
+    chấm câu.
+    """
+    ra: list[str] = []
+    cho_phan = 1
+    for d in doan:
+        st = d.strip()
+        m = RE_PHAN_QC.match(st)
+        if m and int(m.group(1)) == cho_phan:
+            cho_phan += 1
+            ra += ["", f"## {m.group(1)} {m.group(2).strip()}", ""]
+            continue
+        m = RE_MUC_QC.match(st)
+        if m and int(m.group(1).split(".")[0]) < cho_phan:
+            so, con_lai = m.group(1), m.group(2).strip()
+            la_tieu_de = len(con_lai) <= 80 and not con_lai.endswith((".", ";", ":"))
+            if la_tieu_de:
+                ra += ["", f"### {so} {con_lai}", ""]
+            else:
+                ra += ["", f"### {so}", "", con_lai, ""]
+            continue
+        ra += [re.sub(r"\s+", " ", d).strip(), ""]
+    return ra
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("pdf", type=Path)
     ap.add_argument("--phu-luc", action="store_true",
                     help="phụ lục: không tách Chương/Điều, chỉ làm sạch đoạn")
+    ap.add_argument("--muc", action="store_true",
+                    help="quy chuẩn: tách theo 1. PHẦN / 1.1 mục / 1.1.1 điều khoản")
     args = ap.parse_args()
 
     if not args.pdf.exists():
         sys.exit(f"Không thấy tệp: {args.pdf}")
-    out = dinh_dang(gom_doan(doc_text(args.pdf)), args.phu_luc)
+    doan = gom_doan(doc_text(args.pdf),
+                    RE_DAU_DOAN_QC if args.muc else None)
+    out = dinh_dang_muc(doan) if args.muc else dinh_dang(doan, args.phu_luc)
     text = "\n".join(out)
     print(re.sub(r"\n{3,}", "\n\n", text).strip())
 

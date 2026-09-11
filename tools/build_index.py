@@ -694,16 +694,26 @@ def danh_dau_vien_dan(all_chunks: list[dict], documents: list[dict]) -> int:
 
     dem = 0
     for c in all_chunks:
-        if not c.get("gia_tri_phap_ly"):
-            continue
+        # Cảnh báo "viện dẫn văn bản ĐÃ BỊ THAY THẾ" áp dụng cho MỌI văn bản, kể
+        # cả quy phạm pháp luật: QCVN 04:2021 viện dẫn QCVN 06:2021 (12 chỗ) và
+        # QCVN 10:2014 (7 chỗ) — cả hai đã bị thay thế bởi bản mà kho đang có.
+        # Riêng cảnh báo "viện dẫn văn bản KHÔNG CÓ TRONG KHO" thì chỉ áp cho
+        # tài liệu tham khảo, vì quy chuẩn viện dẫn rất nhiều TCVN chưa có và
+        # bật hết lên sẽ nhấn chìm tín hiệu quan trọng.
+        la_tham_khao = bool(c.get("gia_tri_phap_ly"))
         thay: set[str] = set()
         for rx in RE_VIEN_DAN:
             thay.update(_chuan_so_hieu(m) for m in rx.findall(c["text"]))
         da_thay_the, ngoai_kho = [], []
         for so in sorted(thay):
             if so in bi_thay_the:
+                # Không cảnh báo khi chính văn bản đang trích LÀ bản thay thế —
+                # câu "Quy chuẩn này thay thế QCVN 06:2021" không phải dẫn chiếu
+                # tới quy định cũ, nó là tuyên bố thay thế.
+                if _chuan_so_hieu(bi_thay_the[so]) == _chuan_so_hieu(c["so_hieu"]):
+                    continue
                 da_thay_the.append({"so_hieu": so, "thay_the_boi": bi_thay_the[so]})
-            elif so not in trong_kho:
+            elif la_tham_khao and so not in trong_kho:
                 ngoai_kho.append(so)
         if da_thay_the:
             c["vien_dan_da_bi_thay_the"] = da_thay_the
