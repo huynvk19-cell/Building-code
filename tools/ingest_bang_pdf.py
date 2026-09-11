@@ -211,6 +211,11 @@ def main() -> None:
 
     if not a.pdf.exists():
         sys.exit(f"Không thấy tệp: {a.pdf}")
+    # PyMuPDF in một dòng gợi ý ra STDOUT ngay lần gọi find_tables() đầu tiên;
+    # nếu không chặn thì nó lọt vào chính bản trích và thành dòng đầu corpus.
+    import contextlib, io
+    _nuot = contextlib.redirect_stdout(io.StringIO())
+    _nuot.__enter__()
     doc = pymupdf.open(a.pdf)
 
     ten_bang: dict[int, list[tuple[str, str]]] = {}   # trang -> [(số hiệu, tên)]
@@ -242,6 +247,11 @@ def main() -> None:
         trang = doc[i - 1]
         if goc_xoay(trang) == 90:
             trang.set_rotation(90)
+        # Dấu mốc trang, đặt TRƯỚC mọi thứ khác của trang: cần để gắn ảnh đúng
+        # trang chứa từng nhóm công trình. Gắn trọn bộ ảnh của cả bảng vào mọi
+        # nhóm thì một nhóm của Bảng 1.2 mang theo 15 ảnh, phần lớn không liên
+        # quan. Đặt sau tiêu đề bảng thì trang đầu của bảng bị mất dấu.
+        ra.append(f"<!-- trang {i} -->")
 
         if i in phu_luc:
             ra += ["", f"# {phu_luc[i]}", ""]
@@ -294,6 +304,7 @@ def main() -> None:
                 trang.get_pixmap(dpi=DPI_ANH,
                                  colorspace=pymupdf.csGRAY).save(a.anh / ten_tep)
 
+    _nuot.__exit__(None, None, None)
     print("\n".join(ra))
     for so, n in sorted(dem_trang.items()):
         print(f"  Bảng {so}: {n} trang", file=sys.stderr)

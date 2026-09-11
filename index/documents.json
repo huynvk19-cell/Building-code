@@ -29,6 +29,41 @@
     "so_chunk": 133
   },
   {
+    "doc_id": "06-2021-tt-bxd",
+    "so_hieu": "06/2021/TT-BXD",
+    "loai_van_ban": "Thông tư",
+    "tieu_de": "Quy định về phân cấp công trình xây dựng và hướng dẫn áp dụng trong quản lý hoạt động đầu tư xây dựng",
+    "co_quan_ban_hanh": "Bộ Xây dựng",
+    "ngay_ban_hanh": "2021-06-30",
+    "ngay_hieu_luc": "2021-08-15",
+    "can_cu_hieu_luc": "khoản 1 Điều 5 Thông tư số 06/2021/TT-BXD",
+    "thay_the": [
+      "03/2016/TT-BXD ngày 10/3/2016"
+    ],
+    "het_hieu_luc": "",
+    "sua_doi_boi": [],
+    "dieu_khoan_chuyen_tiep": "Điều 4",
+    "linh_vuc": [
+      "phân cấp công trình",
+      "cấp công trình",
+      "quản lý đầu tư xây dựng",
+      "công trình dân dụng",
+      "công trình công nghiệp",
+      "công trình hạ tầng kỹ thuật",
+      "công trình giao thông",
+      "công trình nông nghiệp",
+      "quy mô kết cấu"
+    ],
+    "gia_tri_phap_ly": "",
+    "trang_thai": "hoàn chỉnh",
+    "nguon": "Công báo số 669 + 670 ngày 16/7/2021",
+    "cau_truc": "dieu",
+    "sua_doi_cho": [],
+    "toan_van": "corpus/nghi-dinh/06-2021-tt-bxd/toan-van.md",
+    "so_don_vi": 15,
+    "so_chunk": 67
+  },
+  {
     "doc_id": "105-2025-nd-cp",
     "so_hieu": "105/2025/NĐ-CP",
     "loai_van_ban": "Nghị định",
