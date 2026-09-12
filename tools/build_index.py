@@ -579,6 +579,10 @@ def write_chunk_file(doc_meta: dict, chunk: dict, source: Path) -> Path:
     # của nó là tín hiệu để search.py in cảnh báo.
     if doc_meta.get("gia_tri_phap_ly"):
         fm["gia_tri_phap_ly"] = doc_meta["gia_tri_phap_ly"]
+    # Văn bản hợp nhất: bản thân nó KHÔNG phải văn bản quy phạm pháp luật, chỉ là
+    # bản ghép của các văn bản dưới đây. Trích dẫn phải nêu văn bản gốc.
+    if doc_meta.get("hop_nhat_tu"):
+        fm["hop_nhat_tu"] = doc_meta["hop_nhat_tu"]
     if chunk.get("so_hieu_muc"):
         fm["so_hieu_muc"] = chunk["so_hieu_muc"]
     if chunk.get("chuong"):
@@ -883,6 +887,9 @@ def main() -> None:
                         # Rỗng với văn bản quy phạm pháp luật; có giá trị với
                         # tài liệu tham khảo — search.py dựa vào đây để cảnh báo.
                         "gia_tri_phap_ly": doc_meta.get("gia_tri_phap_ly", ""),
+                        # Rỗng với văn bản thường; có giá trị với VĂN BẢN HỢP NHẤT
+                        # — search.py dựa vào đây để nhắc trích dẫn văn bản gốc.
+                        "hop_nhat_tu": doc_meta.get("hop_nhat_tu", []),
                         "trang_thai": doc_meta.get("trang_thai", ""),
                         "loai_chunk": chunk["loai"],
                         "so_hieu_muc": chunk.get("so_hieu_muc"),
@@ -921,6 +928,8 @@ def main() -> None:
                 "dieu_khoan_chuyen_tiep": doc_meta.get("dieu_khoan_chuyen_tiep", ""),
                 "linh_vuc": doc_meta.get("linh_vuc", []),
                 "gia_tri_phap_ly": doc_meta.get("gia_tri_phap_ly", ""),
+                "hop_nhat_tu": doc_meta.get("hop_nhat_tu", []),
+                "quy_dinh_chi_tiet_cho": doc_meta.get("quy_dinh_chi_tiet_cho", []),
                 "trang_thai": doc_meta.get("trang_thai", ""),
                 "nguon": doc_meta.get("nguon", ""),
                 "cau_truc": doc_meta.get("cau_truc", "dieu"),

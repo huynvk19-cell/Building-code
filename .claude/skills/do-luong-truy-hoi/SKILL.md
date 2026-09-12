@@ -30,7 +30,7 @@ số dưới đây đến từ một phép quét dải giá trị, và đổi n�
 
 ## Đo chất lượng truy hồi
 
-`eval/` có bộ 215 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
+`eval/` có bộ 245 câu hỏi gán nhãn vàng (trong đó 10 câu cố tình nằm ngoài phạm
 vi kho). Sau khi sửa `tools/search.py` hoặc thay đổi cách cắt chunk, **phải chạy
 lại**:
 
@@ -40,7 +40,7 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với tokenizer cũ
 python3 eval/chay_danh_gia.py --chi-tiet # liệt kê câu trượt
 ```
 
-Mức hiện tại (215 câu, 14 văn bản, 1 214 chunk): Recall@1 = 0.550 · Recall@3 = 0.781 · Recall@5 = 0.842 · Recall@10 = 0.890 · MRR = 0.698.
+Mức hiện tại (245 câu, 18 văn bản, 1 380 chunk): Recall@1 = 0.584 · Recall@3 = 0.803 · Recall@5 = 0.850 · Recall@10 = 0.896 · MRR = 0.716.
 
 Chi phí đã đo của việc thêm QCVN 01:2021/BXD (168 chunk) và giữ lại các **mục cha chỉ
 có tên** (57 chunk trong các văn bản cũ): Recall@1 từ 0.570 xuống 0.550, MRR từ 0.711

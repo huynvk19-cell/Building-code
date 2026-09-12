@@ -223,3 +223,23 @@
 {"id": "R08", "loai": "A", "hoi": "thông tư sửa đổi phân cấp công trình có hiệu lực từ ngày nào", "vang": ["02-2025-tt-bxd:dieu-02"], "kiem_chung": "kể từ ngày 20 tháng 5 năm 2025"}
 {"id": "R09", "loai": "B", "hoi": "cấp công trình của dự án phân kỳ đầu tư xác định thế nào", "vang": ["02-2025-tt-bxd:dieu-01"], "kiem_chung": "dự án phân kỳ đầu tư"}
 {"id": "R10", "loai": "F", "hoi": "ví dụ xác định cấp công trình nhà máy xi măng", "vang": ["06-2021-tt-bxd:phu-luc-iii-vi-du-4-cong-trinh-cong-nghiep-nha-may-x"], "kiem_chung": "Nhà máy xi măng"}
+{"id": "S01", "loai": "A", "hoi": "điều kiện cấp chứng chỉ hành nghề kiến trúc cần bao nhiêu năm kinh nghiệm", "vang": ["40-2019-qh14:dieu-28"], "kiem_chung": "tối thiểu là 03 năm"}
+{"id": "S02", "loai": "A", "hoi": "chứng chỉ hành nghề kiến trúc có thời hạn bao lâu", "vang": ["40-2019-qh14:dieu-27"], "kiem_chung": "thời hạn 10 năm"}
+{"id": "S03", "loai": "B", "hoi": "trường hợp nào bị thu hồi chứng chỉ hành nghề kiến trúc", "vang": ["40-2019-qh14:dieu-30"], "kiem_chung": "Giả mạo trong hồ sơ đề nghị cấp"}
+{"id": "S04", "loai": "A", "hoi": "dịch vụ kiến trúc gồm những loại nào", "vang": ["40-2019-qh14:dieu-19"], "kiem_chung": "Thiết kế kiến trúc cảnh quan"}
+{"id": "S05", "loai": "B", "hoi": "người nước ngoài hành nghề kiến trúc tại Việt Nam cần điều kiện gì", "vang": ["40-2019-qh14:dieu-31"], "kiem_chung": "công nhận, chuyển đổi"}
+{"id": "S06", "loai": "A", "hoi": "giám sát tác giả trong quá trình thi công xây dựng công trình", "vang": ["40-2019-qh14:dieu-35"], "kiem_chung": "Từ chối ký vào biên bản nghiệm thu"}
+{"id": "S07", "loai": "A", "hoi": "hành vi bị nghiêm cấm trong hoạt động kiến trúc", "vang": ["40-2019-qh14:dieu-09"], "kiem_chung": ""}
+{"id": "S08", "loai": "A", "hoi": "Luật Kiến trúc có hiệu lực thi hành từ ngày nào", "vang": ["40-2019-qh14:dieu-40"], "kiem_chung": "ngày 01 tháng 7 năm 2020"}
+{"id": "S09", "loai": "B", "hoi": "điều kiện hoạt động của tổ chức hành nghề kiến trúc", "vang": ["40-2019-qh14:dieu-33"], "kiem_chung": "văn phòng kiến trúc sư"}
+{"id": "S10", "loai": "A", "hoi": "tiêu chí đánh giá công trình kiến trúc có giá trị", "vang": ["25-vbhn-bxd:dieu-03"], "kiem_chung": "giá trị nghệ thuật kiến trúc, cảnh quan"}
+{"id": "S11", "loai": "A", "hoi": "công trình kiến trúc có giá trị loại I phải đạt bao nhiêu điểm", "vang": ["25-vbhn-bxd:dieu-04"], "kiem_chung": "80 điểm trở lên"}
+{"id": "S12", "loai": "B", "hoi": "thời gian lập quy chế quản lý kiến trúc thành phố trực thuộc trung ương", "vang": ["25-vbhn-bxd:dieu-07"], "kiem_chung": "không quá 15 tháng"}
+{"id": "S13", "loai": "B", "hoi": "hội đồng thi tuyển phương án kiến trúc gồm tối thiểu bao nhiêu người", "vang": ["25-vbhn-bxd:dieu-19"], "kiem_chung": "tối thiểu 09 người"}
+{"id": "S14", "loai": "A", "hoi": "điểm phát triển nghề nghiệp liên tục hằng năm của kiến trúc sư hành nghề", "vang": ["25-vbhn-bxd:dieu-24"], "kiem_chung": "tối thiểu là 04 điểm"}
+{"id": "S15", "loai": "B", "hoi": "sát hạch cấp chứng chỉ hành nghề kiến trúc đạt bao nhiêu điểm thì đỗ", "vang": ["25-vbhn-bxd:dieu-25"], "kiem_chung": "từ 70 điểm trở lên"}
+{"id": "S16", "loai": "F", "hoi": "yêu cầu hạ tầng kỹ thuật phần mềm sát hạch trực tuyến", "vang": ["25-vbhn-bxd:dieu-25"], "kiem_chung": "sát hạch trực tuyến"}
+{"id": "S17", "loai": "B", "hoi": "thời hạn cấp lại chứng chỉ hành nghề kiến trúc là bao nhiêu ngày làm việc", "vang": ["25-vbhn-bxd:dieu-28"], "kiem_chung": "03 ngày làm việc"}
+{"id": "S18", "loai": "A", "hoi": "nội dung quy chế quản lý kiến trúc điểm dân cư nông thôn", "vang": ["25-vbhn-bxd:dieu-13"], "kiem_chung": "điểm dân cư nông thôn"}
+{"id": "S19", "loai": "B", "hoi": "rà soát đánh giá việc thực hiện quy chế quản lý kiến trúc định kỳ mấy năm", "vang": ["25-vbhn-bxd:dieu-14"], "kiem_chung": "định kỳ 05 năm"}
+{"id": "S20", "loai": "F", "hoi": "hồ sơ đề nghị gia hạn chứng chỉ hành nghề kiến trúc gồm những gì", "vang": ["25-vbhn-bxd:dieu-27"], "kiem_chung": "gia hạn chứng chỉ hành nghề"}
