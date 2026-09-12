@@ -374,6 +374,7 @@ def main() -> None:
                 "duong_dan": r["duong_dan"],
                 "sua_doi_boi": r.get("sua_doi_boi") or [],
                 "gia_tri_phap_ly": r.get("gia_tri_phap_ly") or "",
+                "hop_nhat_tu": r.get("hop_nhat_tu") or [],
                 "trang_thai": r.get("trang_thai") or "",
                 "vien_dan_da_bi_thay_the": r.get("vien_dan_da_bi_thay_the") or [],
                 "vien_dan_ngoai_kho": r.get("vien_dan_ngoai_kho") or [],
@@ -407,6 +408,13 @@ def main() -> None:
             print("    📭  KHUNG RỖNG — kho CHƯA CÓ NỘI DUNG của văn bản này.")
             print("       Chỉ có tên, số hiệu, ngày ban hành. Không trích được điều khoản nào.")
             print("       Phải nói thẳng với người dùng là kho thiếu và đề nghị cung cấp bản gốc.")
+        if r.get("hop_nhat_tu"):
+            goc = ", ".join(r["hop_nhat_tu"])
+            print( "    🧩  VĂN BẢN HỢP NHẤT — bản ghép, KHÔNG tự nó là văn bản quy "
+                   "phạm pháp luật.")
+            print(f"       Trích dẫn phải nêu văn bản gốc: {goc}.")
+            print( "       Nội dung ở đây đã vá sẵn các lần sửa đổi; đọc ghi chú "
+                   "trong ngoặc để biết chỗ nào do văn bản nào sửa.")
         if r.get("gia_tri_phap_ly"):
             print(f"    🛑  {r['gia_tri_phap_ly']} — KHÔNG ĐƯỢC dùng làm căn cứ "
                   f"pháp lý.")
