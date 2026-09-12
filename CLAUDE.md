@@ -39,7 +39,7 @@ Hướng dẫn dành cho người dùng cuối (không phải cho bạn) ở `do
 Điểm in ra là **điểm BM25 — đo mức trùng từ khóa, không đo mức liên quan**.
 
 Đã đo, không phải phỏng đoán: điểm top-1 của câu **ngoài phạm vi kho** rơi vào
-17,0–33,2, của câu **có đáp án thật** rơi vào 6,1–75,8 — **chồng lấn hoàn toàn**.
+17,3–33,6, của câu **có đáp án thật** rơi vào 6,1–76,2 — **chồng lấn hoàn toàn**.
 Vì vậy **không có ngưỡng tin cậy nào trong công cụ này**, và đừng thêm vào: một
 nhãn tin cậy sai nguy hiểm hơn không có nhãn.
 
@@ -304,6 +304,13 @@ python3 tools/build_index.py        # 2. chạy lần hai, kết quả phải gi
 python3 eval/chay_danh_gia.py       # 3. không có dòng LỖI, chỉ số không tụt
 python3 tools/chen_anh_bang.py      # 4. không còn liên kết ảnh nào bị sót
 ```
+
+**Bước 5 — cập nhật `README.md`** khi thay đổi chạm tới: danh sách văn bản trong
+kho, số chunk, số ảnh, chỉ số truy hồi, hoặc danh sách công cụ. README là tệp
+duy nhất người dùng đọc để biết kho có gì; nó đã từng lạc hậu qua **sáu lần bổ
+sung văn bản** vì bốn bước trên không có bước nào đụng tới nó, còn `CLAUDE.md`
+thì được cập nhật đều vì đó là tệp AI đọc. Hai tệp có hai người đọc khác nhau,
+nên phải cập nhật cả hai.
 
 Chỉ số tụt mà không giải thích được bằng phép đo thì **không đẩy**. Thay đổi
 **đụng tới nội dung corpus của văn bản pháp luật** thì còn phải kiểm chứng bằng
