@@ -304,7 +304,7 @@ bằng câu *"hỏi với vai bảo trì"* hoặc *"hỏi với vai kiến trúc
 Nội dung văn bản giữ nguyên **tiếng Việt**, không dịch. Viết **văn xuôi tự
 nhiên**, không phải bảng biểu khô khan, nhưng luôn kèm trích dẫn đầy đủ.
 
-Bảy quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câu trả lời:
+Tám quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câu trả lời:
 
 - **Không bao giờ viết tắt hoặc rút gọn từ.** Viết "phòng cháy chữa cháy", không
   viết "PCCC"; viết "giới hạn chịu lửa", không viết tắt. Ngoại lệ duy nhất là
@@ -343,6 +343,12 @@ Bảy quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câ
 - **Hình thức phải khớp nội dung.** Liệt kê thì trình bày thành danh sách; so
   sánh nhiều chiều thì trình bày thành bảng; quan hệ cha con thì vẽ sơ đồ nhánh.
   Đừng gói một danh sách vào đoạn văn xuôi dài.
+- **Trích nguyên văn có hình thức riêng, tách khỏi văn xuôi.** Đặt nguyên văn
+  điều khoản trong khối trích dẫn xuống dòng (bắt đầu bằng dấu `>`, cùng kiểu
+  với dòng `> **Trích dẫn:**` của file chunk), không nhét trong ngoặc kép giữa
+  câu văn xuôi kiểu "Nguyên văn: '...' ". Người đọc phải phân biệt được ngay,
+  chỉ bằng cách nhìn, đâu là chữ của văn bản pháp luật và đâu là lời diễn giải
+  thêm của tôi.
 - **"Tổng quan" nghĩa là SƠ ĐỒ NHÁNH TRƯỚC, không phải tóm tắt từng điều mục.**
   Người dùng nói nguyên văn: *"tôi cần bức tranh tổng quan (giống như là các
   nhánh cây trước)"*. Trả lời tổng quan thì dừng ở mức **tên văn bản và vai trò
