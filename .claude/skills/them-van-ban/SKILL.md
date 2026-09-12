@@ -216,18 +216,20 @@ python3 tools/cat_bang.py --pdf <goc.pdf> --trang 57 --bang G.2a \
 
 ### Đã cắt sẵn — kiểm tra trước khi nghĩ tới việc cắt mới
 
-Kho **đã có sẵn 160 ảnh bảng**, phủ **toàn bộ bảng của cả năm văn bản**, và
-**cả 160 ảnh đều đã được chèn liên kết vào corpus** (kiểm lại bằng
+Kho **đã có sẵn 203 ảnh bảng cho 126 bảng**, phủ **toàn bộ bảng của bảy văn bản**,
+và **cả 203 ảnh đều đã được chèn liên kết vào corpus** (kiểm lại bằng
 `tools/chen_anh_bang.py`). Con số này từng là 122; một ảnh đã bị xoá vì bắt
 nhầm câu văn xuôi thành bảng — xem phần bảng nhiều trang bên dưới:
 
-| Văn bản | Thư mục ảnh | Số bảng |
+| Văn bản | Thư mục ảnh | Số bảng và số ảnh |
 |---|---|---|
-| QCVN 06:2022/BXD phần chính | `corpus/quy-chuan/qcvn-06-2022-bxd/bang/` | 16 |
-| QCVN 06:2022/BXD phụ lục | `corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/` | 48 |
-| QCVN 10:2025/BCA | `corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/` | 19 |
-| QCVN 10:2024/BXD | `corpus/quy-chuan/qcvn-10-2024-bxd/phu-luc/bang/` | 2 |
-| QCVN 01:2021/BXD | `corpus/quy-chuan/qcvn-01-2021-bxd/bang/` | 32 (39 ảnh, 7 bảng tràn trang) |
+| QCVN 06:2022/BXD phần chính | `corpus/quy-chuan/qcvn-06-2022-bxd/bang/` | 16 bảng, 20 ảnh |
+| QCVN 06:2022/BXD phụ lục | `corpus/quy-chuan/qcvn-06-2022-bxd/phu-luc/bang/` | 48 bảng, 60 ảnh |
+| QCVN 10:2025/BCA | `corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/` | 19 bảng, 39 ảnh |
+| QCVN 10:2024/BXD | `corpus/quy-chuan/qcvn-10-2024-bxd/phu-luc/bang/` | 2 bảng, 2 ảnh |
+| QCVN 01:2021/BXD | `corpus/quy-chuan/qcvn-01-2021-bxd/bang/` | 32 bảng, 39 ảnh |
+| Thông tư 06/2021/TT-BXD | `corpus/nghi-dinh/06-2021-tt-bxd/phu-luc/bang/` | 6 bảng, 40 ảnh |
+| Quyết định 975/QĐ-BXD | `corpus/huong-dan/975-qd-bxd/bang/` | 3 bảng, 3 ảnh |
 
 Mỗi ảnh đã được **chèn liên kết ngay dưới tiêu đề bảng** trong `corpus/`, nên
 chunk trả về từ `search.py` đã mang sẵn đường dẫn ảnh. Chỉ việc gửi tệp đó cho

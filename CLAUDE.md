@@ -370,8 +370,8 @@ Chỉ số tụt mà không giải thích được bằng phép đo thì **khôn
 **đụng tới nội dung corpus của văn bản pháp luật** thì còn phải kiểm chứng bằng
 thị giác máy đối chiếu bản gốc — đây là loại lỗi mà chỉ số truy hồi không bắt được.
 
-Mức truy hồi hiện tại (250 câu, 19 văn bản, 1 387 chunk): Recall@1 = 0,582 ·
-Recall@3 = 0,799 · Recall@5 = 0,844 · Recall@10 = 0,886 · MRR = 0,715. Trước khi
+Mức truy hồi hiện tại (250 câu, 19 văn bản, 1 387 chunk): Recall@1 = 0,586 ·
+Recall@3 = 0,799 · Recall@5 = 0,844 · Recall@10 = 0,890 · MRR = 0,717. Trước khi
 đổi bất kỳ hằng số xếp hạng nào, **gọi skill `do-luong-truy-hoi`** — mỗi con
 số ở đó đến từ một phép quét dải giá trị, không phải cảm tính.
 
@@ -428,7 +428,7 @@ Tám quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câu
   Trích điều khoản có dẫn chiếu hình (mục 3.2.8 dẫn Hình I.3, I.4, I.5; mục
   3.4.10 dẫn Hình I.7, I.8) thì **phải gửi kèm các hình đó**, không chỉ gửi bảng.
 
-  Kho hiện có **200 ảnh bảng** và **13 hình** của Phụ lục I, tất cả đã được chèn
+  Kho hiện có **203 ảnh bảng** và **13 hình** của Phụ lục I, tất cả đã được chèn
   liên kết vào corpus nên chunk trả về đã mang sẵn đường dẫn — chỉ việc gửi tệp,
   **không cần cắt lại**. Chưa có ảnh thì **nói thẳng là chưa có và cần bản PDF
   gốc**, tuyệt đối không vẽ lại bảng hay hình rồi trình bày như ảnh chụp bản in.

@@ -16,11 +16,15 @@ chuong: "Phần I.2 Thủ tục hành chính được bãi bỏ"
 
 **A. Thủ tục hành chính cấp trung ương**
 
+![Ảnh chụp từ bản in gốc — Danh mục thủ tục hành chính được bãi bỏ, mục A cấp trung ương, Phần I.2 Quyết định số 975/QĐ-BXD](../../corpus/huong-dan/975-qd-bxd/bang/bang-phan-i-2-a.png)
+
 | STT | Số hồ sơ TTHC | Tên thủ tục hành chính | Tên văn bản quy phạm pháp luật quy định nội dung bãi bỏ | Lĩnh vực | Cơ quan thực hiện |
 |---|---|---|---|---|---|
 | 1 | 1.008881 | Công nhận tổ chức xã hội - nghề nghiệp, cơ sở nghiên cứu, cơ sở đào tạo đủ điều kiện thực hiện sát hạch cấp chứng chỉ hành nghề kiến trúc | Nghị quyết số 66.18/2026/NQ-CP ngày 18/5/2026 của Chính phủ về phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh. | Kiến trúc | Bộ Xây dựng. |
 
 **B. Thủ tục hành chính cấp tỉnh**
+
+![Ảnh chụp từ bản in gốc — Danh mục thủ tục hành chính được bãi bỏ, mục B cấp tỉnh, Phần I.2 Quyết định số 975/QĐ-BXD](../../corpus/huong-dan/975-qd-bxd/bang/bang-phan-i-2-b.png)
 
 | STT | Số hồ sơ TTHC | Tên thủ tục hành chính | Tên văn bản quy phạm pháp luật quy định nội dung bãi bỏ | Lĩnh vực | Cơ quan thực hiện |
 |---|---|---|---|---|---|
