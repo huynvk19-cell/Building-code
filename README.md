@@ -4,199 +4,214 @@ Kho dữ liệu dạng **RAG** (Retrieval-Augmented Generation): AI không cần
 văn bản luật, mà tra cứu trực tiếp vào kho này. Git giữ lịch sử phiên bản —
 khi một nghị định được sửa đổi, bạn commit bản mới và bản cũ vẫn còn nguyên.
 
+Hiện có **16 văn bản · 1 303 chunk · 241 ảnh** cắt từ bản in gốc.
+
 ## Đang có gì
 
-| Văn bản | Nội dung | Trạng thái |
+### Văn bản quy phạm pháp luật — đã số hóa đầy đủ
+
+| Văn bản | Nội dung | Hiệu lực | Chunk |
+|---|---|---|---|
+| **QCVN 06:2022/BXD** | An toàn cháy cho nhà và công trình — bậc chịu lửa, khoang cháy, thoát nạn, ngăn cháy lan, cấp nước chữa cháy. Mục 1–7 + Phụ lục A–I, 64 bảng tra, 13 hình vẽ | 16/01/2023 | 445 |
+| **Sửa đổi 1:2023 QCVN 06:2022/BXD** | Sửa khoảng 120 điểm của bản gốc. **Không thay thế** — phải đọc kèm | 01/12/2023 | 146 |
+| **QCVN 01:2021/BXD** | Quy hoạch xây dựng — đất dân dụng, mật độ xây dựng, khoảng lùi, hạ tầng kỹ thuật. 5 phần, 164 mục, 32 bảng | 05/7/2021 | 168 |
+| **QCVN 04:2021/BXD** | Nhà chung cư | 05/7/2021 | 134 |
+| **QCVN 10:2024/BXD** | Tiếp cận sử dụng cho người khuyết tật. 19 mục + 2 Phụ lục, 26 hình vẽ | CHƯA XÁC ĐỊNH | 22 |
+| **QCVN 10:2025/BCA** | Trang bị, bố trí phương tiện phòng cháy chữa cháy, cứu nạn cứu hộ | CHƯA XÁC ĐỊNH | 39 |
+| **Thông tư 06/2021/TT-BXD** | Phân cấp công trình xây dựng. 5 Điều + 3 Phụ lục, 6 bảng phân cấp | 15/8/2021 | 69 |
+| **Thông tư 02/2025/TT-BXD** | Sửa 17 chỗ của Thông tư 06/2021. **Không thay thế** — phải đọc kèm | 20/5/2025 | 20 |
+| **Nghị định 212/2026/NĐ-CP** | Điều kiện năng lực hoạt động xây dựng; cơ sở dữ liệu quốc gia. 58 Điều + 4 Phụ lục | 01/7/2026 | 76 |
+| **Nghị định 347/2026/NĐ-CP** | Sửa 4 nghị định về phòng cháy chữa cháy. 42 Điều + 3 Phụ lục | 15/9/2026 | 46 |
+
+### Tài liệu tham khảo — KHÔNG phải căn cứ pháp lý
+
+| Tài liệu | Nội dung | Chunk |
 |---|---|---|
-| **Nghị định 212/2026/NĐ-CP** (17/6/2026) | Điều kiện năng lực hoạt động xây dựng; Hệ thống thông tin, Cơ sở dữ liệu quốc gia về hoạt động xây dựng | 58 Điều + 4 Phụ lục — đã số hóa đầy đủ |
-| **QCVN 06:2022/BXD** (30/11/2022) | An toàn cháy cho nhà và công trình — bậc chịu lửa, khoang cháy, thoát nạn, ngăn cháy lan, cấp nước chữa cháy | Mục 1–7 + **Phụ lục A–I**, 64 bảng tra, **13 hình vẽ** — đã số hóa đầy đủ |
-| **Sửa đổi 1:2023 QCVN 06:2022/BXD** (16/10/2023) | Sửa đổi, bổ sung ~120 điểm của QCVN 06:2022/BXD — hiệu lực **01/12/2023** | Toàn văn Thông tư 09/2023/TT-BXD + phần chính + Phụ lục A, C, D, E, G, H + Thư mục tham khảo |
-| **QCVN 10:2024/BXD** (01/8/2024) | Xây dựng công trình đảm bảo tiếp cận sử dụng cho người khuyết tật | 19 mục + 2 Phụ lục, **26 hình vẽ** — đã số hóa đầy đủ |
-| **QCVN 10:2025/BCA** (04/11/2025) | Trang bị, bố trí phương tiện phòng cháy, chữa cháy, cứu nạn, cứu hộ cho nhà và công trình | 20 mục + 8 Phụ lục (A–H) — đã số hóa đầy đủ |
+| **Hỏi đáp C07** | 132 giải đáp của Cục Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ. Cho biết cơ quan thẩm duyệt **thực tế hiểu quy định thế nào** — nhưng không bao giờ được trích làm căn cứ. Không mục nào có ngày trả lời | 133 |
 
-> ⚠️ **Hai văn bản cùng mang số hiệu "QCVN 10"** nhưng khác cơ quan và khác nội
-> dung hoàn toàn. Khi trích dẫn phải ghi đủ đuôi `/BXD` (Bộ Xây dựng — tiếp cận
-> người khuyết tật) hay `/BCA` (Bộ Công an — phòng cháy chữa cháy).
+### Khung rỗng — mới có tên, chưa có nội dung
 
-**Hiệu lực** — mỗi chunk mang sẵn trường `ngay_hieu_luc`, và kho chỉ ghi những gì
-văn bản tự nói, không suy đoán:
+`105/2025/NĐ-CP` · `106/2025/NĐ-CP` · `169/2025/NĐ-CP` · `282/2025/NĐ-CP` ·
+`217/2026/NĐ-CP`. Tra tới chúng thì kho trả về một dòng nói thẳng *chưa có nội
+dung*, thay vì trả về rỗng khiến người đọc tưởng là "pháp luật không quy định".
 
-- **NĐ 212/2026/NĐ-CP** — hiệu lực **01/7/2026** (Điều 57 khoản 1), thay thế Nghị
-  định 111/2024/NĐ-CP. Điều khoản chuyển tiếp ở **Điều 55**: hồ sơ nộp trước thời
-  điểm đó xử lý theo quy định cũ, nên đọc Điều 55 trước khi tư vấn.
-- **QCVN 10:2024/BXD** — thay thế QCVN 10:2014/BXD, chuyển tiếp ở mục 3.1. Ngày
-  hiệu lực **chưa xác định trong kho**: nó nằm ở Thông tư 06/2024/TT-BXD, văn bản
-  này chưa được số hóa.
-- **QCVN 06:2022/BXD** — hiệu lực **16/01/2023** (Điều 2 Thông tư 06/2022/TT-BXD, có
-  ngay trong tài liệu), thay thế QCVN 06:2021/BXD. Chuyển tiếp ở mục 7.1: hồ sơ đã
-  được góp ý hoặc thẩm duyệt PCCC trước ngày đó thì tiếp tục theo hồ sơ cũ.
-- **QCVN 10:2025/BCA** — ban hành kèm Thông tư 103/2025/TT-BCA. Bản Quy chuẩn
-  không chứa điều khoản hiệu lực lẫn chuyển tiếp; cả hai nằm trong Thông tư 103,
-  **chưa có trong kho**.
+**Cần bổ sung nhất là Nghị định 105/2025/NĐ-CP** — 72 trên 132 giải đáp của C07
+viện dẫn văn bản này.
 
-> ⚠️ **QCVN 06 phải đọc kèm Sửa đổi 1:2023.** Bản sửa đổi (hiệu lực 01/12/2023)
-> **không thay thế** bản gốc — nó chỉ chứa phần được sửa. Quy định đang có hiệu
-> lực = bản gốc **đã vá bằng** bản sửa đổi.
+## Ba cái bẫy phải biết trước khi tra
+
+> ⚠️ **Hai văn bản cùng số hiệu "QCVN 10"**, khác cơ quan và khác hẳn nội dung.
+> Trích phải ghi đủ đuôi `/BXD` (Bộ Xây dựng — tiếp cận người khuyết tật) hay
+> `/BCA` (Bộ Công an — phòng cháy chữa cháy).
+
+> ⚠️ **QCVN 06 phải đọc kèm Sửa đổi 1:2023.** Quy định đang có hiệu lực = bản gốc
+> **đã vá bằng** bản sửa đổi. Kho giữ nguyên văn cả hai và tự nối: **95 chunk**
+> của bản gốc mang cờ `sua_doi_boi`, `search.py` in cảnh báo `⚠️ ĐÃ BỊ SỬA ĐỔI`
+> ngay trên kết quả.
 >
-> Kho giữ nguyên văn cả hai và tự nối chúng: chunk nào của bản gốc bị đụng tới
-> đều mang cờ `sua_doi_boi`, và `search.py` in cảnh báo `⚠️ ĐÃ BỊ SỬA ĐỔI` ngay
-> trên kết quả. Hiện có **92 chunk** mang cờ này.
->
-> Đáng chú ý: **toàn bộ điểm A.4 (nhà kinh doanh karaoke, vũ trường) đã bị bãi
-> bỏ** từ 01/12/2023, cùng với các điểm 1.3, 7.4, A.1.3.12, H.2.10.3.
->
-> **Phụ lục I chỉ mang tính tham khảo**, không bắt buộc áp dụng — nó minh họa cho
-> các mục 2.4.2, 3.2.2, 3.2.8 và 3.4.10. Cần căn cứ ràng buộc thì trích điều
-> khoản gốc ở phần chính.
+> Đáng chú ý: **toàn bộ Phụ lục A.4 (nhà kinh doanh karaoke, vũ trường) đã bị bãi
+> bỏ** từ 01/12/2023, cùng các điểm 1.3, 7.4, A.1.3.12, H.2.10.3.
+
+> ⚠️ **Thông tư 06/2021 phải đọc kèm Thông tư 02/2025.** Cặp này **không** có
+> cảnh báo tự động trên từng chunk (lý do kỹ thuật ghi trong `CLAUDE.md`), nên
+> danh sách đủ 17 chỗ đã sửa nằm trong `CLAUDE.md`. Trong đó **mục 1.2.1.3 Bảng
+> 1.2 đã bị bãi bỏ**.
+
+**Ngày hiệu lực** — kho chỉ ghi những gì văn bản tự nói, không suy đoán. Hai quy
+chuẩn mang `CHƯA XÁC ĐỊNH` vì ngày hiệu lực của chúng nằm ở Thông tư ban hành
+(06/2024/TT-BXD và 103/2025/TT-BCA), mà hai Thông tư đó chưa có trong kho.
 
 ## Tra cứu nhanh
 
 ```bash
+# Tra một điều khoản đã biết số hiệu, KÈM PHẠM VI ÁP DỤNG — chạy trước khi trích
+python3 tools/tra_muc.py 3.3.6
+python3 tools/tra_muc.py 2.7.4 --doc qcvn-10-2024-bxd
+python3 tools/tra_muc.py G.9                    # tra bảng
+
+# Tìm theo từ khóa
 python3 tools/search.py "điều kiện cấp chứng chỉ hành nghề thiết kế hạng I"
-python3 tools/search.py --k 3 "hồ sơ đề nghị cấp giấy phép nhà thầu nước ngoài"
-python3 tools/search.py --gon "nhà trẻ mẫu giáo trang bị chữa cháy tự động"  # chỉ tiêu đề
+python3 tools/search.py --gon "trường tiểu học cấp công trình"   # chỉ tiêu đề
 python3 tools/search.py --doc qcvn-10-2025-bca "bình chữa cháy"  # khoanh một văn bản
 python3 tools/search.py --khong-dau "chung chi hanh nghe"        # gõ không dấu
-python3 tools/search.py --json "mã định danh công trình"         # cho script/agent
+python3 tools/search.py --json "mã định danh công trình"         # cho script
 ```
-
-Mặc định in **đầy đủ nội dung** chunk; thêm `--gon` nếu chỉ muốn xem tiêu đề.
-Không cần cài gì thêm — chỉ dùng thư viện chuẩn của Python 3.
 
 ### Đọc điểm số cho đúng
 
-Con số in cạnh mỗi kết quả là **điểm BM25 — nó đo mức trùng từ khóa, không đo
-mức liên quan**. Công cụ luôn trả về kết quả kể cả khi kho không hề có quy định
-về chủ đề bạn hỏi.
+Điểm in ra là **điểm BM25 — đo mức trùng từ khóa, chứ không đo mức liên quan**.
+Một câu hỏi hoàn toàn ngoài phạm vi kho vẫn nhận được 5 kết quả trông có vẻ hợp lý.
 
-Chuyện này đã được đo chứ không phải phỏng đoán: trên bộ 165 câu hỏi chuẩn,
-điểm cao nhất của những câu **ngoài phạm vi kho** nằm trong dải 5.9–20.8, còn của
-những câu **có đáp án thật** nằm trong dải 4.2–44.9 — hai dải chồng lên nhau, nên
-không có ngưỡng nào tách được chúng. Vì vậy kho cố tình **không** gắn nhãn "độ tin
-cậy": một nhãn sai còn nguy hiểm hơn không có nhãn.
-
-Cách dùng đúng là **đọc nội dung trả về** và tự hỏi *đoạn này có thật sự nói về
-điều mình hỏi không*. Nếu không, câu trả lời đúng là "kho chưa có văn bản quy định
-việc này" — kho mới chỉ có ba văn bản.
+Đã đo trên bộ câu hỏi chuẩn: điểm top-1 của câu **ngoài phạm vi** rơi vào
+17,3–33,6, của câu **có đáp án thật** rơi vào 6,1–76,2 — **hai dải chồng lấn hoàn
+toàn**. Vì vậy công cụ **cố ý không có ngưỡng tin cậy**: một nhãn tin cậy sai
+nguy hiểm hơn không có nhãn. Luôn đọc nội dung chunk trước khi kết luận.
 
 ## Cấu trúc
 
 ```
-corpus/                       Bản gốc (nguồn sự thật duy nhất)
-  nghi-dinh/212-2026-nd-cp/
-    toan-van.md               Toàn văn 58 Điều
-    muc-luc.md                Mục lục (sinh tự động)
-    phu-luc/                  Phụ lục I–IV
-  quy-chuan/qcvn-06-2022-bxd/
-    toan-van.md               Mục 1–7
-    phu-luc/                  Phụ lục A–I (các bảng tra cứu)
-    phu-luc/hinh/             13 hình vẽ cắt từ PDF gốc
-    bang/                     16 ảnh bảng phần chính cắt từ PDF gốc
-    phu-luc/bang/             48 ảnh bảng phụ lục cắt từ PDF gốc
-  quy-chuan/sua-doi-1-2023-qcvn-06-2022-bxd/
-    toan-van.md               Thông tư 09/2023/TT-BXD + sửa đổi mục 1–7
-    phu-luc/                  Sửa đổi Phụ lục A, C, D, E, G, H + Thư mục tham khảo
-  quy-chuan/qcvn-10-2024-bxd/
-    toan-van.md               Phần 1–3
-    phu-luc/hinh/             26 hình vẽ cắt từ PDF gốc
-  quy-chuan/qcvn-10-2025-bca/
-    toan-van.md               Phần 1–4 (mục 1.1, 2.3.1…)
-    phu-luc/                  Phụ lục A–H (các bảng tra cứu)
-    phu-luc/hinh/             Hình vẽ cắt từ bản gốc
-chunks/                       Mỗi Điều / mục / bảng một file (sinh tự động)
-index/
-  chunks.jsonl                Chỉ mục truy hồi kèm metadata
-  documents.json              Sổ đăng ký văn bản
-eval/
-  bo_cau_hoi.jsonl            101 câu hỏi gán nhãn vàng để đo truy hồi
-  chay_danh_gia.py            Đo Recall@k và MRR
-tools/
-  ingest_pdf.py               PDF → ảnh trang + OCR nháp
-  cat_hinh.py                 Cắt hình vẽ từ PDF gốc vào corpus/
-  build_index.py              corpus/ → chunks/ + index/
-  search.py                   Tìm kiếm BM25
-docs/
-  huong-dan-su-dung.md        Hướng dẫn dùng hằng ngày
-  ket-noi-ai.md               3 cách cho AI "ngồi lên" kho này
-CLAUDE.md                     Chỉ dẫn cho AI (quy tắc trích dẫn)
+corpus/                       Bản gốc — nguồn sự thật duy nhất, CHỈ sửa ở đây
+  quy-chuan/<mã>/
+    toan-van.md               Toàn văn
+    phu-luc/                  Phụ lục, mỗi tệp khai chia_theo riêng
+    phu-luc/hinh/             Hình vẽ cắt từ PDF gốc
+    phu-luc/bang/  bang/      Ảnh bảng cắt từ PDF gốc
+  nghi-dinh/<mã>/             Nghị định, Luật, Thông tư — cùng cấu trúc
+  huong-dan/hoi-dap-c07/      Tài liệu THAM KHẢO, không có giá trị pháp lý
+chunks/                       Mỗi Điều / mục / bảng một tệp (sinh tự động)
+index/chunks.jsonl            Chỉ mục truy hồi kèm metadata
+index/documents.json          Sổ đăng ký văn bản
+eval/bo_cau_hoi.jsonl         225 câu hỏi gán nhãn vàng
+.claude/skills/               Ba skill nạp theo yêu cầu, không thường trực
+docs/                         Hướng dẫn cho người dùng
+CLAUDE.md                     Hàng rào chống trả lời sai, dành cho AI
 ```
+
+### Công cụ
+
+| Tệp | Việc |
+|---|---|
+| `search.py` | Tìm kiếm BM25 kèm xếp hạng lại theo vị trí gần nhau |
+| `tra_muc.py` | Tra một mục kèm **phạm vi áp dụng**, mục cha, cờ sửa đổi, ảnh kèm |
+| `build_index.py` | `corpus/` → `chunks/` + `index/`, idempotent |
+| `ingest_pdf_text.py` | PDF **có lớp văn bản** → Markdown, không qua OCR |
+| `ingest_bang_pdf.py` | **Bảng tra** → Markdown giữ đúng quan hệ hàng cột, xử lý được trang in xoay ngang |
+| `ingest_pdf.py` | PDF **bản quét** → ảnh trang để chép bằng thị giác máy |
+| `ingest_hoi_dap.py` | Tệp hỏi đáp nghiệp vụ → corpus |
+| `cat_bang.py` · `cat_hinh.py` | Cắt ảnh bảng, ảnh hình từ PDF gốc |
+| `chen_anh_bang.py` | Chèn liên kết ảnh vào corpus, kiểm sót |
+| `tao_khung_van_ban.py` | Tạo khung rỗng cho văn bản chưa có nội dung |
 
 ## Thêm văn bản mới
 
+Bước đầu tiên quyết định toàn bộ cách làm — **PDF có lớp văn bản thật không**:
+
 ```bash
-python3 tools/ingest_pdf.py vanban-moi.pdf --ten 213-2026-nd-cp
-# → đọc ảnh trang bằng Claude, chép thành corpus/.../toan-van.md
-python3 tools/build_index.py
-git add -A && git commit -m "Thêm Nghị định 213/2026/NĐ-CP"
+python3 -c "import pymupdf,sys; d=pymupdf.open(sys.argv[1]); \
+  print(sum(1 for p in d if p.get_text().strip()), '/', len(d))" vanban-moi.pdf
 ```
 
-Chi tiết ở [`docs/huong-dan-su-dung.md`](docs/huong-dan-su-dung.md).
+Có lớp văn bản thì trích thẳng bằng `ingest_pdf_text.py` (chính xác tuyệt đối);
+là bản quét thì phải chép từng trang bằng thị giác máy. **Không bao giờ dán
+thẳng kết quả OCR vào corpus** — Tesseract đánh rơi dấu tiếng Việt ("thẩm quyền"
+→ "thâm quyên"), với văn bản pháp luật là sai nghĩa.
+
+Quy trình đầy đủ, kèm **năm cái bẫy đã mắc thật**, nằm trong skill
+`.claude/skills/them-van-ban/`. Hướng dẫn dùng hằng ngày ở
+[`docs/huong-dan-su-dung.md`](docs/huong-dan-su-dung.md).
+
+Sau mỗi thay đổi trong `corpus/`, bốn bước sau là bắt buộc:
+
+```bash
+python3 tools/build_index.py     # 1. dựng lại chỉ mục, phải chạy sạch
+python3 tools/build_index.py     # 2. chạy lần hai, kết quả phải giống hệt
+python3 eval/chay_danh_gia.py    # 3. không có dòng LỖI, chỉ số không tụt
+python3 tools/chen_anh_bang.py   # 4. không còn liên kết ảnh nào bị sót
+```
 
 ## Đo chất lượng tra cứu
 
-Kho có bộ **165 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu
-cố tình hỏi những thứ **không** có trong kho, để kiểm tra xem công cụ có bịa ra
-câu trả lời không.
+Bộ **225 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu cố
+tình hỏi những thứ **không** có trong kho, để kiểm tra công cụ có bịa hay không.
 
 ```bash
 python3 eval/chay_danh_gia.py            # chỉ số hiện hành
-python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với cấu hình cũ
 python3 eval/chay_danh_gia.py --chi-tiet # xem những câu bị trượt
 ```
 
-Mức hiện tại — đúng chunk nằm trong 5 kết quả đầu ở **81%** số câu, trong 10 kết
-quả đầu ở **89%**:
+Mức hiện tại trên 16 văn bản, 1 303 chunk:
 
-| | 3 văn bản<br>101 câu | 4 văn bản<br>123 câu | + phụ lục QCVN 06<br>141 câu | + Sửa đổi 1:2023<br>165 câu |
-|---|---|---|---|---|
-| Recall@1 | 0.549 | 0.541 | 0.550 | **0.554** |
-| Recall@3 | 0.733 | 0.752 | 0.779 | **0.774** |
-| Recall@5 | 0.844 | 0.805 | 0.822 | **0.811** |
-| Recall@10 | 0.916 | 0.872 | 0.882 | **0.887** |
-| MRR | 0.713 | 0.704 | 0.708 | **0.709** |
+| | Recall@1 | Recall@3 | Recall@5 | Recall@10 | MRR |
+|---|---|---|---|---|---|
+| 225 câu | 0,555 | 0,796 | **0,845** | 0,891 | 0,701 |
 
-Các cột này **không so sánh trực tiếp được** — mỗi cột đo trên một bộ câu hỏi
-khác nhau và một kho khác nhau (176 → 346 → 536 → 682 chunk). Thêm văn bản thì
-cạnh tranh tăng nên vài câu cũ bị đẩy xuống; đó là cái giá của việc kho rộng
-hơn, đã đo chứ không giấu.
+Nghĩa là đúng chunk nằm trong 5 kết quả đầu ở **84%** số câu, trong 10 kết quả
+đầu ở **89%**.
 
-Hai lần mở rộng gần đây đều được đo riêng, kể cả phần xấu:
+**Các con số qua từng đợt mở rộng không so sánh trực tiếp được** — mỗi lần đo
+trên một bộ câu hỏi khác và một kho khác (176 → 682 → 1 303 chunk). Thêm văn bản
+thì cạnh tranh tăng nên vài câu cũ bị đẩy xuống; đó là cái giá của kho rộng hơn,
+đã đo chứ không giấu. Ba lần đánh đổi lớn đều được tách riêng và ghi lại bằng
+phép đo trong skill `do-luong-truy-hoi`:
 
-**Thêm 190 chunk phụ lục QCVN 06.** Khi chưa thêm câu hỏi nào cho chúng,
-Recall@1 tụt 0.541 → 0.504. Sau khi bổ sung 18 câu cho chính các phụ lục đó, chỉ
-số về 0.550. Phần tụt ban đầu là do bộ đo chưa phủ nội dung mới, không phải do
-truy hồi kém đi.
+- **133 chunk hỏi đáp nghiệp vụ** làm Recall@3 tụt 0,774 → 0,762 trên đúng bộ
+  câu cũ; hạ trọng số tài liệu tham khảo xuống 0,90 kéo lại được phần lớn.
+- **168 chunk QCVN 01:2021/BXD** và việc giữ lại các mục cha chỉ có tên làm
+  Recall@1 tụt 0,570 → 0,550. Riêng phần giữ mục cha tốn 0,005 — đổi lại **phạm
+  vi áp dụng của mục cha quay lại chỉ mục**, thứ mà thiếu nó đã gây một lỗi có thật.
+- **Thông tư phân cấp công trình** thì nhích lên: 0,550 → 0,555.
 
-**Thêm 146 chunk Sửa đổi 1:2023.** Đo lại trên **đúng bộ 141 câu cũ** (không tính
-24 câu mới), Recall@5 tụt 0.822 → 0.807: chính xác **2 câu** bị chunk của bản sửa
-đổi chen mất chỗ trong top-5, trong khi MRR lại nhích lên 0.708 → 0.713. Đổi lại,
-20 trong 24 câu mới về bản sửa đổi vào được top-5. Đây là đánh đổi có chủ ý —
-thà mất 2 câu còn hơn để người dùng đọc bản 2022 mà tưởng là quy định hiện hành.
+Còn yếu ở câu hỏi bắc cầu nhiều văn bản (0,17) và câu hỏi mơ hồ (0,25). Giới hạn
+của phép đo ghi thẳng trong [`eval/README.md`](eval/README.md) — nên đọc trước
+khi trích dẫn mấy con số này.
 
-Câu hỏi tra cứu trực tiếp (loại A) đạt 0.89 trên 28 câu — đây là dạng câu hỏi
-thường gặp nhất khi làm hồ sơ.
-
-Còn yếu ở câu hỏi bắc cầu nhiều văn bản (0.17) và câu hỏi mơ hồ (0.25). Khi kho
-có 4 văn bản, việc "hỏi một câu chạm hai quy chuẩn" khó hơn hẳn — đây là điểm cần
-cải thiện tiếp. Giới hạn
-của phép đo được ghi thẳng trong [`eval/README.md`](eval/README.md) — nên đọc
-trước khi trích dẫn mấy con số này.
-
-Sau khi sửa `tools/search.py` hoặc đổi cách cắt chunk, chạy lại bộ đo trước khi commit.
+**Vì sao không dùng cơ sở dữ liệu vector:** đã đo, không phải quan điểm. Không
+một câu nào trong bộ đánh giá thất bại vì BM25 tìm không ra chunk vàng —
+Recall@50 đạt 0,938 và Recall@100 đạt 0,972, mọi chunk vàng đều được tìm thấy, chỉ bị xếp hạng thấp. Việc
+cần làm là **xếp hạng lại**, không phải đổi cách tìm. Thêm nữa, tra cứu pháp luật
+cần khớp định danh chính xác ("QCVN 10:2024/BXD" so với "QCVN 10:2025/BCA" khác
+đúng một ký tự), mà véc-tơ nhúng làm mờ đúng thứ đó. Lập luận đầy đủ kèm ngưỡng
+nên xem lại quyết định nằm trong skill `do-luong-truy-hoi`.
 
 ## Về độ chính xác
 
-Cả ba file PDF gốc đều là **bản scan** (ảnh, không có lớp text). Quy trình số hóa:
+Kho có hai loại bản gốc, xử lý khác hẳn nhau:
 
-1. OCR bằng Tesseract tiếng Việt → **bản nháp**
-2. Đọc lại từng trang bằng **thị giác máy (Claude vision)** và hiệu đính
+**PDF có lớp văn bản** (bản ký số, bản Công báo) — trích thẳng, chính xác tuyệt
+đối. Vẫn phải mở vài trang bằng thị giác máy để đối chiếu, và **luôn đối chiếu số
+mục trích được với bản gốc**: lệch là có mục bị nuốt.
 
-Bước 2 là bắt buộc: OCR đánh rơi dấu tiếng Việt ("thẩm quyền" → "thâm quyên",
-"dữ liệu" → "đữ liệu"). Với văn bản pháp luật, sai một dấu là sai nghĩa.
+**PDF bản quét** — OCR chỉ để định vị, nội dung phải chép lại bằng thị giác máy
+từng trang.
 
-**Với hình vẽ** thì làm hai lớp: chép chú dẫn thành chữ để tìm kiếm được, đồng
-thời cắt giữ lại chính hình vẽ trong `phu-luc/hinh/` để nhìn được. Hình vẽ không
-bao giờ được vẽ lại — vẽ lại là diễn giải lại.
+**Bảng tra** thì không dùng lớp văn bản phẳng: với một bảng, lớp văn bản chỉ cho
+ra chuỗi ô và **mất thông tin ô đó thuộc cột nào**. Chuỗi phẳng của Bảng 1.1
+Thông tư 06/2021 đọc là "Trường tiểu học · Tổng số học sinh toàn trường · ≥ 700 ·
+< 700", không cách nào biết ≥ 700 là cấp II còn < 700 là cấp III. `ingest_bang_pdf.py`
+dựng lại lưới từ **chính đường kẻ in trong PDF** nên quan hệ hàng cột là đọc ra
+được, không phải suy đoán.
 
-> Kho này là **công cụ tra cứu**, không thay thế bản công báo chính thức.
-> Với hồ sơ pháp lý, hãy đối chiếu lại bản gốc trên Cổng thông tin điện tử Chính phủ.
+**Hình vẽ và bảng không bao giờ được vẽ lại** — vẽ lại là diễn giải lại, và một
+nét sai trong hình kỹ thuật là một quy định sai. Kho cắt giữ ảnh gốc (200 ảnh
+bảng, 41 hình) và chèn liên kết ngay dưới tiêu đề, nên kết quả tra cứu đã mang
+sẵn đường dẫn ảnh.

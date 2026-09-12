@@ -15,7 +15,7 @@ sua_doi_boi: []
 dieu_khoan_chuyen_tiep: "Điều 55"
 nguon: "Cổng thông tin điện tử Chính phủ (bản ký số 18/06/2026)"
 phuong_phap_so_hoa: "OCR (tesseract-vie) + hiệu đính bằng thị giác máy (Claude vision)"
-trang_thai: "đang cập nhật"
+trang_thai: "hoàn chỉnh"
 so_trang: 45
 ngon_ngu: "vi"
 ---
