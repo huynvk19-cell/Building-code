@@ -1,5 +1,38 @@
 [
   {
+    "doc_id": "975-qd-bxd",
+    "so_hieu": "975/QĐ-BXD",
+    "loai_van_ban": "Quyết định",
+    "tieu_de": "Công bố thủ tục hành chính được sửa đổi, bổ sung, bãi bỏ lĩnh vực quy hoạch đô thị và nông thôn, kiến trúc thuộc phạm vi chức năng quản lý của Bộ Xây dựng",
+    "co_quan_ban_hanh": "Bộ Xây dựng",
+    "ngay_ban_hanh": "2026-06-22",
+    "ngay_hieu_luc": "2026-07-01",
+    "can_cu_hieu_luc": "Điều 2 của chính Quyết định này",
+    "thay_the": [
+      "Quyết định 1186a/QĐ-BXD",
+      "Quyết định 164/QĐ-BXD"
+    ],
+    "het_hieu_luc": "",
+    "sua_doi_boi": [],
+    "dieu_khoan_chuyen_tiep": "",
+    "linh_vuc": [
+      "kiến trúc",
+      "chứng chỉ hành nghề kiến trúc",
+      "quy hoạch đô thị và nông thôn",
+      "thủ tục hành chính"
+    ],
+    "gia_tri_phap_ly": "VĂN BẢN HÀNH CHÍNH CÔNG BỐ THỦ TỤC HÀNH CHÍNH - KHÔNG PHẢI VĂN BẢN QUY PHẠM PHÁP LUẬT",
+    "hop_nhat_tu": [],
+    "quy_dinh_chi_tiet_cho": [],
+    "trang_thai": "hoàn chỉnh",
+    "nguon": "Bản ký số của Bộ Xây dựng (tệp BXD_975QDBXD_22062026.pdf do người dùng cung cấp)",
+    "cau_truc": "muc",
+    "sua_doi_cho": [],
+    "toan_van": "corpus/huong-dan/975-qd-bxd/toan-van.md",
+    "so_don_vi": 6,
+    "so_chunk": 7
+  },
+  {
     "doc_id": "hoi-dap-c07",
     "so_hieu": "Hỏi đáp C07",
     "loai_van_ban": "Hỏi đáp nghiệp vụ",

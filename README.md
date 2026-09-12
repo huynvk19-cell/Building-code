@@ -4,7 +4,7 @@ Kho dữ liệu dạng **RAG** (Retrieval-Augmented Generation): AI không cần
 văn bản luật, mà tra cứu trực tiếp vào kho này. Git giữ lịch sử phiên bản —
 khi một nghị định được sửa đổi, bạn commit bản mới và bản cũ vẫn còn nguyên.
 
-Hiện có **18 văn bản · 1 380 chunk · 241 ảnh** cắt từ bản in gốc.
+Hiện có **19 văn bản · 1 387 chunk · 241 ảnh** cắt từ bản in gốc.
 
 ## Đang có gì
 
@@ -43,6 +43,7 @@ mẫu đơn, yêu cầu cơ sở vật chất sát hạch) — bản quét gốc
 
 | Tài liệu | Nội dung | Chunk |
 |---|---|---|
+| **Quyết định 975/QĐ-BXD** | Công bố thủ tục hành chính lĩnh vực quy hoạch đô thị và nông thôn, kiến trúc. **Bãi bỏ 6 thủ tục hành chính về chứng chỉ hành nghề kiến trúc từ 01/7/2026.** Là văn bản hành chính công bố lại danh mục, không phải căn cứ pháp lý — căn cứ thật là Nghị quyết 66.18/2026/NQ-CP, **chưa có trong kho** | 7 |
 | **Hỏi đáp C07** | 132 giải đáp của Cục Cảnh sát Phòng cháy chữa cháy và Cứu nạn cứu hộ. Cho biết cơ quan thẩm duyệt **thực tế hiểu quy định thế nào** — nhưng không bao giờ được trích làm căn cứ. Không mục nào có ngày trả lời | 133 |
 
 ### Khung rỗng — mới có tên, chưa có nội dung
@@ -99,7 +100,7 @@ python3 tools/search.py --json "mã định danh công trình"         # cho scr
 Một câu hỏi hoàn toàn ngoài phạm vi kho vẫn nhận được 5 kết quả trông có vẻ hợp lý.
 
 Đã đo trên bộ câu hỏi chuẩn: điểm top-1 của câu **ngoài phạm vi** rơi vào
-17,5–47,3, của câu **có đáp án thật** rơi vào 6,3–75,3 — **hai dải chồng lấn hoàn
+17,4–47,1, của câu **có đáp án thật** rơi vào 6,3–87,5 — **hai dải chồng lấn hoàn
 toàn**. Vì vậy công cụ **cố ý không có ngưỡng tin cậy**: một nhãn tin cậy sai
 nguy hiểm hơn không có nhãn. Luôn đọc nội dung chunk trước khi kết luận.
 
@@ -117,7 +118,7 @@ corpus/                       Bản gốc — nguồn sự thật duy nhất, CH
 chunks/                       Mỗi Điều / mục / bảng một tệp (sinh tự động)
 index/chunks.jsonl            Chỉ mục truy hồi kèm metadata
 index/documents.json          Sổ đăng ký văn bản
-eval/bo_cau_hoi.jsonl         245 câu hỏi gán nhãn vàng
+eval/bo_cau_hoi.jsonl         250 câu hỏi gán nhãn vàng
 .claude/skills/               Ba skill nạp theo yêu cầu, không thường trực
 docs/                         Hướng dẫn cho người dùng
 CLAUDE.md                     Hàng rào chống trả lời sai, dành cho AI
@@ -167,7 +168,7 @@ python3 tools/chen_anh_bang.py   # 4. không còn liên kết ảnh nào bị s�
 
 ## Đo chất lượng tra cứu
 
-Bộ **245 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu cố
+Bộ **250 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu cố
 tình hỏi những thứ **không** có trong kho, để kiểm tra công cụ có bịa hay không.
 
 ```bash
@@ -175,17 +176,17 @@ python3 eval/chay_danh_gia.py            # chỉ số hiện hành
 python3 eval/chay_danh_gia.py --chi-tiet # xem những câu bị trượt
 ```
 
-Mức hiện tại trên 18 văn bản, 1 380 chunk:
+Mức hiện tại trên 19 văn bản, 1 387 chunk:
 
 | | Recall@1 | Recall@3 | Recall@5 | Recall@10 | MRR |
 |---|---|---|---|---|---|
-| 245 câu | 0,584 | 0,803 | **0,850** | 0,896 | 0,716 |
+| 250 câu | 0,582 | 0,799 | **0,844** | 0,886 | 0,715 |
 
 Nghĩa là đúng chunk nằm trong 5 kết quả đầu ở **84%** số câu, trong 10 kết quả
 đầu ở **89%**.
 
 **Các con số qua từng đợt mở rộng không so sánh trực tiếp được** — mỗi lần đo
-trên một bộ câu hỏi khác và một kho khác (176 → 682 → 1 380 chunk). Thêm văn bản
+trên một bộ câu hỏi khác và một kho khác (176 → 682 → 1 387 chunk). Thêm văn bản
 thì cạnh tranh tăng nên vài câu cũ bị đẩy xuống; đó là cái giá của kho rộng hơn,
 đã đo chứ không giấu. Ba lần đánh đổi lớn đều được tách riêng và ghi lại bằng
 phép đo trong skill `do-luong-truy-hoi`:

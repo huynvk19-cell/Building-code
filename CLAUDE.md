@@ -39,7 +39,7 @@ Hướng dẫn dành cho người dùng cuối (không phải cho bạn) ở `do
 Điểm in ra là **điểm BM25 — đo mức trùng từ khóa, không đo mức liên quan**.
 
 Đã đo, không phải phỏng đoán: điểm top-1 của câu **ngoài phạm vi kho** rơi vào
-17,5–47,3, của câu **có đáp án thật** rơi vào 6,3–75,3 — **chồng lấn hoàn toàn**.
+17,4–47,1, của câu **có đáp án thật** rơi vào 6,3–87,5 — **chồng lấn hoàn toàn**.
 Vì vậy **không có ngưỡng tin cậy nào trong công cụ này**, và đừng thêm vào: một
 nhãn tin cậy sai nguy hiểm hơn không có nhãn.
 
@@ -61,7 +61,8 @@ Trách nhiệm phân biệt "có đáp án" với "ngoài phạm vi" **thuộc v
    tiết kiệm năng lượng) → nói rõ ngay từ đầu.
 
 Kho hiện có **mười một văn bản quy phạm pháp luật có nội dung**, **một văn bản
-hợp nhất**, **một tài liệu tham khảo** (hỏi đáp nghiệp vụ) và **năm khung rỗng**. Mặc định khi không chắc là
+hợp nhất**, **hai tài liệu tham khảo** (hỏi đáp nghiệp vụ và quyết định công bố
+thủ tục hành chính) và **năm khung rỗng**. Mặc định khi không chắc là
 *"chưa có trong kho"*, không phải *"có lẽ là…"*.
 
 ## Kiểm tra hiệu lực
@@ -87,6 +88,7 @@ ngày cụ thể. `het_hieu_luc` có giá trị → phải cảnh báo.
 | **40/2019/QH14** | `2020-07-01` (Điều 40) | **Điều 41** | **Luật Kiến trúc.** 5 Chương, 41 Điều. Điều 39 sửa Luật Xây dựng, Luật Quy hoạch đô thị, Luật Nhà ở, Luật Đấu thầu; **bãi bỏ Điều 81 Luật Xây dựng và Điều 60 Luật Quy hoạch đô thị**. |
 | **25/VBHN-BXD** | `2020-09-07` (Điều 32 NĐ 85/2020) | **Điều 33** | **VĂN BẢN HỢP NHẤT**, không tự nó là văn bản quy phạm pháp luật — xem mục riêng bên dưới. |
 | **105/2025 · 106/2025 · 169/2025 · 282/2025 · 217/2026** | `CHƯA XÁC ĐỊNH` | — | **KHUNG RỖNG — chưa có nội dung.** |
+| **975/QĐ-BXD** | `2026-07-01` (Điều 2) | không có | **KHÔNG phải văn bản quy phạm pháp luật** — quyết định công bố thủ tục hành chính. Bãi bỏ 6 thủ tục hành chính lĩnh vực kiến trúc. Căn cứ thật sự là **Nghị quyết 66.18/2026/NQ-CP — chưa có trong kho**. Xem mục riêng bên dưới. |
 | **Hỏi đáp C07** | `KHÔNG ÁP DỤNG` | không có | **KHÔNG phải văn bản quy phạm pháp luật.** 132 giải đáp, không mục nào có ngày trả lời. |
 
 ## PHÂN CẤP CÔNG TRÌNH — ĐỌC KÈM THÔNG TƯ 02/2025/TT-BXD
@@ -211,6 +213,63 @@ sung theo thứ tự ưu tiên: `105/2025/NĐ-CP` · `50/2024/NĐ-CP` (15 lần)
 `136/2020/NĐ-CP` (13) · `TCVN 3890:2023` (11) · `36/2025/TT-BCA` (11) · Luật
 `55/2024/QH15` (10). Phân tích đầy đủ trong skill `do-luong-truy-hoi`.
 
+## CHỨNG CHỈ HÀNH NGHỀ KIẾN TRÚC — ĐÃ BỊ BÃI BỎ THỦ TỤC, NHƯNG KHO THIẾU CĂN CỨ GỐC
+
+Đây là câu hỏi kiến trúc sư hay hỏi nhất và rất dễ trả lời sai, vì kho có bốn
+văn bản nói về bốn chuyện khác nhau và **không văn bản nào một mình là câu trả
+lời đủ**.
+
+**Thứ nhất, Nghị định số 212/2026/NĐ-CP KHÔNG điều chỉnh việc này.** Điểm c
+khoản 1 Điều 28 liệt kê "Thiết kế kiến trúc công trình (thực hiện theo quy định
+của pháp luật về kiến trúc)" — cụm trong ngoặc là lời giao việc sang một ngành
+luật khác. Phụ lục I và Phụ lục II **không có dòng nào** cho nội dung hành nghề
+"Thiết kế kiến trúc công trình". Đừng lấy Điều 33 hay Điều 36 của Nghị định này
+ra trả lời cho chứng chỉ hành nghề kiến trúc — hai chế định khác nhau.
+
+**Thứ hai, sáu thủ tục hành chính lĩnh vực kiến trúc đã bị bãi bỏ từ
+01/7/2026**, theo Phần I.2 Quyết định số 975/QĐ-BXD ngày 22/6/2026 của Bộ Xây
+dựng: cấp (mã 1.008891), cấp lại do lỗi cơ quan cấp (1.008990), cấp lại do mất
+hoặc hư hỏng hoặc đổi thông tin cá nhân (1.008989), gia hạn (1.008991), chuyển
+đổi cho người nước ngoài (1.008993), và công nhận tổ chức đủ điều kiện sát hạch
+(1.008881, cấp trung ương).
+
+**Thứ ba — và đây là chỗ phải nói thẳng với người dùng — Quyết định 975/QĐ-BXD
+KHÔNG phải căn cứ pháp lý.** Nó là văn bản hành chính cá biệt, chỉ công bố lại
+danh mục thủ tục. Cột "Tên văn bản quy phạm pháp luật quy định nội dung bãi bỏ"
+của cả sáu dòng đều trỏ về **Nghị quyết số 66.18/2026/NQ-CP ngày 18/5/2026 của
+Chính phủ về phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện
+kinh doanh** — văn bản đó **chưa có trong kho**.
+
+**Thứ tư, kho ĐÃ CÓ phần quy định nội dung mà sáu thủ tục đó thực hiện** —
+Luật Kiến trúc số 40/2019/QH14 và Nghị định số 85/2020/NĐ-CP (đọc qua bản hợp
+nhất 25/VBHN-BXD). Trích được điều kiện, hồ sơ, thời hạn; **nhưng mỗi lần trích
+phải kèm cảnh báo thủ tục đã bị bãi bỏ từ 01/7/2026**, nếu không là chỉ đường
+cho người dùng đi nộp một bộ hồ sơ không còn cửa nhận.
+
+| Thủ tục bị bãi bỏ | Quy định nội dung nằm ở đâu |
+|---|---|
+| Cấp chứng chỉ hành nghề kiến trúc (1.008891) | điều kiện: Điều 28 Luật số 40/2019/QH14 · hồ sơ: khoản 1 Điều 27 và trình tự: điểm a, b khoản 1 Điều 28 Nghị định số 85/2020/NĐ-CP |
+| Cấp lại do cơ quan cấp ghi sai (1.008990) | điểm c khoản 2 Điều 28 Nghị định số 85/2020/NĐ-CP |
+| Cấp lại do mất, hư hỏng, đổi thông tin cá nhân (1.008989) | khoản 2 Điều 30 Luật số 40/2019/QH14 · hồ sơ: khoản 3 Điều 27 Nghị định số 85/2020/NĐ-CP |
+| Gia hạn chứng chỉ hành nghề kiến trúc (1.008991) | điều kiện: khoản 2 Điều 28 Luật số 40/2019/QH14 · hồ sơ: khoản 2 Điều 27 Nghị định số 85/2020/NĐ-CP |
+| Chuyển đổi cho người nước ngoài (1.008993) | Điều 31 Luật số 40/2019/QH14 · hồ sơ: Điều 30 và trình tự: Điều 31 Nghị định số 85/2020/NĐ-CP |
+| Công nhận tổ chức đủ điều kiện sát hạch (1.008881) | khoản 3 Điều 26 Luật số 40/2019/QH14 · Điều 26 Nghị định số 85/2020/NĐ-CP |
+
+Quyết định 975/QĐ-BXD **chỉ bãi bỏ thủ tục hành chính**, và bản thân nó không đủ
+tư cách bãi bỏ điều khoản của một nghị định. Vì vậy các điều khoản trong bảng
+trên **vẫn còn nguyên văn trong kho** và vẫn là chỗ để trích điều kiện, hồ sơ,
+thời hạn — nhưng không còn là đường đi hồ sơ kể từ 01/7/2026.
+
+**Hai câu hỏi kho KHÔNG trả lời được, tuyệt đối không đoán:**
+
+1. Chứng chỉ hành nghề kiến trúc **đã cấp trước 01/7/2026** thì còn giá trị
+   không, đến bao giờ. Quyết định 975/QĐ-BXD im lặng về việc này.
+2. **Tiêu chuẩn năng lực thay thế** là gì. Quyết định 975/QĐ-BXD chỉ bãi bỏ thủ
+   tục, không đặt ra quy định thay thế nào.
+
+Muốn trả lời hai câu đó **phải có Nghị quyết số 66.18/2026/NQ-CP** — đây là tài
+liệu ưu tiên số một cần đề nghị người dùng bổ sung cho mảng kiến trúc.
+
 ## ĐỌC PHẠM VI CỦA MỤC LỚN TRƯỚC KHI TRÍCH ĐIỀU KHOẢN CON
 
 Số hiệu điều khoản **không cho biết nó điều chỉnh không gian nào**.
@@ -311,8 +370,8 @@ Chỉ số tụt mà không giải thích được bằng phép đo thì **khôn
 **đụng tới nội dung corpus của văn bản pháp luật** thì còn phải kiểm chứng bằng
 thị giác máy đối chiếu bản gốc — đây là loại lỗi mà chỉ số truy hồi không bắt được.
 
-Mức truy hồi hiện tại (245 câu, 18 văn bản, 1 380 chunk): Recall@1 = 0,584 ·
-Recall@3 = 0,803 · Recall@5 = 0,850 · Recall@10 = 0,896 · MRR = 0,716. Trước khi
+Mức truy hồi hiện tại (250 câu, 19 văn bản, 1 387 chunk): Recall@1 = 0,582 ·
+Recall@3 = 0,799 · Recall@5 = 0,844 · Recall@10 = 0,886 · MRR = 0,715. Trước khi
 đổi bất kỳ hằng số xếp hạng nào, **gọi skill `do-luong-truy-hoi`** — mỗi con
 số ở đó đến từ một phép quét dải giá trị, không phải cảm tính.
 
