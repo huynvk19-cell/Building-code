@@ -200,3 +200,31 @@
 {"id": "B43", "loai": "B", "hoi": "sát hạch cấp chứng chỉ hành nghề kiến trúc do tổ chức xã hội nghề nghiệp thực hiện", "vang": ["975-qd-bxd:phan-phan-i-2-thu-tuc-han"], "kiem_chung": "đủ điều kiện thực hiện sát hạch"}
 {"id": "E12", "loai": "E", "hoi": "Quyết định 975/QĐ-BXD có hiệu lực từ ngày nào và làm hết hiệu lực văn bản nào", "vang": ["975-qd-bxd:phan-dieu-2"], "kiem_chung": "01 tháng 7 năm 2026"}
 {"id": "F24", "loai": "F", "hoi": "thời hạn thẩm định quy hoạch đô thị và nông thôn do nhà đầu tư tổ chức lập là bao nhiêu ngày làm việc", "vang": ["975-qd-bxd:phan-phan-ii-noi-dung-cu"], "kiem_chung": "20 ngày làm việc"}
+{"id": "M01", "loai": "E", "hoi": "quy chuẩn về nhà chung cư có hiệu lực từ ngày nào", "vang": ["qcvn-04-2021-bxd:muc-0.2"], "kiem_chung": "05/7/2021"}
+{"id": "M02", "loai": "B", "hoi": "nhà chung cư là gì theo quy chuẩn", "vang": ["qcvn-04-2021-bxd:muc-1.4.1"], "kiem_chung": "Nhà có từ 2 tầng trở lên"}
+{"id": "M03", "loai": "B", "hoi": "định nghĩa tầng hầm trong nhà chung cư", "vang": ["qcvn-04-2021-bxd:muc-1.4.17"], "kiem_chung": "quá một nửa chiều cao"}
+{"id": "M04", "loai": "F", "hoi": "chiều cao thông thủy phòng ở trong căn hộ chung cư tối thiểu bao nhiêu", "vang": ["qcvn-04-2021-bxd:muc-2.2.10"], "kiem_chung": "2,6 m"}
+{"id": "M05", "loai": "F", "hoi": "chung cư từ mấy tầng trở lên bắt buộc phải có thang máy", "vang": ["qcvn-04-2021-bxd:muc-2.4.1"], "kiem_chung": "từ 5 tầng trở lên"}
+{"id": "M06", "loai": "F", "hoi": "diện tích sử dụng tối thiểu của văn phòng kết hợp lưu trú", "vang": ["qcvn-04-2021-bxd:muc-2.2.6.1"], "kiem_chung": "không nhỏ hơn 25 m2"}
+{"id": "M07", "loai": "D", "hoi": "nhà chung cư cao trên 150 m hoặc có 4 tầng hầm thì áp dụng quy chuẩn thế nào", "vang": ["qcvn-04-2021-bxd:muc-1.1.2"], "kiem_chung": "150 m"}
+{"id": "M08", "loai": "B", "hoi": "chung cư có bắt buộc hệ thống thu gom rác không", "vang": ["qcvn-04-2021-bxd:muc-2.7.1"], "kiem_chung": "thu gom"}
+{"id": "O01", "loai": "A", "hoi": "khoảng lùi công trình so với chỉ giới đường đỏ quy định ở đâu", "vang": ["qcvn-01-2021-bxd:muc-2.6.2"], "kiem_chung": "Khoảng lùi của các công trình tiếp giáp với đường giao thông"}
+{"id": "O02", "loai": "A", "hoi": "mật độ xây dựng thuần là gì", "vang": ["qcvn-01-2021-bxd:muc-1.4.20"], "kiem_chung": "tỷ lệ diện tích chiếm đất của các công trình kiến trúc chính"}
+{"id": "O03", "loai": "A", "hoi": "chỉ giới đường đỏ được định nghĩa thế nào", "vang": ["qcvn-01-2021-bxd:muc-1.4.22"], "kiem_chung": "Đường ranh giới được xác định trên bản đồ quy hoạch"}
+{"id": "O04", "loai": "C", "hoi": "bán kính phục vụ trụ sở đội cảnh sát phòng cháy chữa cháy trong quy hoạch đô thị", "vang": ["qcvn-01-2021-bxd:muc-2.6.13"], "kiem_chung": "bán kính phục vụ tối đa là 3 km"}
+{"id": "O05", "loai": "C", "hoi": "cấp nước chữa cháy trong quy hoạch đô thị quy định thế nào", "vang": ["qcvn-01-2021-bxd:muc-2.10.5"], "kiem_chung": "Phải tận dụng các sông hồ, ao để cấp nước chữa cháy"}
+{"id": "O06", "loai": "A", "hoi": "kích thước tối thiểu lô đất xây dựng nhà ở trong khu quy hoạch mới", "vang": ["qcvn-01-2021-bxd:muc-2.6.6"], "kiem_chung": "Lô đất xây dựng nhà ở trong các khu quy hoạch xây dựng mới"}
+{"id": "O07", "loai": "B", "hoi": "quy hoạch nghĩa trang và cơ sở hỏa táng", "vang": ["qcvn-01-2021-bxd:muc-2.13.2"], "kiem_chung": "Nhu cầu đất nghĩa trang"}
+{"id": "O08", "loai": "B", "hoi": "hệ thống đường đô thị trong đồ án quy hoạch chung", "vang": ["qcvn-01-2021-bxd:muc-2.9.3.1"], "kiem_chung": "dự báo nhu cầu vận chuyển hành khách"}
+{"id": "O09", "loai": "A", "hoi": "quy chuẩn quy hoạch xây dựng có hiệu lực từ ngày nào", "vang": ["qcvn-01-2021-bxd:muc-0.2"], "kiem_chung": "có hiệu lực kể từ ngày 05/7/2021"}
+{"id": "O10", "loai": "B", "hoi": "mật độ xây dựng thuần tối đa cho phép của lô đất", "vang": ["qcvn-01-2021-bxd:muc-2.6.3"], "kiem_chung": "Mật độ xây dựng thuần tối đa của lô đất xây dựng nhà ở riêng lẻ"}
+{"id": "R01", "loai": "A", "hoi": "trường tiểu học 800 học sinh là công trình cấp mấy", "vang": ["06-2021-tt-bxd:phu-luc-i-bang-1-1-nhom-1-1-1-cong-trinh-giao-duc"], "kiem_chung": "≥ 700"}
+{"id": "R02", "loai": "A", "hoi": "nhà để xe ô tô ngầm 400 chỗ thuộc cấp công trình nào", "vang": ["06-2021-tt-bxd:phu-luc-i-bang-1-3-nhom-1-3-8-nha-de-xe-o-to-san-b"], "kiem_chung": "Nhà để xe ô tô ngầm"}
+{"id": "R03", "loai": "A", "hoi": "nguyên tắc xác định cấp công trình xây dựng", "vang": ["06-2021-tt-bxd:dieu-02"], "kiem_chung": "Mức độ quan trọng, quy mô công suất"}
+{"id": "R04", "loai": "B", "hoi": "quy định chuyển tiếp về cấp công trình của thông tư phân cấp", "vang": ["06-2021-tt-bxd:dieu-04"], "kiem_chung": "đã được quyết định đầu tư trước ngày Thông tư này có hiệu lực"}
+{"id": "R05", "loai": "B", "hoi": "phân cấp công trình theo quy mô kết cấu nhà và kết cấu dạng nhà", "vang": ["06-2021-tt-bxd:phu-luc-ii-bang-2-nhom-2-1-2-1-1-nha-ket-cau-dang-n"], "kiem_chung": "Chiều cao"}
+{"id": "R06", "loai": "C", "hoi": "sân gôn bao nhiêu lỗ thì là công trình cấp II", "vang": ["02-2025-tt-bxd:phu-luc-muc-1-sua-doi-bo-sung-muc-1-1-3-3-bang-1"], "kiem_chung": "Sân gôn"}
+{"id": "R07", "loai": "C", "hoi": "công trình lấn biển được phân cấp thế nào", "vang": ["02-2025-tt-bxd:phu-luc-muc-7-bo-sung-muc-1-3-10-vao-sau-muc-1-3"], "kiem_chung": "Công trình lấn biển"}
+{"id": "R08", "loai": "A", "hoi": "thông tư sửa đổi phân cấp công trình có hiệu lực từ ngày nào", "vang": ["02-2025-tt-bxd:dieu-02"], "kiem_chung": "kể từ ngày 20 tháng 5 năm 2025"}
+{"id": "R09", "loai": "B", "hoi": "cấp công trình của dự án phân kỳ đầu tư xác định thế nào", "vang": ["02-2025-tt-bxd:dieu-01"], "kiem_chung": "dự án phân kỳ đầu tư"}
+{"id": "R10", "loai": "F", "hoi": "ví dụ xác định cấp công trình nhà máy xi măng", "vang": ["06-2021-tt-bxd:phu-luc-iii-vi-du-4-cong-trinh-cong-nghiep-nha-may-x"], "kiem_chung": "Nhà máy xi măng"}

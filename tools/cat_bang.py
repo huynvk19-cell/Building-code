@@ -41,8 +41,11 @@ DPI_OCR = 110
 # tên), hoặc "Bảng G.2b (tiếp theo)" / "(kết thúc)" ở trang nối tiếp. Nếu chỉ dò
 # "Bảng <số>" thì mọi câu viện dẫn kiểu "quy định tại Bảng G.1." cũng bị nhận
 # nhầm là tiêu đề — đã gặp thật khi chạy trên Phụ lục G.
+# Dấu hai chấm cũng là dấu ngăn tiêu đề hợp lệ: QCVN 01:2021/BXD in
+# "Bảng 2.1: Chỉ tiêu đất dân dụng…". Vẫn phải có MỘT dấu ngăn — câu viện dẫn
+# "quy định tại Bảng 2.3 và Bảng 2.4" không có, nên không bị nhận nhầm.
 RE_TIEU_DE_BANG = re.compile(
-    r"^B[aả]ng\s+([A-Z]?\.?\d+[a-z]?)\s*(?:[-–—]\s*(?P<ten>\S.*)"
+    r"^B[aả]ng\s+([A-Z]?\.?\d+(?:\.\d+)?[a-z]?)\s*(?:[-–—:]\s*(?P<ten>\S.*)"
     r"|\((?P<noi>ti[eế]p theo|k[eế]t th[uú]c)\))"
 )
 
@@ -63,6 +66,16 @@ def doc_dong(pdf: Path, so_trang: int) -> list[tuple[float, float, str]]:
     """Trả về [(y_trên, y_dưới, nội dung dòng)] theo ĐƠN VỊ ĐIỂM của trang PDF."""
     doc = pymupdf.open(pdf)
     trang = doc[so_trang - 1]
+    # Bản ký số có lớp văn bản thật: lấy thẳng khung dòng, không cần OCR. Chính
+    # xác hơn hẳn và không đánh rơi dấu tiếng Việt ở tiêu đề bảng.
+    if trang.get_text().strip():
+        ra: list[tuple[float, float, str]] = []
+        for khoi in trang.get_text("dict")["blocks"]:
+            for d in khoi.get("lines", []):
+                nd = "".join(o["text"] for o in d["spans"]).strip()
+                if nd:
+                    ra.append((d["bbox"][1], d["bbox"][3], nd))
+        return sorted(ra, key=lambda v: v[0])
     png = trang.get_pixmap(dpi=DPI_OCR).tobytes("png")
     ket_qua = subprocess.run(
         ["tesseract", "stdin", "stdout", "-l", "vie", "tsv"],

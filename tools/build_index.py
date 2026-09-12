@@ -178,6 +178,12 @@ class ChunkBuilder:
         # thân rỗng là làm mất hẳn một điều khoản khỏi kho.
         if not text and self.current.get("loai") == "dieu" and self.current.get("tieu_de"):
             text = f"Điều {self.current['so_hieu_muc']}. {self.current['tieu_de']}"
+        # Mục CHA của quy chuẩn ("2.6 Yêu cầu về kiến trúc cảnh quan…") thường
+        # chỉ có tên, nội dung nằm ở các mục con. Bỏ nó đi thì PHẠM VI của cả
+        # nhánh biến mất khỏi chỉ mục — đúng cơ chế đã gây ra lỗi trích nhầm
+        # mục 2.7.4 QCVN 10:2024/BXD. Giữ lại tên làm thân chunk.
+        if not text and self.current.get("loai") == "muc" and self.current.get("tieu_de"):
+            text = f"{self.current['so_hieu_muc']} {self.current['tieu_de']}"
         if text:
             self.current["text"] = text
             if not self.current.get("tieu_de"):
@@ -539,7 +545,10 @@ def citation(doc_meta: dict, chunk: dict) -> str:
     if chunk["loai"] == "dieu":
         return f"Điều {chunk['so_hieu_muc']} {ten_vb}"
     if chunk["loai"] in {"muc", "phan"}:
-        if chunk["so_hieu_muc"]:
+        # `so_hieu_muc` của chunk phụ lục cắt theo `chia_theo` là CHỮ tiền tố
+        # ("Mục", "Bảng"), không phải số hiệu. Ghép thẳng sẽ ra "mục Mục Thông
+        # tư số 02/2025/TT-BXD". Không có chữ số thì dùng tiêu đề.
+        if chunk["so_hieu_muc"] and any(k.isdigit() for k in chunk["so_hieu_muc"]):
             return f"mục {chunk['so_hieu_muc']} {ten_vb}"
         return f"{chunk['tieu_de']} {ten_vb}"
     if chunk["loai"] == "bang":
@@ -694,16 +703,26 @@ def danh_dau_vien_dan(all_chunks: list[dict], documents: list[dict]) -> int:
 
     dem = 0
     for c in all_chunks:
-        if not c.get("gia_tri_phap_ly"):
-            continue
+        # Cảnh báo "viện dẫn văn bản ĐÃ BỊ THAY THẾ" áp dụng cho MỌI văn bản, kể
+        # cả quy phạm pháp luật: QCVN 04:2021 viện dẫn QCVN 06:2021 (12 chỗ) và
+        # QCVN 10:2014 (7 chỗ) — cả hai đã bị thay thế bởi bản mà kho đang có.
+        # Riêng cảnh báo "viện dẫn văn bản KHÔNG CÓ TRONG KHO" thì chỉ áp cho
+        # tài liệu tham khảo, vì quy chuẩn viện dẫn rất nhiều TCVN chưa có và
+        # bật hết lên sẽ nhấn chìm tín hiệu quan trọng.
+        la_tham_khao = bool(c.get("gia_tri_phap_ly"))
         thay: set[str] = set()
         for rx in RE_VIEN_DAN:
             thay.update(_chuan_so_hieu(m) for m in rx.findall(c["text"]))
         da_thay_the, ngoai_kho = [], []
         for so in sorted(thay):
             if so in bi_thay_the:
+                # Không cảnh báo khi chính văn bản đang trích LÀ bản thay thế —
+                # câu "Quy chuẩn này thay thế QCVN 06:2021" không phải dẫn chiếu
+                # tới quy định cũ, nó là tuyên bố thay thế.
+                if _chuan_so_hieu(bi_thay_the[so]) == _chuan_so_hieu(c["so_hieu"]):
+                    continue
                 da_thay_the.append({"so_hieu": so, "thay_the_boi": bi_thay_the[so]})
-            elif so not in trong_kho:
+            elif la_tham_khao and so not in trong_kho:
                 ngoai_kho.append(so)
         if da_thay_the:
             c["vien_dan_da_bi_thay_the"] = da_thay_the
@@ -781,8 +800,17 @@ def noi_sua_doi(all_chunks: list[dict], documents: list[dict]) -> int:
         if mt:
             # Bản sửa đổi kiểu Nghị định: đích nằm trong tên điều.
             ban_do.setdefault(mt, []).append(c)
-        elif c.get("so_hieu_muc") and len(sua_cho[c["doc_id"]]) == 1:
+        elif (c.get("so_hieu_muc")
+              and (c.get("loai") or c.get("loai_chunk")) != "dieu"
+              and len(sua_cho[c["doc_id"]]) == 1):
             # Bản sửa đổi kiểu QCVN: chunk đánh số theo mục của bản gốc.
+            # Điều kiện `loai != "dieu"` là bắt buộc, không phải phòng xa: chỉ
+            # kiểm "nhắm một văn bản duy nhất" thì Thông tư 02/2025/TT-BXD —
+            # sửa đúng một văn bản nhưng đánh số Điều CỦA CHÍNH NÓ — rơi vào
+            # nhánh này và gắn "Điều 2. Điều khoản thi hành" của nó lên
+            # "Điều 2. Nguyên tắc xác định cấp công trình" của bản gốc. Một cờ
+            # sửa đổi sai chỗ còn tệ hơn không có cờ, vì nó khiến người tra mở
+            # nhầm điều khoản rồi tin là đã đối chiếu xong.
             ban_do.setdefault((sua_cho[c["doc_id"]][0], c["so_hieu_muc"]), []).append(c)
 
     def to_hon(so: str) -> list[str]:
