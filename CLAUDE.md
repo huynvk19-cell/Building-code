@@ -60,7 +60,7 @@ Trách nhiệm phân biệt "có đáp án" với "ngoài phạm vi" **thuộc v
 4. Câu hỏi thuộc lĩnh vực kho chưa bao phủ (tải trọng gió, chống sét, kết cấu,
    tiết kiệm năng lượng) → nói rõ ngay từ đầu.
 
-Kho hiện có **mười văn bản quy phạm pháp luật có nội dung**, **một tài liệu tham
+Kho hiện có **mười văn bản quy phạm pháp luật có nội dung**, **hai tài liệu tham
 khảo** (hỏi đáp nghiệp vụ) và **năm khung rỗng**. Mặc định khi không chắc là
 *"chưa có trong kho"*, không phải *"có lẽ là…"*.
 
@@ -85,6 +85,7 @@ ngày cụ thể. `het_hieu_luc` có giá trị → phải cảnh báo.
 | **QCVN 10:2025/BCA** | `CHƯA XÁC ĐỊNH` | không có | Hiệu lực nằm ở Thông tư 103/2025/TT-BCA — **chưa có trong kho**. Hỏi đáp nói 30/12/2025, đã ghi vào `ngay_hieu_luc_theo_tham_khao` nhưng **chưa coi là đã chứng minh**. |
 | **347/2026/NĐ-CP** | `2026-09-15` (Điều 41 khoản 1) | **Điều 40** | Sửa 4 nghị định: 169/2025, **105/2025**, 106/2025, 282/2025. Bãi bỏ Điều 74 NĐ 217/2026. ⚠️ Điều 41 khoản 2 có hiệu lực cùng Luật sửa đổi Luật Phòng cháy chữa cháy — ngày đó **CHƯA XÁC ĐỊNH**. |
 | **105/2025 · 106/2025 · 169/2025 · 282/2025 · 217/2026** | `CHƯA XÁC ĐỊNH` | — | **KHUNG RỖNG — chưa có nội dung.** |
+| **975/QĐ-BXD** | `2026-07-01` (Điều 2) | không có | **KHÔNG phải văn bản quy phạm pháp luật** — quyết định công bố thủ tục hành chính. Bãi bỏ 6 thủ tục hành chính lĩnh vực kiến trúc. Căn cứ thật sự là **Nghị quyết 66.18/2026/NQ-CP — chưa có trong kho**. Xem mục riêng bên dưới. |
 | **Hỏi đáp C07** | `KHÔNG ÁP DỤNG` | không có | **KHÔNG phải văn bản quy phạm pháp luật.** 132 giải đáp, không mục nào có ngày trả lời. |
 
 ## PHÂN CẤP CÔNG TRÌNH — ĐỌC KÈM THÔNG TƯ 02/2025/TT-BXD
@@ -177,6 +178,43 @@ không thấy được.
 sung theo thứ tự ưu tiên: `105/2025/NĐ-CP` · `50/2024/NĐ-CP` (15 lần) ·
 `136/2020/NĐ-CP` (13) · `TCVN 3890:2023` (11) · `36/2025/TT-BCA` (11) · Luật
 `55/2024/QH15` (10). Phân tích đầy đủ trong skill `do-luong-truy-hoi`.
+
+## CHỨNG CHỈ HÀNH NGHỀ KIẾN TRÚC — ĐÃ BỊ BÃI BỎ THỦ TỤC, NHƯNG KHO THIẾU CĂN CỨ GỐC
+
+Đây là câu hỏi kiến trúc sư hay hỏi nhất và rất dễ trả lời sai, vì kho có hai
+văn bản nói về hai chuyện khác nhau và **không văn bản nào một mình là câu trả
+lời đủ**.
+
+**Thứ nhất, Nghị định số 212/2026/NĐ-CP KHÔNG điều chỉnh việc này.** Điểm c
+khoản 1 Điều 28 liệt kê "Thiết kế kiến trúc công trình (thực hiện theo quy định
+của pháp luật về kiến trúc)" — cụm trong ngoặc là lời giao việc sang một ngành
+luật khác. Phụ lục I và Phụ lục II **không có dòng nào** cho nội dung hành nghề
+"Thiết kế kiến trúc công trình". Đừng lấy Điều 33 hay Điều 36 của Nghị định này
+ra trả lời cho chứng chỉ hành nghề kiến trúc — hai chế định khác nhau.
+
+**Thứ hai, sáu thủ tục hành chính lĩnh vực kiến trúc đã bị bãi bỏ từ
+01/7/2026**, theo Phần I.2 Quyết định số 975/QĐ-BXD ngày 22/6/2026 của Bộ Xây
+dựng: cấp (mã 1.008891), cấp lại do lỗi cơ quan cấp (1.008990), cấp lại do mất
+hoặc hư hỏng hoặc đổi thông tin cá nhân (1.008989), gia hạn (1.008991), chuyển
+đổi cho người nước ngoài (1.008993), và công nhận tổ chức đủ điều kiện sát hạch
+(1.008881, cấp trung ương).
+
+**Thứ ba — và đây là chỗ phải nói thẳng với người dùng — Quyết định 975/QĐ-BXD
+KHÔNG phải căn cứ pháp lý.** Nó là văn bản hành chính cá biệt, chỉ công bố lại
+danh mục thủ tục. Cột "Tên văn bản quy phạm pháp luật quy định nội dung bãi bỏ"
+của cả sáu dòng đều trỏ về **Nghị quyết số 66.18/2026/NQ-CP ngày 18/5/2026 của
+Chính phủ về phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện
+kinh doanh** — văn bản đó **chưa có trong kho**.
+
+**Hai câu hỏi kho KHÔNG trả lời được, tuyệt đối không đoán:**
+
+1. Chứng chỉ hành nghề kiến trúc **đã cấp trước 01/7/2026** thì còn giá trị
+   không, đến bao giờ. Quyết định 975/QĐ-BXD im lặng về việc này.
+2. **Tiêu chuẩn năng lực thay thế** là gì. Quyết định 975/QĐ-BXD chỉ bãi bỏ thủ
+   tục, không đặt ra quy định thay thế nào.
+
+Muốn trả lời hai câu đó **phải có Nghị quyết số 66.18/2026/NQ-CP** — đây là tài
+liệu ưu tiên số một cần đề nghị người dùng bổ sung cho mảng kiến trúc.
 
 ## ĐỌC PHẠM VI CỦA MỤC LỚN TRƯỚC KHI TRÍCH ĐIỀU KHOẢN CON
 
@@ -271,8 +309,8 @@ Chỉ số tụt mà không giải thích được bằng phép đo thì **khôn
 **đụng tới nội dung corpus của văn bản pháp luật** thì còn phải kiểm chứng bằng
 thị giác máy đối chiếu bản gốc — đây là loại lỗi mà chỉ số truy hồi không bắt được.
 
-Mức truy hồi hiện tại (225 câu, 16 văn bản, 1 303 chunk): Recall@1 = 0,555 ·
-Recall@3 = 0,796 · Recall@5 = 0,845 · Recall@10 = 0,891 · MRR = 0,701. Trước khi
+Mức truy hồi hiện tại (230 câu, 17 văn bản, 1 310 chunk): Recall@1 = 0,556 ·
+Recall@3 = 0,801 · Recall@5 = 0,853 · Recall@10 = 0,889 · MRR = 0,703. Trước khi
 đổi bất kỳ hằng số xếp hạng nào, **gọi skill `do-luong-truy-hoi`** — mỗi con
 số ở đó đến từ một phép quét dải giá trị, không phải cảm tính.
 
