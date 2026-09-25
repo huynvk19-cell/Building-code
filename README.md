@@ -70,9 +70,9 @@ viện dẫn văn bản này.
 > bỏ** từ 01/12/2023, cùng các điểm 1.3, 7.4, A.1.3.12, H.2.10.3.
 
 > ⚠️ **Thông tư 06/2021 phải đọc kèm Thông tư 02/2025.** Cặp này **không** có
-> cảnh báo tự động trên từng chunk (lý do kỹ thuật ghi trong `CLAUDE.md`), nên
-> danh sách đủ 17 chỗ đã sửa nằm trong `CLAUDE.md`. Trong đó **mục 1.2.1.3 Bảng
-> 1.2 đã bị bãi bỏ**.
+> cảnh báo tự động trên từng chunk (lý do kỹ thuật ghi trong skill
+> `phan-cap-cong-trinh`), nên danh sách đủ 17 chỗ đã sửa nằm trong skill đó.
+> Trong đó **mục 1.2.1.3 Bảng 1.2 đã bị bãi bỏ**.
 
 **Ngày hiệu lực** — kho chỉ ghi những gì văn bản tự nói, không suy đoán. Hai quy
 chuẩn mang `CHƯA XÁC ĐỊNH` vì ngày hiệu lực của chúng nằm ở Thông tư ban hành
@@ -119,9 +119,9 @@ chunks/                       Mỗi Điều / mục / bảng một tệp (sinh t
 index/chunks.jsonl            Chỉ mục truy hồi kèm metadata
 index/documents.json          Sổ đăng ký văn bản
 eval/bo_cau_hoi.jsonl         250 câu hỏi gán nhãn vàng
-.claude/skills/               Ba skill nạp theo yêu cầu, không thường trực
+.claude/skills/               Tám skill nạp theo yêu cầu, không thường trực
 docs/                         Hướng dẫn cho người dùng
-CLAUDE.md                     Hàng rào chống trả lời sai, dành cho AI
+CLAUDE.md                     Hàng rào chống trả lời sai, dành cho AI (dưới 50 dòng)
 ```
 
 ### Công cụ

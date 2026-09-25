@@ -7,7 +7,9 @@ Từ dễ đến khó. Với một thư viện cỡ vài chục văn bản, **c�
 1. Tạo một Project trên claude.ai
 2. Tải các file trong `chunks/` lên phần **Project knowledge**
    (mỗi Điều một file — Claude trích dẫn chính xác hơn là tải cả file lớn)
-3. Dán nội dung `CLAUDE.md` vào ô **Custom instructions**
+3. Dán nội dung `CLAUDE.md` vào ô **Custom instructions**, và tải các tệp
+   `.claude/skills/*/SKILL.md` lên **Project knowledge** — `CLAUDE.md` chỉ giữ
+   hàng rào cốt lõi, còn bảng hiệu lực và các bẫy chi tiết nằm trong các skill
 
 Mọi hội thoại trong Project đó đều đọc cùng một kho kiến thức. Nhược điểm:
 mỗi lần cập nhật văn bản phải tải file lên lại thủ công.
