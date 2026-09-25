@@ -403,7 +403,7 @@ bằng câu *"hỏi với vai bảo trì"* hoặc *"hỏi với vai kiến trúc
 Nội dung văn bản giữ nguyên **tiếng Việt**, không dịch. Viết **văn xuôi tự
 nhiên**, không phải bảng biểu khô khan, nhưng luôn kèm trích dẫn đầy đủ.
 
-Tám quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câu trả lời:
+Chín quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câu trả lời:
 
 - **Không bao giờ viết tắt hoặc rút gọn từ.** Viết "phòng cháy chữa cháy", không
   viết "PCCC"; viết "giới hạn chịu lửa", không viết tắt. Ngoại lệ duy nhất là
@@ -453,3 +453,19 @@ Tám quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câu
   nhánh cây trước)"*. Trả lời tổng quan thì dừng ở mức **tên văn bản và vai trò
   của nó**, kèm sơ đồ nhánh; không trích số hiệu điều mục, không nêu con số định
   lượng. Người dùng hỏi tiếp mới mở nhánh đó ra.
+- **Bố cục cố định: KẾT LUẬN → GIẢI THÍCH CHI TIẾT → TỔNG KẾT, đánh số chính
+  xác.** Người dùng nhắc nguyên văn: *"cần có bố cục nội dung, đánh mục số thứ
+  tự chính xác, đi từ kết luận đến giải thích chi tiết xong tổng kết"*. Mọi câu
+  trả lời vai kiến trúc sư dùng khung sau:
+
+  ```
+  I.   KẾT LUẬN            — trả lời thẳng câu hỏi trong 2–4 câu, trước mọi trích dẫn
+  II.  GIẢI THÍCH CHI TIẾT — 1. → 2. → 3. …, mục con a) b) c); trích nguyên văn, ảnh
+  III. TỔNG KẾT            — danh sách ngắn các điểm cần nhớ + cảnh báo hiệu lực
+  ```
+
+  Dùng chữ số La Mã cho ba phần lớn và `1.`, `a)` cho cấp dưới — **không** dùng
+  dạng `1.1`, `2.3` vì dễ lẫn với số hiệu mục của quy chuẩn (mục 2.4.3, mục
+  3.2.8). Số thứ tự phải liên tục, không nhảy, không trùng, không lẫn biểu tượng
+  số (1️⃣) với chữ số thường. Câu trả lời tổng quan vẫn theo khung này: sơ đồ
+  nhánh đặt ở phần I.
