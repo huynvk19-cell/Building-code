@@ -25,9 +25,34 @@ Hướng dẫn dành cho người dùng cuối (không phải cho bạn) ở `do
 
 1. **Luôn tra cứu trước khi trả lời.** Đừng trả lời từ trí nhớ; kiến thức nền
    của bạn có thể đã cũ hơn bản chính thức trong kho.
-2. **Luôn trích dẫn**, dùng đúng chuỗi ở dòng `> **Trích dẫn:**` của file chunk,
-   đừng tự chế. Ba dạng: `Điều 33 Nghị định số 212/2026/NĐ-CP` ·
-   `mục 2.4.1 QCVN 10:2025/BCA` · `Bảng A.1 - Đối với nhà, Phụ lục A QCVN 10:2025/BCA`.
+2. **Luôn trích dẫn, và trích ĐẦY ĐỦ ĐẾN CẤP NHỎ NHẤT MÀ CÂU TRẢ LỜI DỰA VÀO.**
+   Người dùng yêu cầu nguyên văn: *"khi trích dẫn luật cần phải trích dẫn đầy đủ
+   điểm, khoản, mục"*. Dừng ở "Điều 28" trong khi con số thật nằm ở điểm b khoản 1
+   là bắt người đọc dò lại cả điều, và là đúng chỗ dễ trích nhầm sang khoản khác.
+
+   Viết từ cấp nhỏ đến cấp lớn, đúng lối của văn bản pháp luật Việt Nam:
+
+   > điểm b khoản 1 Điều 28 Luật Kiến trúc số 40/2019/QH14
+
+   | Loại văn bản | Phải nêu đủ |
+   |---|---|
+   | Luật, nghị định, thông tư | điểm → khoản → Điều → tên và số hiệu văn bản |
+   | Quy chuẩn, tiêu chuẩn | số hiệu mục đầy đủ (`mục 2.4.1 QCVN 10:2025/BCA`); trích chú thích thì ghi rõ `CHÚ THÍCH ... của mục ...` |
+   | Bảng | hàng hoặc mục đang dùng → tên đầy đủ của bảng → phụ lục → văn bản, ví dụ `Bảng A.1 - Đối với nhà, Phụ lục A QCVN 10:2025/BCA` |
+
+   Chuỗi ở dòng `> **Trích dẫn:**` của file chunk là **phần đuôi** của trích dẫn,
+   tính từ "Điều" hoặc "mục" trở đi. **Giữ nguyên số hiệu và cấp điều khoản trong
+   chuỗi đó, tuyệt đối không đổi số**; chỉ được thêm vào, không được sửa:
+
+   - thêm **điểm, khoản** ở phía trước — chunk không mang sẵn, phải **tự đọc nội
+     dung chunk** mới biết;
+   - thêm **tên gọi của văn bản** cho rõ, ví dụ chuỗi chunk ghi
+     `Điều 28 Luật số 40/2019/QH14` thì viết `Điều 28 Luật Kiến trúc số
+     40/2019/QH14`.
+
+   Không ghi điểm, khoản chỉ được phép khi **bản gốc không chia** đến cấp đó
+   (Điều 40 Luật Kiến trúc chỉ có một câu, không có khoản), chứ không phải khi
+   bạn chưa tra.
 3. **Không suy diễn ngoài văn bản.** Kho không có thì nói *"kho hiện chưa có văn
    bản quy định việc này"*, đừng đoán.
 4. **Trích nguyên văn mọi nội dung định lượng** (số năm kinh nghiệm, cấp công
@@ -75,7 +100,7 @@ ngày cụ thể. `het_hieu_luc` có giá trị → phải cảnh báo.
 
 | Văn bản | `ngay_hieu_luc` | Chuyển tiếp | Ghi chú |
 |---|---|---|---|
-| **212/2026/NĐ-CP** | `2026-07-01` (Điều 57 khoản 1) | **Điều 55** | Thay thế NĐ 111/2024. Đọc Điều 55 trước khi tư vấn cho hồ sơ nộp trước 01/7/2026. |
+| **212/2026/NĐ-CP** | `2026-07-01` (khoản 1 Điều 57) | **Điều 55** | Thay thế NĐ 111/2024. Đọc Điều 55 trước khi tư vấn cho hồ sơ nộp trước 01/7/2026. |
 | **QCVN 06:2022/BXD** | `2023-01-16` (Điều 2 TT 06/2022/TT-BXD) | **mục 7.1** | Đủ mục 1–7 và Phụ lục A–I. ⚠️ **Đã bị Sửa đổi 1:2023 sửa nhiều điểm, có phần BỊ BÃI BỎ** — gọi skill `an-toan-chay`. |
 | **Sửa đổi 1:2023 QCVN 06:2022/BXD** | `2023-12-01` (Điều 2 TT 09/2023/TT-BXD) | **Điều 3 TT 09/2023/TT-BXD** | **Không thay thế** bản gốc — phải đọc kèm. |
 | **06/2021/TT-BXD** | `2021-08-15` (khoản 1 Điều 5) | **Điều 4** | **Phân cấp công trình xây dựng.** 5 Điều, 3 phụ lục, 6 bảng phân cấp. Thay thế TT 03/2016/TT-BXD. ⚠️ **ĐÃ BỊ Thông tư 02/2025/TT-BXD sửa 17 chỗ** — xem mục riêng bên dưới, BẮT BUỘC đọc trước khi kết luận cấp công trình. |
@@ -84,9 +109,9 @@ ngày cụ thể. `het_hieu_luc` có giá trị → phải cảnh báo.
 | **QCVN 04:2021/BXD** | `2021-07-05` (Điều 2 TT 03/2021/TT-BXD) | không có | **Nhà chung cư.** ⚠️ Viện dẫn QCVN 06:2021/BXD (12 chỗ) và QCVN 10:2014/BXD (7 chỗ) — cả hai đã bị thay thế; gọi `an-toan-chay`. |
 | **QCVN 10:2024/BXD** | `CHƯA XÁC ĐỊNH` | mục 3.1 | Hiệu lực nằm ở Thông tư 06/2024/TT-BXD — **chưa có trong kho**. |
 | **QCVN 10:2025/BCA** | `CHƯA XÁC ĐỊNH` | không có | Hiệu lực nằm ở Thông tư 103/2025/TT-BCA — **chưa có trong kho**. Hỏi đáp nói 30/12/2025, đã ghi vào `ngay_hieu_luc_theo_tham_khao` nhưng **chưa coi là đã chứng minh**. |
-| **347/2026/NĐ-CP** | `2026-09-15` (Điều 41 khoản 1) | **Điều 40** | Sửa 4 nghị định: 169/2025, **105/2025**, 106/2025, 282/2025. Bãi bỏ Điều 74 NĐ 217/2026. ⚠️ Điều 41 khoản 2 có hiệu lực cùng Luật sửa đổi Luật Phòng cháy chữa cháy — ngày đó **CHƯA XÁC ĐỊNH**. |
-| **40/2019/QH14** | `2020-07-01` (Điều 40) | **Điều 41** | **Luật Kiến trúc.** 5 Chương, 41 Điều. Điều 39 sửa Luật Xây dựng, Luật Quy hoạch đô thị, Luật Nhà ở, Luật Đấu thầu; **bãi bỏ Điều 81 Luật Xây dựng và Điều 60 Luật Quy hoạch đô thị**. |
-| **25/VBHN-BXD** | `2020-09-07` (Điều 32 NĐ 85/2020) | **Điều 33** | **VĂN BẢN HỢP NHẤT**, không tự nó là văn bản quy phạm pháp luật — xem mục riêng bên dưới. |
+| **347/2026/NĐ-CP** | `2026-09-15` (khoản 1 Điều 41) | **Điều 40** | Sửa 4 nghị định: 169/2025, **105/2025**, 106/2025, 282/2025. Bãi bỏ Điều 74 NĐ 217/2026. ⚠️ khoản 2 Điều 41 có hiệu lực cùng Luật sửa đổi Luật Phòng cháy chữa cháy — ngày đó **CHƯA XÁC ĐỊNH**. |
+| **40/2019/QH14** | `2020-07-01` (Điều 40) | **Điều 41** | **Luật Kiến trúc.** 5 Chương, 41 Điều. Điều 39 sửa Luật Xây dựng, Luật Quy hoạch đô thị, Luật Nhà ở, Luật Đấu thầu; **điểm đ khoản 1 Điều 39 bãi bỏ Điều 81 Luật Xây dựng**, **điểm c khoản 2 Điều 39 bãi bỏ Điều 60 Luật Quy hoạch đô thị**. |
+| **25/VBHN-BXD** | `2020-09-07` (Điều 32 Nghị định số 85/2020/NĐ-CP) | **Điều 33** | **VĂN BẢN HỢP NHẤT**, không tự nó là văn bản quy phạm pháp luật — xem mục riêng bên dưới. |
 | **105/2025 · 106/2025 · 169/2025 · 282/2025 · 217/2026** | `CHƯA XÁC ĐỊNH` | — | **KHUNG RỖNG — chưa có nội dung.** |
 | **975/QĐ-BXD** | `2026-07-01` (Điều 2) | không có | **KHÔNG phải văn bản quy phạm pháp luật** — quyết định công bố thủ tục hành chính. Bãi bỏ 6 thủ tục hành chính lĩnh vực kiến trúc. Căn cứ thật sự là **Nghị quyết 66.18/2026/NQ-CP — chưa có trong kho**. Xem mục riêng bên dưới. |
 | **Hỏi đáp C07** | `KHÔNG ÁP DỤNG` | không có | **KHÔNG phải văn bản quy phạm pháp luật.** 132 giải đáp, không mục nào có ngày trả lời. |
@@ -248,12 +273,12 @@ cho người dùng đi nộp một bộ hồ sơ không còn cửa nhận.
 
 | Thủ tục bị bãi bỏ | Quy định nội dung nằm ở đâu |
 |---|---|
-| Cấp chứng chỉ hành nghề kiến trúc (1.008891) | điều kiện: Điều 28 Luật số 40/2019/QH14 · hồ sơ: khoản 1 Điều 27 và trình tự: điểm a, b khoản 1 Điều 28 Nghị định số 85/2020/NĐ-CP |
+| Cấp chứng chỉ hành nghề kiến trúc (1.008891) | điều kiện: khoản 1 Điều 28 Luật Kiến trúc số 40/2019/QH14 · hồ sơ: khoản 1 Điều 27 và trình tự: điểm a và điểm b khoản 1 Điều 28 Nghị định số 85/2020/NĐ-CP |
 | Cấp lại do cơ quan cấp ghi sai (1.008990) | điểm c khoản 2 Điều 28 Nghị định số 85/2020/NĐ-CP |
-| Cấp lại do mất, hư hỏng, đổi thông tin cá nhân (1.008989) | khoản 2 Điều 30 Luật số 40/2019/QH14 · hồ sơ: khoản 3 Điều 27 Nghị định số 85/2020/NĐ-CP |
-| Gia hạn chứng chỉ hành nghề kiến trúc (1.008991) | điều kiện: khoản 2 Điều 28 Luật số 40/2019/QH14 · hồ sơ: khoản 2 Điều 27 Nghị định số 85/2020/NĐ-CP |
-| Chuyển đổi cho người nước ngoài (1.008993) | Điều 31 Luật số 40/2019/QH14 · hồ sơ: Điều 30 và trình tự: Điều 31 Nghị định số 85/2020/NĐ-CP |
-| Công nhận tổ chức đủ điều kiện sát hạch (1.008881) | khoản 3 Điều 26 Luật số 40/2019/QH14 · Điều 26 Nghị định số 85/2020/NĐ-CP |
+| Cấp lại do mất, hư hỏng, đổi thông tin cá nhân (1.008989) | khoản 2 Điều 30 Luật Kiến trúc số 40/2019/QH14 · hồ sơ: khoản 3 Điều 27 Nghị định số 85/2020/NĐ-CP |
+| Gia hạn chứng chỉ hành nghề kiến trúc (1.008991) | điều kiện: khoản 2 Điều 28 Luật Kiến trúc số 40/2019/QH14 · hồ sơ: khoản 2 Điều 27 Nghị định số 85/2020/NĐ-CP |
+| Chuyển đổi cho người nước ngoài (1.008993) | khoản 1 và khoản 2 Điều 31 Luật Kiến trúc số 40/2019/QH14 · hồ sơ: Điều 30 và trình tự: Điều 31 Nghị định số 85/2020/NĐ-CP |
+| Công nhận tổ chức đủ điều kiện sát hạch (1.008881) | khoản 3 Điều 26 Luật Kiến trúc số 40/2019/QH14 · Điều 26 Nghị định số 85/2020/NĐ-CP |
 
 Quyết định 975/QĐ-BXD **chỉ bãi bỏ thủ tục hành chính**, và bản thân nó không đủ
 tư cách bãi bỏ điều khoản của một nghị định. Vì vậy các điều khoản trong bảng
@@ -403,7 +428,7 @@ bằng câu *"hỏi với vai bảo trì"* hoặc *"hỏi với vai kiến trúc
 Nội dung văn bản giữ nguyên **tiếng Việt**, không dịch. Viết **văn xuôi tự
 nhiên**, không phải bảng biểu khô khan, nhưng luôn kèm trích dẫn đầy đủ.
 
-Tám quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câu trả lời:
+Chín quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câu trả lời:
 
 - **Không bao giờ viết tắt hoặc rút gọn từ.** Viết "phòng cháy chữa cháy", không
   viết "PCCC"; viết "giới hạn chịu lửa", không viết tắt. Ngoại lệ duy nhất là
@@ -448,6 +473,9 @@ Tám quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câu
   câu văn xuôi kiểu "Nguyên văn: '...' ". Người đọc phải phân biệt được ngay,
   chỉ bằng cách nhìn, đâu là chữ của văn bản pháp luật và đâu là lời diễn giải
   thêm của tôi.
+- **Trích dẫn phải đủ điểm, khoản, mục** — nguyên văn yêu cầu: *"khi trích dẫn
+  luật cần phải trích dẫn đầy đủ điểm, khoản, mục"*. Cách viết và ba dạng trích
+  dẫn nằm ở nguyên tắc số 2 đầu tệp này.
 - **"Tổng quan" nghĩa là SƠ ĐỒ NHÁNH TRƯỚC, không phải tóm tắt từng điều mục.**
   Người dùng nói nguyên văn: *"tôi cần bức tranh tổng quan (giống như là các
   nhánh cây trước)"*. Trả lời tổng quan thì dừng ở mức **tên văn bản và vai trò
