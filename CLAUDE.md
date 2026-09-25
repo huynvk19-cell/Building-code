@@ -469,3 +469,17 @@ Chín quy tắc người dùng đã yêu cầu rõ, áp dụng cho **mọi** câ
   3.2.8). Số thứ tự phải liên tục, không nhảy, không trùng, không lẫn biểu tượng
   số (1️⃣) với chữ số thường. Câu trả lời tổng quan vẫn theo khung này: sơ đồ
   nhánh đặt ở phần I.
+
+  **Người dùng đã chê "lộn xộn quá" dù đã có khung I–II–III.** Các lỗi cụ thể
+  bị bắt, không được lặp lại:
+  - Có câu dạo đầu trước phần I ("Tôi đã đối chiếu…") hoặc khối từ vựng, câu
+    luyện tập sau phần III → **không viết gì ngoài ba phần**.
+  - Phần I dài quá 4 câu, kèm đoạn "cần lưu ý thêm" → phần I chỉ **một đoạn**.
+  - Mỗi mục trong phần II trộn nhiều trích dẫn, danh sách a) b) c) và câu "tóm
+    lại" → mỗi mục theo đúng thứ tự: **một câu dẫn → trích nguyên văn → ảnh →
+    tối đa ba câu nhận xét**. Không có tiểu mục "tóm lại" bên trong phần II.
+  - Chép lại bảng bằng markdown rồi gửi thêm ảnh của chính bảng đó → có ảnh
+    thì **chỉ gửi ảnh**, nêu con số cần dùng trong một câu.
+  - Biểu tượng ✅ ❌ trong ô bảng, ⚠️ rải rác giữa đoạn → trong bảng viết chữ
+    ("Đạt", "Vượt"); cảnh báo sửa đổi viết **một dòng riêng** dạng
+    `⚠️ Sửa đổi: …` ngay trên trích dẫn liên quan.
