@@ -582,6 +582,43 @@
     "so_chunk": 39
   },
   {
+    "doc_id": "qcvn-13-2018-bxd",
+    "so_hieu": "QCVN 13:2018/BXD",
+    "loai_van_ban": "Quy chuẩn kỹ thuật quốc gia",
+    "tieu_de": "Quy chuẩn kỹ thuật quốc gia về Gara ô-tô",
+    "co_quan_ban_hanh": "Bộ Xây dựng",
+    "ngay_ban_hanh": "2018-12-26",
+    "ngay_hieu_luc": "2019-03-15",
+    "can_cu_hieu_luc": "Điều 2 Thông tư số 12/2018/TT-BXD ngày 26/12/2018 của Bộ Xây dựng",
+    "thay_the": [
+      "QCVN 08:2009/BXD Phần 2. Ga ra ôtô (ban hành kèm Thông tư số 28/2009/TT-BXD ngày 14/8/2009)"
+    ],
+    "het_hieu_luc": "",
+    "sua_doi_boi": [],
+    "dieu_khoan_chuyen_tiep": "KHÔNG CÓ trong Thông tư và bản Quy chuẩn",
+    "linh_vuc": [
+      "gara ô tô",
+      "bãi đỗ xe",
+      "tầng hầm",
+      "an toàn cháy",
+      "khoang cháy",
+      "thoát nạn",
+      "thông gió chống khói",
+      "chữa cháy tự động",
+      "báo cháy"
+    ],
+    "gia_tri_phap_ly": "",
+    "hop_nhat_tu": [],
+    "quy_dinh_chi_tiet_cho": [],
+    "trang_thai": "hoàn chỉnh",
+    "nguon": "Công báo số 177 + 178 ngày 13/02/2019, trang 57–86",
+    "cau_truc": "muc",
+    "sua_doi_cho": [],
+    "toan_van": "corpus/quy-chuan/qcvn-13-2018-bxd/toan-van.md",
+    "so_don_vi": 132,
+    "so_chunk": 133
+  },
+  {
     "doc_id": "sua-doi-1-2023-qcvn-06-2022-bxd",
     "so_hieu": "Sửa đổi 1:2023 QCVN 06:2022/BXD",
     "loai_van_ban": "Quy chuẩn kỹ thuật quốc gia (bản sửa đổi)",
