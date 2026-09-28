@@ -40,7 +40,19 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với tokenizer cũ
 python3 eval/chay_danh_gia.py --chi-tiet # liệt kê câu trượt
 ```
 
-Mức hiện tại (268 câu, 19 văn bản, 1 490 chunk): Recall@1 = 0.596 · Recall@3 = 0.793 · Recall@5 = 0.844 · Recall@10 = 0.895 · MRR = 0.720.
+Mức hiện tại (282 câu, 20 văn bản, 1 623 chunk): Recall@1 = 0.598 · Recall@3 = 0.793 · Recall@5 = 0.841 · Recall@10 = 0.893 · MRR = 0.720.
+
+Chi phí đã đo của việc thêm QCVN 13:2018/BXD (Gara ô-tô, 133 chunk), đo trên đúng bộ
+268 câu cũ: Recall@1 0.596 → 0.592, Recall@3 0.793 → 0.789, Recall@5 0.844 → 0.836,
+Recall@10 0.895 → 0.891, MRR 0.720 → 0.716. So hạng từng câu có và không có các chunk
+QCVN 13: 33 câu đổi hạng, gần hết ±1–2 do IDF dịch chuyển (một số câu còn lên hạng).
+Tụt rõ nhất là P22 "thời gian chữa cháy tính toán" 4 → 11 mà không có chunk QCVN 13
+nào chen trước — thuần do IDF. Câu đáng ghi lại là P01 "lối lên cho xe lăn dốc bao
+nhiêu" 4 → 5: mục 2.2.1.11 (đường dốc cho ô-tô) chen lên — **đúng từ, sai không gian**;
+J04 "văn phòng 4 tầng có cần chữa cháy tự động" 3 → 4 do mục 2.3.5.2 (chữa cháy tự
+động cho gara). Thêm 14 câu U01–U14 riêng cho gara: 12 câu trúng top 5; U12 (hiệu lực
+từ ngày nào) chỉ ở hạng 15 — ngày hiệu lực phải đọc từ metadata `ngay_hieu_luc`, không
+trông vào xếp hạng.
 
 Chi phí đã đo của việc thêm toàn văn Nghị định 217/2026/NĐ-CP (thay khung rỗng
 bằng 104 chunk), đo trên đúng bộ 250 câu cũ: Recall@1 giữ 0.582, Recall@3 0.799 →

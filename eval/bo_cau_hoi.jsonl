@@ -266,3 +266,17 @@
 {"id": "T16", "loai": "B", "hoi": "điều kiện cấp giấy phép xây dựng có thời hạn", "vang": ["217-2026-nd-cp:dieu-52"], "kiem_chung": "chưa có quyết định thu hồi đất"}
 {"id": "T17", "loai": "B", "hoi": "mẫu tờ trình thẩm định báo cáo nghiên cứu khả thi", "vang": ["217-2026-nd-cp:phu-luc-i-mau-so-01-to-trinh-tham-dinh-bao-cao-ngh"], "kiem_chung": "Kính gửi"}
 {"id": "T18", "loai": "F", "hoi": "dự án khu đô thị quy mô bao nhiêu héc ta", "vang": ["217-2026-nd-cp:phu-luc-iii"], "kiem_chung": "từ 20 héc ta"}
+{"id": "U01", "loai": "B", "hoi": "kích thước tối thiểu một chỗ đỗ xe ô tô trong gara", "vang": ["qcvn-13-2018-bxd:muc-2.2.1.25"], "kiem_chung": "2,3 m"}
+{"id": "U02", "loai": "F", "hoi": "độ dốc dọc tối đa của đường dốc thẳng có mái che trong gara ô tô", "vang": ["qcvn-13-2018-bxd:muc-2.2.1.28"], "kiem_chung": "18%"}
+{"id": "U03", "loai": "F", "hoi": "gara ô tô ngầm được xây tối đa bao nhiêu tầng hầm", "vang": ["qcvn-13-2018-bxd:muc-2.2.1.1"], "kiem_chung": "không quá 5 tầng ngầm"}
+{"id": "U04", "loai": "F", "hoi": "diện tích khoang cháy của gara ô tô ngầm bậc chịu lửa I", "vang": ["qcvn-13-2018-bxd:muc-2.2.2"], "kiem_chung": "3.000"}
+{"id": "U05", "loai": "F", "hoi": "khoảng cách từ chỗ đỗ xe xa nhất đến lối thoát hiểm trong gara ngầm", "vang": ["qcvn-13-2018-bxd:muc-2.2.1.14"], "kiem_chung": "40"}
+{"id": "U06", "loai": "B", "hoi": "chiều cao tối thiểu của gian phòng để xe trong gara tính đến mép dưới kết cấu", "vang": ["qcvn-13-2018-bxd:muc-2.2.1.22"], "kiem_chung": "không được nhỏ hơn 2 m"}
+{"id": "U07", "loai": "B", "hoi": "gara ô tô nào phải có hệ thống chữa cháy tự động", "vang": ["qcvn-13-2018-bxd:muc-2.3.5.2"], "kiem_chung": "Gara ô-tô ngầm không phụ thuộc số tầng"}
+{"id": "U08", "loai": "B", "hoi": "đường dốc trong gara kín có phải làm khoang đệm ngăn cháy không", "vang": ["qcvn-13-2018-bxd:muc-2.2.1.12"], "kiem_chung": "EI 90"}
+{"id": "U09", "loai": "F", "hoi": "lối xe ra vào gara ngầm phải cách cửa sổ nhà ở bao nhiêu mét", "vang": ["qcvn-13-2018-bxd:phu-luc-a-a-2-khoang-cach-toi-thieu-tu-cac-loi-ra"], "kiem_chung": "Nhà ở - Cửa sổ"}
+{"id": "U10", "loai": "F", "hoi": "diện tích đất cho mỗi chỗ xe của gara ô tô năm tầng", "vang": ["qcvn-13-2018-bxd:phu-luc-a-a-1-kich-thuoc-khu-dat-cua-cac-gara-o-to"], "kiem_chung": "10 m²/chỗ xe"}
+{"id": "U11", "loai": "B", "hoi": "gara ô tô có được bố trí trong nhà chung cư không", "vang": ["qcvn-13-2018-bxd:muc-2.1.6"], "kiem_chung": "F 1.3"}
+{"id": "U12", "loai": "A", "hoi": "quy chuẩn gara ô tô QCVN 13:2018 có hiệu lực từ ngày nào", "vang": ["qcvn-13-2018-bxd:muc-0.2"], "kiem_chung": "15/3/2019"}
+{"id": "U13", "loai": "B", "hoi": "xe chạy bằng khí hóa lỏng có được để trong tầng hầm gara không", "vang": ["qcvn-13-2018-bxd:muc-2.2.1.32"], "kiem_chung": "tầng hầm và nửa hầm"}
+{"id": "U14", "loai": "B", "hoi": "gara ô tô dạng hở có cần hệ thống thoát khói không", "vang": ["qcvn-13-2018-bxd:muc-2.2.4.6"], "kiem_chung": "Không yêu cầu"}

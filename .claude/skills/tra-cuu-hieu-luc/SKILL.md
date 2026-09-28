@@ -45,7 +45,7 @@ Trách nhiệm phân biệt "có đáp án" với "ngoài phạm vi" **thuộc v
 4. Câu hỏi thuộc lĩnh vực kho chưa bao phủ (tải trọng gió, chống sét, kết cấu,
    tiết kiệm năng lượng) → nói rõ ngay từ đầu.
 
-Kho hiện có **mười hai văn bản quy phạm pháp luật có nội dung**, **một văn bản
+Kho hiện có **mười ba văn bản quy phạm pháp luật có nội dung**, **một văn bản
 hợp nhất**, **hai tài liệu tham khảo** (hỏi đáp nghiệp vụ và quyết định công bố
 thủ tục hành chính) và **bốn khung rỗng**. Mặc định khi không chắc là
 *"chưa có trong kho"*, không phải *"có lẽ là…"*.
@@ -67,6 +67,7 @@ ngày cụ thể. `het_hieu_luc` có giá trị → phải cảnh báo.
 | **02/2025/TT-BXD** | `2025-05-20` (khoản 1 Điều 2) | **khoản 2, 3, 4 Điều 2** | Sửa đổi, bổ sung Thông tư 06/2021/TT-BXD. **Không thay thế** — phải đọc kèm bản gốc. |
 | **QCVN 01:2021/BXD** | `2021-07-05` (Điều 2 TT 01/2021/TT-BXD) | **mục 3.4** | **Quy hoạch xây dựng.** 5 phần, 164 mục, 32 bảng. ⚠️ Viện dẫn QCVN 06:2021/BXD và QCVN 10:2014/BXD — cả hai đã bị thay thế; gọi `an-toan-chay`. |
 | **QCVN 04:2021/BXD** | `2021-07-05` (Điều 2 TT 03/2021/TT-BXD) | không có | **Nhà chung cư.** ⚠️ Viện dẫn QCVN 06:2021/BXD (12 chỗ) và QCVN 10:2014/BXD (7 chỗ) — cả hai đã bị thay thế; gọi `an-toan-chay`. |
+| **QCVN 13:2018/BXD** | `2019-03-15` (Điều 2 TT 12/2018/TT-BXD) | không có | **Gara ô-tô.** Thay thế QCVN 08:2009/BXD Phần 2. ⚠️ Viện dẫn **QCVN 06:2010/BXD** và **QCVN 10:2014/BXD** — cả hai đã bị thay thế; mục 1.3 tự quy định áp dụng phiên bản mới nhất, gọi `an-toan-chay`. ⚠️ Kho **không có căn cứ** khẳng định quy chuẩn này còn hay đã hết hiệu lực tại thời điểm tra cứu — phải nói rõ. Khi một yêu cầu trùng với QCVN 06:2022/BXD hoặc QCVN 10:2025/BCA (ví dụ chữa cháy tự động cho nhà để xe), trích **cả hai** và nói kho không có văn bản xác định thứ tự ưu tiên; không tự chọn. Mục 2.2.2 b) bản in dừng ở chữ "vách ngăn cháy loại" — không tự điền số loại. |
 | **QCVN 10:2024/BXD** | `CHƯA XÁC ĐỊNH` | mục 3.1 | Hiệu lực nằm ở Thông tư 06/2024/TT-BXD — **chưa có trong kho**. |
 | **QCVN 10:2025/BCA** | `CHƯA XÁC ĐỊNH` | không có | Hiệu lực nằm ở Thông tư 103/2025/TT-BCA — **chưa có trong kho**. Hỏi đáp nói 30/12/2025, đã ghi vào `ngay_hieu_luc_theo_tham_khao` nhưng **chưa coi là đã chứng minh**. |
 | **347/2026/NĐ-CP** | `2026-09-15` (Điều 41 khoản 1) | **Điều 40** | Sửa 4 nghị định: 169/2025, **105/2025**, 106/2025, 282/2025. Bãi bỏ Điều 74 NĐ 217/2026. ⚠️ Điều 41 khoản 2 có hiệu lực cùng Luật sửa đổi Luật Phòng cháy chữa cháy — ngày đó **CHƯA XÁC ĐỊNH**. |

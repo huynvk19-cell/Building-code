@@ -4,7 +4,7 @@ Kho dữ liệu dạng **RAG** (Retrieval-Augmented Generation): AI không cần
 văn bản luật, mà tra cứu trực tiếp vào kho này. Git giữ lịch sử phiên bản —
 khi một nghị định được sửa đổi, bạn commit bản mới và bản cũ vẫn còn nguyên.
 
-Hiện có **19 văn bản · 1 490 chunk · 246 ảnh** cắt từ bản in gốc.
+Hiện có **20 văn bản · 1 623 chunk · 256 ảnh** cắt từ bản in gốc.
 
 ## Đang có gì
 
@@ -16,6 +16,7 @@ Hiện có **19 văn bản · 1 490 chunk · 246 ảnh** cắt từ bản in g�
 | **Sửa đổi 1:2023 QCVN 06:2022/BXD** | Sửa khoảng 120 điểm của bản gốc. **Không thay thế** — phải đọc kèm | 01/12/2023 | 146 |
 | **QCVN 01:2021/BXD** | Quy hoạch xây dựng — đất dân dụng, mật độ xây dựng, khoảng lùi, hạ tầng kỹ thuật. 5 phần, 164 mục, 32 bảng | 05/7/2021 | 168 |
 | **QCVN 04:2021/BXD** | Nhà chung cư | 05/7/2021 | 134 |
+| **QCVN 13:2018/BXD** | Gara ô-tô — bố trí trong khu dân cư, khoang cháy và số tầng, đường dốc, thoát nạn, cấp nước chữa cháy, thông gió chống khói, chữa cháy và báo cháy tự động. 4 phần + Phụ lục A, 9 bảng. ⚠️ Viện dẫn QCVN 06:2010/BXD và QCVN 10:2014/BXD, **cả hai đã bị thay thế**; kho không xác nhận được quy chuẩn này còn hay đã hết hiệu lực | 15/3/2019 | 133 |
 | **QCVN 10:2024/BXD** | Tiếp cận sử dụng cho người khuyết tật. 19 mục + 2 Phụ lục, 26 hình vẽ | CHƯA XÁC ĐỊNH | 22 |
 | **QCVN 10:2025/BCA** | Trang bị, bố trí phương tiện phòng cháy chữa cháy, cứu nạn cứu hộ | CHƯA XÁC ĐỊNH | 39 |
 | **Thông tư 06/2021/TT-BXD** | Phân cấp công trình xây dựng. 5 Điều + 3 Phụ lục, 6 bảng phân cấp | 15/8/2021 | 69 |
@@ -119,7 +120,7 @@ corpus/                       Bản gốc — nguồn sự thật duy nhất, CH
 chunks/                       Mỗi Điều / mục / bảng một tệp (sinh tự động)
 index/chunks.jsonl            Chỉ mục truy hồi kèm metadata
 index/documents.json          Sổ đăng ký văn bản
-eval/bo_cau_hoi.jsonl         268 câu hỏi gán nhãn vàng
+eval/bo_cau_hoi.jsonl         282 câu hỏi gán nhãn vàng
 .claude/skills/               Tám skill nạp theo yêu cầu, không thường trực
 docs/                         Hướng dẫn cho người dùng
 CLAUDE.md                     Hàng rào chống trả lời sai, dành cho AI (dưới 50 dòng)
@@ -169,7 +170,7 @@ python3 tools/chen_anh_bang.py   # 4. không còn liên kết ảnh nào bị s�
 
 ## Đo chất lượng tra cứu
 
-Bộ **268 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu cố
+Bộ **282 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu cố
 tình hỏi những thứ **không** có trong kho, để kiểm tra công cụ có bịa hay không.
 
 ```bash
@@ -177,17 +178,17 @@ python3 eval/chay_danh_gia.py            # chỉ số hiện hành
 python3 eval/chay_danh_gia.py --chi-tiet # xem những câu bị trượt
 ```
 
-Mức hiện tại trên 19 văn bản, 1 490 chunk:
+Mức hiện tại trên 20 văn bản, 1 623 chunk:
 
 | | Recall@1 | Recall@3 | Recall@5 | Recall@10 | MRR |
 |---|---|---|---|---|---|
-| 268 câu | 0,596 | 0,793 | **0,844** | 0,895 | 0,720 |
+| 282 câu | 0,598 | 0,793 | **0,841** | 0,893 | 0,720 |
 
 Nghĩa là đúng chunk nằm trong 5 kết quả đầu ở **84%** số câu, trong 10 kết quả
-đầu ở **90%**.
+đầu ở **89%**.
 
 **Các con số qua từng đợt mở rộng không so sánh trực tiếp được** — mỗi lần đo
-trên một bộ câu hỏi khác và một kho khác (176 → 682 → 1 387 → 1 490 chunk). Thêm văn bản
+trên một bộ câu hỏi khác và một kho khác (176 → 682 → 1 387 → 1 490 → 1 623 chunk). Thêm văn bản
 thì cạnh tranh tăng nên vài câu cũ bị đẩy xuống; đó là cái giá của kho rộng hơn,
 đã đo chứ không giấu. Ba lần đánh đổi lớn đều được tách riêng và ghi lại bằng
 phép đo trong skill `do-luong-truy-hoi`:
@@ -207,7 +208,15 @@ phép đo trong skill `do-luong-truy-hoi`:
   lại nhích 0,886 → 0,887. Đã đo từng câu: các Điều về giấy phép xây dựng, giấy tờ
   đất đai, sửa chữa cải tạo chen lên trước ở những câu phòng cháy dùng chung từ
   khóa (câu "hồ sơ thẩm định thiết kế cần giấy tờ đất đai" tụt từ hạng 1 xuống
-  hạng 5). Thêm 18 câu hỏi riêng cho nghị định này thì cả bộ 268 câu đạt số ở bảng trên.
+  hạng 5). Thêm 18 câu hỏi riêng cho nghị định này thì bộ 268 câu đạt 0,596 · 0,793 ·
+  0,844 · 0,895 · MRR 0,720.
+- **QCVN 13:2018/BXD** (133 chunk gara ô-tô) làm bộ 268 câu cũ tụt nhẹ: Recall@1
+  0,596 → 0,592, Recall@5 0,844 → 0,836, MRR 0,720 → 0,716. Đã đo từng câu: phần
+  lớn là do trọng số từ hiếm thay đổi khi kho lớn thêm; chỗ đáng chú ý là mục đường
+  dốc cho ô-tô (2.2.1.11) chen vào câu hỏi đường dốc cho xe lăn — **đúng từ, sai
+  không gian**, đúng loại lỗi mà quy tắc đọc chunk trong `CLAUDE.md` chặn. Thêm 14
+  câu hỏi riêng cho gara (12 câu trúng trong 5 kết quả đầu) thì cả bộ 282 câu đạt
+  số ở bảng trên.
 
 Còn yếu ở câu hỏi bắc cầu nhiều văn bản (0,17) và câu hỏi mơ hồ (0,25). Giới hạn
 của phép đo ghi thẳng trong [`eval/README.md`](eval/README.md) — nên đọc trước

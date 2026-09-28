@@ -216,8 +216,8 @@ python3 tools/cat_bang.py --pdf <goc.pdf> --trang 57 --bang G.2a \
 
 ### Đã cắt sẵn — kiểm tra trước khi nghĩ tới việc cắt mới
 
-Kho **đã có sẵn 160 ảnh bảng**, phủ **toàn bộ bảng của cả năm văn bản**, và
-**cả 160 ảnh đều đã được chèn liên kết vào corpus** (kiểm lại bằng
+Kho **đã có sẵn 173 ảnh bảng**, phủ **toàn bộ bảng của các văn bản ở bảng dưới**, và
+**cả 173 ảnh đều đã được chèn liên kết vào corpus** (kiểm lại bằng
 `tools/chen_anh_bang.py`). Con số này từng là 122; một ảnh đã bị xoá vì bắt
 nhầm câu văn xuôi thành bảng — xem phần bảng nhiều trang bên dưới:
 
@@ -228,6 +228,8 @@ nhầm câu văn xuôi thành bảng — xem phần bảng nhiều trang bên d�
 | QCVN 10:2025/BCA | `corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/` | 19 |
 | QCVN 10:2024/BXD | `corpus/quy-chuan/qcvn-10-2024-bxd/phu-luc/bang/` | 2 |
 | QCVN 01:2021/BXD | `corpus/quy-chuan/qcvn-01-2021-bxd/bang/` | 32 (39 ảnh, 7 bảng tràn trang) |
+| QCVN 13:2018/BXD phần chính | `corpus/quy-chuan/qcvn-13-2018-bxd/bang/` | 8 (Bảng 1–8) |
+| QCVN 13:2018/BXD Phụ lục A | `corpus/quy-chuan/qcvn-13-2018-bxd/phu-luc/bang/` | 1 (Bảng A.1, 2 ảnh, tràn trang) |
 | 217/2026/NĐ-CP Phụ lục IV | `corpus/nghi-dinh/217-2026-nd-cp/phu-luc/bang/` | 1 (3 ảnh `bang-phu-luc-iv`, `-tiep-1`, `-tiep-2`; liên kết đặt tay trong tệp phụ lục vì bảng không có tiêu đề "Bảng số") |
 
 Mỗi ảnh đã được **chèn liên kết ngay dưới tiêu đề bảng** trong `corpus/`, nên

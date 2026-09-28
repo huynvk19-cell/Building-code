@@ -68,6 +68,8 @@ nó ban hành trước. Đây là bẫy thật:
 |---|---|---|
 | QCVN 04:2021/BXD (12 chỗ) · QCVN 01:2021/BXD · Hỏi đáp C07 (4 chỗ) | QCVN 06:2021/BXD | **QCVN 06:2022/BXD** + Sửa đổi 1:2023 |
 | QCVN 04:2021/BXD (7 chỗ) · QCVN 01:2021/BXD | QCVN 10:2014/BXD | **QCVN 10:2024/BXD** |
+| QCVN 13:2018/BXD (2 chỗ: 1.3.2, 2.2.1.3) | QCVN 10:2014/BXD | **QCVN 10:2024/BXD** |
+| QCVN 13:2018/BXD (12 chỗ: 1.3.1, 2.1.5, 2.1.6, 2.1.8, 2.2.1.4, 2.2.1.8, 2.2.1.16, 2.2.1.18–2.2.1.21, 2.3.1.1) | QCVN 06:2010/BXD | Phiên bản mới nhất — trong kho là **QCVN 06:2022/BXD** + Sửa đổi 1:2023. ⚠️ `search.py` **KHÔNG** in cảnh báo cho chỗ này: kho không có văn bản nào ghi thay thế QCVN 06:2010/BXD, nên phải tự nêu |
 
 Ví dụ: mục 2.1.2 QCVN 04:2021/BXD viết *"phải đảm bảo các yêu cầu về an toàn
 cháy theo QCVN 06:2021/BXD"*. Trả lời theo đúng chữ đó là **sai quy định hiện
