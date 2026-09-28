@@ -4,7 +4,7 @@ doc_id: "217-2026-nd-cp"
 so_hieu: "217/2026/NĐ-CP"
 loai_van_ban: "Nghị định"
 ngay_ban_hanh: "2026-06-19"
-ngay_hieu_luc: "CHƯA XÁC ĐỊNH"
+ngay_hieu_luc: "2026-07-01"
 loai_chunk: "mo-dau"
 tieu_de: "Phần mở đầu và căn cứ ban hành"
 nguon: "corpus/nghi-dinh/217-2026-nd-cp/toan-van.md"
@@ -12,19 +12,24 @@ nguon: "corpus/nghi-dinh/217-2026-nd-cp/toan-van.md"
 
 > **Trích dẫn:** Nghị định số 217/2026/NĐ-CP
 
-# 217/2026/NĐ-CP — KHUNG RỖNG, CHƯA CÓ NỘI DUNG
+# NGHỊ ĐỊNH SỐ 217/2026/NĐ-CP
 
-> **CẢNH BÁO.** Đây **không phải** nội dung văn bản. Kho mới chỉ có tên,
-> số hiệu và ngày ban hành của nó, chưa có một điều khoản nào.
->
-> **Tuyệt đối không trích khung rỗng này làm căn cứ trả lời.** Khi câu hỏi
-> rơi vào phạm vi văn bản này, phải nói thẳng với người dùng rằng *kho chưa
-> có nội dung của văn bản này* và đề nghị họ cung cấp bản gốc.
+**CHÍNH PHỦ** — CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM — Độc lập - Tự do - Hạnh phúc
 
-**Tên đầy đủ:** Quy định chi tiết một số điều của Luật Xây dựng về quản lý hoạt động xây dựng
+Số: 217/2026/NĐ-CP — Hà Nội, ngày 19 tháng 6 năm 2026
 
-**Ngày ban hành:** 2026-06-19
+## NGHỊ ĐỊNH
 
-## Vì sao kho cần văn bản này
+**Quy định chi tiết một số điều của Luật Xây dựng về quản lý hoạt động xây dựng**
 
-Điều 39 Nghị định số 347/2026/NĐ-CP **bãi bỏ Điều 74** của văn bản này. Đây là nghị định về quản lý hoạt động xây dựng nên rất đáng bổ sung: nó cùng lĩnh vực với Nghị định số 212/2026/NĐ-CP đã có trong kho.
+### Căn cứ ban hành
+
+*Căn cứ Luật Tổ chức Chính phủ số 63/2025/QH15;*
+
+*Căn cứ Luật Tổ chức chính quyền địa phương số 72/2025/QH15;*
+
+*Căn cứ Luật Xây dựng số 135/2025/QH15;*
+
+*Theo đề nghị của Bộ trưởng Bộ Xây dựng;*
+
+*Chính phủ ban hành Nghị định quy định chi tiết một số điều của Luật Xây dựng về quản lý hoạt động xây dựng.*

@@ -40,7 +40,20 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với tokenizer cũ
 python3 eval/chay_danh_gia.py --chi-tiet # liệt kê câu trượt
 ```
 
-Mức hiện tại (245 câu, 18 văn bản, 1 380 chunk): Recall@1 = 0.584 · Recall@3 = 0.803 · Recall@5 = 0.850 · Recall@10 = 0.896 · MRR = 0.716.
+Mức hiện tại (268 câu, 19 văn bản, 1 490 chunk): Recall@1 = 0.596 · Recall@3 = 0.793 · Recall@5 = 0.844 · Recall@10 = 0.895 · MRR = 0.720.
+
+Chi phí đã đo của việc thêm toàn văn Nghị định 217/2026/NĐ-CP (thay khung rỗng
+bằng 104 chunk), đo trên đúng bộ 250 câu cũ: Recall@1 giữ 0.582, Recall@3 0.799 →
+0.786, Recall@5 0.844 → 0.836, MRR 0.715 → 0.710, Recall@10 0.886 → 0.887. So hạng
+từng câu có và không có các chunk 217: 31 câu đổi hạng, phần lớn chỉ ±1 do IDF dịch
+chuyển; các câu tụt rõ đều do chunk 217 dùng chung từ khóa chen lên trước — K18
+"hồ sơ đề nghị thẩm định thiết kế cần giấy tờ đất đai" 1 → 5 (Điều 55–58 về giấy tờ
+đất đai để cấp giấy phép xây dựng), D06 "di tích không cải tạo được" 3 → 7 (Điều 51,
+61 sửa chữa, cải tạo, di dời), O05 "cấp nước chữa cháy trong quy hoạch" 4 → 11
+(Điều 26 quy hoạch làm căn cứ lập dự án). Đây là pha loãng BM25 thông thường, không
+phải lỗi cắt chunk; đã chấp nhận như các đợt trước. Câu T13 (chuyển tiếp hồ sơ giấy
+phép xây dựng nộp trước 01/7/2026) vẫn trượt top 5 — khoản 19 nằm sâu trong Điều 76
+dài 10 000 ký tự.
 
 Chi phí đã đo của việc thêm QCVN 01:2021/BXD (168 chunk) và giữ lại các **mục cha chỉ
 có tên** (57 chunk trong các văn bản cũ): Recall@1 từ 0.570 xuống 0.550, MRR từ 0.711

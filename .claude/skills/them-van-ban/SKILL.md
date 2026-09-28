@@ -228,6 +228,7 @@ nhầm câu văn xuôi thành bảng — xem phần bảng nhiều trang bên d�
 | QCVN 10:2025/BCA | `corpus/quy-chuan/qcvn-10-2025-bca/phu-luc/bang/` | 19 |
 | QCVN 10:2024/BXD | `corpus/quy-chuan/qcvn-10-2024-bxd/phu-luc/bang/` | 2 |
 | QCVN 01:2021/BXD | `corpus/quy-chuan/qcvn-01-2021-bxd/bang/` | 32 (39 ảnh, 7 bảng tràn trang) |
+| 217/2026/NĐ-CP Phụ lục IV | `corpus/nghi-dinh/217-2026-nd-cp/phu-luc/bang/` | 1 (3 ảnh `bang-phu-luc-iv`, `-tiep-1`, `-tiep-2`; liên kết đặt tay trong tệp phụ lục vì bảng không có tiêu đề "Bảng số") |
 
 Mỗi ảnh đã được **chèn liên kết ngay dưới tiêu đề bảng** trong `corpus/`, nên
 chunk trả về từ `search.py` đã mang sẵn đường dẫn ảnh. Chỉ việc gửi tệp đó cho
