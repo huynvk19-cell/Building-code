@@ -249,23 +249,33 @@
     "tieu_de": "Quy định chi tiết một số điều của Luật Xây dựng về quản lý hoạt động xây dựng",
     "co_quan_ban_hanh": "Chính phủ",
     "ngay_ban_hanh": "2026-06-19",
-    "ngay_hieu_luc": "CHƯA XÁC ĐỊNH",
-    "can_cu_hieu_luc": "Kho chưa có bản gốc của văn bản này nên không đọc được điều khoản hiệu lực.",
-    "thay_the": [],
+    "ngay_hieu_luc": "2026-07-01",
+    "can_cu_hieu_luc": "Điều 75 khoản 1 của chính Nghị định này",
+    "thay_the": [
+      "Nghị định 175/2024/NĐ-CP"
+    ],
     "het_hieu_luc": "",
     "sua_doi_boi": [],
-    "dieu_khoan_chuyen_tiep": "",
-    "linh_vuc": [],
+    "dieu_khoan_chuyen_tiep": "Điều 76",
+    "linh_vuc": [
+      "xây dựng",
+      "quản lý dự án",
+      "thiết kế xây dựng",
+      "thẩm định",
+      "giấy phép xây dựng",
+      "trật tự xây dựng",
+      "BIM"
+    ],
     "gia_tri_phap_ly": "",
     "hop_nhat_tu": [],
     "quy_dinh_chi_tiet_cho": [],
-    "trang_thai": "KHUNG RỖNG",
-    "nguon": "CHƯA CÓ — cần người dùng cung cấp bản gốc",
+    "trang_thai": "hoàn chỉnh",
+    "nguon": "Bản ký số của Cổng thông tin điện tử Chính phủ (ký ngày 22/06/2026) và bản quét Phụ lục I đến Phụ lục IV do người dùng cung cấp",
     "cau_truc": "dieu",
     "sua_doi_cho": [],
     "toan_van": "corpus/nghi-dinh/217-2026-nd-cp/toan-van.md",
-    "so_don_vi": 0,
-    "so_chunk": 1
+    "so_don_vi": 76,
+    "so_chunk": 104
   },
   {
     "doc_id": "25-vbhn-bxd",

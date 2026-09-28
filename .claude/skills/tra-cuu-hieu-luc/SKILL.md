@@ -3,7 +3,7 @@ name: tra-cuu-hieu-luc
 description: >-
   Quy trình tra cứu, kiểm chứng và kiểm tra hiệu lực cho MỌI câu trả lời về nội
   dung quy định: bảng hiệu lực và điều khoản chuyển tiếp của từng văn bản trong
-  kho, cách đọc điểm BM25, năm khung rỗng chưa có nội dung, 132 giải đáp nghiệp
+  kho, cách đọc điểm BM25, bốn khung rỗng chưa có nội dung, 132 giải đáp nghiệp
   vụ chỉ là tài liệu tham khảo, cách đọc phạm vi mục lớn trước khi trích điều
   khoản con, và các lệnh tra cứu. BẮT BUỘC gọi skill này TRƯỚC KHI trả lời bất kỳ
   câu hỏi nào hỏi nội dung quy định (được phép hay không, bao nhiêu mét, điều
@@ -45,9 +45,9 @@ Trách nhiệm phân biệt "có đáp án" với "ngoài phạm vi" **thuộc v
 4. Câu hỏi thuộc lĩnh vực kho chưa bao phủ (tải trọng gió, chống sét, kết cấu,
    tiết kiệm năng lượng) → nói rõ ngay từ đầu.
 
-Kho hiện có **mười một văn bản quy phạm pháp luật có nội dung**, **một văn bản
+Kho hiện có **mười hai văn bản quy phạm pháp luật có nội dung**, **một văn bản
 hợp nhất**, **hai tài liệu tham khảo** (hỏi đáp nghiệp vụ và quyết định công bố
-thủ tục hành chính) và **năm khung rỗng**. Mặc định khi không chắc là
+thủ tục hành chính) và **bốn khung rỗng**. Mặc định khi không chắc là
 *"chưa có trong kho"*, không phải *"có lẽ là…"*.
 
 ## Kiểm tra hiệu lực
@@ -72,14 +72,15 @@ ngày cụ thể. `het_hieu_luc` có giá trị → phải cảnh báo.
 | **347/2026/NĐ-CP** | `2026-09-15` (Điều 41 khoản 1) | **Điều 40** | Sửa 4 nghị định: 169/2025, **105/2025**, 106/2025, 282/2025. Bãi bỏ Điều 74 NĐ 217/2026. ⚠️ Điều 41 khoản 2 có hiệu lực cùng Luật sửa đổi Luật Phòng cháy chữa cháy — ngày đó **CHƯA XÁC ĐỊNH**. |
 | **40/2019/QH14** | `2020-07-01` (Điều 40) | **Điều 41** | **Luật Kiến trúc.** 5 Chương, 41 Điều. Điều 39 sửa Luật Xây dựng, Luật Quy hoạch đô thị, Luật Nhà ở, Luật Đấu thầu; **bãi bỏ Điều 81 Luật Xây dựng và Điều 60 Luật Quy hoạch đô thị**. |
 | **25/VBHN-BXD** | `2020-09-07` (Điều 32 NĐ 85/2020) | **Điều 33** | **VĂN BẢN HỢP NHẤT**, không tự nó là văn bản quy phạm pháp luật — gọi skill `hanh-nghe-kien-truc`. |
-| **105/2025 · 106/2025 · 169/2025 · 282/2025 · 217/2026** | `CHƯA XÁC ĐỊNH` | — | **KHUNG RỖNG — chưa có nội dung.** |
+| **217/2026/NĐ-CP** | `2026-07-01` (Điều 75 khoản 1) | **Điều 76** (23 khoản) | **Quản lý hoạt động xây dựng**: trình tự đầu tư, BIM, khảo sát, thiết kế, thẩm định Báo cáo nghiên cứu khả thi, quản lý dự án, giấy phép xây dựng, trật tự xây dựng. Thay thế NĐ 175/2024. Hồ sơ giấy phép xây dựng nộp trước 01/7/2026 vẫn theo NĐ 175/2024 (khoản 19 Điều 76). ⚠️ **Điều 74 (sửa NĐ 105/2025) đã bị Điều 39 NĐ 347/2026 BÃI BỎ từ 15/9/2026** — chunk mang cờ ĐÃ BỊ SỬA ĐỔI. Viện dẫn "Phụ lục III" ở khoản 1 Điều 74 là Phụ lục III của NĐ 105/2025, KHÔNG phải Phụ lục III (phân loại dự án) của chính NĐ 217. |
+| **105/2025 · 106/2025 · 169/2025 · 282/2025** | `CHƯA XÁC ĐỊNH` | — | **KHUNG RỖNG — chưa có nội dung.** |
 | **975/QĐ-BXD** | `2026-07-01` (Điều 2) | không có | **KHÔNG phải văn bản quy phạm pháp luật** — quyết định công bố thủ tục hành chính. Bãi bỏ 6 thủ tục hành chính lĩnh vực kiến trúc. Căn cứ thật sự là **Nghị quyết 66.18/2026/NQ-CP — chưa có trong kho**. Gọi skill `hanh-nghe-kien-truc`. |
 | **Hỏi đáp C07** | `KHÔNG ÁP DỤNG` | không có | **KHÔNG phải văn bản quy phạm pháp luật.** 132 giải đáp, không mục nào có ngày trả lời. |
 
 ## KHUNG RỖNG — VĂN BẢN CHỈ CÓ TÊN, CHƯA CÓ NỘI DUNG
 
-Năm khung rỗng ở `corpus/nghi-dinh/`: 105/2025, 106/2025, 169/2025, 282/2025,
-217/2026. Chúng mang `trang_thai: "KHUNG RỖNG"`, chỉ có tên và số hiệu, không
+Bốn khung rỗng ở `corpus/nghi-dinh/`: 105/2025, 106/2025, 169/2025, 282/2025.
+(217/2026 từng là khung rỗng, nay đã có toàn văn và 4 phụ lục.) Chúng mang `trang_thai: "KHUNG RỖNG"`, chỉ có tên và số hiệu, không
 một điều khoản nào — để khi tra thì kho nói thẳng *chưa có nội dung* thay vì trả
 về rỗng khiến người trả lời tưởng là "pháp luật không quy định".
 

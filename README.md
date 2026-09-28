@@ -4,7 +4,7 @@ Kho dữ liệu dạng **RAG** (Retrieval-Augmented Generation): AI không cần
 văn bản luật, mà tra cứu trực tiếp vào kho này. Git giữ lịch sử phiên bản —
 khi một nghị định được sửa đổi, bạn commit bản mới và bản cũ vẫn còn nguyên.
 
-Hiện có **19 văn bản · 1 387 chunk · 241 ảnh** cắt từ bản in gốc.
+Hiện có **19 văn bản · 1 490 chunk · 246 ảnh** cắt từ bản in gốc.
 
 ## Đang có gì
 
@@ -21,6 +21,7 @@ Hiện có **19 văn bản · 1 387 chunk · 241 ảnh** cắt từ bản in g�
 | **Thông tư 06/2021/TT-BXD** | Phân cấp công trình xây dựng. 5 Điều + 3 Phụ lục, 6 bảng phân cấp | 15/8/2021 | 69 |
 | **Thông tư 02/2025/TT-BXD** | Sửa 17 chỗ của Thông tư 06/2021. **Không thay thế** — phải đọc kèm | 20/5/2025 | 20 |
 | **Nghị định 212/2026/NĐ-CP** | Điều kiện năng lực hoạt động xây dựng; cơ sở dữ liệu quốc gia. 58 Điều + 4 Phụ lục | 01/7/2026 | 76 |
+| **Nghị định 217/2026/NĐ-CP** | Quản lý hoạt động xây dựng: trình tự đầu tư, BIM, khảo sát, thiết kế, thẩm định Báo cáo nghiên cứu khả thi, quản lý dự án, **giấy phép xây dựng**, trật tự xây dựng, công trình đặc thù. 76 Điều + 4 Phụ lục (23 mẫu văn bản, phân loại dự án, danh mục công trình ảnh hưởng lớn đến an toàn cộng đồng). Thay thế Nghị định 175/2024/NĐ-CP. ⚠️ **Điều 74 đã bị Nghị định 347/2026/NĐ-CP bãi bỏ** từ 15/9/2026 | 01/7/2026 | 104 |
 | **Nghị định 347/2026/NĐ-CP** | Sửa 4 nghị định về phòng cháy chữa cháy. 42 Điều + 3 Phụ lục | 15/9/2026 | 46 |
 | **Luật 40/2019/QH14 — Luật Kiến trúc** | Quản lý kiến trúc, hành nghề kiến trúc, chứng chỉ hành nghề kiến trúc. 5 Chương, 41 Điều | 01/7/2020 | 42 |
 
@@ -48,8 +49,8 @@ mẫu đơn, yêu cầu cơ sở vật chất sát hạch) — bản quét gốc
 
 ### Khung rỗng — mới có tên, chưa có nội dung
 
-`105/2025/NĐ-CP` · `106/2025/NĐ-CP` · `169/2025/NĐ-CP` · `282/2025/NĐ-CP` ·
-`217/2026/NĐ-CP`. Tra tới chúng thì kho trả về một dòng nói thẳng *chưa có nội
+`105/2025/NĐ-CP` · `106/2025/NĐ-CP` · `169/2025/NĐ-CP` · `282/2025/NĐ-CP`.
+Tra tới chúng thì kho trả về một dòng nói thẳng *chưa có nội
 dung*, thay vì trả về rỗng khiến người đọc tưởng là "pháp luật không quy định".
 
 **Cần bổ sung nhất là Nghị định 105/2025/NĐ-CP** — 72 trên 132 giải đáp của C07
@@ -62,7 +63,7 @@ viện dẫn văn bản này.
 > `/BCA` (Bộ Công an — phòng cháy chữa cháy).
 
 > ⚠️ **QCVN 06 phải đọc kèm Sửa đổi 1:2023.** Quy định đang có hiệu lực = bản gốc
-> **đã vá bằng** bản sửa đổi. Kho giữ nguyên văn cả hai và tự nối: **95 chunk**
+> **đã vá bằng** bản sửa đổi. Kho giữ nguyên văn cả hai và tự nối: **96 chunk**
 > của bản gốc mang cờ `sua_doi_boi`, `search.py` in cảnh báo `⚠️ ĐÃ BỊ SỬA ĐỔI`
 > ngay trên kết quả.
 >
@@ -118,7 +119,7 @@ corpus/                       Bản gốc — nguồn sự thật duy nhất, CH
 chunks/                       Mỗi Điều / mục / bảng một tệp (sinh tự động)
 index/chunks.jsonl            Chỉ mục truy hồi kèm metadata
 index/documents.json          Sổ đăng ký văn bản
-eval/bo_cau_hoi.jsonl         250 câu hỏi gán nhãn vàng
+eval/bo_cau_hoi.jsonl         268 câu hỏi gán nhãn vàng
 .claude/skills/               Tám skill nạp theo yêu cầu, không thường trực
 docs/                         Hướng dẫn cho người dùng
 CLAUDE.md                     Hàng rào chống trả lời sai, dành cho AI (dưới 50 dòng)
@@ -168,7 +169,7 @@ python3 tools/chen_anh_bang.py   # 4. không còn liên kết ảnh nào bị s�
 
 ## Đo chất lượng tra cứu
 
-Bộ **250 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu cố
+Bộ **268 câu hỏi gán nhãn vàng** (`eval/bo_cau_hoi.jsonl`), trong đó 10 câu cố
 tình hỏi những thứ **không** có trong kho, để kiểm tra công cụ có bịa hay không.
 
 ```bash
@@ -176,17 +177,17 @@ python3 eval/chay_danh_gia.py            # chỉ số hiện hành
 python3 eval/chay_danh_gia.py --chi-tiet # xem những câu bị trượt
 ```
 
-Mức hiện tại trên 19 văn bản, 1 387 chunk:
+Mức hiện tại trên 19 văn bản, 1 490 chunk:
 
 | | Recall@1 | Recall@3 | Recall@5 | Recall@10 | MRR |
 |---|---|---|---|---|---|
-| 250 câu | 0,582 | 0,799 | **0,844** | 0,886 | 0,715 |
+| 268 câu | 0,596 | 0,793 | **0,844** | 0,895 | 0,720 |
 
 Nghĩa là đúng chunk nằm trong 5 kết quả đầu ở **84%** số câu, trong 10 kết quả
-đầu ở **89%**.
+đầu ở **90%**.
 
 **Các con số qua từng đợt mở rộng không so sánh trực tiếp được** — mỗi lần đo
-trên một bộ câu hỏi khác và một kho khác (176 → 682 → 1 387 chunk). Thêm văn bản
+trên một bộ câu hỏi khác và một kho khác (176 → 682 → 1 387 → 1 490 chunk). Thêm văn bản
 thì cạnh tranh tăng nên vài câu cũ bị đẩy xuống; đó là cái giá của kho rộng hơn,
 đã đo chứ không giấu. Ba lần đánh đổi lớn đều được tách riêng và ghi lại bằng
 phép đo trong skill `do-luong-truy-hoi`:
@@ -201,6 +202,12 @@ phép đo trong skill `do-luong-truy-hoi`:
   0,555 → 0,584, MRR 0,701 → 0,716. Hai văn bản này dùng từ vựng riêng
   (chứng chỉ hành nghề kiến trúc, quy chế quản lý kiến trúc, thi tuyển
   phương án kiến trúc) nên ít chồng lấn với phần còn lại của kho.
+- **Nghị định 217/2026/NĐ-CP** (103 chunk nội dung) làm bộ 250 câu cũ tụt nhẹ:
+  Recall@3 0,799 → 0,786, Recall@5 0,844 → 0,836, MRR 0,715 → 0,710; Recall@10
+  lại nhích 0,886 → 0,887. Đã đo từng câu: các Điều về giấy phép xây dựng, giấy tờ
+  đất đai, sửa chữa cải tạo chen lên trước ở những câu phòng cháy dùng chung từ
+  khóa (câu "hồ sơ thẩm định thiết kế cần giấy tờ đất đai" tụt từ hạng 1 xuống
+  hạng 5). Thêm 18 câu hỏi riêng cho nghị định này thì cả bộ 268 câu đạt số ở bảng trên.
 
 Còn yếu ở câu hỏi bắc cầu nhiều văn bản (0,17) và câu hỏi mơ hồ (0,25). Giới hạn
 của phép đo ghi thẳng trong [`eval/README.md`](eval/README.md) — nên đọc trước

@@ -248,3 +248,21 @@
 {"id": "S18", "loai": "A", "hoi": "nội dung quy chế quản lý kiến trúc điểm dân cư nông thôn", "vang": ["25-vbhn-bxd:dieu-13"], "kiem_chung": "điểm dân cư nông thôn"}
 {"id": "S19", "loai": "B", "hoi": "rà soát đánh giá việc thực hiện quy chế quản lý kiến trúc định kỳ mấy năm", "vang": ["25-vbhn-bxd:dieu-14"], "kiem_chung": "định kỳ 05 năm"}
 {"id": "S20", "loai": "F", "hoi": "hồ sơ đề nghị gia hạn chứng chỉ hành nghề kiến trúc gồm những gì", "vang": ["25-vbhn-bxd:dieu-27"], "kiem_chung": "gia hạn chứng chỉ hành nghề"}
+{"id": "T01", "loai": "A", "hoi": "Điều 8 Nghị định 217 quy định gì về BIM", "vang": ["217-2026-nd-cp:dieu-08"], "kiem_chung": "định dạng chuẩn mở IFC"}
+{"id": "T02", "loai": "F", "hoi": "công trình từ cấp mấy trở lên bắt buộc áp dụng BIM", "vang": ["217-2026-nd-cp:dieu-08"], "kiem_chung": "từ cấp II trở lên"}
+{"id": "T03", "loai": "F", "hoi": "dự án tổng mức đầu tư bao nhiêu thì chỉ cần lập báo cáo kinh tế kỹ thuật", "vang": ["217-2026-nd-cp:dieu-27"], "kiem_chung": "không quá 40 tỷ đồng"}
+{"id": "T04", "loai": "B", "hoi": "thiết kế xây dựng có mấy bước", "vang": ["217-2026-nd-cp:dieu-16"], "kiem_chung": "Thiết kế một bước là thiết kế bản vẽ thi công"}
+{"id": "T05", "loai": "B", "hoi": "ai có thẩm quyền cấp giấy phép xây dựng nhà ở riêng lẻ", "vang": ["217-2026-nd-cp:dieu-53"], "kiem_chung": "công trình nhà ở riêng lẻ của hộ gia đình, cá nhân trên địa bàn do mình"}
+{"id": "T06", "loai": "F", "hoi": "thời hạn cấp giấy phép xây dựng nhà ở riêng lẻ là bao nhiêu ngày", "vang": ["217-2026-nd-cp:dieu-54"], "kiem_chung": "trong thời hạn 07 ngày làm việc"}
+{"id": "T07", "loai": "F", "hoi": "giấy phép xây dựng được gia hạn tối đa mấy lần", "vang": ["217-2026-nd-cp:dieu-63"], "kiem_chung": "chỉ được gia hạn tối đa 02 lần"}
+{"id": "T08", "loai": "B", "hoi": "hồ sơ xin giấy phép xây dựng nhà ở riêng lẻ gồm những gì", "vang": ["217-2026-nd-cp:dieu-60"], "kiem_chung": "bản cam kết bảo đảm an toàn đối với công trình liền kề"}
+{"id": "T09", "loai": "B", "hoi": "những loại giấy tờ đất nào được dùng để xin giấy phép xây dựng", "vang": ["217-2026-nd-cp:dieu-55"], "kiem_chung": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất"}
+{"id": "T10", "loai": "D", "hoi": "khi nào điều chỉnh thiết kế thì phải xin điều chỉnh giấy phép xây dựng", "vang": ["217-2026-nd-cp:dieu-63"], "kiem_chung": "Thay đổi hình thức kiến trúc mặt ngoài"}
+{"id": "T11", "loai": "F", "hoi": "thời gian thẩm định báo cáo nghiên cứu khả thi dự án nhóm C", "vang": ["217-2026-nd-cp:dieu-37"], "kiem_chung": "không quá 12 ngày làm việc"}
+{"id": "T12", "loai": "E", "hoi": "Nghị định 217/2026 có hiệu lực từ ngày nào và thay thế nghị định nào", "vang": ["217-2026-nd-cp:dieu-75"], "kiem_chung": "Nghị định số 175/2024/NĐ-CP"}
+{"id": "T13", "loai": "E", "hoi": "hồ sơ xin giấy phép xây dựng nộp trước ngày 1/7/2026 thì áp dụng quy định nào", "vang": ["217-2026-nd-cp:dieu-76"], "kiem_chung": "tiếp tục thực hiện theo quy định tại Nghị định số 175/2024/NĐ-CP"}
+{"id": "T14", "loai": "C", "hoi": "danh mục công trình ảnh hưởng lớn đến an toàn lợi ích cộng đồng", "vang": ["217-2026-nd-cp:phu-luc-iv"], "kiem_chung": "Các tòa nhà chung cư, nhà ở tập thể khác"}
+{"id": "T15", "loai": "B", "hoi": "chỉ dẫn kỹ thuật có bắt buộc lập riêng không", "vang": ["217-2026-nd-cp:dieu-24"], "kiem_chung": "phải lập riêng đối với công trình cấp đặc biệt, cấp I"}
+{"id": "T16", "loai": "B", "hoi": "điều kiện cấp giấy phép xây dựng có thời hạn", "vang": ["217-2026-nd-cp:dieu-52"], "kiem_chung": "chưa có quyết định thu hồi đất"}
+{"id": "T17", "loai": "B", "hoi": "mẫu tờ trình thẩm định báo cáo nghiên cứu khả thi", "vang": ["217-2026-nd-cp:phu-luc-i-mau-so-01-to-trinh-tham-dinh-bao-cao-ngh"], "kiem_chung": "Kính gửi"}
+{"id": "T18", "loai": "F", "hoi": "dự án khu đô thị quy mô bao nhiêu héc ta", "vang": ["217-2026-nd-cp:phu-luc-iii"], "kiem_chung": "từ 20 héc ta"}
