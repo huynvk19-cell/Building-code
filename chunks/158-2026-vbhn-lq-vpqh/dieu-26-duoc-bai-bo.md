@@ -18,4 +18,4 @@ muc: "Mục 2. HÀNH NGHỀ KIẾN TRÚC CỦA CÁ NHÂN"
 
 # Điều 26. (được bãi bỏ)
 
-*(Chú thích [28] của bản hợp nhất, tại Điều 26: Điều này được bãi bỏ theo quy định tại điểm a khoản 15 Điều 1 của Luật số 19/2026/QH16, có hiệu lực kể từ ngày 01 tháng 3 năm 2027. =====P19)*
+*(Chú thích [28] của bản hợp nhất, tại Điều 26: Điều này được bãi bỏ theo quy định tại điểm a khoản 15 Điều 1 của Luật số 19/2026/QH16, có hiệu lực kể từ ngày 01 tháng 3 năm 2027.)*

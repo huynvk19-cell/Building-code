@@ -215,7 +215,7 @@ c) Đối với khu vực có nguy cơ chịu ảnh hưởng của rủi ro thi�
 
 2. Thiết kế kiến trúc phải do cá nhân thuộc tổ chức hoặc cá nhân hành nghề độc lập đáp ứng tiêu chuẩn năng lực hành nghề kiến trúc thực hiện theo quy định của Luật này.
 
-*(Chú thích [9] của bản hợp nhất, tại khoản 2 Điều 12: Khoản này được sửa đổi, bổ sung theo quy định tại điểm a khoản 3 Điều 1 của Luật số 19/2026/QH16, có hiệu lực kể từ ngày 01 tháng 3 năm 2027. =====P18)*
+*(Chú thích [9] của bản hợp nhất, tại khoản 2 Điều 12: Khoản này được sửa đổi, bổ sung theo quy định tại điểm a khoản 3 Điều 1 của Luật số 19/2026/QH16, có hiệu lực kể từ ngày 01 tháng 3 năm 2027.)*
 
 3. Thiết kế kiến trúc phải xem xét toàn diện các yêu cầu về kinh tế - xã hội, công năng, kỹ thuật, phòng, chống cháy, nổ, môi trường, sử dụng năng lượng tiết kiệm và hiệu quả, bản sắc văn hóa dân tộc và các yêu cầu khác đối với công trình; bảo đảm bình đẳng giới trong hoạt động kiến trúc và tiếp cận bình đẳng cho mọi đối tượng sử dụng công trình.
 
@@ -479,7 +479,7 @@ b) Thông tin về tổ chức hành nghề kiến trúc.
 
 ### Điều 26. (được bãi bỏ)
 
-*(Chú thích [28] của bản hợp nhất, tại Điều 26: Điều này được bãi bỏ theo quy định tại điểm a khoản 15 Điều 1 của Luật số 19/2026/QH16, có hiệu lực kể từ ngày 01 tháng 3 năm 2027. =====P19)*
+*(Chú thích [28] của bản hợp nhất, tại Điều 26: Điều này được bãi bỏ theo quy định tại điểm a khoản 15 Điều 1 của Luật số 19/2026/QH16, có hiệu lực kể từ ngày 01 tháng 3 năm 2027.)*
 
 ### Điều 27. Thẩm quyền cấp, thu hồi, cấp lại chứng chỉ hành nghề kiến trúc
 
@@ -755,7 +755,7 @@ Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2020.
 >
 > Điều 3. Điều khoản chuyển tiếp
 >
-> 1. Quy chế quản lý kiến trúc, Danh mục công trình kiến trúc có giá trị đã được cấp có thẩm quyền ban hành trước ngày Luật này có hiệu lực thi hành thì tiếp tục là căn cứ, cơ sở để quản lý kiến trúc cho đến khi được điều chỉnh theo quy định của Luật này. =====P20
+> 1. Quy chế quản lý kiến trúc, Danh mục công trình kiến trúc có giá trị đã được cấp có thẩm quyền ban hành trước ngày Luật này có hiệu lực thi hành thì tiếp tục là căn cứ, cơ sở để quản lý kiến trúc cho đến khi được điều chỉnh theo quy định của Luật này.
 >
 > 2. Quy chế quản lý kiến trúc, Danh mục công trình kiến trúc có giá trị đang được trình, thẩm định, phê duyệt để ban hành trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện theo quy định của Luật số 40/2019/QH14.
 >

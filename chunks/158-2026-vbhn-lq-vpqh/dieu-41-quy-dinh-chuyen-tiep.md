@@ -33,7 +33,7 @@ chuong: "Chương V. ĐIỀU KHOẢN THI HÀNH"
 >
 > Điều 3. Điều khoản chuyển tiếp
 >
-> 1. Quy chế quản lý kiến trúc, Danh mục công trình kiến trúc có giá trị đã được cấp có thẩm quyền ban hành trước ngày Luật này có hiệu lực thi hành thì tiếp tục là căn cứ, cơ sở để quản lý kiến trúc cho đến khi được điều chỉnh theo quy định của Luật này. =====P20
+> 1. Quy chế quản lý kiến trúc, Danh mục công trình kiến trúc có giá trị đã được cấp có thẩm quyền ban hành trước ngày Luật này có hiệu lực thi hành thì tiếp tục là căn cứ, cơ sở để quản lý kiến trúc cho đến khi được điều chỉnh theo quy định của Luật này.
 >
 > 2. Quy chế quản lý kiến trúc, Danh mục công trình kiến trúc có giá trị đang được trình, thẩm định, phê duyệt để ban hành trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện theo quy định của Luật số 40/2019/QH14.
 >

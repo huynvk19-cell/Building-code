@@ -23,7 +23,7 @@ chuong: "Chương II. QUẢN LÝ KIẾN TRÚC"
 
 2. Thiết kế kiến trúc phải do cá nhân thuộc tổ chức hoặc cá nhân hành nghề độc lập đáp ứng tiêu chuẩn năng lực hành nghề kiến trúc thực hiện theo quy định của Luật này.
 
-*(Chú thích [9] của bản hợp nhất, tại khoản 2 Điều 12: Khoản này được sửa đổi, bổ sung theo quy định tại điểm a khoản 3 Điều 1 của Luật số 19/2026/QH16, có hiệu lực kể từ ngày 01 tháng 3 năm 2027. =====P18)*
+*(Chú thích [9] của bản hợp nhất, tại khoản 2 Điều 12: Khoản này được sửa đổi, bổ sung theo quy định tại điểm a khoản 3 Điều 1 của Luật số 19/2026/QH16, có hiệu lực kể từ ngày 01 tháng 3 năm 2027.)*
 
 3. Thiết kế kiến trúc phải xem xét toàn diện các yêu cầu về kinh tế - xã hội, công năng, kỹ thuật, phòng, chống cháy, nổ, môi trường, sử dụng năng lượng tiết kiệm và hiệu quả, bản sắc văn hóa dân tộc và các yêu cầu khác đối với công trình; bảo đảm bình đẳng giới trong hoạt động kiến trúc và tiếp cận bình đẳng cho mọi đối tượng sử dụng công trình.
 
