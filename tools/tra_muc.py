@@ -28,6 +28,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -98,9 +99,18 @@ def in_ra(r: dict, so: str, day_du: bool) -> None:
     print(f"  Hiệu lực  : {r.get('ngay_hieu_luc') or 'CHƯA XÁC ĐỊNH'}")
     if r.get("gia_tri_phap_ly"):
         print(f"  🛑 {r['gia_tri_phap_ly']} — KHÔNG dùng làm căn cứ pháp lý")
+    hom_nay = date.today().isoformat()
     for sd in r.get("sua_doi_boi") or []:
-        print(f"  ⚠️  ĐÃ BỊ SỬA ĐỔI bởi {sd['so_hieu']} (hiệu lực {sd['ngay_hieu_luc']})")
+        if sd["ngay_hieu_luc"] > hom_nay:
+            print(f"  ⏳  SẼ BỊ SỬA ĐỔI bởi {sd['so_hieu']} từ {sd['ngay_hieu_luc']}"
+                  f" — CHƯA CÓ HIỆU LỰC, nội dung này VẪN ĐANG ÁP DỤNG")
+        else:
+            print(f"  ⚠️  ĐÃ BỊ SỬA ĐỔI bởi {sd['so_hieu']} (hiệu lực {sd['ngay_hieu_luc']})")
         print(f"      → {sd['duong_dan']}")
+    chua = [d for d in r.get("hieu_luc_sua_doi") or [] if d > hom_nay]
+    if chua:
+        print(f"  ⏳  PHẦN SỬA ĐỔI CHƯA CÓ HIỆU LỰC (từ {', '.join(chua)}) — trước "
+              f"ngày đó áp dụng nguyên văn văn bản gốc")
     anh = re.findall(r"!\[([^\]]*)\]\(([^)]+\.png)\)", r["text"])
     if anh:
         print(f"  Ảnh kèm   : {len(anh)} tệp — PHẢI GỬI ĐỦ CẢ CHUỖI")

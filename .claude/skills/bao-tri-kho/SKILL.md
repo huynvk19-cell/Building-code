@@ -57,7 +57,7 @@ Chỉ số tụt mà không giải thích được bằng phép đo thì **khôn
 **đụng tới nội dung corpus của văn bản pháp luật** thì còn phải kiểm chứng bằng
 thị giác máy đối chiếu bản gốc — đây là loại lỗi mà chỉ số truy hồi không bắt được.
 
-Mức truy hồi hiện tại (282 câu, 20 văn bản, 1 623 chunk): Recall@1 = 0,598 ·
-Recall@3 = 0,793 · Recall@5 = 0,841 · Recall@10 = 0,893 · MRR = 0,720. Trước khi
+Mức truy hồi hiện tại (290 câu, 21 văn bản, 1 665 chunk): Recall@1 = 0,610 ·
+Recall@3 = 0,795 · Recall@5 = 0,849 · Recall@10 = 0,900 · MRR = 0,729. Trước khi
 đổi bất kỳ hằng số xếp hạng nào, **gọi skill `do-luong-truy-hoi`** — mỗi con
 số ở đó đến từ một phép quét dải giá trị, không phải cảm tính.

@@ -854,6 +854,72 @@ def noi_sua_doi(all_chunks: list[dict], documents: list[dict]) -> int:
     return dem
 
 
+# Ghi chú sửa đổi của văn bản hợp nhất, mỗi ghi chú một dòng in nghiêng:
+# "*(Khoản 3 được sửa đổi, bổ sung theo ... Nghị định số 35/2023/NĐ-CP ..., có
+# hiệu lực từ ngày 20/6/2023.)*" hoặc "..., có hiệu lực kể từ ngày 01 tháng 3
+# năm 2027.)*". Chỉ đọc dòng ghi chú — câu "Luật này có hiệu lực thi hành từ
+# ngày …" nằm trong thân điều khoản không phải ngày của một lần sửa đổi.
+RE_GHI_CHU_HN = re.compile(r"^\*\(.*\)\*\s*$")
+RE_NGAY_GHI_CHU = re.compile(
+    r"có hiệu lực (?:kể )?từ ngày\s+(?:(\d{1,2})/(\d{1,2})/(\d{4})"
+    r"|(\d{1,2}) tháng (\d{1,2}) năm (\d{4}))"
+)
+RE_VB_GHI_CHU = re.compile(r"(?:Luật|Nghị định|Thông tư) số\s+(\d+/\d{4}/[\wĐ-]+)")
+
+
+def doc_ghi_chu_hop_nhat(text: str, bo_qua: list[str]) -> tuple[list[str], list[str]]:
+    """(các ngày hiệu lực ISO, các văn bản sửa đổi) đọc từ ghi chú của một chunk."""
+    ngay: set[str] = set()
+    van_ban: set[str] = set()
+    for line in text.splitlines():
+        if not RE_GHI_CHU_HN.match(line.strip()):
+            continue
+        for m in RE_NGAY_GHI_CHU.finditer(line):
+            d, mo, y = (m.group(1), m.group(2), m.group(3)) if m.group(1) else (
+                m.group(4), m.group(5), m.group(6))
+            ngay.add(f"{y}-{int(mo):02d}-{int(d):02d}")
+        for m in RE_VB_GHI_CHU.finditer(line):
+            if m.group(1).upper() not in bo_qua:
+                van_ban.add(m.group(1))
+    return sorted(ngay), sorted(van_ban)
+
+
+def noi_hop_nhat(all_chunks: list[dict]) -> int:
+    """Gắn cờ cho chunk của văn bản GỐC mà văn bản hợp nhất cho thấy đã bị sửa.
+
+    Văn bản hợp nhất giữ nguyên số Điều của văn bản gốc (phần tử đầu của
+    `hop_nhat_tu`), nên ghép theo `so_hieu_muc` là đúng. Chỉ chunk hợp nhất CÓ
+    ghi chú sửa đổi mới gắn cờ — Điều giữ nguyên thì không. Đồng thời ghi
+    `hieu_luc_sua_doi` lên chunk hợp nhất để `search.py` so với ngày tra cứu:
+    Luật số 19/2026/QH16 ban hành 24/8/2026 nhưng có hiệu lực từ 01/3/2027,
+    nên trong khoảng giữa hai ngày đó bản hợp nhất mô tả một quy định CHƯA áp
+    dụng, còn nguyên văn bản gốc mới là quy định đang có hiệu lực.
+    """
+    co_san = {(c["so_hieu"].upper(), c["so_hieu_muc"]): c
+              for c in all_chunks if c.get("so_hieu_muc")}
+    dem = 0
+    for c in all_chunks:
+        goc = [g.upper() for g in c.get("hop_nhat_tu") or []]
+        if not goc:
+            continue
+        ngay, van_ban = doc_ghi_chu_hop_nhat(c["text"], goc[:1])
+        if not ngay:
+            continue
+        c["hieu_luc_sua_doi"] = ngay
+        dich = co_san.get((goc[0], c.get("so_hieu_muc")))
+        if not dich or not c.get("so_hieu_muc"):
+            continue
+        dich.setdefault("sua_doi_boi", []).append({
+            "so_hieu": f"{', '.join(van_ban) or 'văn bản sửa đổi'} "
+                       f"(đọc qua văn bản hợp nhất {c['so_hieu']})",
+            "chunk_id": c["chunk_id"],
+            "ngay_hieu_luc": ngay[-1],
+            "duong_dan": c["duong_dan"],
+        })
+        dem += 1
+    return dem
+
+
 def main() -> None:
     if CHUNKS.exists():
         shutil.rmtree(CHUNKS)
@@ -929,6 +995,7 @@ def main() -> None:
                 "linh_vuc": doc_meta.get("linh_vuc", []),
                 "gia_tri_phap_ly": doc_meta.get("gia_tri_phap_ly", ""),
                 "hop_nhat_tu": doc_meta.get("hop_nhat_tu", []),
+                "ngay_hieu_luc_phan_sua_doi": doc_meta.get("ngay_hieu_luc_phan_sua_doi", ""),
                 "quy_dinh_chi_tiet_cho": doc_meta.get("quy_dinh_chi_tiet_cho", []),
                 "trang_thai": doc_meta.get("trang_thai", ""),
                 "nguon": doc_meta.get("nguon", ""),
@@ -943,6 +1010,7 @@ def main() -> None:
         write_muc_luc(doc_dir, doc_meta, doc_chunks)
 
     da_gan = noi_sua_doi(all_chunks, documents)
+    da_gan += noi_hop_nhat(all_chunks)
     da_danh_dau = danh_dau_vien_dan(all_chunks, documents)
     for doc in documents:
         doc.pop("_sua_doi_cho", None)
