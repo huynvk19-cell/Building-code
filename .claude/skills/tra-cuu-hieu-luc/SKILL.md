@@ -45,18 +45,22 @@ Trách nhiệm phân biệt "có đáp án" với "ngoài phạm vi" **thuộc v
 4. Câu hỏi thuộc lĩnh vực kho chưa bao phủ (tải trọng gió, chống sét, kết cấu,
    tiết kiệm năng lượng) → nói rõ ngay từ đầu.
 
-Kho hiện có **mười ba văn bản quy phạm pháp luật có nội dung**, **một văn bản
+Kho hiện có **mười ba văn bản quy phạm pháp luật có nội dung**, **hai văn bản
 hợp nhất**, **hai tài liệu tham khảo** (hỏi đáp nghiệp vụ và quyết định công bố
 thủ tục hành chính) và **bốn khung rỗng**. Mặc định khi không chắc là
 *"chưa có trong kho"*, không phải *"có lẽ là…"*.
 
 ## Kiểm tra hiệu lực
 
-Mỗi chunk mang `ngay_ban_hanh`, `ngay_hieu_luc`, `het_hieu_luc`;
+Mỗi chunk mang `ngay_ban_hanh`, `ngay_hieu_luc`, `het_hieu_luc`; chunk của văn
+bản hợp nhất có ghi chú sửa đổi mang thêm `hieu_luc_sua_doi`;
 `index/documents.json` mang thêm `can_cu_hieu_luc`, `thay_the`, `sua_doi_boi`,
 `dieu_khoan_chuyen_tiep`. **Luôn đọc `ngay_hieu_luc` trước khi tư vấn.**
 `CHƯA XÁC ĐỊNH` → phải nói rõ kho không có căn cứ, tuyệt đối không suy đoán một
-ngày cụ thể. `het_hieu_luc` có giá trị → phải cảnh báo.
+ngày cụ thể. `het_hieu_luc` có giá trị → phải cảnh báo. Thấy `⏳ SẼ BỊ SỬA ĐỔI`
+hoặc `⏳ PHẦN SỬA ĐỔI CHƯA CÓ HIỆU LỰC` → văn bản sửa đổi **đã ban hành nhưng chưa
+tới ngày hiệu lực**: tư vấn theo nguyên văn bản gốc, nêu nội dung sửa đổi như quy
+định sắp áp dụng, luôn kèm ngày.
 
 | Văn bản | `ngay_hieu_luc` | Chuyển tiếp | Ghi chú |
 |---|---|---|---|
@@ -73,6 +77,7 @@ ngày cụ thể. `het_hieu_luc` có giá trị → phải cảnh báo.
 | **347/2026/NĐ-CP** | `2026-09-15` (Điều 41 khoản 1) | **Điều 40** | Sửa 4 nghị định: 169/2025, **105/2025**, 106/2025, 282/2025. Bãi bỏ Điều 74 NĐ 217/2026. ⚠️ Điều 41 khoản 2 có hiệu lực cùng Luật sửa đổi Luật Phòng cháy chữa cháy — ngày đó **CHƯA XÁC ĐỊNH**. |
 | **40/2019/QH14** | `2020-07-01` (Điều 40) | **Điều 41** | **Luật Kiến trúc.** 5 Chương, 41 Điều. Điều 39 sửa Luật Xây dựng, Luật Quy hoạch đô thị, Luật Nhà ở, Luật Đấu thầu; **bãi bỏ Điều 81 Luật Xây dựng và Điều 60 Luật Quy hoạch đô thị**. |
 | **25/VBHN-BXD** | `2020-09-07` (Điều 32 NĐ 85/2020) | **Điều 33** | **VĂN BẢN HỢP NHẤT**, không tự nó là văn bản quy phạm pháp luật — gọi skill `hanh-nghe-kien-truc`. |
+| **158/2026/VBHN-LQ-VPQH** | `2020-07-01` (Điều 40 Luật 40/2019); **phần sửa đổi `2027-03-01`** (khoản 1 Điều 2 Luật 19/2026/QH16) | **Điều 41** + Điều 3 Luật 19/2026/QH16 (chú thích [42], cuối Điều 41) | **VĂN BẢN HỢP NHẤT Luật Kiến trúc.** ⏳ **Luật 19/2026/QH16 CHƯA CÓ HIỆU LỰC** — trước 01/3/2027 quy định đang áp dụng là nguyên văn 40/2019/QH14. Luật 19/2026/QH16 không có bản riêng trong kho. Gọi skill `hanh-nghe-kien-truc`. |
 | **217/2026/NĐ-CP** | `2026-07-01` (Điều 75 khoản 1) | **Điều 76** (23 khoản) | **Quản lý hoạt động xây dựng**: trình tự đầu tư, BIM, khảo sát, thiết kế, thẩm định Báo cáo nghiên cứu khả thi, quản lý dự án, giấy phép xây dựng, trật tự xây dựng. Thay thế NĐ 175/2024. Hồ sơ giấy phép xây dựng nộp trước 01/7/2026 vẫn theo NĐ 175/2024 (khoản 19 Điều 76). ⚠️ **Điều 74 (sửa NĐ 105/2025) đã bị Điều 39 NĐ 347/2026 BÃI BỎ từ 15/9/2026** — chunk mang cờ ĐÃ BỊ SỬA ĐỔI. Viện dẫn "Phụ lục III" ở khoản 1 Điều 74 là Phụ lục III của NĐ 105/2025, KHÔNG phải Phụ lục III (phân loại dự án) của chính NĐ 217. |
 | **105/2025 · 106/2025 · 169/2025 · 282/2025** | `CHƯA XÁC ĐỊNH` | — | **KHUNG RỖNG — chưa có nội dung.** |
 | **975/QĐ-BXD** | `2026-07-01` (Điều 2) | không có | **KHÔNG phải văn bản quy phạm pháp luật** — quyết định công bố thủ tục hành chính. Bãi bỏ 6 thủ tục hành chính lĩnh vực kiến trúc. Căn cứ thật sự là **Nghị quyết 66.18/2026/NQ-CP — chưa có trong kho**. Gọi skill `hanh-nghe-kien-truc`. |

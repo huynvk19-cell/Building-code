@@ -40,7 +40,23 @@ python3 eval/chay_danh_gia.py --so-sanh  # đối chứng với tokenizer cũ
 python3 eval/chay_danh_gia.py --chi-tiet # liệt kê câu trượt
 ```
 
-Mức hiện tại (282 câu, 20 văn bản, 1 623 chunk): Recall@1 = 0.598 · Recall@3 = 0.793 · Recall@5 = 0.841 · Recall@10 = 0.893 · MRR = 0.720.
+Mức hiện tại (290 câu, 21 văn bản, 1 665 chunk): Recall@1 = 0.610 · Recall@3 = 0.795 · Recall@5 = 0.849 · Recall@10 = 0.900 · MRR = 0.729.
+
+Chi phí đã đo của việc thêm văn bản hợp nhất Luật Kiến trúc 158/2026/VBHN-LQ-VPQH
+(42 chunk), đo trên đúng bộ 282 câu cũ: Recall@1 giữ 0.598, Recall@3 0.793 → 0.789,
+Recall@5 0.841 → 0.844, Recall@10 0.893 → 0.897, MRR 0.720 → 0.721. So hạng từng
+câu có và không có các chunk 158: 22 câu đổi hạng. Đây là loại chồng lấn mới — **16
+Điều không bị sửa trùng nguyên văn với 40/2019/QH14**, nên bản hợp nhất và bản gốc
+có điểm gần như bằng nhau và bản hợp nhất có thể đứng trước: B43 (sát hạch) 5 → 11,
+S08 (Luật Kiến trúc hiệu lực từ ngày nào) 14 → 27 vì Điều 41 hợp nhất mang chú
+thích [42] dày chữ "có hiệu lực", F06 3 → 4. Ngược lại P22 11 → 4 và O05 11 → 4 do
+IDF dịch chuyển. Không xóa các Điều trùng khỏi bản hợp nhất: corpus phải trung
+thành với bản in, và cảnh báo `⏳` trên cả hai phía cho người đọc biết phải đọc
+cả hai. Thêm 8 câu V01–V08 cho nội dung sửa đổi, cả 8 trúng top 5.
+
+Thay đổi đi kèm **không đụng xếp hạng**: `hieu_luc_sua_doi` và cờ `sua_doi_boi`
+từ văn bản hợp nhất chỉ là metadata, `search.py` so ngày với `date.today()` lúc in
+cảnh báo; chỉ mục vẫn dựng hai lần giống hệt.
 
 Chi phí đã đo của việc thêm QCVN 13:2018/BXD (Gara ô-tô, 133 chunk), đo trên đúng bộ
 268 câu cũ: Recall@1 0.596 → 0.592, Recall@3 0.793 → 0.789, Recall@5 0.844 → 0.836,

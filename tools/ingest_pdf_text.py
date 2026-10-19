@@ -24,6 +24,7 @@ from __future__ import annotations
 import argparse
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 try:
@@ -130,7 +131,13 @@ def doc_text(pdf: Path) -> list[str]:
     doc = pymupdf.open(pdf)
     dong: list[str] = []
     for page in doc:
-        for l in page.get_text().splitlines():
+        # NFC là bắt buộc: bản Word xuất PDF của văn bản hợp nhất
+        # 158/2026/VBHN-LQ-VPQH viết "Điều 33" bằng "ê" + dấu huyền TỔ HỢP
+        # (U+0300), nên "Điều" không khớp regex tiêu đề và Điều 33 bị nuốt vào
+        # đoạn trước; tìm kiếm cũng không khớp chữ dựng sẵn. Gạch nối mềm U+00AD
+        # ("n­ước") cũng bị bỏ vì nó cắt đôi một từ.
+        text = unicodedata.normalize("NFC", page.get_text()).replace("\u00ad", "")
+        for l in text.splitlines():
             l = l.rstrip()
             if not l.strip() or RE_RAC.match(l.strip()):
                 continue

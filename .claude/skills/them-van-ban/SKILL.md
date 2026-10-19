@@ -1,8 +1,8 @@
 ---
 name: them-van-ban
 description: >-
-  Quy trình số hóa văn bản pháp luật xây dựng vào kho RAG này, kèm năm bẫy đã
-  mắc thật của bộ trích quy chuẩn và cách cắt ảnh bảng, ảnh hình từ PDF gốc.
+  Quy trình số hóa văn bản pháp luật xây dựng vào kho RAG này, kèm sáu bẫy đã
+  mắc thật của bộ trích PDF và cách cắt ảnh bảng, ảnh hình từ PDF gốc.
   BẮT BUỘC gọi skill này TRƯỚC KHI làm bất cứ việc nào sau đây, kể cả khi người
   dùng chỉ gửi một tệp PDF kèm câu "thêm cái này vào kho" mà không nói gì thêm:
   thêm hoặc cập nhật một quy chuẩn, tiêu chuẩn, nghị định, thông tư, luật; chạy
@@ -10,7 +10,7 @@ description: >-
   tools/ingest_pdf_text.py, tools/cat_bang.py, tools/cat_hinh.py,
   tools/chen_anh_bang.py; cắt ảnh bảng hoặc hình từ PDF; tạo khung rỗng cho văn
   bản chưa có nội dung; hoặc khi thấy số mục trích ra không khớp bản gốc. Bỏ qua
-  skill này thì gần như chắc chắn mắc lại một trong năm bẫy đã ghi trong đó.
+  skill này thì gần như chắc chắn mắc lại một trong sáu bẫy đã ghi trong đó.
 ---
 
 # Thêm văn bản mới vào kho
@@ -53,6 +53,14 @@ từ một lỗi có thật đã mắc, không phải lý thuyết phòng xa.
      Lệch là có mục bị nuốt. Đã gặp thật: phần "Giải thích từ ngữ" của
      QCVN 04:2021 đặt số hiệu **đứng một mình trên dòng** rồi mới tới thuật ngữ
      ở dòng sau, làm mất trọn 30 mục 1.4.1 đến 1.4.30 trước khi sửa.
+
+     **Bẫy chung cho mọi PDF có lớp văn bản — chữ tiếng Việt dựng bằng dấu tổ
+     hợp.** Bản Word xuất PDF của văn bản hợp nhất 158/2026/VBHN-LQ-VPQH viết
+     "Điều 33" bằng "ê" + dấu huyền tổ hợp U+0300 thay vì "ề" dựng sẵn. Nhìn
+     giống hệt, nhưng regex tiêu đề `Điều` không khớp nên Điều 33 bị nuốt vào
+     đoạn trước, và tìm kiếm cũng không khớp. `doc_text()` nay chuẩn hóa NFC và
+     bỏ gạch nối mềm U+00AD ("n­ước"). Tự trích bằng script riêng thì phải làm
+     y như vậy. Dấu hiệu nhận biết: số Điều nhận được ít hơn bản gốc.
 
      **Năm bẫy đã gặp thật khi trích quy chuẩn bằng `--muc`**, đều đã có hàng
      rào trong `tools/ingest_pdf_text.py`; đọc trước khi sửa các hàm đó:
@@ -138,6 +146,29 @@ từ một lỗi có thật đã mắc, không phải lý thuyết phòng xa.
    `python3 eval/chay_danh_gia.py`.
 
 ---
+
+## VĂN BẢN HỢP NHẤT — CHÚ THÍCH CUỐI VĂN BẢN THÀNH GHI CHÚ NGAY DƯỚI NỘI DUNG
+
+Bản hợp nhất in nội dung đã vá sẵn, còn **căn cứ của từng chỗ vá nằm ở chú thích
+cuối văn bản** (`[8] Khoản này được sửa đổi… có hiệu lực kể từ ngày…`). Chú thích
+rời khỏi khoản thì chunk mất luôn thông tin "ai sửa, từ ngày nào". Cách làm đã
+dùng cho 25/VBHN-BXD và 158/2026/VBHN-LQ-VPQH:
+
+- Bỏ dấu `[n]` khỏi thân, chép **nguyên văn** chú thích thành một dòng in nghiêng
+  `*(Chú thích [n] của bản hợp nhất, tại khoản 1 Điều 12: …)*` đặt **ngay dưới**
+  nội dung nó gắn vào: chú thích ở tên Điều → cuối Điều; ở khoản → sau điểm cuối
+  của khoản; ở điểm hoặc cụm từ → ngay sau đoạn đó.
+- Chú thích gắn ở **tên Chương** không có chỗ đứng: văn bản nằm giữa tên Chương
+  và Điều đầu tiên bị bộ chia gộp vào Điều **trước**. Đặt nó ở cuối Điều cuối của
+  Chương đó và ghi rõ *gắn ở tên Chương V*.
+- Khai `hop_nhat_tu: ["<văn bản gốc>", "<văn bản sửa đổi>", …]` — phần tử ĐẦU
+  phải là văn bản gốc. `build_index.py` đọc ngày trong các dòng ghi chú, ghi
+  `hieu_luc_sua_doi` lên chunk hợp nhất, và nếu văn bản gốc có trong kho thì gắn
+  cờ lên đúng Điều của nó (bản hợp nhất giữ nguyên số Điều). `search.py` so ngày
+  đó với **ngày tra cứu**: chưa tới thì in `⏳`, tới rồi thì in `⚠️ ĐÃ BỊ SỬA ĐỔI`.
+- Kiểm chứng chéo khi văn bản gốc đã có trong kho: các Điều **không có ghi chú**
+  phải trùng từng chữ với bản gốc (158/2026: 16 trên 16 Điều trùng), các Điều có
+  ghi chú chỉ được khác đúng ở cụm mà chú thích nói.
 
 ## HAI KIỂU BẢN SỬA ĐỔI — GHÉP KHÁC NHAU
 

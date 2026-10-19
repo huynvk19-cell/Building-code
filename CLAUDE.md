@@ -7,7 +7,7 @@ Kho tra cứu **văn bản pháp luật xây dựng Việt Nam** (RAG corpus). N
 | Mọi câu hỏi về nội dung quy định (vai kiến trúc sư) | `tra-cuu-hieu-luc`, rồi `trinh-bay` |
 | An toàn cháy, thoát nạn, phòng cháy chữa cháy, karaoke, người khuyết tật, QCVN 06, QCVN 10 | `an-toan-chay` |
 | Cấp công trình, Thông tư 06/2021/TT-BXD, Thông tư 02/2025/TT-BXD | `phan-cap-cong-trinh` |
-| Chứng chỉ hành nghề kiến trúc, Luật Kiến trúc, 85/2020/NĐ-CP, 25/VBHN-BXD, 975/QĐ-BXD | `hanh-nghe-kien-truc` |
+| Chứng chỉ hành nghề kiến trúc, Luật Kiến trúc, 19/2026/QH16, 85/2020/NĐ-CP, 25/VBHN-BXD, 158/2026/VBHN-LQ-VPQH, 975/QĐ-BXD | `hanh-nghe-kien-truc` |
 | Thêm văn bản, cắt ảnh bảng hoặc hình, sửa `tools/ingest_pdf_text.py` | `them-van-ban` |
 | Sửa `search.py`, `build_index.py`, hằng số xếp hạng, bàn về vector database | `do-luong-truy-hoi` |
 | Sửa bất kỳ tệp nào, commit, đẩy nhánh, cập nhật README (vai bảo trì kho) | `bao-tri-kho` |
@@ -27,8 +27,9 @@ Kho tra cứu **văn bản pháp luật xây dựng Việt Nam** (RAG corpus). N
 - `📭 KHUNG RỖNG` → không trích gì, nói kho thiếu văn bản, đề nghị người dùng cung cấp bản gốc.
 - `🛑 THAM KHẢO` → không bao giờ làm căn cứ pháp lý; căn cứ là văn bản mà nguồn đó viện dẫn.
 - `🧩 VĂN BẢN HỢP NHẤT` → trích nghị định gốc và văn bản sửa đổi, không trích số hiệu bản hợp nhất.
+- `⏳ SẼ BỊ SỬA ĐỔI` / `⏳ PHẦN SỬA ĐỔI CHƯA CÓ HIỆU LỰC` → sửa đổi đã ban hành nhưng chưa tới ngày hiệu lực: tư vấn theo nguyên văn bản gốc, nêu phần sửa đổi như quy định sắp áp dụng, luôn kèm ngày.
 
-**Bốn cảnh báo pháp lý không bao giờ được cắt**, kể cả ở vai kiến trúc sư: văn bản đã bị thay thế hoặc hết hiệu lực · điều khoản đã bị sửa đổi hoặc bãi bỏ · kho chưa có nội dung văn bản · nguồn chỉ là tài liệu tham khảo.
+**Năm cảnh báo pháp lý không bao giờ được cắt**, kể cả ở vai kiến trúc sư: văn bản đã bị thay thế hoặc hết hiệu lực · điều khoản đã bị sửa đổi hoặc bãi bỏ · sửa đổi đã ban hành nhưng chưa có hiệu lực · kho chưa có nội dung văn bản · nguồn chỉ là tài liệu tham khảo.
 
 ## Trình bày — tối thiểu (đầy đủ trong `trinh-bay`)
 

@@ -24,11 +24,12 @@ là nhiễu loạn với vai kia. Nhận vai trước khi viết câu trả lờ
 | Phải có | Văn xuôi · trích dẫn đủ số hiệu · ảnh bảng và hình đi ngay sau nội dung · cảnh báo hiệu lực | Đường dẫn tệp · lệnh chạy · số đo · chẩn đoán nguyên nhân · đề xuất sửa |
 | Phải CẮT | Tên tệp chunk · đường dẫn `chunks/…` · điểm số tìm kiếm · tên công cụ · số lượng chunk · chỉ số Recall và MRR · tên skill · chuyện dựng chỉ mục | Giảng lại quy chuẩn · trích dẫn dài không phục vụ việc đang sửa |
 
-**Bốn cảnh báo sau KHÔNG phải thông tin hệ thống** — chúng là sự thật pháp lý,
+**Năm cảnh báo sau KHÔNG phải thông tin hệ thống** — chúng là sự thật pháp lý,
 nên vẫn phải xuất hiện trong vai kiến trúc sư, cắt đi là trả lời sai:
 
 - văn bản **đã bị thay thế** hoặc **hết hiệu lực**;
 - điều khoản **đã bị sửa đổi** hoặc **bị bãi bỏ**;
+- văn bản sửa đổi **đã ban hành nhưng chưa có hiệu lực** (nêu rõ ngày);
 - kho **chưa có nội dung** văn bản đó (khung rỗng), nên không trả lời được;
 - nguồn đang dẫn là **tài liệu tham khảo**, không phải căn cứ pháp lý.
 

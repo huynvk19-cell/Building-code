@@ -28,6 +28,7 @@ import re
 import sys
 import unicodedata
 from collections import Counter
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -375,6 +376,7 @@ def main() -> None:
                 "sua_doi_boi": r.get("sua_doi_boi") or [],
                 "gia_tri_phap_ly": r.get("gia_tri_phap_ly") or "",
                 "hop_nhat_tu": r.get("hop_nhat_tu") or [],
+                "hieu_luc_sua_doi": r.get("hieu_luc_sua_doi") or [],
                 "trang_thai": r.get("trang_thai") or "",
                 "vien_dan_da_bi_thay_the": r.get("vien_dan_da_bi_thay_the") or [],
                 "vien_dan_ngoai_kho": r.get("vien_dan_ngoai_kho") or [],
@@ -398,12 +400,26 @@ def main() -> None:
     print(f'Kết quả cho: "{query}"  ({len(hits)}/{len(records)} chunk)')
     print("    Điểm số chỉ đo mức trùng từ khoá, KHÔNG đo mức liên quan — hãy đọc "
           "nội dung để tự xác nhận.\n")
+    # So với NGÀY TRA CỨU, không ghi vào chỉ mục: một lần sửa đổi đã ban hành
+    # nhưng chưa tới ngày hiệu lực thì văn bản gốc vẫn là quy định đang áp dụng.
+    hom_nay = date.today().isoformat()
     for rank, (s, r) in enumerate(hits, 1):
         print(f"[{rank}] {r['trich_dan']}  (điểm {s:.2f})")
         for sd in r.get("sua_doi_boi") or []:
-            print(f"    ⚠️  ĐÃ BỊ SỬA ĐỔI bởi {sd['so_hieu']} "
-                  f"(hiệu lực {sd['ngay_hieu_luc']}) — ĐỌC CẢ HAI TRƯỚC KHI TRẢ LỜI")
+            if sd["ngay_hieu_luc"] > hom_nay:
+                print(f"    ⏳  SẼ BỊ SỬA ĐỔI bởi {sd['so_hieu']} từ "
+                      f"{sd['ngay_hieu_luc']} — CHƯA CÓ HIỆU LỰC, nội dung dưới đây "
+                      f"VẪN ĐANG ÁP DỤNG; ĐỌC CẢ HAI")
+            else:
+                print(f"    ⚠️  ĐÃ BỊ SỬA ĐỔI bởi {sd['so_hieu']} "
+                      f"(hiệu lực {sd['ngay_hieu_luc']}) — ĐỌC CẢ HAI TRƯỚC KHI TRẢ LỜI")
             print(f"       → {sd['duong_dan']}")
+        chua = [d for d in r.get("hieu_luc_sua_doi") or [] if d > hom_nay]
+        if chua:
+            print(f"    ⏳  PHẦN SỬA ĐỔI CHƯA CÓ HIỆU LỰC — ghi chú trong ngoặc cho biết "
+                  f"chỗ nào chỉ áp dụng từ {', '.join(chua)}.")
+            print( "       Trước ngày đó, quy định đang áp dụng là NGUYÊN VĂN văn bản "
+                   "gốc, không phải nội dung đã vá ở đây.")
         if r.get("trang_thai") == "KHUNG RỖNG":
             print("    📭  KHUNG RỖNG — kho CHƯA CÓ NỘI DUNG của văn bản này.")
             print("       Chỉ có tên, số hiệu, ngày ban hành. Không trích được điều khoản nào.")

@@ -280,3 +280,11 @@
 {"id": "U12", "loai": "A", "hoi": "quy chuẩn gara ô tô QCVN 13:2018 có hiệu lực từ ngày nào", "vang": ["qcvn-13-2018-bxd:muc-0.2"], "kiem_chung": "15/3/2019"}
 {"id": "U13", "loai": "B", "hoi": "xe chạy bằng khí hóa lỏng có được để trong tầng hầm gara không", "vang": ["qcvn-13-2018-bxd:muc-2.2.1.32"], "kiem_chung": "tầng hầm và nửa hầm"}
 {"id": "U14", "loai": "B", "hoi": "gara ô tô dạng hở có cần hệ thống thoát khói không", "vang": ["qcvn-13-2018-bxd:muc-2.2.4.6"], "kiem_chung": "Không yêu cầu"}
+{"id": "V01", "loai": "A", "hoi": "kiến trúc sư hành nghề độc lập là gì", "vang": ["158-2026-vbhn-lq-vpqh:dieu-25"], "kiem_chung": "không thuộc tổ chức hành nghề kiến trúc"}
+{"id": "V02", "loai": "B", "hoi": "tiêu chuẩn năng lực hành nghề tối thiểu của cá nhân hành nghề kiến trúc", "vang": ["158-2026-vbhn-lq-vpqh:dieu-21"], "kiem_chung": "trình độ đào tạo về chuyên ngành kiến trúc, xây dựng"}
+{"id": "V03", "loai": "B", "hoi": "chứng chỉ hành nghề kiến trúc đã cấp có còn giá trị khi luật sửa đổi Luật Kiến trúc có hiệu lực", "vang": ["158-2026-vbhn-lq-vpqh:dieu-41"], "kiem_chung": "có giá trị đến khi hết thời hạn sử dụng"}
+{"id": "V04", "loai": "A", "hoi": "lập hồ sơ thiết kế kiến trúc có phải áp dụng mô hình thông tin công trình BIM không", "vang": ["158-2026-vbhn-lq-vpqh:dieu-12"], "kiem_chung": "mô hình thông tin công trình (BIM)"}
+{"id": "V05", "loai": "A", "hoi": "tuyển chọn kiến trúc là gì", "vang": ["158-2026-vbhn-lq-vpqh:dieu-17"], "kiem_chung": "từ các phương án do tổ chức, cá nhân hành nghề kiến trúc có đủ năng lực"}
+{"id": "V06", "loai": "B", "hoi": "quy chế quản lý kiến trúc nông thôn có được tích hợp trong quy hoạch chung xã không", "vang": ["158-2026-vbhn-lq-vpqh:dieu-14"], "kiem_chung": "tích hợp trong nội dung quy hoạch chung xã"}
+{"id": "V07", "loai": "A", "hoi": "cơ sở dữ liệu hành nghề kiến trúc được tích hợp vào hệ thống nào", "vang": ["158-2026-vbhn-lq-vpqh:dieu-24"], "kiem_chung": "Cơ sở dữ liệu quốc gia về hoạt động xây dựng"}
+{"id": "V08", "loai": "A", "hoi": "Ủy ban nhân dân cấp xã có được ban hành quy chế quản lý kiến trúc không", "vang": ["158-2026-vbhn-lq-vpqh:dieu-14"], "kiem_chung": "phân cấp hoặc ủy quyền cho Ủy ban nhân dân cấp xã"}
